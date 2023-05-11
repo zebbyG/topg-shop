@@ -1,0 +1,12 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ORDER SHOES</title>
+</head>
+<body>
+{% include 'bootstrap.html' %}
+<h1>Hello {{ name }} Welcome to order shoes. Place an order anytime.</h1>
+<p><a href="{% url 'brands:catalogue' %}">Our catalogue</a></p>
+{% include 'baseshop_footer.html' %}
+</body>
+</html>
