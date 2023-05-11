@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BRANDS</title>
+</head>
+<body>
+{% include 'bootstrap.html' %}
+<div>
+    <ul>
+        <li><a href="{% url 'brands:jordans' %}">Jordans</a></li>
+        <li><a href="{% url 'brands:nikes' %}">Nikes</a></li>
+        <li><a href="{% url 'brands:vans' %}">Vans</a></li>
+        <li><a href="{% url 'brands:yeezys' %}">Yeezys</a></li>
+        <li><a href="{% url 'brands:pradas' %}">Pradas</a></li>
+        <li><a href="{% url 'servicesPage:shoes_accessories' %}">Shoes Accessories</a></li>
+    </ul>
+</div>
+{% include 'baseshop_footer.html' %}
+</body>
+</html>
