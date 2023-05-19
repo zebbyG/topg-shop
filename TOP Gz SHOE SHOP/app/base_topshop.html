@@ -33,16 +33,25 @@
 <!--            <li><hr class="dropdown-divider"></li>-->
             <li><a class="dropdown-item" href="{% url 'servicesPage:trade' %}">Trade With Us</a></li>
             <li><a class="dropdown-item" href="{% url 'servicesPage:donate_shoes' %}">Donate Shoes</a></li>
+            <li><a class="dropdown-item" href="{% url 'servicesPage:customer_service' %}">Customer Service</a></li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{% url 'introPage:about-page' %}">About Us</a>
         </li>
 <!--        <li class="nav-item">-->
 <!--          <a class="nav-link" href="{% url 'introPage:contacts-page' %}">Contact Us</a>-->
 <!--        </li>-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/shop_services/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Our company
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{% url 'introPage:team-page' %}">Team</a></li>
+            <li><a class="dropdown-item disabled" href="#">Our sponsors</a></li>
+<!--            <li><hr class="dropdown-divider"></li>-->
+            <li><a class="dropdown-item disabled" href="#">Careers</a></li>
+          </ul>
+        </li>
         <li class="nav-item">
-          <a class="nav-link" href="{% url 'introPage:team-page' %}">Team</a>
+          <a class="nav-link" href="{% url 'introPage:about-page' %}">About Us</a>
         </li>
 <!--        <li class="nav-item">-->
 <!--          <a class="nav-link disabled">Disabled</a>-->

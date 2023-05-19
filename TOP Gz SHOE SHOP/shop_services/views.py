@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 
 def services(request):
-    return render(request, 'services-shop.html', {"name": "Zebbylion Njau"})
+    return render(request, 'shop-services.html', {"name": "Zebbylion Njau"})
 
 
 def order_shoes(request):
@@ -23,3 +23,8 @@ def shoes_accessories(request):
 
 def donate_shoes(request):
     return render(request, 'donate_shoes.html', {"name": "Zebbylion Njau"})
+
+
+def customer_service(request):
+    return render(request, 'customer_service.html', {"name": "Zebbylion njau"})
+
