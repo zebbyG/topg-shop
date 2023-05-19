@@ -9,13 +9,15 @@
 </head>
 <body>
 {% include 'bootstrap.html' %}
-{% include 'backToTop.html' %}
-<!--<h1>Hello {{ name }} THIS IS THE HOME page FOR THE SHOP</h1>-->
+{% include 'backToTop.html' %} <!--Back to Top button -->
+
+<!--Shop Logo -->
 <div style="position: absolute; top: 90; left: 0; width: 100px;">
     <a href="{% url 'introPage:home-page' %}">
         <img src="{% static 'topg-logo.gif' %}" style="width: 75%;" alt="GIF">
     </a>
 </div>
+
 <div class="row" style="background-color: aquamarine;">
     <div class="col-md-6">
           <p class="display-3">
@@ -47,10 +49,14 @@
         <br><br><br><br><br>
     </div>
 </div>
+
+<!--Popular Products -->
+
 <br><br><br>
 <h3 class="display-5" style="text-align: center;"><strong>Popular Products</strong></h3>
 <br><br><br><br>
 
+<!--Jquery Owl-carousel to display popular products -->
 
 <div class="owl-carousel owl-theme">
     <div class="item">
@@ -114,8 +120,12 @@
         </div>
     </div>
 </div>
+
+<!-- Scripts to support the Jquery Owl-carousels -->
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--The responsiveness of the carousels -->
 <script type="text/javascript">
     $('.owl-carousel').owlCarousel({
     loop:true,
@@ -141,13 +151,18 @@
 </script>
 <br><br><br><br>
 
+<!-- SHOP TESTIMONIALS STYLIN[testimonial.css] static [testimonial.html]-->
+
 <h3 class="display-5" style="text-align: center;"><strong>What People are saying</strong></h3>
 <br><br><br>
 {% include 'testimonies.html' %}
 <br><br><br><br>
 
+<!--THE SHOP -->
+
 <h3 class="display-5" style="text-align: center;"><strong>Improve your footware</strong></h3>
 <br><br><br>
+<!--SHOP'S SERVICES LINK-->
 <div class="row">
     <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'services.jpg' %}" alt="Vans Slip-on custom.jpg">
         <div class="col-md-6">
@@ -165,6 +180,7 @@
         </div>
 </div>
 <br><br>
+<!-- ABOUT THE SHOP LINK -->
 <div class="row">
     <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'intro-bg.jpg' %}" alt="Vans Slip-on custom.jpg">
         <div class="col-md-6">
@@ -181,7 +197,7 @@
         </div>
 </div>
 <br><br><br><br>
-
+<!--THE TEAM LINK -->
 <h3 class="display-5" style="text-align: center;"><strong>Our Team</strong></h3>
 <br>
 <blockquote class="blockquote" style="text-align: center;">
@@ -201,6 +217,7 @@
     </a>
 </div>
 <br><br><br>
+<!--FOOTER -->
 {% include 'baseshop_footer.html' %}
 </body>
 </html>

@@ -1,11 +1,21 @@
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>JORDANS</title>
+    <link rel="stylesheet" href="{% static 'page-header.css' %}">
 </head>
 <body>
 {% include 'bootstrap.html' %}
-<h1>Hello {{ name }}. Welcome to Jordan shoes.</h1>
+{% include 'backToTop.html' %} <!--Back to Top button -->
+<!-- JORDAN SHOES -->
+<div class="custom-container">
+    <h3 class="display-3">
+        <strong>JORDAN SHOES</strong>
+    </h3>
+</div>
+<br><br>
+
 {% include 'baseshop_footer.html' %}
 </body>
 </html>

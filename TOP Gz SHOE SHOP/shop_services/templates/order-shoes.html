@@ -1,12 +1,39 @@
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>ORDER SHOES</title>
+    <link rel="stylesheet" href="{% static 'page-header.css' %}">
 </head>
 <body>
 {% include 'bootstrap.html' %}
-<h1>Hello {{ name }} Welcome to order shoes. Place an order anytime.</h1>
-<p><a href="{% url 'brands:catalogue' %}">Our catalogue</a></p>
+{% include 'backToTop.html' %} <!--Back to Top button -->
+
+<!-- ORDER SHOES -->
+<div class="custom-container">
+    <h3 class="display-3">
+        <strong>ORDER SHOES</strong>
+    </h3>
+</div>
+<br><br>
+<!-- LINK TO CATALOGUE -->
+<div class="row">
+    <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'home-delivery.png' %}" alt="Vans Slip-on custom.jpg">
+        <div class="col-md-6">
+            <h1>Order Shoes</h1>
+            <br>
+          <p class="blockquote" style="font-size: larger;">
+              At Top Gz Shoe Shop, we are committed to providing you with the best shoe shopping experience possible.
+              Our top priority is ensuring that you receive your shoes in a timely and efficient manner.
+          </p>
+            <div class="d-flex justify-content-center align-items-center" style="height: 25vh;">
+                <a href="{% url 'brands:catalogue' %}">
+                    <button type="button" class="btn btn-outline-secondary btn-lg"><strong>GET STARTED</strong></button>
+                </a>
+            </div>
+        </div>
+</div>
+<br><br><br>
 {% include 'baseshop_footer.html' %}
 </body>
 </html>

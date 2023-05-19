@@ -1,12 +1,37 @@
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>TRADE</title>
+    <link rel="stylesheet" href="{% static 'page-header.css' %}">
 </head>
 <body>
 {% include 'bootstrap.html' %}
-<h1>Hello {{ name }}. Welcome to trading with us.</h1>
-<p><a href="#">Get started</a></p>
+{% include 'backToTop.html' %} <!--Back to Top button -->
+<!-- TRADE WITH US -->
+<div class="custom-container">
+    <h3 class="display-3">
+        <strong>TRADE WITH US</strong><!-- page-header.css for custom container styling -->
+    </h3>
+</div>
+<br><br>
+<!-- LINK TO SERVICE TRADE WITH US -->
+<div class="row">
+    <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'trade.jpg' %}" alt="Vans Slip-on custom.jpg">
+        <div class="col-md-6">
+            <h1>Trade</h1>
+            <br>
+          <p class="blockquote" style="font-size: larger;">
+              Trade in your old shoes for a new pair or trade-in a combination of old shoes plus money for a new pair. The value of the trade-in depends on the quality of the old shoes.
+          </p>
+            <div class="d-flex justify-content-center align-items-center" style="height: 25vh;">
+                <a href="#"> <!-- To add create trading forms and requirements to trade -->
+                    <button type="button" class="btn btn-outline-secondary btn-lg"><strong>GET STARTED</strong></button>
+                </a>
+            </div>
+        </div>
+</div>
+<br><br><br>
 {% include 'baseshop_footer.html' %}
 </body>
 </html>

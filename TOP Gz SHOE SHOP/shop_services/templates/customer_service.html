@@ -1,13 +1,38 @@
-<!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>customer_service</title>
+    <link rel="stylesheet" href="{% static 'page-header.css' %}">
 </head>
 <body>
 {% include 'bootstrap.html' %}
-<h1>Hello {{ name }}. Welcome to customer service.</h1>
-<p><a href="#">Get started</a></p>
+{% include 'backToTop.html' %} <!--Back to Top button -->
+<!-- CUSTOMER SERVICE -->
+<div class="custom-container">
+    <h3 class="display-3">
+        <strong>CUSTOMER SERVICE</strong><!-- page-header.css for custom container styling -->
+    </h3>
+</div>
+<br><br>
+<!-- LINK TO CUSTOMER SERVICE-->
+<div class="row">
+    <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'customer-service.jpg' %}" alt="Vans Slip-on custom.jpg">
+        <div class="col-md-6">
+            <h1>Customer Service</h1>
+            <br>
+          <p class="blockquote" style="font-size: larger;">
+              Experience unparalleled customer service at Top Gz Shoe Shop. Our dedicated team is here to assist you every step of the way, ensuring your utmost satisfaction.
+            We strive to exceed your expectations and provide a seamless and enjoyable shoe shopping experience.
+          </p>
+            <div class="d-flex justify-content-center align-items-center" style="height: 25vh;">
+                <a href="#"> <!-- To add CUSTOMER SERVICE FUNCTIONALITY -->
+                    <button type="button" class="btn btn-outline-secondary btn-lg"><strong>GET STARTED</strong></button>
+                </a>
+            </div>
+        </div>
+</div>
+<br><br><br>
 {% include 'baseshop_footer.html' %}
 </body>
 </html>

@@ -3,26 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>SHOP SERVICE PAGE</title>
-    <style>
-        .custom-container {
-            width: 100%;
-            height: 30%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            text-align: center;
-            font-size: larger;
-            background-color: aquamarine;
-            font-weight: bolder;
-        }
-    </style>
+    <link rel="stylesheet" href="{% static 'page-header.css' %}">
 </head>
 <body>
 {% include 'bootstrap.html' %}
-{% include 'backToTop.html' %}
+{% include 'backToTop.html' %} <!--Back to Top button -->
 
-<div class="custom-container">
+<!-- SHOP'S SERVICES LINKS -->
+<div class="custom-container"> <!-- page-header.css for custom container styling -->
     <h3 class="display-3">
         <strong>Our Services</strong>
     </h3>
@@ -34,6 +22,7 @@
   </p>
 </blockquote>
 <br><br><br>
+<!-- LINK TO SERVICE ORDER SHOES -->
 <div class="row">
     <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'home-delivery.png' %}" alt="Vans Slip-on custom.jpg">
         <div class="col-md-6">
@@ -44,13 +33,14 @@
               Our top priority is ensuring that you receive your shoes in a timely and efficient manner.
           </p>
             <div class="d-flex justify-content-center align-items-center" style="height: 25vh;">
-                <a href="{% url 'servicesPage:order-shoes' %}">
+                <a href="{% url 'brands:catalogue' %}">
                     <button type="button" class="btn btn-outline-secondary btn-lg"><strong>ORDER SHOES</strong></button>
                 </a>
             </div>
         </div>
 </div>
 <br><br><br>
+<!-- LINK TO SERVICE TRADE WITH US -->
 <div class="row">
     <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'trade.jpg' %}" alt="Vans Slip-on custom.jpg">
         <div class="col-md-6">
@@ -60,13 +50,14 @@
               Trade in your old shoes for a new pair or trade-in a combination of old shoes plus money for a new pair. The value of the trade-in depends on the quality of the old shoes.
           </p>
             <div class="d-flex justify-content-center align-items-center" style="height: 25vh;">
-                <a href="{% url 'servicesPage:trade' %}">
+                <a href="#"> <!-- To add create trading forms and requirements to trade -->
                     <button type="button" class="btn btn-outline-secondary btn-lg"><strong>TRADE WITH US</strong></button>
                 </a>
             </div>
         </div>
 </div>
 <br><br><br>
+<!-- LINK TO SERVICE CUSTOMIZING SHOES -->
 <div class="row">
     <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'Yeezy slides customs.jpg' %}" alt="Vans Slip-on custom.jpg">
         <div class="col-md-6">
@@ -76,13 +67,14 @@
               Unleash your creativity with customizing services. From custom color combinations to intricate designs, our skilled artisans will bring your vision to life. Stand out from the crowd and make a statement with custom shoes tailored exclusively for you.
           </p>
             <div class="d-flex justify-content-center align-items-center" style="height: 18vh;">
-                <a href="{% url 'servicesPage:customize_shoes' %}">
+                <a href="#"> <!--TO ADD UPLOADS AND FORMS TO FILL FOR SHOE CUSTOMIZATION -->
                     <button type="button" class="btn btn-outline-secondary btn-lg"><strong>GET STARTED</strong></button>
                 </a>
             </div>
         </div>
 </div>
 <br><br><br>
+<!-- LINK TO SERVICE DONATE WITH US -->
 <div class="row">
     <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'donate.jpg' %}" alt="Vans Slip-on custom.jpg">
         <div class="col-md-6">
@@ -92,13 +84,14 @@
               We believe in giving back, which is why we offer a convenient way for you to donate shoes of your choice. By partnering with local charities, we ensure that your donated shoes reach those in need.
           </p>
             <div class="d-flex justify-content-center align-items-center" style="height: 25vh;">
-                <a href="{% url 'servicesPage:donate_shoes' %}">
+                <a href="#"> <!-- To add DONATION forms -->
                     <button type="button" class="btn btn-outline-secondary btn-lg"><strong>DONATE WITH US</strong></button>
                 </a>
             </div>
         </div>
 </div>
 <br><br><br>
+<!-- LINK TO CUSTOMER SERVICE-->
 <div class="row">
     <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'customer-service.jpg' %}" alt="Vans Slip-on custom.jpg">
         <div class="col-md-6">
@@ -109,13 +102,14 @@
             We strive to exceed your expectations and provide a seamless and enjoyable shoe shopping experience.
           </p>
             <div class="d-flex justify-content-center align-items-center" style="height: 25vh;">
-                <a href="{% url 'servicesPage:customer_service' %}">
+                <a href="#"> <!-- To add CUSTOMER SERVICE FUNCTIONALITY -->
                     <button type="button" class="btn btn-outline-secondary btn-lg"><strong>GET STARTED</strong></button>
                 </a>
             </div>
         </div>
 </div>
 <br><br><br>
+<!-- FOOTER -->
 {% include 'baseshop_footer.html' %}
 </body>
 </html>

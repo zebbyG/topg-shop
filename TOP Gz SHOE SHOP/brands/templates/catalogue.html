@@ -1,11 +1,20 @@
-<!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>BRANDS</title>
+    <link rel="stylesheet" href="{% static 'page-header.css' %}">
 </head>
 <body>
 {% include 'bootstrap.html' %}
+{% include 'backToTop.html' %} <!--Back to Top button -->
+<!-- OUR CATALOGUE -->
+<div class="custom-container">
+    <h3 class="display-3">
+        <strong>OUR CATALOGUE</strong>
+    </h3>
+</div>
+<br><br>
 <div>
     <ul>
         <li><a href="{% url 'brands:jordans' %}">Jordans</a></li>
@@ -16,6 +25,9 @@
         <li><a href="{% url 'servicesPage:shoes_accessories' %}">Shoes Accessories</a></li>
     </ul>
 </div>
+
+
+<br><br><br>
 {% include 'baseshop_footer.html' %}
 </body>
 </html>

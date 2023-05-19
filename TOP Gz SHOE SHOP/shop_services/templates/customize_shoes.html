@@ -1,12 +1,36 @@
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>CUSTOMIZE SHOES</title>
+    <link rel="stylesheet" href="{% static 'page-header.css' %}">
 </head>
 <body>
 {% include 'bootstrap.html' %}
-<h1>Hello {{ name }}. Welcome to customizing shoes</h1>
-<p><a href="#">Get started</a></p>
+{% include 'backToTop.html' %} <!--Back to Top button -->
+<!-- CUSTOMIZE SHOES -->
+<div class="custom-container">
+    <h3 class="display-3">
+        <strong>CUSTOMIZE SHOES</strong><!-- page-header.css for custom container styling -->
+    </h3>
+</div>
+<br><br>
+<div class="row">
+    <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'Yeezy slides customs.jpg' %}" alt="Vans Slip-on custom.jpg">
+        <div class="col-md-6">
+            <h1>Customize your shoe game</h1>
+            <br>
+          <p class="blockquote" style="font-size: larger;">
+              Unleash your creativity with customizing services. From custom color combinations to intricate designs, our skilled artisans will bring your vision to life. Stand out from the crowd and make a statement with custom shoes tailored exclusively for you.
+          </p>
+            <div class="d-flex justify-content-center align-items-center" style="height: 18vh;">
+                <a href="#"> <!--TO ADD UPLOADS AND FORMS TO FILL FOR SHOE CUSTOMIZATION -->
+                    <button type="button" class="btn btn-outline-secondary btn-lg"><strong>CUSTOMIZE YOUR SHOE</strong></button>
+                </a>
+            </div>
+        </div>
+</div>
+<br><br><br>
 {% include 'baseshop_footer.html' %}
 </body>
 </html>

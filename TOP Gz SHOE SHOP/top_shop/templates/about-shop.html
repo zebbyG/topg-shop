@@ -1,11 +1,20 @@
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ABOUT THE SHOP</title>
+    <title>NIKES</title>
+    <link rel="stylesheet" href="{% static 'page-header.css' %}">
 </head>
 <body>
 {% include 'bootstrap.html' %}
-<h1>Hello {{ name }} Welcome to the about page.</h1>
+{% include 'backToTop.html' %} <!--Back to Top button -->
+<!-- ABOUT PAGE -->
+<div class="custom-container">
+    <h3 class="display-3">
+        <strong>ABOUT US</strong>
+    </h3>
+</div>
+<br><br>
 
 {% include 'baseshop_footer.html' %}
 </body>

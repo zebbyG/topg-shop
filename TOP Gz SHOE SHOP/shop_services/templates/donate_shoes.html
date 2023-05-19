@@ -1,12 +1,37 @@
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>DONATE SHOES</title>
+    <link rel="stylesheet" href="{% static 'page-header.css' %}">
 </head>
 <body>
 {% include 'bootstrap.html' %}
-<h1>Hello {{ name }}. Welcome to shoes donation.</h1>
-<p><a href="#">Get started</a></p>
+{% include 'backToTop.html' %} <!--Back to Top button -->
+<!-- DONATE SHOES -->
+<div class="custom-container">
+    <h3 class="display-3">
+        <strong>DONATE SHOES</strong><!-- page-header.css for custom container styling -->
+    </h3>
+</div>
+<br><br>
+<!-- LINK TO SERVICE DONATE WITH US -->
+<div class="row">
+    <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'donate.jpg' %}" alt="Vans Slip-on custom.jpg">
+        <div class="col-md-6">
+            <h1>Soles for Souls</h1>
+            <br>
+          <p class="blockquote" style="font-size: larger;">
+              We believe in giving back, which is why we offer a convenient way for you to donate shoes of your choice. By partnering with local charities, we ensure that your donated shoes reach those in need.
+          </p>
+            <div class="d-flex justify-content-center align-items-center" style="height: 25vh;">
+                <a href="#"> <!-- To add DONATION forms -->
+                    <button type="button" class="btn btn-outline-secondary btn-lg"><strong>GET STARTED</strong></button>
+                </a>
+            </div>
+        </div>
+</div>
+<br><br><br>
 {% include 'baseshop_footer.html' %}
 </body>
 </html>
