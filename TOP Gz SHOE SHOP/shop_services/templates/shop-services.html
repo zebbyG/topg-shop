@@ -1,0 +1,121 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SHOP SERVICE PAGE</title>
+    <style>
+        .custom-container {
+            width: 100%;
+            height: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            font-size: larger;
+            background-color: aquamarine;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+{% include 'bootstrap.html' %}
+{% include 'backToTop.html' %}
+
+<div class="custom-container">
+    <h3 class="display-3">
+        <strong>Our Services</strong>
+    </h3>
+</div>
+<br>
+<blockquote class="blockquote" style="text-align: center;">
+  <p style="margin-left: 100px; margin-right: 100px;">
+    Discover the exceptional shoe services at Top Gz Shoe Shop. From our extensive collection of top-quality footwear for men, women, and children, to our expert fitting assistance and personalized recommendations, we are dedicated to delivering a seamless and satisfying shoe shopping experience.
+  </p>
+</blockquote>
+<br><br><br>
+<div class="row">
+    <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'home-delivery.png' %}" alt="Vans Slip-on custom.jpg">
+        <div class="col-md-6">
+            <h1>Order Shoes</h1>
+            <br>
+          <p class="blockquote" style="font-size: larger;">
+              At Top Gz Shoe Shop, we are committed to providing you with the best shoe shopping experience possible.
+              Our top priority is ensuring that you receive your shoes in a timely and efficient manner.
+          </p>
+            <div class="d-flex justify-content-center align-items-center" style="height: 25vh;">
+                <a href="{% url 'servicesPage:order-shoes' %}">
+                    <button type="button" class="btn btn-outline-secondary btn-lg"><strong>ORDER SHOES</strong></button>
+                </a>
+            </div>
+        </div>
+</div>
+<br><br><br>
+<div class="row">
+    <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'trade.jpg' %}" alt="Vans Slip-on custom.jpg">
+        <div class="col-md-6">
+            <h1>Trade</h1>
+            <br>
+          <p class="blockquote" style="font-size: larger;">
+              Trade in your old shoes for a new pair or trade-in a combination of old shoes plus money for a new pair. The value of the trade-in depends on the quality of the old shoes.
+          </p>
+            <div class="d-flex justify-content-center align-items-center" style="height: 25vh;">
+                <a href="{% url 'servicesPage:trade' %}">
+                    <button type="button" class="btn btn-outline-secondary btn-lg"><strong>TRADE WITH US</strong></button>
+                </a>
+            </div>
+        </div>
+</div>
+<br><br><br>
+<div class="row">
+    <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'Yeezy slides customs.jpg' %}" alt="Vans Slip-on custom.jpg">
+        <div class="col-md-6">
+            <h1>Customize your shoe game</h1>
+            <br>
+          <p class="blockquote" style="font-size: larger;">
+              Unleash your creativity with customizing services. From custom color combinations to intricate designs, our skilled artisans will bring your vision to life. Stand out from the crowd and make a statement with custom shoes tailored exclusively for you.
+          </p>
+            <div class="d-flex justify-content-center align-items-center" style="height: 18vh;">
+                <a href="{% url 'servicesPage:customize_shoes' %}">
+                    <button type="button" class="btn btn-outline-secondary btn-lg"><strong>GET STARTED</strong></button>
+                </a>
+            </div>
+        </div>
+</div>
+<br><br><br>
+<div class="row">
+    <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'donate.jpg' %}" alt="Vans Slip-on custom.jpg">
+        <div class="col-md-6">
+            <h1>Soles for Souls</h1>
+            <br>
+          <p class="blockquote" style="font-size: larger;">
+              We believe in giving back, which is why we offer a convenient way for you to donate shoes of your choice. By partnering with local charities, we ensure that your donated shoes reach those in need.
+          </p>
+            <div class="d-flex justify-content-center align-items-center" style="height: 25vh;">
+                <a href="{% url 'servicesPage:donate_shoes' %}">
+                    <button type="button" class="btn btn-outline-secondary btn-lg"><strong>DONATE WITH US</strong></button>
+                </a>
+            </div>
+        </div>
+</div>
+<br><br><br>
+<div class="row">
+    <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'customer-service.jpg' %}" alt="Vans Slip-on custom.jpg">
+        <div class="col-md-6">
+            <h1>Customer Service</h1>
+            <br>
+          <p class="blockquote" style="font-size: larger;">
+              Experience unparalleled customer service at Top Gz Shoe Shop. Our dedicated team is here to assist you every step of the way, ensuring your utmost satisfaction.
+            We strive to exceed your expectations and provide a seamless and enjoyable shoe shopping experience.
+          </p>
+            <div class="d-flex justify-content-center align-items-center" style="height: 25vh;">
+                <a href="{% url 'servicesPage:customer_service' %}">
+                    <button type="button" class="btn btn-outline-secondary btn-lg"><strong>GET STARTED</strong></button>
+                </a>
+            </div>
+        </div>
+</div>
+<br><br><br>
+{% include 'baseshop_footer.html' %}
+</body>
+</html>
