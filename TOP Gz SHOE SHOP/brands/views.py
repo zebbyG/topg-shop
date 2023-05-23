@@ -1,12 +1,15 @@
 from django.shortcuts import render
+from .models import Brands, Jordan
 
 
 def catalogue(request):
-    return render(request, 'catalogue.html', {"name": "Zebbylion njau"})
+    shop_brands = Brands.objects.all().order_by('time')
+    return render(request, 'catalogue.html', {"shop_brands": shop_brands})
 
 
 def jordans(request):
-    return render(request, 'jordans.html', {"name": "Zebbylion Njau"})
+    jordan_shoes = Jordan.objects.all().order_by('shoe_time_added')
+    return render(request, 'jordans.html', {"jordan_shoes": jordan_shoes})
 
 
 def nikes(request):

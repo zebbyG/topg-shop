@@ -15,7 +15,82 @@
     </h3>
 </div>
 <br><br>
+<div class="row" style="background-color: grey;">
+    {% for all_shoes in jordan_shoes %}
+    <div class="card" style="width: 23rem; margin-right: 20px; margin-top: 20px;">
+        <img src="{{ all_shoes.shoe_image.url }}" class="card-img-top" alt="shoe" style="object-fit: cover;">
+        <div class="card-body">
+            <h5 class="card-title">{{ all_shoes.shoe_name }}</h5>
+            <p class="card-text">{{ all_shoes.shoe_gender }}</p>
+            {% for color in all_shoes.shoe_color_available.all %}
+            <p class="card-text">{{ color.color_name }}</p>
+            {% endfor %}
+            <p class="card-text"><em>Was:<s> ${{ all_shoes.shoe_price_was }}</s></em><br>Now: ${{ all_shoes.shoe_price }}</p>
+            {% if all_shoes.shoe_in_stock %}
+                <p>In stock</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+            {% else %}
+                <p>Out of stock</p>
+                <a href="#" class="btn btn-primary disabled">Add to cart</a>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
 
+<!--<div class="row">-->
+<!--    <div class="card" style="width: 20rem; margin-right: 20px;">-->
+<!--      <img src="{% static 'team2.jpg' %}" class="card-img-top" alt="...">-->
+<!--      <div class="card-body">-->
+<!--        <h5 class="card-title">all_shoes.shoe_name</h5>-->
+<!--                <p class="card-text">all_shoes.shoe_gender </p>-->
+<!--                <p class="card-text">all_shoes.shoe_color_available</p>-->
+<!--                <p class="card-text"><em><s>Was: all_shoes.shoe_price_was</s></em><br>Now: all_shoes.shoe_price</p>-->
+<!--        <a href="#" class="btn btn-primary">Add to cart</a>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="card" style="width: 20rem; margin-right: 20px;">-->
+<!--      <img style="object-fit: cover;" src="{% static 'team2.jpg' %}" class="card-img-top" alt="...">-->
+<!--      <div class="card-body">-->
+<!--        <h5 class="card-title">all_shoes.shoe_name</h5>-->
+<!--                <p class="card-text">all_shoes.shoe_gender </p>-->
+<!--                <p class="card-text">all_shoes.shoe_color_available</p>-->
+<!--                <p class="card-text"><em><s>Was: all_shoes.shoe_price_was</s></em><br>Now: all_shoes.shoe_price</p>-->
+<!--        <a href="#" class="btn btn-primary">Add to cart</a>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="card" style="width: 20rem; margin-right: 20px;">-->
+<!--      <img src="{% static 'team2.jpg' %}" class="card-img-top" alt="...">-->
+<!--      <div class="card-body">-->
+<!--        <h5 class="card-title">all_shoes.shoe_name</h5>-->
+<!--                <p class="card-text">all_shoes.shoe_gender </p>-->
+<!--                <p class="card-text">all_shoes.shoe_color_available</p>-->
+<!--                <p class="card-text"><em><s>Was: all_shoes.shoe_price_was</s></em><br>Now: all_shoes.shoe_price</p>-->
+<!--        <a href="#" class="btn btn-primary">Add to cart</a>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="card" style="width: 20rem; margin-right: 20px;">-->
+<!--&lt;!&ndash;      <img src="{% static 'team2.jpg' %}" class="card-img-top" alt="...">&ndash;&gt;-->
+<!--        <div class="image-gallery">-->
+<!--          <img src="{% static 'team2.jpg' %}" class="main-image img-fluid" alt="Main Image">-->
+<!--              <div class="thumbnail-images d-none">-->
+<!--                <img src="{% static 'team2.jpg' %}" class="thumbnail img-fluid" alt="Thumbnail Image 1">-->
+<!--                <img src="{% static 'team2.jpg' %}" class="thumbnail img-fluid" alt="Thumbnail Image 2">-->
+<!--                <img src="{% static 'team2.jpg' %}" class="thumbnail img-fluid" alt="Thumbnail Image 3">-->
+<!--              </div>-->
+<!--        </div>-->
+
+<!--      <div class="card-body">-->
+<!--        <h5 class="card-title">all_shoes.shoe_name</h5>-->
+<!--                <p class="card-text">all_shoes.shoe_gender </p>-->
+<!--                <p class="card-text">all_shoes.shoe_color_available</p>-->
+<!--                <p class="card-text"><em><s>Was: all_shoes.shoe_price_was</s></em><br>Now: all_shoes.shoe_price</p>-->
+<!--        <a href="#" class="btn btn-primary">Add to cart</a>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<br><br><br>
 {% include 'baseshop_footer.html' %}
 </body>
 </html>

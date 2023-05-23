@@ -4,10 +4,10 @@ from . import views
 app_name = 'brands'
 
 urlpatterns = [
-    path('jordans/', views.jordans, name="jordans"),
-    path('nikes/', views.nikes, name="nikes"),
-    path('vans/', views.vans, name="vans"),
-    path('yeezys/', views.yeezys, name="yeezys"),
-    path('pradas/', views.pradas, name="pradas"),
-    path('catalogue/', views.catalogue, name="catalogue"),
+    path('Jordans/', views.jordans, name="Jordans"),
+    path('Nikes/', views.nikes, name="Nikes"),
+    path('Vans/', views.vans, name="Vans"),
+    path('Yeezys/', views.yeezys, name="Yeezys"),
+    path('Pradas/', views.pradas, name="Pradas"),
+    path('', views.catalogue, name="catalogue"),
 ]

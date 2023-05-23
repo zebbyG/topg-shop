@@ -17,11 +17,9 @@
 <br><br>
 <div>
     <ul>
-        <li><a href="{% url 'brands:jordans' %}">Jordans</a></li>
-        <li><a href="{% url 'brands:nikes' %}">Nikes</a></li>
-        <li><a href="{% url 'brands:vans' %}">Vans</a></li>
-        <li><a href="{% url 'brands:yeezys' %}">Yeezys</a></li>
-        <li><a href="{% url 'brands:pradas' %}">Pradas</a></li>
+        {% for all_brands in shop_brands %}
+        <li><a href="{{ all_brands.brand_name }}">{{ all_brands.brand_name }}</a></li>
+        {% endfor %}
         <li><a href="{% url 'servicesPage:shoes_accessories' %}">Shoes Accessories</a></li>
     </ul>
 </div>
