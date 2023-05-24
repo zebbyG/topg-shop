@@ -25,7 +25,7 @@
             {% for color in all_shoes.shoe_color_available.all %}
             <p class="card-text">{{ color.color_name }}</p>
             {% endfor %}
-            <p class="card-text"><em>Was:<s> ${{ all_shoes.shoe_price_was }}</s></em><br>Now: ${{ all_shoes.shoe_price }}</p>
+            <p class="card-text"><strong>Now: ${{ all_shoes.shoe_price }}</strong><br><em>Was:<s> ${{ all_shoes.shoe_price_was }}</s></em></p>
             {% if all_shoes.shoe_in_stock %}
                 <p>In stock</p>
                 <a href="#" class="btn btn-primary">Add to cart</a>

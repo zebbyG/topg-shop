@@ -15,7 +15,30 @@
     </h3>
 </div>
 <br><br>
+<div class="row" style="background-color: grey;">
+    {% for all_shoes in prada_shoes %}
+    <div class="card" style="width: 23rem; margin-right: 20px; margin-top: 20px;">
+        <img src="{{ all_shoes.shoe_image.url }}" class="card-img-top" alt="shoe" style="object-fit: cover;">
+        <div class="card-body">
+            <h5 class="card-title">{{ all_shoes.shoe_name }}</h5>
+            <p class="card-text">{{ all_shoes.shoe_gender }}</p>
+            {% for color in all_shoes.shoe_color_available.all %}
+            <p class="card-text">{{ color.color_name }}</p>
+            {% endfor %}
+            <p class="card-text"><strong>Now: ${{ all_shoes.shoe_price }}</strong><br><em>Was:<s> ${{ all_shoes.shoe_price_was }}</s></em></p>
+            {% if all_shoes.shoe_in_stock %}
+                <p>In stock</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+            {% else %}
+                <p>Out of stock</p>
+                <a href="#" class="btn btn-primary disabled">Add to cart</a>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
 
+<br><br><br>
 {% include 'baseshop_footer.html' %}
 </body>
 </html>

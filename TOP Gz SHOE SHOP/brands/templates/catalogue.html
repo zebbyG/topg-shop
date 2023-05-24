@@ -15,16 +15,31 @@
     </h3>
 </div>
 <br><br>
-<div>
-    <ul>
-        {% for all_brands in shop_brands %}
-        <li><a href="{{ all_brands.brand_name }}">{{ all_brands.brand_name }}</a></li>
-        {% endfor %}
-        <li><a href="{% url 'servicesPage:shoes_accessories' %}">Shoes Accessories</a></li>
-    </ul>
+<div class="row" style="background-color: grey;">
+    {% for all_brands in shop_brands %}
+    <div class="card" style="width: 23rem; margin-right: 20px; margin-top: 20px; cursor: grab;">
+        <a href="{{ all_brands.brand_name }}" style="cursor: grab;">
+            <img src="{{ all_brands.brand_image.url }}" class="card-img-top" alt="shoe" style="object-fit: cover;">
+        </a>
+        <div class="card-body">
+            <h5 class="card-title">{{ all_brands.brand_name }}</h5>
+            <p class="card-text" style="cursor: grab;">{{ all_brands.brand_description }}</p>
+            <p class="card-text"><strong>Total Shoes: {{ all_brands.no_of_shoes_available }}</strong></p>
+            {% if all_brands.brand_in_stock %}
+                <p>In stock</p>
+                <a href="{{ all_brands.brand_name }}">
+                    <button type="button" class="btn btn-outline-secondary"><strong>Continue to {{ all_brands.brand_name }}</strong></button>
+                </a>
+            {% else %}
+                <p>Out of stock</p>
+                <a style="cursor: grab;">
+                    <button type="button" class="btn btn-outline-secondary" disabled><strong>Continue to {{ all_brands.brand_name }}</strong></button>
+                </a>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
 </div>
-
-
 <br><br><br>
 {% include 'baseshop_footer.html' %}
 </body>
