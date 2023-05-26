@@ -22,7 +22,7 @@ class Color(models.Model):
 
 
 class Shoe(models.Model):
-    brand = models.ForeignKey(Brand, on_delete=models.CASCADE)
+    brand = models.ForeignKey(Brand, on_delete=models.SET_NULL, null=True)
     shoe_image = models.ImageField(upload_to='shoes/', height_field='image_height', width_field='image_width')
     image_height = models.PositiveIntegerField(blank=True, null=True)
     image_width = models.PositiveIntegerField(blank=True, null=True)

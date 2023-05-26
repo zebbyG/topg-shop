@@ -1,0 +1,48 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SHOE ACCESSORIES</title>
+    <link rel="stylesheet" href="{% static 'page-header.css' %}">
+</head>
+<body>
+{% include 'bootstrap.html' %}
+{% include 'backToTop.html' %} <!--Back to Top button -->
+
+<!-- SHOES ACCESSORIES -->
+<div class="custom-container">
+    <h3 class="display-3">
+        <strong>SHOES ACCESSORIES</strong>
+    </h3>
+</div>
+<br><br>
+<div class="row" style="background-color: grey;">
+    {% for all_products in shoes_accessories_products %}
+    <div class="card" style="width: 23rem; margin-right: 20px; margin-top: 20px;">
+        <img src="{{ all_products.shoe_image.url }}" class="card-img-top" alt="shoe" style="object-fit: cover;">
+        <div class="card-body">
+            <h5 class="card-title">{{ all_products.shoe_name }}</h5>
+            <p class="card-text">{{ all_products.shoe_gender }}</p>
+            {% for color in all_products.shoe_color_available.all %}
+            <ul>
+                <li class="card-text">{{ color.color_name }}</li>
+            </ul>
+            {% endfor %}
+            <p class="card-text"><strong>Now: ${{ all_products.shoe_price }}</strong><br><em>Was:<s> ${{ all_products.shoe_price_was }}</s></em></p>
+            {% if all_products.shoe_in_stock %}
+                <p>In stock</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+            {% else %}
+                <p>Out of stock</p>
+                <a href="#" class="btn btn-primary disabled">Add to cart</a>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<br><br><br>
+
+{% include 'baseshop_footer.html' %}
+</body>
+</html>

@@ -17,10 +17,6 @@ def customize_shoes(request):
     return render(request, 'customize_shoes.html', {"name": "Zebbylion Njau"})
 
 
-def shoes_accessories(request):
-    return render(request, 'shoes_accessories.html', {"name": "Zebbylion Njau"})
-
-
 def donate_shoes(request):
     return render(request, 'donate_shoes.html', {"name": "Zebbylion Njau"})
 

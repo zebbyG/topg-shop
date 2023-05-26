@@ -12,11 +12,11 @@
 {% include 'backToTop.html' %} <!--Back to Top button -->
 
 <!--Shop Logo -->
-<div style="position: absolute; top: 90; left: 0; width: 100px;">
+<!-- <div style="position: absolute; top: 90; left: 0; width: 100px;">
     <a href="{% url 'introPage:home-page' %}">
-        <img src="{% static 'topg-logo.gif' %}" style="width: 75%;" alt="GIF">
+        <img src="{% static 'topg-logo.gif' %}" style="width: 75%; top: 90; left: 0;" alt="GIF">
     </a>
-</div>
+</div> -->
 
 <div class="row" style="background-color: aquamarine;">
     <div class="col-md-6">
@@ -58,86 +58,86 @@
 
 <!--Jquery Owl-carousel to display popular products -->
 
-<div class="owl-carousel owl-theme" style="cursor: grab;">
+<div class="owl-carousel owl-theme">
     <div class="item">
         <a href="{% url 'brands:Jordans' %}" style="text-decoration: none; cursor: grab;">
             <img style="width: 300px; height: 300px; object-fit: cover;" src="{% static 'Air Jordan 3 infrared 23.jpg' %}" alt="Air Jordan 3 infrared 23.jpg">
+        </a>
             <div class="caption">
                 <h4 style="color: black">Air Jordan 3</h4>
             </div>
-        </a>
     </div>
     <div class="item">
         <a href="{% url 'brands:Yeezys' %}" style="text-decoration: none; cursor: grab;">
             <img style="width: 300px; height: 300px; object-fit: cover;" src="{% static 'Yeezy 350s Tan.jpg' %}" alt="Yeezy 350s Tan.jpg">
+        </a>
             <div class="caption">
                 <h4 style="color: black">Yeezy 350s</h4>
             </div>
-        </a>
     </div>
     <div class="item">
         <a href="{% url 'brands:Pradas' %}" style="text-decoration: none; cursor: grab;">
             <img style="width: 300px; height: 300px; object-fit: cover;" src="{% static 'Prada cup yellowhite.jpg' %}" alt="Prada cup yellowhite.jpg">
+        </a>
             <div class="caption">
                 <h4 style="color: black">Prada cup</h4>
             </div>
-        </a>
     </div>
     <div class="item">
         <a href="{% url 'brands:Jordans' %}" style="text-decoration: none; cursor: grab;">
             <img style="width: 300px; height: 300px; object-fit: cover;" src="{% static 'Women Jordan Air 1 Low SE pink.jpg' %}" alt="Women Jordan Air 1 Low SE pink.jpg">
+        </a>
             <div class="caption">
                 <h4 style="color: black">Jordan Air 1 Low</h4>
             </div>
-        </a>
     </div>
     <div class="item">
         <a href="{% url 'brands:Vans' %}" style="text-decoration: none; cursor: grab;">
             <img style="width: 300px; height: 300px; object-fit: cover;" src="{% static 'Vans old skool black-whitestripe.jpg' %}" alt="black-whitestripe.jpg">
+        </a>
             <div class="caption">
                 <h4 style="color: black">Vans old skool</h4>
             </div>
-        </a>
     </div>
     <div class="item">
         <a href="{% url 'brands:Pradas' %}" style="text-decoration: none; cursor: grab;">
             <img style="width: 300px; height: 300px; object-fit: cover;" src="{% static 'Prada cloudBust yellowblack.jpg' %}" alt="Prada cloudBust yellowblack.jpg">
+        </a>
             <div class="caption">
                 <h4 style="color: black">Prada cloudBust</h4>
             </div>
-        </a>
     </div>
     <div class="item">
         <a href="{% url 'brands:Nikes' %}" style="text-decoration: none; cursor: grab;">
             <img style="width: 300px; height: 300px; object-fit: cover;" src="{% static 'Women Nike High Top pink.jpg' %}" alt="Women Nike High Top pink.jpg">
+        </a>
             <div class="caption">
                 <h4 style="color: black">Women Nike High</h4>
             </div>
-        </a>
     </div>
     <div class="item">
         <a href="{% url 'brands:Vans' %}" style="text-decoration: none; cursor: grab;">
             <img style="width: 300px; height: 300px; object-fit: cover;" src="{% static 'Vans Slip-on custom.jpg' %}" alt="Vans Slip-on custom.jpg">
+        </a>
             <div class="caption">
                 <h4 style="color: black">Vans Slip-on</h4>
             </div>
-        </a>
     </div>
     <div class="item">
         <a href="{% url 'brands:Yeezys' %}" style="text-decoration: none; cursor: grab;">
             <img style="width: 300px; height: 300px; object-fit: cover;" src="{% static 'Yeezy slides customs.jpg' %}" alt="Yeezy slides customs.jpg">
+        </a>
             <div class="caption">
                 <h4 style="color: black">Yeezy slides</h4>
             </div>
-        </a>
     </div>
     <div class="item">
         <a href="{% url 'brands:Nikes' %}" style="text-decoration: none; cursor: grab;">
             <img style="width: 300px; height: 300px; object-fit: cover;" src="{% static 'Nike Air Max 270 all black.jpg' %}" alt="Nike Air Max 270 all black.jpg">
+        </a>
             <div class="caption">
                 <h4 style="color: black">Nike Air Max</h4>
             </div>
-        </a>
     </div>
 </div>
 

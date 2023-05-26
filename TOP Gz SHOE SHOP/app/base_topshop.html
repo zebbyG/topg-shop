@@ -1,14 +1,16 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+{% load static %}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="position: fixed; width: 100%;">
   <div class="container-fluid">
-    <a class="navbar-brand" href="{% url 'introPage:home-page' %}"><i class="fas fa-home fa-2x mr-3"></i></a>
+    <a class="navbar-brand" href="{% url 'introPage:home-page' %}"><img src="{% static 'topg-logo.gif' %}" style="width: 60px;" alt="GIF"></a>
+    <!-- <a class="navbar-brand" href="{% url 'introPage:home-page' %}"><i class="fas fa-home fa-2x mr-3"></i></a> -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <!-- <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="{% url 'introPage:home-page' %}">Top Gz</a>
-        </li> -->
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="{% url 'introPage:home-page' %}">Home</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="/our-catalogue/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Accessories
@@ -21,7 +23,7 @@
 <!--            <li><a class="dropdown-item" href="{% url 'brands:Vans' %}">Vans</a></li>-->
 <!--            <li><a class="dropdown-item" href="{% url 'brands:Yeezys' %}">Yeezys</a></li>-->
 <!--            <li><a class="dropdown-item" href="{% url 'brands:Pradas' %}">Pradas</a></li>-->
-            <li><a class="dropdown-item" href="{% url 'servicesPage:shoes_accessories' %}">Shoes Accessories</a></li>
+            <li><a class="dropdown-item" href="{% url 'brands:shoes_accessories' %}">Shoes Accessories</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">

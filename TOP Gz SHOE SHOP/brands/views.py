@@ -36,3 +36,9 @@ def pradas(request):
     prada_brand = get_object_or_404(Brand, brand_name='Pradas')
     prada_shoes = Shoe.objects.filter(brand=prada_brand).order_by('shoe_time_added')
     return render(request, 'pradas.html', {"prada_shoes": prada_shoes})
+
+
+def shoes_accessories(request):
+    shoes_accessories_brand = get_object_or_404(Brand, brand_name='shoes_accessories')
+    shoes_accessories_products = Shoe.objects.filter(brand=shoes_accessories_brand).order_by('shoe_time_added')
+    return render(request, 'shoes_accessories.html', {"shoes_accessories_products": shoes_accessories_products})
