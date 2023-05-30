@@ -1,0 +1,28 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LOG IN</title>
+    <link rel="stylesheet" href="{% static 'page-header.css' %}">
+</head>
+<body>
+{% include 'bootstrap.html' %}
+{% include 'backToTop.html' %} <!--Back to Top button -->
+<br><br>
+<div class="custom-container">
+    <h3 class="display-3">
+        <strong>LOG IN</strong><!-- page-header.css for custom container styling -->
+    </h3>
+</div>
+<form class="site-form" action="{% url 'accounts:log_in' %}" method="post">
+    {% csrf_token %}
+    {{ log_in_form }}
+    {% if request.GET.next %}
+        <input type="hidden" name="next" value="{{ request.GET.next }}">
+    {% endif %}
+    <input type="submit" value="log in">
+</form>
+<br><br>
+{% include 'baseshop_footer.html' %}
+</body>
+</html>

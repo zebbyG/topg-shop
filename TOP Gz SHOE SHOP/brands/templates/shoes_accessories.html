@@ -32,10 +32,10 @@
             <p class="card-text"><strong>Now: ${{ all_products.shoe_price }}</strong><br><em>Was:<s> ${{ all_products.shoe_price_was }}</s></em></p>
             {% if all_products.shoe_in_stock %}
                 <p>In stock</p>
-                <a href="#" class="btn btn-primary">Add to cart</a>
+                <a href="{% url 'brands:add_to_cart' %}" class="btn btn-primary">Add to cart</a>
             {% else %}
                 <p>Out of stock</p>
-                <a href="#" class="btn btn-primary disabled">Add to cart</a>
+                <a class="btn btn-primary disabled">Add to cart</a>
             {% endif %}
         </div>
     </div>

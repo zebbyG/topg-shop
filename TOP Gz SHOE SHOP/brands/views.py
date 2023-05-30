@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from .models import Brand, Shoe
 from django.shortcuts import get_object_or_404
+from django.contrib.auth.decorators import login_required
 
 
 def catalogue(request):
@@ -42,3 +43,8 @@ def shoes_accessories(request):
     shoes_accessories_brand = get_object_or_404(Brand, brand_name='shoes_accessories')
     shoes_accessories_products = Shoe.objects.filter(brand=shoes_accessories_brand).order_by('shoe_time_added')
     return render(request, 'shoes_accessories.html', {"shoes_accessories_products": shoes_accessories_products})
+
+
+@login_required(login_url='accounts:log_in')
+def add_to_cart(request):
+    return render(request, 'add_to_cart.html')
