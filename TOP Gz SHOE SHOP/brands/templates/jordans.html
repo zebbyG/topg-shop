@@ -18,9 +18,9 @@
 <br><br>
 <div style="display: flex; justify-content: center;">
     <form class="d-flex" role="search" style="width: 50%;">
-        <input class="form-control me-2" type="search" placeholder="search for Jordan shoes" aria-label="Search">
-        <button class="btn btn-outline-secondary" type="submit">
-        <i class="fa fa-search"></i>
+        <input class="form-control me-2" type="search" placeholder="Search for Jordan shoes" aria-label="Search" id="search-input">
+        <button id="search-button" class="btn btn-outline-secondary" type="submit" onclick="performSearch();">
+            <i class="fa fa-search"></i>
         </button>
         <div style="flex-grow: 1;"></div>
     </form>
@@ -48,59 +48,7 @@
     </div>
     {% endfor %}
 </div>
-
-<!--<div class="row">-->
-<!--    <div class="card" style="width: 20rem; margin-right: 20px;">-->
-<!--      <img src="{% static 'team2.jpg' %}" class="card-img-top" alt="...">-->
-<!--      <div class="card-body">-->
-<!--        <h5 class="card-title">all_shoes.shoe_name</h5>-->
-<!--                <p class="card-text">all_shoes.shoe_gender </p>-->
-<!--                <p class="card-text">all_shoes.shoe_color_available</p>-->
-<!--                <p class="card-text"><em><s>Was: all_shoes.shoe_price_was</s></em><br>Now: all_shoes.shoe_price</p>-->
-<!--        <a href="#" class="btn btn-primary">Add to cart</a>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--    <div class="card" style="width: 20rem; margin-right: 20px;">-->
-<!--      <img style="object-fit: cover;" src="{% static 'team2.jpg' %}" class="card-img-top" alt="...">-->
-<!--      <div class="card-body">-->
-<!--        <h5 class="card-title">all_shoes.shoe_name</h5>-->
-<!--                <p class="card-text">all_shoes.shoe_gender </p>-->
-<!--                <p class="card-text">all_shoes.shoe_color_available</p>-->
-<!--                <p class="card-text"><em><s>Was: all_shoes.shoe_price_was</s></em><br>Now: all_shoes.shoe_price</p>-->
-<!--        <a href="#" class="btn btn-primary">Add to cart</a>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--    <div class="card" style="width: 20rem; margin-right: 20px;">-->
-<!--      <img src="{% static 'team2.jpg' %}" class="card-img-top" alt="...">-->
-<!--      <div class="card-body">-->
-<!--        <h5 class="card-title">all_shoes.shoe_name</h5>-->
-<!--                <p class="card-text">all_shoes.shoe_gender </p>-->
-<!--                <p class="card-text">all_shoes.shoe_color_available</p>-->
-<!--                <p class="card-text"><em><s>Was: all_shoes.shoe_price_was</s></em><br>Now: all_shoes.shoe_price</p>-->
-<!--        <a href="#" class="btn btn-primary">Add to cart</a>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--    <div class="card" style="width: 20rem; margin-right: 20px;">-->
-<!--&lt;!&ndash;      <img src="{% static 'team2.jpg' %}" class="card-img-top" alt="...">&ndash;&gt;-->
-<!--        <div class="image-gallery">-->
-<!--          <img src="{% static 'team2.jpg' %}" class="main-image img-fluid" alt="Main Image">-->
-<!--              <div class="thumbnail-images d-none">-->
-<!--                <img src="{% static 'team2.jpg' %}" class="thumbnail img-fluid" alt="Thumbnail Image 1">-->
-<!--                <img src="{% static 'team2.jpg' %}" class="thumbnail img-fluid" alt="Thumbnail Image 2">-->
-<!--                <img src="{% static 'team2.jpg' %}" class="thumbnail img-fluid" alt="Thumbnail Image 3">-->
-<!--              </div>-->
-<!--        </div>-->
-
-<!--      <div class="card-body">-->
-<!--        <h5 class="card-title">all_shoes.shoe_name</h5>-->
-<!--                <p class="card-text">all_shoes.shoe_gender </p>-->
-<!--                <p class="card-text">all_shoes.shoe_color_available</p>-->
-<!--                <p class="card-text"><em><s>Was: all_shoes.shoe_price_was</s></em><br>Now: all_shoes.shoe_price</p>-->
-<!--        <a href="#" class="btn btn-primary">Add to cart</a>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--</div>-->
-
+<script src="{% static 'search.js' %}"></script>
 <br><br><br>
 {% include 'baseshop_footer.html' %}
 </body>

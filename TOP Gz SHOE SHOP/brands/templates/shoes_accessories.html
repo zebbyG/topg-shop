@@ -19,9 +19,9 @@
 <br><br>
 <div style="display: flex; justify-content: center;">
     <form class="d-flex" role="search" style="width: 50%;">
-        <input class="form-control me-2" type="search" placeholder="search for shoes accessories" aria-label="Search">
-        <button class="btn btn-outline-secondary" type="submit">
-        <i class="fa fa-search"></i>
+        <input class="form-control me-2" type="search" placeholder="Search for shoes accessories shoes" aria-label="Search" id="search-input">
+        <button id="search-button" class="btn btn-outline-secondary" type="submit" onclick="performSearch();">
+            <i class="fa fa-search"></i>
         </button>
         <div style="flex-grow: 1;"></div>
     </form>
@@ -51,7 +51,7 @@
     </div>
     {% endfor %}
 </div>
-
+<script src="{% static 'search.js' %}"></script>
 <br><br><br>
 
 {% include 'baseshop_footer.html' %}
