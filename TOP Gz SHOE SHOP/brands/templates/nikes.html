@@ -16,6 +16,16 @@
     </h3>
 </div>
 <br><br>
+<div style="display: flex; justify-content: center;">
+    <form class="d-flex" role="search" style="width: 50%;">
+        <input class="form-control me-2" type="search" placeholder="search for Nike shoes" aria-label="Search">
+        <button class="btn btn-outline-secondary" type="submit">
+        <i class="fa fa-search"></i>
+        </button>
+        <div style="flex-grow: 1;"></div>
+    </form>
+</div>
+<br>
 <div class="row" style="background-color: grey;">
     {% for all_shoes in nike_shoes %}
     <div class="card" style="width: 23rem; margin-right: 20px; margin-top: 20px;">
