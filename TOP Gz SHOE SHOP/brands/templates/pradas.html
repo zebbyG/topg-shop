@@ -18,9 +18,9 @@
 <br><br>
 <!-- SEARCH BUTTON----JS IN assets/search.js -->
 <div style="display: flex; justify-content: center;">
-    <form class="d-flex" role="search" style="width: 50%;">
-        <input class="form-control me-2" type="search" placeholder="Search for Prada shoes" aria-label="Search" id="search-input">
-        <button id="search-button" class="btn btn-outline-secondary" type="submit" onclick="performSearch();">
+    <form class="d-flex" role="search" style="width: 50%;" onsubmit="event.preventDefault(); performSearch();">
+        <input class="form-control me-2" type="search" placeholder="search" aria-label="Search" id="search-input">
+        <button id="search-button" class="btn btn-outline-secondary" type="submit">
             <i class="fa fa-search"></i>
         </button>
         <div style="flex-grow: 1;"></div>
