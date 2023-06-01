@@ -1,7 +1,7 @@
-    var cards = document.getElementsByClassName("card");
+var cards = document.getElementsByClassName("card");
 
-    function performSearch() {
-        var searchQuery = document.getElementById("search-input").value.toLowerCase();
+function performSearch() {
+    var searchQuery = document.getElementById("search-input").value.toLowerCase();
 
         for (var i = 0; i < cards.length; i++) {
             var cardTitle = cards[i].getElementsByClassName("card-title")[0].innerText.toLowerCase();
@@ -14,7 +14,6 @@
             }
         }
 
-        document.getElementById("search-input").value = searchQuery;
-        document.getElementById("search-button").innerText = "Search: " + searchQuery;
-        return True; // Prevent form submission
-    }
+    document.getElementById("search-input").value = searchQuery;
+    return false; // Prevent form submission
+}
