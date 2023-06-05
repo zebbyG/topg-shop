@@ -1,4 +1,5 @@
 {% load static %}
+<body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="position: fixed; width: 100%;">
   <div class="container-fluid">
     <a class="navbar-brand" href="{% url 'introPage:home-page' %}"><img src="{% static 'topg-logo.gif' %}" style="width: 60px;" alt="GIF"></a>
@@ -67,12 +68,32 @@
 <!--        </button>-->
 <!--      </form>-->
       {% if user.is_authenticated %}
-          <li class="nav-item">
-            <form class="logout" action="{% url 'accounts:log_out' %}" method="post">
-              {% csrf_token %}
-              <button type="submit" class="btn btn-outline-danger" style="margin-right: 50px;">log out</button>
-            </form>
-          </li>
+          <div class="dropdown" style="margin-right: 50px;">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  {{ request.user }}
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="{% url 'accounts:edit_profile' %}">
+                      <button type="submit" class="btn btn-outline-info">Edit profile</button>
+                    </a>
+                  </li>
+                  <form class="dropdown-item" action="{% url 'accounts:log_out' %}" method="post">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-outline-danger">log out</button>
+                  </form>
+                </ul>
+          </div>
+
+<!--          <li class="nav-item">-->
+<!--              <a class="nav-link" href="{% url 'accounts:edit_profile' %}">Edit Profile</a>-->
+<!--          </li>-->
+<!--          <li class="nav-item">-->
+<!--            <form class="logout" action="{% url 'accounts:log_out' %}" method="post">-->
+<!--              {% csrf_token %}-->
+<!--              <button type="submit" class="btn btn-outline-danger" style="margin-right: 50px;">log out</button>-->
+<!--            </form>-->
+<!--          </li>-->
       {% else %}
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -96,4 +117,4 @@
     </div>
   </div>
 </nav>
-
+</body>
