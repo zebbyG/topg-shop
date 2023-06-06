@@ -25,7 +25,7 @@
     {{ edit_profile_form.last_name }}
     <em style="font-weight: bold;">Email:</em><br>
     {{ edit_profile_form.email }}
-    <em>To <a href="{% url 'accounts:password_change' %}" style="text-decoration: none;">edit your password</a> update profile first</em><br><br>
+    <em>If any changes have been made <small style="font-weight: bold;">update profile</small> before <a href="{% url 'accounts:password_change' %}" style="text-decoration: none;">changing your password</a></em><br><br>
     <input type="submit" value="update profile">
 </form>
 <br><br>
