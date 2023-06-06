@@ -16,7 +16,15 @@
 </div>
 <form class="site-form" action="{% url 'accounts:edit_profile' %}" method="post">
     {% csrf_token %}
-    {{ edit_profile_form }}
+    <em style="font-weight: bold;">Username:</em><br>
+    {{ edit_profile_form.username }}
+    <em style="font-weight: bold;">First Name:</em><br>
+    {{ edit_profile_form.first_name }}
+    <em style="font-weight: bold;">Last Name:</em><br>
+    {{ edit_profile_form.last_name }}
+    <em style="font-weight: bold;">Email:</em><br>
+    {{ edit_profile_form.email }}
+    <em>To <a href="{% url 'accounts:password_change' %}" style="text-decoration: none;">edit your password</a> update profile first</em><br><br>
     <input type="submit" value="update profile">
 </form>
 <br><br>
