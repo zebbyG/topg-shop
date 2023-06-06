@@ -1,9 +1,9 @@
 {% load static %}
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>PROFILE DETAILS</title>
-    <link rel="stylesheet" href="{% static 'page-header.css' %}">
+  <meta charset="UTF-8">
+  <title>PROFILE DETAILS</title>
+  <link rel="stylesheet" href="{% static 'page-header.css' %}">
 </head>
 <body>
 {% include 'bootstrap.html' %}
@@ -14,10 +14,8 @@
         <strong>{{ request.user }} details</strong><!-- page-header.css for custom container styling -->
     </h3>
 </div>
-<table class="table table-hover square-table" style="width: 400px; margin-left: auto; margin-right: auto;">
-  <thead>
 <br>
-  </thead>
+<table class="table table-hover square-table" style="width: 400px; margin-left: auto; margin-right: auto;">
   <tbody>
     <tr>
       <td style="font-weight: bold;">First Name</td>
@@ -45,6 +43,7 @@
     </tr>
   </tbody>
 </table>
+<em><a href="{% url 'accounts:edit_profile' %}" style="text-decoration: none; margin-left: 580px;">edit your profile</a></em>
 <br><br>
 {% include 'baseshop_footer.html' %}
 </body>
