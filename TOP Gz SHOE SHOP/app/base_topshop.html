@@ -67,33 +67,33 @@
 <!--          <i class="fa fa-search"></i>-->
 <!--        </button>-->
 <!--      </form>-->
-      {% if user.is_authenticated %}
-          <div class="dropdown" style="margin-right: 50px;">
-                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Welcome {{ request.user }}
+  {% if user.is_authenticated %}
+      <div class="dropdown" style="margin-right: 50px;">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Welcome {{ request.user }}
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="{% url 'accounts:edit_profile' %}">
+                  <button type="submit" class="btn btn-outline-info">Edit profile</button>
                 </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="{% url 'accounts:edit_profile' %}">
-                      <button type="submit" class="btn btn-outline-info">Edit profile</button>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="{% url 'accounts:profile_details' %}">
-                      <button type="submit" class="btn btn-outline-info">View Profile</button>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="{% url 'accounts:password_change' %}">
-                      <button type="submit" class="btn btn-outline-info">Edit password</button>
-                    </a>
-                  </li>
-                  <form class="dropdown-item" action="{% url 'accounts:log_out' %}" method="post">
-                    {% csrf_token %}
-                    <button type="submit" class="btn btn-outline-danger">log out</button>
-                  </form>
-                </ul>
-          </div>
+              </li>
+              <li>
+                <a class="dropdown-item" href="{% url 'accounts:profile_details' %}">
+                  <button type="submit" class="btn btn-outline-info">View Profile</button>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="{% url 'accounts:password_change' %}">
+                  <button type="submit" class="btn btn-outline-info">Change password</button>
+                </a>
+              </li>
+              <form class="dropdown-item" action="{% url 'accounts:log_out' %}" method="post">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-outline-danger">log out</button>
+              </form>
+            </ul>
+      </div>
 
 <!--          <li class="nav-item">-->
 <!--              <a class="nav-link" href="{% url 'accounts:edit_profile' %}">Edit Profile</a>-->
@@ -104,26 +104,26 @@
 <!--              <button type="submit" class="btn btn-outline-danger" style="margin-right: 50px;">log out</button>-->
 <!--            </form>-->
 <!--          </li>-->
-      {% else %}
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="{% url 'accounts:sign_up' %}">
-                <button type="button" class="btn btn-outline-warning" style="margin-top: 15px;">Sign up</button>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{% url 'accounts:log_in' %}">
-                <button type="button" class="btn btn-outline-success" style="margin-top: 15px;">Log in</button>
-              </a>
-            </li>
-    <!--        <li class="nav-item">-->
-    <!--          <form class="logout" action="{% url 'accounts:log_out' %}" method="post">-->
-    <!--            {% csrf_token %}-->
-    <!--            <button type="submit" class="btn btn-outline-danger" style="margin-top: 23px;">log out</button>-->
-    <!--          </form>-->
-    <!--        </li>-->
-          </ul>
-      {% endif %}
+  {% else %}
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'accounts:sign_up' %}">
+            <button type="button" class="btn btn-outline-warning" style="margin-top: 15px;">Sign up</button>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'accounts:log_in' %}">
+            <button type="button" class="btn btn-outline-success" style="margin-top: 15px;">Log in</button>
+          </a>
+        </li>
+<!--        <li class="nav-item">-->
+<!--          <form class="logout" action="{% url 'accounts:log_out' %}" method="post">-->
+<!--            {% csrf_token %}-->
+<!--            <button type="submit" class="btn btn-outline-danger" style="margin-top: 23px;">log out</button>-->
+<!--          </form>-->
+<!--        </li>-->
+      </ul>
+  {% endif %}
     </div>
   </div>
 </nav>
