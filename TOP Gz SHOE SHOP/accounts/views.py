@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import login, logout
-from .forms import SignUpForm, EditProfileForm
+from .forms import SignUpForm, EditProfileForm, EditPasswordForm
 
 
 def sign_up(request):
@@ -42,8 +42,23 @@ def edit_profile(request):
         return render(request, 'edit_profile.html', {'edit_profile_form': edit_profile_form})
 
 
+def password_change(request):
+    if request.method == 'POST':
+        edit_password_form = EditPasswordForm(request.POST, instance=request.user)
+        if edit_password_form.is_valid():
+            edit_password_form.save()
+            return redirect('accounts:edit_profile')
+    else:
+        edit_password_form = EditPasswordForm
+        return render(request, 'change_password.html', {"edit_password_form": edit_password_form})
+
+
 def log_out(request):
     if request.method == 'POST':
         logout(request)
         return redirect('accounts:log_in')
     return
+
+
+def profile_details(request):
+    return render(request, 'profile_details.html')
