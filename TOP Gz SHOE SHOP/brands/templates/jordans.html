@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>JORDANS</title>
     <link rel="stylesheet" href="{% static 'page-header.css' %}">
+    <link rel="stylesheet" href="{% static 'add_to_cart.css' %}">
 </head>
 <body>
 {% include 'bootstrap.html' %}
@@ -50,10 +51,10 @@
             <p class="card-text"><strong>Now: ${{ all_shoes.shoe_price }}</strong><br><em>Was:<s> ${{ all_shoes.shoe_price_was }}</s></em></p>
             {% if all_shoes.shoe_in_stock %}
                 <p>In stock</p>
-                <a href="{% url 'brands:add_to_cart' %}" class="btn btn-primary">Add to cart</a>
+                <a href="{% url 'brands:add_to_cart' %}" class="btn btn-primary add-to-cart">Add to cart</a>
             {% else %}
                 <p>Out of stock</p>
-                <a class="btn btn-primary disabled">Add to cart</a>
+                <a class="btn btn-primary add-to-cart disabled">Add to cart</a>
             {% endif %}
         </div>
     </div>
