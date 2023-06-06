@@ -70,12 +70,22 @@
       {% if user.is_authenticated %}
           <div class="dropdown" style="margin-right: 50px;">
                 <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  {{ request.user }}
+                  Welcome {{ request.user }}
                 </a>
                 <ul class="dropdown-menu">
                   <li>
                     <a class="dropdown-item" href="{% url 'accounts:edit_profile' %}">
                       <button type="submit" class="btn btn-outline-info">Edit profile</button>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="{% url 'accounts:profile_details' %}">
+                      <button type="submit" class="btn btn-outline-info">View Profile</button>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="{% url 'accounts:password_change' %}">
+                      <button type="submit" class="btn btn-outline-info">Edit password</button>
                     </a>
                   </li>
                   <form class="dropdown-item" action="{% url 'accounts:log_out' %}" method="post">
