@@ -13,6 +13,9 @@
     <h3 class="display-3">
         <strong>SIGN UP</strong><!-- page-header.css for custom container styling -->
     </h3>
+    <em>
+        if registered... <a style="text-decoration: none;" href="{% url 'accounts:log_in' %}">Log in</a>
+    </em>
 </div>
 <form class="site-form" action="{% url 'accounts:sign_up' %}" method="post">
     {% csrf_token %}
