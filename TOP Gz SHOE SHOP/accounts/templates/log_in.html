@@ -14,7 +14,7 @@
         <strong>LOG IN</strong><!-- page-header.css for custom container styling -->
     </h3>
     <em>
-        if not registered... <a style="text-decoration: none;" href="{% url 'accounts:sign_up' %}">register here</a>
+        Don't have an account?...<a style="text-decoration: none;" href="{% url 'accounts:sign_up' %}">Sign Up</a>
     </em>
 </div>
 <form class="site-form" action="{% url 'accounts:log_in' %}" method="post">
