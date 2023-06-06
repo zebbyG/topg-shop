@@ -36,21 +36,21 @@ def edit_profile(request):
         edit_profile_form = EditProfileForm(request.POST, instance=request.user)
         if edit_profile_form.is_valid():
             edit_profile_form.save()
-            return redirect('introPage:home-page')
+            return redirect('accounts:profile_details')
     else:
         edit_profile_form = EditProfileForm(instance=request.user)
-        return render(request, 'edit_profile.html', {'edit_profile_form': edit_profile_form})
+    return render(request, 'edit_profile.html', {'edit_profile_form': edit_profile_form})
 
 
 def password_change(request):
     if request.method == 'POST':
-        edit_password_form = EditPasswordForm(request.POST, instance=request.user)
+        edit_password_form = EditPasswordForm(request.user, request.POST)
         if edit_password_form.is_valid():
             edit_password_form.save()
-            return redirect('accounts:edit_profile')
+            return redirect('accounts:log_in')
     else:
-        edit_password_form = EditPasswordForm
-        return render(request, 'change_password.html', {"edit_password_form": edit_password_form})
+        edit_password_form = EditPasswordForm(request.user)
+    return render(request, 'change_password.html', {"edit_password_form": edit_password_form})
 
 
 def log_out(request):
