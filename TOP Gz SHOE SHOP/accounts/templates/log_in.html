@@ -17,6 +17,7 @@
         Don't have an account?...<a style="text-decoration: none;" href="{% url 'accounts:sign_up' %}">Sign Up</a>
     </em>
 </div>
+<br><br>
 <form class="site-form" action="{% url 'accounts:log_in' %}" method="post">
     {% csrf_token %}
     {{ log_in_form }}

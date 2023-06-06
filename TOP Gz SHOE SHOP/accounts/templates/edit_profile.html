@@ -14,6 +14,7 @@
         <strong>EDIT PROFILE</strong><!-- page-header.css for custom container styling -->
     </h3>
 </div>
+<br><br>
 <form class="site-form" action="{% url 'accounts:edit_profile' %}" method="post">
     {% csrf_token %}
     <em style="font-weight: bold;">Username:</em><br>
