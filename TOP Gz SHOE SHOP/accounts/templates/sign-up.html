@@ -1,5 +1,5 @@
 {% load static %}
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>SIGN-UP</title>
@@ -20,7 +20,29 @@
 <br><br>
 <form class="site-form" action="{% url 'accounts:sign_up' %}" method="post" enctype="multipart/form-data">
     {% csrf_token %}
-    {{ sign_up_form }}
+    <em style="font-weight: bold;">Username:</em><br>
+    <em>Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.<small style="font-weight: bold"> no spacing</small></em><br>
+    {{ sign_up_form.username }}<br>
+    <em style="font-weight: bold;">First name:</em><br>
+    {{ sign_up_form.first_name }}
+    <em style="font-weight: bold;">Last name:</em><br>
+    {{ sign_up_form.last_name }}
+    <em style="font-weight: bold;">Email:</em><br>
+    {{ sign_up_form.email }}
+    <em style="font-weight: bold;">Profile picture</em><br>
+    {{ sign_up_form.profile_pic }}
+    <em style="font-weight: bold;">Password:</em><br>
+    {{ sign_up_form.password1 }}
+    <small style="color: red;">{{ sign_up_form.errors }}</small>
+    <ul>
+        <li>Your password can’t be too similar to your other personal information.</li>
+        <li>Your password must contain at least 8 characters.</li>
+        <li>Your password can’t be a commonly used password.</li>
+        <li>Your password can’t be entirely numeric.</li>
+    </ul>
+    <em style="font-weight: bold;">Password confirmation</em><br>
+    {{ sign_up_form.password2 }}
+    <br><em>Enter the same password as <small style="font-weight: bold;"> before </small>for verification</em><br><br>
     <input type="submit" value="signup">
 </form>
 <br><br>
