@@ -16,8 +16,15 @@
 </div>
 <br><br>
 
-<img class="rounded-circle" src="{{ user.userprofile.profile_picture.url }}" style="object-fit: cover; width: 200px; height: 200px; margin-left: 530px;" alt="Profile Picture">
-
+{% if user.userprofile.profile_picture %}
+    <a style="text-decoration: none;">
+        <img class="rounded-circle" src="{{ user.userprofile.profile_picture.url }}" style="object-fit: cover; width: 200px; height: 200px; margin-left: 530px;">
+    </a>
+{% else %}
+    <a style="text-decoration: none;">
+        <img class="rounded-circle" src="{% static 'default-profile-pic.png' %}" style="object-fit: cover; width: 200px; height: 200px; margin-left: 530px;">
+    </a>
+{% endif %}
 <br><br>
 <table class="table table-hover square-table" style="width: 400px; margin-left: auto; margin-right: auto;">
   <tbody>
