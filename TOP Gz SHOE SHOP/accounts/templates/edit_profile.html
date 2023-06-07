@@ -17,6 +17,9 @@
 <br><br>
 <form class="site-form" action="{% url 'accounts:edit_profile' %}" method="post">
     {% csrf_token %}
+    <em style="font-weight: bold;"></em><br>
+    <img class="rounded-circle" src="{{ user.userprofile.profile_picture.url }}" style="object-fit: cover; width: 200px; height: 200px; margin-left: 530px;">
+    <br>
     <em style="font-weight: bold;">Username:</em><br>
     {{ edit_profile_form.username }}
     <em style="font-weight: bold;">First Name:</em><br>
