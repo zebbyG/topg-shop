@@ -18,7 +18,7 @@
     </em>
 </div>
 <br><br>
-<form class="site-form" action="{% url 'accounts:sign_up' %}" method="post">
+<form class="site-form" action="{% url 'accounts:sign_up' %}" method="post" enctype="multipart/form-data">
     {% csrf_token %}
     {{ sign_up_form }}
     <input type="submit" value="signup">
