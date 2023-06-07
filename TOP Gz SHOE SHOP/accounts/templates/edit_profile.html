@@ -1,4 +1,5 @@
 {% load static %}
+<!--suppress XmlDuplicatedId -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,10 +16,19 @@
     </h3>
 </div>
 <br><br>
-<form class="site-form" action="{% url 'accounts:edit_profile' %}" method="post">
+
+<form class="site-form" action="{% url 'accounts:edit_profile' %}" method="post" enctype="multipart/form-data">
     {% csrf_token %}
-    <em style="font-weight: bold;"></em><br>
-    <img class="rounded-circle" src="{{ user.userprofile.profile_picture.url }}" style="object-fit: cover; width: 200px; height: 200px; margin-left: 530px;">
+    <br>
+    <a href="#" id="edit-profile-picture">
+        {% if user.userprofile.profile_picture %}
+            <img id="profile-image" class="rounded-circle" src="{{ user.userprofile.profile_picture.url }}" style="object-fit: cover; width: 200px; height: 200px; margin-left: 530px;">
+        {% else %}
+            <img id="profile-image" class="rounded-circle" src="{% static 'default-profile-pic.png' %}" style="object-fit: cover; width: 200px; height: 200px; margin-left: 530px;">
+        {% endif %}
+        <span class="edit-icon">&#9998;</span>
+    </a>
+    <input type="file" id="profile-picture-input" style="display: none;" accept="image/*">
     <br>
     <em style="font-weight: bold;">Username:</em><br>
     {{ edit_profile_form.username }}
@@ -31,6 +41,22 @@
     <em>If any changes have been made <small style="font-weight: bold;">update profile</small> before <a href="{% url 'accounts:password_change' %}" style="text-decoration: none;">changing your password</a></em><br><br>
     <input type="submit" value="update profile">
 </form>
+
+<script>
+document.getElementById('edit-profile-picture').addEventListener('click', function() {
+    document.getElementById('profile-picture-input').click();
+});
+
+document.getElementById('profile-picture-input').addEventListener('change', function() {
+    var file = this.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+        document.getElementById('profile-image').src = e.target.result;
+    }
+    reader.readAsDataURL(file);
+});
+</script>
+
 <br><br>
 {% include 'baseshop_footer.html' %}
 </body>
