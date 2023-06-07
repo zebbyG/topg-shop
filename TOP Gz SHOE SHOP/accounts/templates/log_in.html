@@ -18,13 +18,23 @@
     </em>
 </div>
 <br><br>
+
 <form class="site-form" action="{% url 'accounts:log_in' %}" method="post">
     {% csrf_token %}
-    {{ log_in_form }}
-    {% if request.GET.next %}
-        <input type="hidden" name="next" value="{{ request.GET.next }}">
-    {% endif %}
-    <input type="submit" value="log in">
+    <div style="margin-left: 570px">
+        <em style="font-weight: bold;">Username:</em><br>
+        <small>no spacing</small><br>
+        {{ log_in_form.username }}<br><br>
+        <em style="font-weight: bold;">Password:</em><br>
+        {{ log_in_form.password }}<br><br>
+        <small style="color: red;">{{ log_in_form.errors }}</small>
+    </div>
+    <div style="margin-left: 630px">
+        {% if request.GET.next %}
+            <br>input type="hidden" name="next" value="{{ request.GET.next }}">
+        {% endif %}
+        <br><input type="submit" value="log in">
+    </div>
 </form>
 <br><br>
 {% include 'baseshop_footer.html' %}
