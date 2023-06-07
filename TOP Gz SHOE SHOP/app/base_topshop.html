@@ -68,9 +68,11 @@
 <!--        </button>-->
 <!--      </form>-->
   {% if user.is_authenticated %}
-      <div class="dropdown" style="margin-right: 50px;">
-            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Welcome {{ request.user }}
+      <div class="dropdown" style="margin-right: 100px;">
+            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;">
+
+              <img class="rounded-circle" src="{{ user.userprofile.profile_picture.url }}" style="object-fit: cover; width: 70px; height: 70px;" alt="Profile Picture">
+
             </a>
             <ul class="dropdown-menu">
               <li>
