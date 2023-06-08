@@ -1,6 +1,7 @@
 from django.contrib.auth.forms import UserCreationForm, UserChangeForm, PasswordChangeForm
 from django.contrib.auth.models import User
 from django import forms
+from .models import UserProfile
 
 
 class SignUpForm(UserCreationForm):
@@ -19,11 +20,11 @@ class EditProfileForm(UserChangeForm):
     last_name = forms.CharField(max_length=100, widget=forms.TextInput(attrs={'class': 'form-control'}))
     email = forms.EmailField(widget=forms.EmailInput(attrs={'class': 'form-control'}))
     username = forms.CharField(max_length=100, widget=forms.TextInput(attrs={'class': 'form-control'}))
-    profile_picture = forms.ImageField(required=False, widget=forms.ClearableFileInput(attrs={'class': 'form-control'}))
+    profile_pic_change = forms.ImageField(required=False, widget=forms.ClearableFileInput(attrs={'class': 'form-control'}))
 
     class Meta:
-        model = User
-        fields = ('username', 'first_name', 'last_name', 'email', 'profile_picture')
+        model = UserProfile
+        fields = ('username', 'first_name', 'last_name', 'email', 'profile_pic_change')
 
 
 class ChangePasswordForm(PasswordChangeForm):
