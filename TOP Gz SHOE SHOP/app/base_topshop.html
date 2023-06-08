@@ -74,9 +74,10 @@
                 <img class="rounded-circle" src="{{ user.userprofile.profile_picture.url }}" style="object-fit: cover; width: 70px; height: 70px;" alt="Profile Picture">
             </a>
         {% else %}
-            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;">
-                <img class="rounded-circle" src="{% static 'default-profile-pic.png' %}" style="object-fit: cover; width: 70px; height: 70px;" alt="Profile Picture">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;">
+                          Hi, {{ request.user }}
             </a>
+<!--                <img class="rounded-circle" src="{% static 'default-profile-pic.png' %}" style="object-fit: cover; width: 70px; height: 70px;" alt="Profile Picture">-->
         {% endif %}
             <ul class="dropdown-menu">
               <li>
