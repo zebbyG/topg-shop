@@ -30,7 +30,7 @@
     <input type="file" id="profile-picture-input" style="display: none;" accept="image/*">
     <br>
     <em style="font-weight: bold;">Username:</em><br>
-    <em>Required:<small style="font-weight: bold"> 150 characters or fewer. Letters, digits and @/./+/-/_ only...no spacing</small> </em>
+    <em>Required:<small style="font-weight: bold"> 150 characters or fewer. Letters, digits and @/./+/-/_ only<small>...</small><em style="font-weight: bold; font-size: 20px;">no spacing</em></small> </em>
     {{ edit_profile_form.username }}
     <em style="font-weight: bold;">First Name:</em><br>
     {{ edit_profile_form.first_name }}
@@ -40,6 +40,7 @@
     {{ edit_profile_form.email }}
     <em style="font-weight: bold;">Profile picture:</em><br>
     {{ edit_profile_form.profile_pic_change }}
+    <small style="color: red;">{{ edit_profile_form.errors }}</small>
     <em><small style="font-weight: bold;">update profile</small> to display new profile photo <small style="font-weight: bold;">if changed</small></em><br><br>
     <em>If any changes have been made <small style="font-weight: bold;">update profile</small> before <a href="{% url 'accounts:password_change' %}" style="text-decoration: none;">changing your password</a></em><br><br>
     <input type="submit" value="update profile">

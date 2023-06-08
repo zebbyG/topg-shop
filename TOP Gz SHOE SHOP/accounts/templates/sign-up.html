@@ -21,7 +21,7 @@
 <form class="site-form" action="{% url 'accounts:sign_up' %}" method="post" enctype="multipart/form-data">
     {% csrf_token %}
     <em style="font-weight: bold;">Username:</em><br>
-    <em>Required:<small style="font-weight: bold"> 150 characters or fewer. Letters, digits and @/./+/-/_ only...no spacing</small></em><br>
+    <em>Required:<small style="font-weight: bold"> 150 characters or fewer. Letters, digits and @/./+/-/_ only<small>...</small><em style="font-weight: bold; font-size: 20px;">no spacing</em></small></em><br>
     {{ sign_up_form.username }}<br>
     <em style="font-weight: bold;">First name:</em><br>
     {{ sign_up_form.first_name }}
