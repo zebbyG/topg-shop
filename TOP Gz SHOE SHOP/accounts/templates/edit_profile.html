@@ -20,13 +20,15 @@
 <form class="site-form" action="{% url 'accounts:edit_profile' %}" method="post" enctype="multipart/form-data">
     {% csrf_token %}
     <br>
-    <a href="#" id="edit-profile-picture">
+    <a id="edit-profile-picture" style="text-decoration: none; color: black;">
         {% if user.userprofile.profile_picture %}
+<!--            <em style="font-weight: bold;">Profile picture</em><br>-->
             <img id="profile-image" class="rounded-circle" src="{{ user.userprofile.profile_picture.url }}" style="object-fit: cover; width: 200px; height: 200px; margin-left: 530px;">
         {% else %}
+<!--            <em style="font-weight: bold;">Profile picture</em><br>-->
             <img id="profile-image" class="rounded-circle" src="{% static 'default-profile-pic.png' %}" style="object-fit: cover; width: 200px; height: 200px; margin-left: 530px;">
         {% endif %}
-        <span class="edit-icon">&#9998;</span>
+<!--        <span class="edit-icon">&#9998;</span>-->
     </a>
     <input type="file" id="profile-picture-input" style="display: none;" accept="image/*">
     <br>
@@ -39,6 +41,9 @@
     {{ edit_profile_form.last_name }}
     <em style="font-weight: bold;">Email:</em><br>
     {{ edit_profile_form.email }}
+    <em style="font-weight: bold;">Profile picture:</em><br>
+    {{ edit_profile_form.profile_pic_change }}
+    <em><small style="font-weight: bold;">update profile</small> to display new profile photo <small style="font-weight: bold;">if changed</small></em><br><br>
     <em>If any changes have been made <small style="font-weight: bold;">update profile</small> before <a href="{% url 'accounts:password_change' %}" style="text-decoration: none;">changing your password</a></em><br><br>
     <input type="submit" value="update profile">
 </form>
