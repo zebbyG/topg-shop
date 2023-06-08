@@ -16,19 +16,16 @@
     </h3>
 </div>
 <br><br>
-
 <form class="site-form" action="{% url 'accounts:edit_profile' %}" method="post" enctype="multipart/form-data">
     {% csrf_token %}
     <br>
-    <a id="edit-profile-picture" style="text-decoration: none; color: black;">
+    <a href="#" id="delete-profile-picture" style="text-decoration: none; color: black;">
         {% if user.userprofile.profile_picture %}
-<!--            <em style="font-weight: bold;">Profile picture</em><br>-->
             <img id="profile-image" class="rounded-circle" src="{{ user.userprofile.profile_picture.url }}" style="object-fit: cover; width: 200px; height: 200px; margin-left: 530px;">
+            <span class="delete-icon" style="font-size: 24px;">&#128686;</span>
         {% else %}
-<!--            <em style="font-weight: bold;">Profile picture</em><br>-->
             <img id="profile-image" class="rounded-circle" src="{% static 'default-profile-pic.png' %}" style="object-fit: cover; width: 200px; height: 200px; margin-left: 530px;">
         {% endif %}
-<!--        <span class="edit-icon">&#9998;</span>-->
     </a>
     <input type="file" id="profile-picture-input" style="display: none;" accept="image/*">
     <br>
@@ -47,22 +44,33 @@
     <em>If any changes have been made <small style="font-weight: bold;">update profile</small> before <a href="{% url 'accounts:password_change' %}" style="text-decoration: none;">changing your password</a></em><br><br>
     <input type="submit" value="update profile">
 </form>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
-document.getElementById('edit-profile-picture').addEventListener('click', function() {
-    document.getElementById('profile-picture-input').click();
-});
+  $(document).ready(function() {
+    // Add a click event listener to the delete icon
+    $('#delete-profile-picture').click(function(e) {
+      e.preventDefault(); // Prevent the default link behavior
 
-document.getElementById('profile-picture-input').addEventListener('change', function() {
-    var file = this.files[0];
-    var reader = new FileReader();
-    reader.onload = function(e) {
-        document.getElementById('profile-image').src = e.target.result;
-    }
-    reader.readAsDataURL(file);
-});
+      // Perform an AJAX request to delete the profile picture
+      $.ajax({
+        url: '{% url 'accounts:delete_profile_picture' %}',
+        method: 'POST',
+        data: {
+          'user_id': '{{ user.id }}',
+          'csrfmiddlewaretoken': '{{ csrf_token }}' // Include the CSRF token
+        },
+        success: function(response) {
+          // Replace the profile picture with the default image
+          $('#profile-image').attr('src', '{% static 'default-profile-pic.png' %}');
+        },
+        error: function(xhr, status, error) {
+          // Handle the error if the deletion fails
+          console.log(error);
+        }
+      });
+    });
+  });
 </script>
-
 <br><br>
 {% include 'baseshop_footer.html' %}
 </body>
