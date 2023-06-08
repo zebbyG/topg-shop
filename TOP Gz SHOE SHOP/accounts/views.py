@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth.forms import AuthenticationForm
+from django.shortcuts import get_object_or_404
 from django.contrib.auth import login, logout
 from .forms import SignUpForm, EditProfileForm, ChangePasswordForm
 from .models import UserProfile
@@ -38,7 +39,16 @@ def edit_profile(request):
     if request.method == 'POST':
         edit_profile_form = EditProfileForm(request.POST, request.FILES, instance=request.user)
         if edit_profile_form.is_valid():
-            edit_profile_form.save()
+            user_profile = edit_profile_form.save(commit=False)  # Don't save yet
+
+            # Check if a new profile picture is provided
+            if 'profile_pic_change' in request.FILES:
+                profile_picture = edit_profile_form.cleaned_data['profile_pic_change']
+                user_profile = UserProfile.objects.get(user=request.user)
+                user_profile.profile_picture = profile_picture
+                user_profile.save()
+
+            user_profile.save()
             return redirect('accounts:profile_details')
     else:
         edit_profile_form = EditProfileForm(instance=request.user)
