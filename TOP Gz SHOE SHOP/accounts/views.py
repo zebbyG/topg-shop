@@ -1,9 +1,11 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth.forms import AuthenticationForm
-from django.shortcuts import get_object_or_404
 from django.contrib.auth import login, logout
 from .forms import SignUpForm, EditProfileForm, ChangePasswordForm
 from .models import UserProfile
+
+from django.core.files.storage import default_storage
+from django.http import JsonResponse
 
 
 def sign_up(request):
@@ -66,12 +68,29 @@ def password_change(request):
     return render(request, 'change_password.html', {"edit_password_form": edit_password_form})
 
 
+def profile_details(request):
+    return render(request, 'profile_details.html')
+
+
+def delete_profile_picture(request):
+    if request.method == 'POST':
+        user_id = request.POST.get('user_id')
+        user_profile = UserProfile.objects.get(user_id=user_id)
+
+        # Delete the profile picture file from storage
+        if user_profile.profile_picture:
+            default_storage.delete(user_profile.profile_picture.path)
+
+        # Set the profile picture field to None
+        user_profile.profile_picture = None
+        user_profile.save()
+
+        return JsonResponse({'message': 'Profile picture deleted.'})
+    return JsonResponse({'error': 'Invalid request method.'})
+
+
 def log_out(request):
     if request.method == 'POST':
         logout(request)
         return redirect('accounts:log_in')
     return
-
-
-def profile_details(request):
-    return render(request, 'profile_details.html')
