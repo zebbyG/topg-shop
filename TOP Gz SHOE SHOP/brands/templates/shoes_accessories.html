@@ -44,10 +44,24 @@
             <p class="card-text"><strong>Now: ${{ all_products.shoe_price }}</strong><br><em>Was:<s> ${{ all_products.shoe_price_was }}</s></em></p>
             {% if all_products.shoe_in_stock %}
                 <p>In stock</p>
-                <a href="{% url 'brands:add_to_cart' %}" class="btn btn-primary add-to-cart">Add to cart</a>
+                <div class="row">
+                    <div class="col">
+                        <a href="{% url 'brands:add_to_cart' %}" class="btn btn-outline-success add-to-cart">Add to cart</a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="btn btn-outline-secondary add-to-cart">View</a>
+                    </div>
+                </div>
             {% else %}
                 <p>Out of stock</p>
-                <a class="btn btn-primary add-to-cart disabled">Add to cart</a>
+                <div class="row">
+                    <div class="col">
+                        <a href="{% url 'brands:add_to_cart' %}" class="btn btn-outline-success add-to-cart disabled">Add to cart</a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="btn btn-outline-secondary add-to-cart disabled">View</a>
+                    </div>
+                </div>
             {% endif %}
         </div>
     </div>
