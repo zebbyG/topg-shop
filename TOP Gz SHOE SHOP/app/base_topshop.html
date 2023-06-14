@@ -1,4 +1,10 @@
 {% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nav</title>
+    <link rel="stylesheet" href="{% static 'add-to-cart-icon.css' %}">
+</head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="position: fixed; width: 100%;">
   <div class="container-fluid">
@@ -59,6 +65,14 @@
         </li>
       </ul>
   {% if user.is_authenticated %}
+      <div class="form-inline my-2 my-lg-0">
+	     	<a href="{% url 'brands:add_to_cart' %}">
+	    		<img  id="cart-icon" src="{% static 'cart.png' %}">
+	    	</a>
+      </div>
+        <a href="{% url 'brands:add_to_cart' %}" style="text-decoration: none; cursor: grab;">
+          <p id="cart-total">0</p>
+        </a>
       <div class="dropdown" style="margin-right: 120px;">
         {% if user.userprofile.profile_picture %}
             <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;">
