@@ -41,7 +41,7 @@ def edit_profile(request):
     if request.method == 'POST':
         edit_profile_form = EditProfileForm(request.POST, request.FILES, instance=request.user)
         if edit_profile_form.is_valid():
-            user_profile = edit_profile_form.save(commit=False)  # Don't save yet
+            user_profile = edit_profile_form.save()  # Don't save yet
 
             # Check if a new profile picture is provided
             if 'profile_pic_change' in request.FILES:
