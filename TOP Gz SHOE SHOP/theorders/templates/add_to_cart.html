@@ -1,0 +1,105 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ADD-TO-CART</title>
+    <link rel="stylesheet" href="{% static 'page-header.css' %}">
+</head>
+<body>
+{% include 'bootstrap.html' %}
+{% include 'backToTop.html' %} <!--Back to Top button -->
+<br><br>
+<div class="custom-container">
+    <h3 class="display-3">
+        <strong>ADD TO CART</strong>
+    </h3>
+</div>
+<br><br>
+<div class="row">
+		<div class="col-lg-12">
+			<div class="box-element">
+
+				<a  class="btn btn-outline-dark" href="{% url 'brands:catalogue' %}">&#x2190; Continue Shopping</a>
+
+				<br>
+				<br>
+				{% if order.get_cart_items %}
+					<table class="table">
+						<tr>
+							<th><h5>Items: <strong>{{ order.get_cart_items }}</strong></h5></th>
+							<th><h5>Total:<strong> ${{ order.get_cart_total }}</strong></h5></th>
+							<th>
+								<a  style="float:right; margin:5px;" class="btn btn-success" href="{% url 'orders:checkout' %}">Checkout</a>
+							</th>
+						</tr>
+					</table>
+				{% else %}
+					<table class="table">
+						<tr>
+							<th><h5>Items: <strong>{{ order.get_cart_items }}</strong></h5></th>
+							<th><h5>Total:<strong> ${{ order.get_cart_total }}</strong></h5></th>
+							<th>
+								<a  style="float:right; margin:5px;" class="btn btn-success disabled" href="{% url 'orders:checkout' %}">Checkout</a>
+							</th>
+						</tr>
+					</table>
+				{% endif %}
+			</div>
+
+			<br>
+			<div class="box-element">
+					{% if order.get_cart_items %}
+						<div class="cart-row">
+							<div style="flex:2"></div>
+							<div style="flex:2"><strong>Item</strong></div>
+							<div style="flex:2"><strong>Color</strong></div>
+							<div style="flex:2"><strong>size</strong></div>
+							<div style="flex:1"><strong>Price</strong></div>
+							<div style="flex:1"><strong>Quantity</strong></div>
+							<div style="flex:1"><strong>Total</strong></div>
+						</div>
+					{% for item in items %}
+						<div class="cart-row">
+							<div style="flex:2"><img class="row-image" src="{{ item.product.shoe_image.url }}"></div>
+							<div style="flex:2"><p>{{ item.product.shoe_name }}</p></div>
+							{% for color in item.product.shoe_color_available.all %}
+							<div style="flex:2"><p>{{ color.color_name }}</p></div>
+							{% endfor %}
+		<!--					<p class="quantity">31.5uk</p>-->
+								<div class="quantity">
+									<img class="chg-quantity" src="{% static  'arrow-up.png' %}">
+
+									<img class="chg-quantity" src="{% static  'arrow-down.png' %}">
+								</div>
+							<div style="flex:2"><p>31.5uk</p></div>
+							<div style="flex: 1; margin-right: 40px;"><p>${{ item.product.shoe_price }}</p></div>
+							<div style="flex:1">
+								<p class="quantity">{{ item.quantity }}</p>
+								<div class="quantity">
+									<img class="chg-quantity" src="{% static  'arrow-up.png' %}">
+
+									<img class="chg-quantity" src="{% static  'arrow-down.png' %}">
+								</div>
+							</div>
+							<div style="flex:1"><p>${{ item.get_total }}</p></div>
+						</div>
+					{% endfor %}
+					{% endif %}
+					</div>
+					{% if not order.get_cart_items %}
+						<div class="cart-row">
+							<div style="flex:2"></div>
+							<div style="flex:2"><strong>Item</strong></div>
+							<div style="flex:2"><strong>Color</strong></div>
+							<div style="flex:2"><strong>size</strong></div>
+							<div style="flex:1"><strong>Price</strong></div>
+							<div style="flex:1"><strong>Quantity</strong></div>
+							<div style="flex:1"><strong>Total</strong></div>
+						</div>
+					{% endif %}
+		</div>
+	</div>
+<br><hr>
+{% include 'baseshop_footer.html' %}
+</body>
+</html>
