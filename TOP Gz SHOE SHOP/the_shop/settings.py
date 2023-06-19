@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'shop_services',
     'brands',
     'accounts',
+    'orders',
 ]
 
 INTERNAL_IPS = [
