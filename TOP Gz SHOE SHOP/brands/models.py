@@ -21,7 +21,7 @@ class Color(models.Model):
         return self.color_name
 
 
-class Shoe(models.Model):
+class Product(models.Model):
     brand = models.ForeignKey(Brand, on_delete=models.SET_NULL, null=True)
     shoe_image = models.ImageField(upload_to='shoes/', height_field='image_height', width_field='image_width')
     image_height = models.PositiveIntegerField(blank=True, null=True)
