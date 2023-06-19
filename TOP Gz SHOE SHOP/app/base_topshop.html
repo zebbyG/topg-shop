@@ -71,7 +71,7 @@
 	    	</a>
       </div>
         <a href="{% url 'orders:add_to_cart' %}" style="text-decoration: none; cursor: grab;">
-          <p id="cart-total">0</p>
+          <p id="cart-total">{{ order.get_cart_items }}</p>
         </a>
       <div class="dropdown" style="margin-right: 120px;">
         {% if user.userprofile.profile_picture %}
