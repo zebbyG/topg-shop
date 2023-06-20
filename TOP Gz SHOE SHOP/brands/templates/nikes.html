@@ -43,7 +43,7 @@
                 <p>In stock</p>
                 <div class="row">
                     <div class="col">
-                        <a href="{% url 'orders:add_to_cart' %}" class="btn btn-outline-success add-to-cart">Add to cart</a>
+                        <button data-product="{{ all_shoes.id }}" data-action="add" class="btn btn-outline-success add-to-cart add-btn update-cart">Add to cart</button>
                     </div>
                     <div class="col">
                         <a href="#" class="btn btn-outline-secondary add-to-cart">View</a>
@@ -64,6 +64,7 @@
     </div>
     {% endfor %}
 </div>
+<script src="{% static 'js/cart.js' %}"></script>
 <script src="{% static 'js/search.js' %}"></script>
 <br><br><br>
 {% include 'baseshop_footer.html' %}
