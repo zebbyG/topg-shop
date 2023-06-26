@@ -28,6 +28,7 @@ def contacts(request):
     else:
         return render(request, 'contacts.html')
 
+
 def team(request):
     if request.user.is_authenticated:
         customer = request.user
