@@ -6,6 +6,7 @@ from .models import UserProfile
 
 from django.core.files.storage import default_storage
 from django.http import JsonResponse
+from theorders.models import Order
 
 
 def sign_up(request):
@@ -38,6 +39,8 @@ def log_in(request):
 
 
 def edit_profile(request):
+    customer = request.user
+    order, created = Order.objects.get_or_create(user=customer, complete=False)
     if request.method == 'POST':
         edit_profile_form = EditProfileForm(request.POST, request.FILES, instance=request.user)
         if edit_profile_form.is_valid():
@@ -54,10 +57,12 @@ def edit_profile(request):
             return redirect('accounts:profile_details')
     else:
         edit_profile_form = EditProfileForm(instance=request.user)
-    return render(request, 'edit_profile.html', {'edit_profile_form': edit_profile_form})
+    return render(request, 'edit_profile.html', {'edit_profile_form': edit_profile_form, "order": order})
 
 
 def password_change(request):
+    customer = request.user
+    order, created = Order.objects.get_or_create(user=customer, complete=False)
     if request.method == 'POST':
         edit_password_form = ChangePasswordForm(request.user, request.POST)
         if edit_password_form.is_valid():
@@ -65,11 +70,13 @@ def password_change(request):
             return redirect('accounts:log_in')
     else:
         edit_password_form = ChangePasswordForm(request.user)
-    return render(request, 'change_password.html', {"edit_password_form": edit_password_form})
+    return render(request, 'change_password.html', {"edit_password_form": edit_password_form, "order": order})
 
 
 def profile_details(request):
-    return render(request, 'profile_details.html')
+    customer = request.user
+    order, created = Order.objects.get_or_create(user=customer, complete=False)
+    return render(request, 'profile_details.html', {"order": order})
 
 
 def delete_profile_picture(request):
