@@ -1,6 +1,8 @@
 from django.db import models
 from django.contrib.auth.models import User
 from brands.models import Product
+import random
+import string
 
 
 class Order(models.Model):
@@ -11,6 +13,21 @@ class Order(models.Model):
 
     def __str__(self):
         return str(self.transaction_id)
+
+    def save(self, *args, **kwargs):
+        if not self.transaction_id:
+            self.transaction_id = self.generate_transaction_id(self.user_id)
+        return super().save(*args, **kwargs)
+
+    @staticmethod
+    def generate_transaction_id(user_id):
+        user = User.objects.get(id=user_id) if user_id else None
+        username = user.username if user else ''  # Get the username if the user exists
+        max_length = max(8, min(12, 12 - len(username)))  # Calculate the maximum length for the random part
+
+        random_part = ''.join(random.choices(string.ascii_letters + string.digits, k=max_length))
+        transaction_id = random_part + "-" + username
+        return transaction_id
 
     @property
     def get_cart_total(self):
