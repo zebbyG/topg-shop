@@ -71,7 +71,4 @@ def process_order(request):
 
 
 # def complete_orders(request):
-#     complete_order = (Order.transaction_id if Order.complete else "You have no completed orders")
-#     customer = request.user
-#     order, created = Order.objects.get_or_create(user=customer, complete=False)
-#     return render(request, 'complete_orders.html', {"order": order, "complete_order": complete_order})
+#     return render(request, 'complete_orders.html')
