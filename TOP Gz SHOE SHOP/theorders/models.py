@@ -60,6 +60,7 @@ class OrderItem(models.Model):
 class ShippingAddress(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
     order = models.ForeignKey(Order, on_delete=models.CASCADE, null=True)
+    country = models.CharField(max_length=250, null=True, default="Kenya")
     address = models.CharField(max_length=250, null=True)
     city = models.CharField(max_length=250, null=True)
     state = models.CharField(max_length=250, null=True)
