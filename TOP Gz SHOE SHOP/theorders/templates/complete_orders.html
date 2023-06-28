@@ -1,0 +1,21 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COMPLETE ORDERS</title>
+    <link rel="stylesheet" href="{% static 'css/page-header.css' %}">
+</head>
+<body>
+{% include 'bootstrap.html' %}
+{% include 'backToTop.html' %} <!--Back to Top button -->
+<br><br>
+<div class="custom-container">
+    <h3 class="display-3">
+        <strong>My orders</strong>
+    </h3>
+</div>
+<h1>{{ complete_order }}</h1>
+<br><hr>
+{% include 'baseshop_footer.html' %}
+</body>
+</html>
