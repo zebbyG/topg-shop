@@ -46,3 +46,25 @@ def update_item(request):
         orderItem.delete()
 
     return JsonResponse('item added successfully', safe=False)
+
+
+def process_order(request):
+    data = json.loads(request.body)
+    customer = request.user
+    order, created = Order.objects.get_or_create(user=customer, complete=False)
+    total = float(data['form']['total'])
+
+    if total == float(order.get_cart_total):
+        order.complete = True
+    order.save()
+
+    ShippingAddress.objects.create(
+        user=customer,
+        order=order,
+        address=data['shipping']['address'],
+        city=data['shipping']['city'],
+        state=data['shipping']['state'],
+        zip_code=data['shipping']['zipcode'],
+        country=data['shipping']['country']
+    )
+    return JsonResponse('Payment completed successfully', safe=False)
