@@ -41,8 +41,8 @@
     <em style="font-weight: bold;">Profile picture:</em><br>
     {{ edit_profile_form.profile_pic_change }}
     <small style="color: red;">{{ edit_profile_form.errors }}</small>
-    <em><small style="font-weight: bold;">update profile</small> to display new profile photo <small style="font-weight: bold;">if changed</small></em><br><br>
-    <em>If any changes have been made <small style="font-weight: bold;">update profile</small> before <a href="{% url 'accounts:password_change' %}" style="text-decoration: none;">changing your password</a></em><br><br>
+    <em><small style="font-weight: bold;">update profile</small> to display new profile photo <small style="font-weight: bold;">if changed</small> or <small style="font-weight: bold;">removed</small></em><br><br>
+<!--    <em>If any changes have been made <small style="font-weight: bold;">update profile</small> before <a href="{% url 'accounts:password_change' %}" style="text-decoration: none;">changing your password</a></em><br><br>-->
     <input type="submit" value="update profile">
 </form>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
