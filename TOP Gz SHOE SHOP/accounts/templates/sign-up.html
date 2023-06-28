@@ -29,7 +29,7 @@
     {{ sign_up_form.last_name }}
     <em style="font-weight: bold;">Email:</em><br>
     {{ sign_up_form.email }}
-    <em style="font-weight: bold;">Profile picture</em><br>
+    <em style="font-weight: bold;">Profile picture:</em><small> (optional)</small><br>
     {{ sign_up_form.profile_pic }}
     <em style="font-weight: bold;">Password:</em><br>
     {{ sign_up_form.password1 }}
@@ -40,7 +40,7 @@
         <li>Your password can’t be a commonly used password.</li>
         <li>Your password can’t be entirely numeric.</li>
     </ul>
-    <em style="font-weight: bold;">Password confirmation</em><br>
+    <em style="font-weight: bold;">Password confirmation:</em><br>
     {{ sign_up_form.password2 }}
     <br><em>Enter the same password as <small style="font-weight: bold;"> before </small>for verification</em><br><br>
     <input type="submit" value="signup">
