@@ -6,6 +6,28 @@
     <link rel="stylesheet" href="{% static 'css/page-header.css' %}">
 </head>
 <body>
+{% if user.is_authenticated %}
+	<script type="text/javascript">
+		var user = '{{ request.user }}';
+
+		function getToken(name) {
+			var tokenValue = null;
+			if (document.cookie && document.cookie !== '') {
+				var cookies = document.cookie.split(';');
+				for (var i = 0; i < cookies.length; i++) {
+					var cookie = cookies[i].trim();
+					// Does the cookie begin with the name we want
+					if (cookie.substring(0, name.length + 1) === (name + '=')){
+						cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+						break;
+					}
+				}
+			}
+			return cookieValue;
+		}
+		var csrftoken = getToken('csrftoken')
+	</script>
+{% endif %}
 {% include 'bootstrap.html' %}
 {% include 'backToTop.html' %} <!--Back to Top button -->
 <br><br>
@@ -20,21 +42,21 @@
 		<div class="col-lg-6">
 			<div class="box-element" id="form-wrapper">
 				<form id="form">
-					<div id="user-info">
-						<div class="form-field">
+					<!-- <div id="user-info">
+						<div class="form-field hidden">
 							<input required class="form-control" type="text" name="name" placeholder="Name..">
 						</div>
-						<div class="form-field">
+						<div class="form-field hidden">
 							<input required class="form-control" type="email" name="email" placeholder="Email..">
 						</div>
-					</div>
+					</div> -->
 
 					<div id="shipping-info">
 						<hr>
 						<p>Shipping Information:</p>
 						<hr>
 						<div class="form-field">
-							<input class="form-control" type="text" name="address" placeholder="Address..">
+							<input class="form-control" type="text" name="country" placeholder="Country..">
 						</div>
 						<div class="form-field">
 							<input class="form-control" type="text" name="city" placeholder="City..">
@@ -46,7 +68,7 @@
 							<input class="form-control" type="text" name="zipcode" placeholder="Zip code..">
 						</div>
 						<div class="form-field">
-							<input class="form-control" type="text" name="country" placeholder="Zip code..">
+							<input class="form-control" type="text" name="address" placeholder="Address..">
 						</div>
 					</div>
 
@@ -58,6 +80,7 @@
 			<br>
 			<div class="box-element hidden" id="payment-info">
 				<small>Paypal Options</small>
+				<button id="make-payment">make-payment</button>
 			</div>
 
 		</div>
@@ -81,6 +104,64 @@
 			</div>
 		</div>
 	</div>
+<script type="text/javascript">
+	var form = document.getElementById('form')
+	var total = '{{order.get_cart_total}}'
+
+	form.addEventListener('submit', function(e){
+		e.preventDefault()
+		console.log('form submitted successfully')
+		document.getElementById('form-button').classList.add('hidden')
+		document.getElementById('payment-info').classList.remove('hidden')
+	})
+
+	document.getElementById('make-payment').addEventListener('click', function(e){
+		submitFormData()
+	})
+
+	function submitFormData(){
+		console.log('Payment button clicked')
+
+		var userFormData = {
+			"total": total,
+		}
+
+		var shippingInfo = {
+			"address": null,
+			"city": null,
+			"state": null,
+			"zipcode": null,
+			"country": null,
+		}
+
+		shippingInfo.address = form.address.value
+		shippingInfo.city = form.city.value
+		shippingInfo.state = form.state.value
+		shippingInfo.zipcode = form.zipcode.value
+		shippingInfo.country = form.country.value
+
+		var url = '/orders/process_order/'
+
+		fetch(url, {
+			method: 'POST',
+			headers: {
+				'Content-Type':'application/json',
+            	'X-CSRFToken': csrftoken,
+			},
+			body:JSON.stringify({
+				"form": userFormData,
+				"shipping": shippingInfo
+			})
+		})
+		.then((response) => response.json())
+
+		.then((data) => {
+			console.log('Success', data);
+			alert('Transaction completed');
+			window.location.href = "{% url 'introPage:home-page' %}"
+		})
+	}
+</script>
 <br><br><br><hr>
 {% include 'baseshop_footer.html' %}
 </body>
