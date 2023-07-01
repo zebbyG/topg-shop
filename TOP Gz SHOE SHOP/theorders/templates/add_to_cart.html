@@ -21,13 +21,13 @@
 <br><br>
 <div class="row">
 		<div class="col-lg-12">
+		{% if order.get_cart_items %}
 			<div class="box-element">
 
 				<a  class="btn btn-outline-dark" href="{% url 'brands:catalogue' %}">&#x2190; Continue Shopping</a>
 
 				<br>
 				<br>
-				{% if order.get_cart_items %}
 					<table class="table">
 						<tr>
 							<th><h5>Items: <strong>{{ order.get_cart_items }}</strong></h5></th>
@@ -38,6 +38,15 @@
 						</tr>
 					</table>
 				{% else %}
+					<div class="row">
+					<div class="col-lg-12">
+						<div class="box-element">
+
+						<a  class="btn btn-outline-dark" href="{% url 'brands:catalogue' %}">&#x2190; Start Shopping</a>
+						</div>
+					</div>
+					</div>
+
 					<p><strong class="h1" style="margin-left: 630px;">No items added</strong></p>
 					<img style="width: 400px; height: 400px; object-fit: cover; margin-left: 470px;" id="cart-icon" src="{% static 'cart.png' %}">
 <!--					<table class="table">-->
