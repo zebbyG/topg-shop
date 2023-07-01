@@ -38,15 +38,17 @@
 						</tr>
 					</table>
 				{% else %}
-					<table class="table">
-						<tr>
-							<th><h5>Items: <strong>{{ order.get_cart_items }}</strong></h5></th>
-							<th><h5>Total:<strong> ${{ order.get_cart_total }}</strong></h5></th>
-							<th>
-								<a  style="float:right; margin:5px;" class="btn btn-success disabled" href="{% url 'orders:checkout' %}">Checkout</a>
-							</th>
-						</tr>
-					</table>
+					<p><strong class="h1" style="margin-left: 630px;">No items added</strong></p>
+					<img style="width: 400px; height: 400px; object-fit: cover; margin-left: 470px;" id="cart-icon" src="{% static 'cart.png' %}">
+<!--					<table class="table">-->
+<!--						<tr>-->
+<!--							<th><h5>Items: <strong>{{ order.get_cart_items }}</strong></h5></th>-->
+<!--							<th><h5>Total:<strong> ${{ order.get_cart_total }}</strong></h5></th>-->
+<!--							<th>-->
+<!--								<a  style="float:right; margin:5px;" class="btn btn-success disabled" href="{% url 'orders:checkout' %}">Checkout</a>-->
+<!--							</th>-->
+<!--						</tr>-->
+<!--					</table>-->
 				{% endif %}
 			</div>
 
@@ -90,17 +92,17 @@
 					{% endfor %}
 					{% endif %}
 					</div>
-					{% if not order.get_cart_items %}
-						<div class="cart-row">
-							<div style="flex:2"></div>
-							<div style="flex:2"><strong>Item</strong></div>
-							<div style="flex:2"><strong>Color</strong></div>
-							<div style="flex:2"><strong>size</strong></div>
-							<div style="flex:1"><strong>Price</strong></div>
-							<div style="flex:1"><strong>Quantity</strong></div>
-							<div style="flex:1"><strong>Total</strong></div>
-						</div>
-					{% endif %}
+<!--					{% if not order.get_cart_items %}-->
+<!--						<div class="cart-row">-->
+<!--							<div style="flex:2"></div>-->
+<!--							<div style="flex:2"><strong>Item</strong></div>-->
+<!--							<div style="flex:2"><strong>Color</strong></div>-->
+<!--							<div style="flex:2"><strong>size</strong></div>-->
+<!--							<div style="flex:1"><strong>Price</strong></div>-->
+<!--							<div style="flex:1"><strong>Quantity</strong></div>-->
+<!--							<div style="flex:1"><strong>Total</strong></div>-->
+<!--						</div>-->
+<!--					{% endif %}-->
 		</div>
 	</div>
 <script src="/assets/js/cart.js"></script>
