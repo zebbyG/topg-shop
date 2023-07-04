@@ -33,36 +33,63 @@
 						</div>
 					</div> -->
 
-					<div id="shipping-info">
-						<hr>
-						<p>Shipping Information:</p>
-						<hr>
-						<div class="form-field">
-							<input class="form-control" type="text" name="country" placeholder="Country..">
+					{% if shipping_address %}
+						<div id="shipping-info">
+							<hr>
+							<p>Shipping Information:(in db)</p>
+							<hr>
+							<div class="form-field">
+								<input class="form-control" type="text" name="country" placeholder="country.." value="{{ shipping_address.country }}">
+							</div>
+							<div class="form-field">
+								<input class="form-control" type="text" name="city" placeholder="City.." value="{{ shipping_address.city }}">
+							</div>
+							<div class="form-field">
+								<input class="form-control" type="text" name="state" placeholder="State.." value="{{ shipping_address.state }}">
+							</div>
+							<div class="form-field">
+								<input class="form-control" type="text" name="zipcode" placeholder="Zip code.." value="{{ shipping_address.zip_code }}">
+							</div>
+							<div class="form-field">
+								<input class="form-control" type="text" name="address" placeholder="Address.."  value="{{ shipping_address.address }}">
+							</div>
 						</div>
-						<div class="form-field">
-							<input class="form-control" type="text" name="city" placeholder="City..">
-						</div>
-						<div class="form-field">
-							<input class="form-control" type="text" name="state" placeholder="State..">
-						</div>
-						<div class="form-field">
-							<input class="form-control" type="text" name="zipcode" placeholder="Zip code..">
-						</div>
-						<div class="form-field">
-							<input class="form-control" type="text" name="address" placeholder="Address..">
-						</div>
-					</div>
-
 					<hr>
 					<input id="form-button" class="btn btn-success btn-block" type="submit" value="Continue">
+					{% else %}
+						<div id="shipping-infoo">
+							<hr>
+							<p>Shipping Information:(no in db)</p>
+							<hr>
+							<div class="form-field">
+								<input class="form-control" type="text" name="country" placeholder="Country..">
+							</div>
+							<div class="form-field">
+								<input class="form-control" type="text" name="city" placeholder="City..">
+							</div>
+							<div class="form-field">
+								<input class="form-control" type="text" name="state" placeholder="State..">
+							</div>
+							<div class="form-field">
+								<input class="form-control" type="text" name="zipcode" placeholder="Zip code..">
+							</div>
+							<div class="form-field">
+								<input class="form-control" type="text" name="address" placeholder="Address..">
+							</div>
+						</div>
+
+					<hr>
+					<input id="form-button" class="btn btn-success btn-block hidden" type="submit" value="Continue">
+					{% endif %}
 				</form>
 			</div>
 
 			<br>
 			<div class="box-element hidden" id="payment-info">
 				<small>Paypal Options</small>
-				<button id="make-payment">make-payment</button>
+				<div id="paypal-button-container"></div>
+
+<!--				<button id="make-payment">make-payment</button>-->
 			</div>
 
 		</div>
@@ -86,9 +113,64 @@
 			</div>
 		</div>
 	</div>
+<script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD"></script>
+
+<script>
+	// Render the PayPal button into #paypal-button-container
+	paypal.Buttons({
+
+		// Call your server to set up the transaction
+		createOrder: function(data, actions) {
+			return actions.order.create({
+				purchase_units: [{
+					amount: {
+						value: '0.01'
+					}
+				}]		
+			});
+		},
+
+		// FINALIZE THE TRANSACTION
+		onApprove: function(data, actions) {
+			return actions.order.capture().then(function(details) {
+				// show success message to buyer
+				alert('Transaction completed by' + details.payer.name.given_name + '!')
+			});
+		}
+
+	}).render('#paypal-button-container');
+ </script>
+
 <script type="text/javascript">
 	var form = document.getElementById('form')
 	var total = '{{order.get_cart_total}}'
+	var formButton = document.getElementById('form-button');
+	var formFields = form.querySelectorAll('input[name]:not([type="submit"])');
+
+	// Check if all form fields are filled
+	function validateForm() {
+		var isFormValid = true;
+		formFields.forEach(function(field) {
+			if (field.value.trim() === '') {
+				isFormValid = false;
+			}
+		});
+		return isFormValid;
+	}
+
+	// Show or hide the form button based on form validation status
+	function toggleFormButton() {
+		if (validateForm()) {
+			formButton.classList.remove('hidden');
+		} else {
+			formButton.classList.add('hidden');
+		}
+	}
+
+	// Listen for changes in form fields
+	formFields.forEach(function(field) {
+		field.addEventListener('input', toggleFormButton);
+	});
 
 	form.addEventListener('submit', function(e){
 		e.preventDefault()
@@ -97,9 +179,10 @@
 		document.getElementById('payment-info').classList.remove('hidden')
 	})
 
+	/*
 	document.getElementById('make-payment').addEventListener('click', function(e){
 		submitFormData()
-	})
+	}) */
 
 	function submitFormData(){
 		console.log('Payment button clicked')
