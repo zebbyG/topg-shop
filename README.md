@@ -11,15 +11,15 @@ Top Gz is an online shoe shop that offers a wide range of high-quality footwear 
 + [X] `git clone https://github.com/zebbyG/UNDER_CONSTRUCTION`
 
 Then Create a virtual environment
-+ [X] `python3 -m venv topg`
++ [X] `python3 -m venv [name of your virtual environment]`
      
-    - The name of the virtual environment here will be `topg`
+    - The name of the virtual environment can be anything
 
 Activate the virtual environment
-+ [X] `source topg/bin/activate`
++ [X] `source [name of your virtual environment]/bin/activate`
 
-Once the v-env is activated,:
-+ [X] (topg1) will be visible at the very start of the path on your terminal
+Once the  virtual environment is activated,:
++ [X] ([name of your virtual environment]) will be visible at the very start of the path on your terminal
     
     - Install the following:
         
