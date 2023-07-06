@@ -81,7 +81,7 @@ def process_order(request):
 def complete_orders(request):
     customer = request.user
     order, created = Order.objects.get_or_create(user=customer, complete=False)
-    orders_completed = Order.objects.filter(user=customer, complete=True).order_by('date_ordered')
+    orders_completed = Order.objects.filter(user=customer, complete=True).order_by('-date_ordered')
     shipping_addresses = ShippingAddress.objects.filter(order__in=orders_completed)
 
     return render(request, 'complete_orders.html', {
