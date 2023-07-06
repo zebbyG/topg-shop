@@ -29,7 +29,7 @@
                     <a style="text-decoration: none;" href="{% url 'introPage:home-page' %}"><h5 class="text-uppercase mb-4 font-weight-bold text-warning">The Shop</h5></a>
 
                 <p>
-                    <a href="{% url 'brands:catalogue' %}" class="text-white" style="text-decoration: none;">Our products</a>
+                    <a href="{% url 'brands:catalogue' %}" class="text-white" style="text-decoration: none;">Our Products</a>
                 </p>
                 <p>
                     <a href="{% url 'introPage:about-page' %}" class="text-white" style="text-decoration: none;">About Us</a>
@@ -40,17 +40,33 @@
                 </div>
 
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <a style="text-decoration: none;"><h5 class="text-uppercase mb-4 font-weight-bold text-warning">Useful links</h5></a>
+                    {% if user.is_authenticated %}
+                        <a style="text-decoration: none;"><h5 class="text-uppercase mb-4 font-weight-bold text-warning">{{ request.user }}</h5></a>
+                    {% else %}
+                        <a style="text-decoration: none;"><h5 class="text-uppercase mb-4 font-weight-bold text-warning">Experience with us</h5></a>
 
-                <p>
-                    <a href="#" class="text-white" style="text-decoration: none;">To be added</a>
-                </p>
-                <p>
-                    <a href="#" class="text-white" style="text-decoration: none;">To be added</a>
-                </p>
-                <p>
-                    <a href="#" class="text-white" style="text-decoration: none;">To be added</a>
-                </p>
+                    {% endif %}
+                    {% if user.is_authenticated %}
+                        <p>
+                            <a href="{% url 'accounts:password_change' %}" class="text-white" style="text-decoration: none;">Edit Password</a>
+                        </p>
+                        <p>
+                            <a href="{% url 'accounts:profile_details' %}" class="text-white" style="text-decoration: none;">View Profile</a>
+                        </p>
+                        <p>
+                            <a href="{% url 'orders:my_orders' %}" class="text-white" style="text-decoration: none;">My Orders</a>
+                        </p>
+                    {% else %}
+                        <p>
+                            <a href="{% url 'servicesPage:services-page' %}" class="text-white" style="text-decoration: none;">Our Services</a>
+                        </p>
+                        <p>
+                            <a href="{% url 'brands:catalogue' %}" class="text-white" style="text-decoration: none;">Place Order</a>
+                        </p>
+                        <p>
+                            <a href="{% url 'accounts:sign_up' %}" class="text-white" style="text-decoration: none;">Join Us</a>
+                        </p>
+                    {% endif %}
                 </div>
 
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
