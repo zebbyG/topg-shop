@@ -222,7 +222,7 @@
 
 		.then((data) => {
 			console.log('Success', data);
-			alert('Transaction completed');
+			alert('Order Was placed successfully, check [My orders] to see order details');
 			window.location.href = "{% url 'introPage:home-page' %}"
 		})
 	}
