@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/89-890270_vans-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/89-890270_vans-logo_qWt4Wsx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/Jordan-logo_1kMaeBq.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/Vans-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/Vans-logo_FQiQ2yF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/Vans_off_the_wall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/jordan-w.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/catalogue.html" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/catalogue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/jordans.html" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/jordans.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/nikes.html" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/nikes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/pradas.html" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/pradas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/shoes_accessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/shoes_accessories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/vans.html" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/vans.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/yeezys.html" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/yeezys.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/admin.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/models.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/nikes.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/urls.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/views.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2P0EytvVaVd4o4PC5zN78BiyuDW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zebbylion/PycharmProjects/My-portfolio2&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Zebbylion\PycharmProjects\UNDER_CONSTRUCTION\TOP Gz SHOE SHOP\assets\js" />
+      <recent name="C:\Users\Zebbylion\PycharmProjects\UNDER_CONSTRUCTION\TOP Gz SHOE SHOP\assets\css" />
+      <recent name="C:\Users\Zebbylion\PycharmProjects\UNDER_CONSTRUCTION\TOP Gz SHOE SHOP\theorders" />
+      <recent name="C:\Users\Zebbylion\PycharmProjects\UNDER_CONSTRUCTION\zebby" />
+      <recent name="C:\Users\Zebbylion\PycharmProjects\UNDER_CONSTRUCTION\TOP Gz SHOE SHOP\orders" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="" />
+      <created>1682585863038</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682585863038</updated>
+    </task>
+    <task id="LOCAL-00184" summary="add csrf token to enable posting on the db">
+      <created>1687858588792</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1687858588792</updated>
+    </task>
+    <task id="LOCAL-00185" summary="change static url to 'assets' to match the directory">
+      <created>1687858624696</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1687858624696</updated>
+    </task>
+    <task id="LOCAL-00186" summary="add csrf token to enable posting on the db through arrows">
+      <created>1687858668417</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1687858668417</updated>
+    </task>
+    <task id="LOCAL-00187" summary="automate transaction id">
+      <created>1687858720007</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1687858720007</updated>
+    </task>
+    <task id="LOCAL-00188" summary="add url to update items to cart">
+      <created>1687858803482</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1687858803482</updated>
+    </task>
+    <task id="LOCAL-00189" summary="add a view to handle cart updates">
+      <created>1687858849067</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1687858849067</updated>
+    </task>
+    <task id="LOCAL-00190" summary="add a view to handle cart updates">
+      <created>1687866294179</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1687866294179</updated>
+    </task>
+    <task id="LOCAL-00191" summary="add csrf token">
+      <created>1687964355803</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1687964355804</updated>
+    </task>
+    <task id="LOCAL-00192" summary="add csrf token to activate posting shipping address to db">
+      <created>1687964410348</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1687964410348</updated>
+    </task>
+    <task id="LOCAL-00193" summary="add country in ShippingAddress model">
+      <created>1687964444039</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1687964444039</updated>
+    </task>
+    <task id="LOCAL-00194" summary="add url to handle order processing">
+      <created>1687964474287</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1687964474287</updated>
+    </task>
+    <task id="LOCAL-00195" summary="add view to handle order processing">
+      <created>1687964489992</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1687964489993</updated>
+    </task>
+    <task id="LOCAL-00196" summary="theorders app migrations">
+      <created>1687964515654</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1687964515655</updated>
+    </task>
+    <task id="LOCAL-00197" summary="add a view to handle the display of complete orders(not done)">
+      <created>1687966350838</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1687966350838</updated>
+    </task>
+    <task id="LOCAL-00198" summary="add url to complete orders">
+      <created>1687966368402</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1687966368417</updated>
+    </task>
+    <task id="LOCAL-00199" summary="template to display completed orders">
+      <created>1687966392155</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1687966392155</updated>
+    </task>
+    <task id="LOCAL-00200" summary="change statements in edit-profile page">
+      <created>1687979060063</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1687979060063</updated>
+    </task>
+    <task id="LOCAL-00201" summary="comment complete_order page">
+      <created>1687983643299</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1687983643300</updated>
+    </task>
+    <task id="LOCAL-00202" summary="indicate profile picture is optional">
+      <created>1687983953020</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1687983953020</updated>
+    </task>
+    <task id="LOCAL-00203" summary="remove a &quot;href&quot; tag in the Team Names">
+      <created>1687984626977</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1687984626977</updated>
+    </task>
+    <task id="LOCAL-00204" summary="fetch csrf token from a different js file">
+      <created>1688023862761</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1688023862761</updated>
+    </task>
+    <task id="LOCAL-00205" summary="csrf token to allow posting to the db">
+      <created>1688023900363</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1688023900363</updated>
+    </task>
+    <task id="LOCAL-00206" summary="import csrf token from separate js file">
+      <created>1688024494574</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1688024494574</updated>
+    </task>
+    <task id="LOCAL-00207" summary="import csrf token from separate js file">
+      <created>1688024504913</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1688024504913</updated>
+    </task>
+    <task id="LOCAL-00208" summary="add a view my orders...no url yet">
+      <created>1688024653486</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1688024653486</updated>
+    </task>
+    <task id="LOCAL-00209" summary="disable my orders...no url yet">
+      <created>1688024746135</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1688024746135</updated>
+    </task>
+    <task id="LOCAL-00210" summary="change empty cart to an image other than empty columns">
+      <created>1688228833681</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1688228833681</updated>
+    </task>
+    <task id="LOCAL-00211" summary="change link to &quot;start shopping&quot; for empty carts">
+      <created>1688243736822</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1688243736822</updated>
+    </task>
+    <task id="LOCAL-00212" summary="username to have atleast 4 characters">
+      <created>1688455633002</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1688455633002</updated>
+    </task>
+    <task id="LOCAL-00213" summary="username to have 4 - 150 characters">
+      <created>1688455763812</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1688455763812</updated>
+    </task>
+    <task id="LOCAL-00214" summary="add auto-fill in shipping address">
+      <created>1688469434397</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1688469434397</updated>
+    </task>
+    <task id="LOCAL-00215" summary="add paypal and auto-fill for shipping address">
+      <created>1688469468381</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1688469468381</updated>
+    </task>
+    <task id="LOCAL-00216" summary="add-to-cart">
+      <created>1688469505281</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1688469505281</updated>
+    </task>
+    <task id="LOCAL-00217" summary="README.md">
+      <created>1688469529084</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1688469529084</updated>
+    </task>
+    <task id="LOCAL-00218" summary="Add &quot;view my orders page&quot;">
+      <created>1688560493930</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1688560493930</updated>
+    </task>
+    <task id="LOCAL-00219" summary="remove comments and add instructions on empty cart">
+      <created>1688568763588</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1688568763588</updated>
+    </task>
+    <task id="LOCAL-00220" summary="check_out.html">
+      <created>1688568808999</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1688568808999</updated>
+    </task>
+    <task id="LOCAL-00221" summary="Page where users can see their completed orders">
+      <created>1688568848383</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1688568848383</updated>
+    </task>
+    <task id="LOCAL-00222" summary="alter the auto_add_now to get the time oder was completed not created">
+      <created>1688568948500</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1688568948500</updated>
+    </task>
+    <task id="LOCAL-00223" summary="alter auto_now_add to auto_now, add delivery status and time delivered">
+      <created>1688569001780</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1688569001780</updated>
+    </task>
+    <task id="LOCAL-00224" summary="add url to complete orders">
+      <created>1688569022164</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1688569022164</updated>
+    </task>
+    <task id="LOCAL-00225" summary="Add a view for the complete orders page">
+      <created>1688569056173</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1688569056173</updated>
+    </task>
+    <task id="LOCAL-00226" summary="README.md with instruction on how to clone and run project on local machine">
+      <created>1688570690182</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1688570690182</updated>
+    </task>
+    <task id="LOCAL-00227" summary="ignore venv">
+      <created>1688571019262</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1688571019262</updated>
+    </task>
+    <task id="LOCAL-00228" summary="-files~">
+      <created>1688571272820</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1688571272820</updated>
+    </task>
+    <task id="LOCAL-00229" summary="Add buttons to direct user back to cart, checkout page">
+      <created>1688636736853</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1688636736853</updated>
+    </task>
+    <task id="LOCAL-00230" summary="order completed orders with most recent">
+      <created>1688636772404</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1688636772404</updated>
+    </task>
+    <task id="LOCAL-00231" summary="Add special links for authenticated and an authenticated users">
+      <created>1688637453461</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1688637453461</updated>
+    </task>
+    <task id="LOCAL-00232" summary="&quot;remove&quot; Paypal options...to be added later">
+      <created>1688668507392</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1688668507392</updated>
+    </task>
+    <option name="localTasksCounter" value="233" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="disable my orders...no url yet" />
+    <MESSAGE value="change empty cart to an image other than empty columns" />
+    <MESSAGE value="change link to &quot;start shopping&quot; for empty carts" />
+    <MESSAGE value="username to have atleast 4 characters" />
+    <MESSAGE value="username to have 4 - 150 characters" />
+    <MESSAGE value="add auto-fill in shipping address" />
+    <MESSAGE value="add paypal and auto-fill for shipping address" />
+    <MESSAGE value="add-to-cart" />
+    <MESSAGE value="README.md" />
+    <MESSAGE value="Add &quot;view my orders page&quot;" />
+    <MESSAGE value="remove comments and add instructions on empty cart" />
+    <MESSAGE value="check_out.html" />
+    <MESSAGE value="Page where users can see their completed orders" />
+    <MESSAGE value="alter the auto_add_now to get the time oder was completed not created" />
+    <MESSAGE value="alter auto_now_add to auto_now, add delivery status and time delivered" />
+    <MESSAGE value="add url to complete orders" />
+    <MESSAGE value="Add a view for the complete orders page" />
+    <MESSAGE value="README.md with instruction on how to clone and run project on local machine" />
+    <MESSAGE value="ignore venv" />
+    <MESSAGE value="rm" />
+    <MESSAGE value="-files~" />
+    <MESSAGE value="Add buttons to direct user back to cart, checkout page" />
+    <MESSAGE value="order completed orders with most recent" />
+    <MESSAGE value="Add special links for authenticated and an authenticated users" />
+    <MESSAGE value="&quot;remove&quot; Paypal options...to be added later" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;remove&quot; Paypal options...to be added later" />
+  </component>
+</project>
