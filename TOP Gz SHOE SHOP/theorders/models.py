@@ -11,6 +11,7 @@ class Order(models.Model):
     complete = models.BooleanField(default=False)
     delivered = models.BooleanField(default=False)
     date_delivered = models.DateTimeField(null=True, blank=True, auto_now=True)
+    paid = models.BooleanField(default=False)
     transaction_id = models.CharField(max_length=250, null=True)
 
     def __str__(self):
