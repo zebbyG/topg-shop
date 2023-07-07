@@ -30,16 +30,16 @@
 <br>
 <div class="row" style="background-color: grey;">
     {% for all_brands in shop_brands %}
-    <div class="card" style="width: 23rem; margin-right: 20px; margin-top: 20px; cursor: grab;">
+    <div class="card" style="width: 25rem; margin-left: 25px; margin-top: 20px; cursor: grab; margin-right: 20px; margin-bottom: 20px;">
         <a href="{{ all_brands.brand_name }}" style="cursor: grab;">
-            <img src="{{ all_brands.brand_image.url }}" class="card-img-top" alt="shoe" style="object-fit: cover;">
+            <img src="{{ all_brands.brand_image.url }}" class="card-img-top img-fluid" alt="shoe" style="object-fit: cover; width: 370px; height: 250px;">
         </a>
         <div class="card-body">
             <h5 class="card-title">{{ all_brands.brand_name }}</h5>
             <p class="card-text" style="cursor: grab;">{{ all_brands.brand_description }}</p>
-            <p class="card-text"><strong>Total products: {{ all_brands.no_of_shoes_available }}</strong></p>
+<!--            <p class="card-text"><strong>Total products: {{ all_brands.no_of_shoes_available }}</strong></p>-->
             {% if all_brands.brand_in_stock %}
-                <p>In stock</p>
+                <b>In stock</b><br><br>
                 <a href="{{ all_brands.brand_name }}">
                     <button type="button" class="btn btn-outline-secondary add-to-cart"><strong>Continue to {{ all_brands.brand_name }}</strong></button>
                 </a>
