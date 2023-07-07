@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="" />
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0009_order_paid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/templates/check_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/templates/check_out.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,48 +69,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00193" summary="add country in ShippingAddress model">
-      <created>1687964444039</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1687964444039</updated>
-    </task>
-    <task id="LOCAL-00194" summary="add url to handle order processing">
-      <created>1687964474287</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1687964474287</updated>
-    </task>
-    <task id="LOCAL-00195" summary="add view to handle order processing">
-      <created>1687964489992</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
-      <option name="project" value="LOCAL" />
-      <updated>1687964489993</updated>
-    </task>
-    <task id="LOCAL-00196" summary="theorders app migrations">
-      <created>1687964515654</created>
-      <option name="number" value="00196" />
-      <option name="presentableId" value="LOCAL-00196" />
-      <option name="project" value="LOCAL" />
-      <updated>1687964515655</updated>
-    </task>
-    <task id="LOCAL-00197" summary="add a view to handle the display of complete orders(not done)">
-      <created>1687966350838</created>
-      <option name="number" value="00197" />
-      <option name="presentableId" value="LOCAL-00197" />
-      <option name="project" value="LOCAL" />
-      <updated>1687966350838</updated>
-    </task>
-    <task id="LOCAL-00198" summary="add url to complete orders">
-      <created>1687966368402</created>
-      <option name="number" value="00198" />
-      <option name="presentableId" value="LOCAL-00198" />
-      <option name="project" value="LOCAL" />
-      <updated>1687966368417</updated>
     </task>
     <task id="LOCAL-00199" summary="template to display completed orders">
       <created>1687966392155</created>
@@ -409,17 +371,53 @@
       <option name="project" value="LOCAL" />
       <updated>1688725844054</updated>
     </task>
-    <option name="localTasksCounter" value="242" />
+    <task id="LOCAL-00242" summary=".xml">
+      <created>1688728795424</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1688728795424</updated>
+    </task>
+    <task id="LOCAL-00243" summary="Added space between nav-bar and start of the page">
+      <created>1688728838606</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1688728838606</updated>
+    </task>
+    <task id="LOCAL-00244" summary="Replaced team photo with gif">
+      <created>1688744733229</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1688744733229</updated>
+    </task>
+    <task id="LOCAL-00245" summary="'Make payment' a button">
+      <created>1688746400364</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1688746400364</updated>
+    </task>
+    <task id="LOCAL-00246" summary="and a 'paid' field to check for paid orders">
+      <created>1688746427933</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1688746427933</updated>
+    </task>
+    <task id="LOCAL-00247" summary="Show user if order is Paid">
+      <created>1688746453045</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1688746453045</updated>
+    </task>
+    <option name="localTasksCounter" value="248" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add &quot;view my orders page&quot;" />
-    <MESSAGE value="remove comments and add instructions on empty cart" />
-    <MESSAGE value="check_out.html" />
-    <MESSAGE value="Page where users can see their completed orders" />
-    <MESSAGE value="alter the auto_add_now to get the time oder was completed not created" />
-    <MESSAGE value="alter auto_now_add to auto_now, add delivery status and time delivered" />
     <MESSAGE value="add url to complete orders" />
     <MESSAGE value="Add a view for the complete orders page" />
     <MESSAGE value="README.md with instruction on how to clone and run project on local machine" />
@@ -439,6 +437,12 @@
     <MESSAGE value="create spaces for Yeezy cards" />
     <MESSAGE value="Brand Logos" />
     <MESSAGE value=".xml's" />
-    <option name="LAST_COMMIT_MESSAGE" value=".xml's" />
+    <MESSAGE value=".xml" />
+    <MESSAGE value="Added space between nav-bar and start of the page" />
+    <MESSAGE value="Replaced team photo with gif" />
+    <MESSAGE value="'Make payment' a button" />
+    <MESSAGE value="and a 'paid' field to check for paid orders" />
+    <MESSAGE value="Show user if order is Paid" />
+    <option name="LAST_COMMIT_MESSAGE" value="Show user if order is Paid" />
   </component>
 </project>
