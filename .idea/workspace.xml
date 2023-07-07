@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/89-890270_vans-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/89-890270_vans-logo_qWt4Wsx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/Jordan-logo_1kMaeBq.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/Vans-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/Vans-logo_FQiQ2yF.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/Vans_off_the_wall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/jordan-w.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/catalogue.html" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/catalogue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/jordans.html" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/jordans.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/nikes.html" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/nikes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/pradas.html" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/pradas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/shoes_accessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/shoes_accessories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/vans.html" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/vans.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/yeezys.html" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/yeezys.html" afterDir="false" />
-    </list>
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,69 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00184" summary="add csrf token to enable posting on the db">
-      <created>1687858588792</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1687858588792</updated>
-    </task>
-    <task id="LOCAL-00185" summary="change static url to 'assets' to match the directory">
-      <created>1687858624696</created>
-      <option name="number" value="00185" />
-      <option name="presentableId" value="LOCAL-00185" />
-      <option name="project" value="LOCAL" />
-      <updated>1687858624696</updated>
-    </task>
-    <task id="LOCAL-00186" summary="add csrf token to enable posting on the db through arrows">
-      <created>1687858668417</created>
-      <option name="number" value="00186" />
-      <option name="presentableId" value="LOCAL-00186" />
-      <option name="project" value="LOCAL" />
-      <updated>1687858668417</updated>
-    </task>
-    <task id="LOCAL-00187" summary="automate transaction id">
-      <created>1687858720007</created>
-      <option name="number" value="00187" />
-      <option name="presentableId" value="LOCAL-00187" />
-      <option name="project" value="LOCAL" />
-      <updated>1687858720007</updated>
-    </task>
-    <task id="LOCAL-00188" summary="add url to update items to cart">
-      <created>1687858803482</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
-      <option name="project" value="LOCAL" />
-      <updated>1687858803482</updated>
-    </task>
-    <task id="LOCAL-00189" summary="add a view to handle cart updates">
-      <created>1687858849067</created>
-      <option name="number" value="00189" />
-      <option name="presentableId" value="LOCAL-00189" />
-      <option name="project" value="LOCAL" />
-      <updated>1687858849067</updated>
-    </task>
-    <task id="LOCAL-00190" summary="add a view to handle cart updates">
-      <created>1687866294179</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1687866294179</updated>
-    </task>
-    <task id="LOCAL-00191" summary="add csrf token">
-      <created>1687964355803</created>
-      <option name="number" value="00191" />
-      <option name="presentableId" value="LOCAL-00191" />
-      <option name="project" value="LOCAL" />
-      <updated>1687964355804</updated>
-    </task>
-    <task id="LOCAL-00192" summary="add csrf token to activate posting shipping address to db">
-      <created>1687964410348</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1687964410348</updated>
     </task>
     <task id="LOCAL-00193" summary="add country in ShippingAddress model">
       <created>1687964444039</created>
@@ -424,20 +346,74 @@
       <option name="project" value="LOCAL" />
       <updated>1688668507392</updated>
     </task>
-    <option name="localTasksCounter" value="233" />
+    <task id="LOCAL-00233" summary="create spaces for catalogue cards">
+      <created>1688725671782</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1688725671782</updated>
+    </task>
+    <task id="LOCAL-00234" summary="create spaces for jordan cards">
+      <created>1688725692109</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1688725692109</updated>
+    </task>
+    <task id="LOCAL-00235" summary="create spaces for Vans cards">
+      <created>1688725712066</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1688725712066</updated>
+    </task>
+    <task id="LOCAL-00236" summary="create spaces for Nikes cards">
+      <created>1688725724700</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1688725724700</updated>
+    </task>
+    <task id="LOCAL-00237" summary="create spaces for Prada cards">
+      <created>1688725736289</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1688725736289</updated>
+    </task>
+    <task id="LOCAL-00238" summary="create spaces for Shoes Accessories cards">
+      <created>1688725751550</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1688725751550</updated>
+    </task>
+    <task id="LOCAL-00239" summary="create spaces for Yeezy cards">
+      <created>1688725766046</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1688725766046</updated>
+    </task>
+    <task id="LOCAL-00240" summary="Brand Logos">
+      <created>1688725810152</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1688725810152</updated>
+    </task>
+    <task id="LOCAL-00241" summary=".xml's">
+      <created>1688725844054</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1688725844054</updated>
+    </task>
+    <option name="localTasksCounter" value="242" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="disable my orders...no url yet" />
-    <MESSAGE value="change empty cart to an image other than empty columns" />
-    <MESSAGE value="change link to &quot;start shopping&quot; for empty carts" />
-    <MESSAGE value="username to have atleast 4 characters" />
-    <MESSAGE value="username to have 4 - 150 characters" />
-    <MESSAGE value="add auto-fill in shipping address" />
-    <MESSAGE value="add paypal and auto-fill for shipping address" />
-    <MESSAGE value="add-to-cart" />
-    <MESSAGE value="README.md" />
     <MESSAGE value="Add &quot;view my orders page&quot;" />
     <MESSAGE value="remove comments and add instructions on empty cart" />
     <MESSAGE value="check_out.html" />
@@ -454,6 +430,15 @@
     <MESSAGE value="order completed orders with most recent" />
     <MESSAGE value="Add special links for authenticated and an authenticated users" />
     <MESSAGE value="&quot;remove&quot; Paypal options...to be added later" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;remove&quot; Paypal options...to be added later" />
+    <MESSAGE value="create spaces for catalogue cards" />
+    <MESSAGE value="create spaces for jordan cards" />
+    <MESSAGE value="create spaces for Vans cards" />
+    <MESSAGE value="create spaces for Nikes cards" />
+    <MESSAGE value="create spaces for Prada cards" />
+    <MESSAGE value="create spaces for Shoes Accessories cards" />
+    <MESSAGE value="create spaces for Yeezy cards" />
+    <MESSAGE value="Brand Logos" />
+    <MESSAGE value=".xml's" />
+    <option name="LAST_COMMIT_MESSAGE" value=".xml's" />
   </component>
 </project>
