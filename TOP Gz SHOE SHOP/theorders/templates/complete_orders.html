@@ -59,7 +59,7 @@
                                             <div style="flex:1"><p><br><br><b><small>quantity </small></b>x{{ order_item.quantity }}</p></div>
                                         </div>
                                     {% endfor %}
-                                    <h5><small>Order Id:</small>    <b>{{ order.transaction_id }}</b></h5>
+                                    <h5><small>Order Id:</small>    <b>{{ order.id }}</b></h5>
                                     <h5><small>Total:</small>    <b>${{ order.get_cart_total }}</b></h5>
                                     <br><br><br>
                                     {% for shipping_address in shipping_addresses %}
@@ -74,7 +74,15 @@
                                     {% endfor %}
 
                                     {% if order.delivered %}
-                                        <p class="lead">Order was delivered on <strong>{{ order.date_delivered }}</strong></p>
+                                        {% if order.paid %}
+                                            <b><button type="button" class="btn btn-success" style="cursor: grab;">PAID</button></b>
+                                            <h5><small>Transaction Id:</small>    <b>{{ order.transaction_id }}</b></h5>
+                                            <p class="lead">Order was delivered on <strong>{{ order.date_delivered }}</strong></p>
+                                        {% endif %}
+                                    {% else %}
+                                        {% if not order.paid %}
+                                            <b><button type="button" class="btn btn-warning" style="cursor: grab;">NOT PAID: <small>to be paid on delivery</small></button></b>
+                                        {% endif %}
                                     {% endif %}
                                 </div>
                             </div>
