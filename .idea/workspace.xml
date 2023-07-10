@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0009_order_paid.py" afterDir="false" />
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="Add coming soon paypal buttons">
+      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0010_orderitem_size.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0011_alter_orderitem_size.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0012_remove_orderitem_size.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/templates/check_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/templates/check_out.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,62 +70,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00199" summary="template to display completed orders">
-      <created>1687966392155</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
-      <option name="project" value="LOCAL" />
-      <updated>1687966392155</updated>
-    </task>
-    <task id="LOCAL-00200" summary="change statements in edit-profile page">
-      <created>1687979060063</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1687979060063</updated>
-    </task>
-    <task id="LOCAL-00201" summary="comment complete_order page">
-      <created>1687983643299</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1687983643300</updated>
-    </task>
-    <task id="LOCAL-00202" summary="indicate profile picture is optional">
-      <created>1687983953020</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1687983953020</updated>
-    </task>
-    <task id="LOCAL-00203" summary="remove a &quot;href&quot; tag in the Team Names">
-      <created>1687984626977</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1687984626977</updated>
-    </task>
-    <task id="LOCAL-00204" summary="fetch csrf token from a different js file">
-      <created>1688023862761</created>
-      <option name="number" value="00204" />
-      <option name="presentableId" value="LOCAL-00204" />
-      <option name="project" value="LOCAL" />
-      <updated>1688023862761</updated>
-    </task>
-    <task id="LOCAL-00205" summary="csrf token to allow posting to the db">
-      <created>1688023900363</created>
-      <option name="number" value="00205" />
-      <option name="presentableId" value="LOCAL-00205" />
-      <option name="project" value="LOCAL" />
-      <updated>1688023900363</updated>
-    </task>
-    <task id="LOCAL-00206" summary="import csrf token from separate js file">
-      <created>1688024494574</created>
-      <option name="number" value="00206" />
-      <option name="presentableId" value="LOCAL-00206" />
-      <option name="project" value="LOCAL" />
-      <updated>1688024494574</updated>
     </task>
     <task id="LOCAL-00207" summary="import csrf token from separate js file">
       <created>1688024504913</created>
@@ -413,19 +358,67 @@
       <option name="project" value="LOCAL" />
       <updated>1688746453045</updated>
     </task>
-    <option name="localTasksCounter" value="248" />
+    <task id="LOCAL-00248" summary="check_out.html">
+      <created>1688746810449</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1688746810449</updated>
+    </task>
+    <task id="LOCAL-00249" summary="Add paid field to Table Order">
+      <created>1688746848702</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1688746848702</updated>
+    </task>
+    <task id="LOCAL-00250" summary="Xml">
+      <created>1688746858581</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1688746858581</updated>
+    </task>
+    <task id="LOCAL-00251" summary="Add coming soon paypal buttons">
+      <created>1688748067570</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1688748067570</updated>
+    </task>
+    <task id="LOCAL-00252" summary="css for floating messages">
+      <created>1688984583141</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1688984583141</updated>
+    </task>
+    <task id="LOCAL-00253" summary="readonly size field">
+      <created>1688984614932</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1688984614932</updated>
+    </task>
+    <task id="LOCAL-00254" summary="Separate price from product name&amp;quantity">
+      <created>1688984657905</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1688984657905</updated>
+    </task>
+    <task id="LOCAL-00255" summary="add &quot;X&quot; to show &quot;x&quot; quantity">
+      <created>1688984705251</created>
+      <option name="number" value="00255" />
+      <option name="presentableId" value="LOCAL-00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1688984705251</updated>
+    </task>
+    <option name="localTasksCounter" value="256" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add url to complete orders" />
-    <MESSAGE value="Add a view for the complete orders page" />
-    <MESSAGE value="README.md with instruction on how to clone and run project on local machine" />
-    <MESSAGE value="ignore venv" />
-    <MESSAGE value="rm" />
-    <MESSAGE value="-files~" />
-    <MESSAGE value="Add buttons to direct user back to cart, checkout page" />
-    <MESSAGE value="order completed orders with most recent" />
     <MESSAGE value="Add special links for authenticated and an authenticated users" />
     <MESSAGE value="&quot;remove&quot; Paypal options...to be added later" />
     <MESSAGE value="create spaces for catalogue cards" />
@@ -443,6 +436,14 @@
     <MESSAGE value="'Make payment' a button" />
     <MESSAGE value="and a 'paid' field to check for paid orders" />
     <MESSAGE value="Show user if order is Paid" />
-    <option name="LAST_COMMIT_MESSAGE" value="Show user if order is Paid" />
+    <MESSAGE value="check_out.html" />
+    <MESSAGE value="Add paid field to Table Order" />
+    <MESSAGE value="Xml" />
+    <MESSAGE value="Add coming soon paypal buttons" />
+    <MESSAGE value="css for floating messages" />
+    <MESSAGE value="readonly size field" />
+    <MESSAGE value="Separate price from product name&amp;quantity" />
+    <MESSAGE value="add &quot;X&quot; to show &quot;x&quot; quantity" />
+    <option name="LAST_COMMIT_MESSAGE" value="add &quot;X&quot; to show &quot;x&quot; quantity" />
   </component>
 </project>
