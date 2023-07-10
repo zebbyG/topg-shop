@@ -55,8 +55,10 @@
                                         <div class="cart-row">
                                             <div style="flex:2"><img class="row-image" src="{{ order_item.product.shoe_image.url }}"></div>
                                             <div style="flex:2"><p>{{ order_item.product.shoe_name }}</p></div>
-                                            <div style="flex:1" class="lead"><p><br>${{ order_item.product.shoe_price }}</p></div><br>
                                             <div style="flex:1"><p><br><br><b><small>quantity </small></b>x{{ order_item.quantity }}</p></div>
+                                        </div>
+                                        <div class="cart-row">
+                                            <div style="flex:1" class="lead"><p><br>Price: <b>${{ order_item.product.shoe_price }}</b></p></div><br>
                                         </div>
                                     {% endfor %}
                                     <h5><small>Order Id:</small>    <b>{{ order.id }}</b></h5>
