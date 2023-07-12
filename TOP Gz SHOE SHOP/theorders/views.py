@@ -3,7 +3,7 @@ from django.contrib.auth.decorators import login_required
 import json
 from django.http import JsonResponse
 from .models import *
-from brands.models import Product
+from brands.models import Product, Size
 
 
 @login_required(login_url='accounts:log_in')
@@ -11,9 +11,11 @@ def add_to_cart(request):
     customer = request.user
     order, created = Order.objects.get_or_create(user=customer, complete=False)
     items = order.orderitem_set.all()
+    size = Size.objects.all().order_by('-time_added')
     return render(request, 'add_to_cart.html', {
         "items": items,
-        "order": order
+        "order": order,
+        "size": size
     })
 
 
