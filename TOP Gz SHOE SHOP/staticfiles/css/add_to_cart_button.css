@@ -1,0 +1,6 @@
+.add-to-cart {
+    visibility: hidden;
+}
+.card:hover .add-to-cart {
+    visibility: visible;
+}

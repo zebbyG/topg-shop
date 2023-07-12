@@ -1,0 +1,15 @@
+.floating-message {
+			position: fixed;
+			bottom: 250px;
+			left: 60%;
+			transform: translateX(-50%);
+			padding: 8px;
+			background-color: #f5f5f5;
+			border-radius: 4px;
+			animation: floatMessage 7s ease-in-out infinite;
+}
+
+@keyframes floatMessage {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}

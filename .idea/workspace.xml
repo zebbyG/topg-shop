@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/runtime.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/the_shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/the_shop/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,20 +98,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00226" summary="README.md with instruction on how to clone and run project on local machine">
-      <created>1688570690182</created>
-      <option name="number" value="00226" />
-      <option name="presentableId" value="LOCAL-00226" />
-      <option name="project" value="LOCAL" />
-      <updated>1688570690182</updated>
-    </task>
-    <task id="LOCAL-00227" summary="ignore venv">
-      <created>1688571019262</created>
-      <option name="number" value="00227" />
-      <option name="presentableId" value="LOCAL-00227" />
-      <option name="project" value="LOCAL" />
-      <updated>1688571019262</updated>
     </task>
     <task id="LOCAL-00228" summary="-files~">
       <created>1688571272820</created>
@@ -439,12 +428,25 @@
       <option name="project" value="LOCAL" />
       <updated>1689164019543</updated>
     </task>
-    <option name="localTasksCounter" value="275" />
+    <task id="LOCAL-00275" summary=".xml">
+      <created>1689164032575</created>
+      <option name="number" value="00275" />
+      <option name="presentableId" value="LOCAL-00275" />
+      <option name="project" value="LOCAL" />
+      <updated>1689164032575</updated>
+    </task>
+    <task id="LOCAL-00276" summary="rm alt=&quot;&quot; in images">
+      <created>1689164795023</created>
+      <option name="number" value="00276" />
+      <option name="presentableId" value="LOCAL-00276" />
+      <option name="project" value="LOCAL" />
+      <updated>1689164795023</updated>
+    </task>
+    <option name="localTasksCounter" value="277" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="and a 'paid' field to check for paid orders" />
     <MESSAGE value="Show user if order is Paid" />
     <MESSAGE value="Add paid field to Table Order" />
     <MESSAGE value="Xml" />
@@ -465,10 +467,11 @@
     <MESSAGE value="Add &quot;choose size &quot; option in cart page" />
     <MESSAGE value="check_out.html" />
     <MESSAGE value="Add commented out size field" />
-    <MESSAGE value=".xml" />
     <MESSAGE value="Import Size model" />
     <MESSAGE value="README.md" />
     <MESSAGE value="project requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="project requirements" />
+    <MESSAGE value=".xml" />
+    <MESSAGE value="rm alt=&quot;&quot; in images" />
+    <option name="LAST_COMMIT_MESSAGE" value="rm alt=&quot;&quot; in images" />
   </component>
 </project>
