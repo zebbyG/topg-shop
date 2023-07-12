@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment=".xml">
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/jordans.html" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/jordans.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/templates/check_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/templates/check_out.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,62 +95,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00218" summary="Add &quot;view my orders page&quot;">
-      <created>1688560493930</created>
-      <option name="number" value="00218" />
-      <option name="presentableId" value="LOCAL-00218" />
-      <option name="project" value="LOCAL" />
-      <updated>1688560493930</updated>
-    </task>
-    <task id="LOCAL-00219" summary="remove comments and add instructions on empty cart">
-      <created>1688568763588</created>
-      <option name="number" value="00219" />
-      <option name="presentableId" value="LOCAL-00219" />
-      <option name="project" value="LOCAL" />
-      <updated>1688568763588</updated>
-    </task>
-    <task id="LOCAL-00220" summary="check_out.html">
-      <created>1688568808999</created>
-      <option name="number" value="00220" />
-      <option name="presentableId" value="LOCAL-00220" />
-      <option name="project" value="LOCAL" />
-      <updated>1688568808999</updated>
-    </task>
-    <task id="LOCAL-00221" summary="Page where users can see their completed orders">
-      <created>1688568848383</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
-      <option name="project" value="LOCAL" />
-      <updated>1688568848383</updated>
-    </task>
-    <task id="LOCAL-00222" summary="alter the auto_add_now to get the time oder was completed not created">
-      <created>1688568948500</created>
-      <option name="number" value="00222" />
-      <option name="presentableId" value="LOCAL-00222" />
-      <option name="project" value="LOCAL" />
-      <updated>1688568948500</updated>
-    </task>
-    <task id="LOCAL-00223" summary="alter auto_now_add to auto_now, add delivery status and time delivered">
-      <created>1688569001780</created>
-      <option name="number" value="00223" />
-      <option name="presentableId" value="LOCAL-00223" />
-      <option name="project" value="LOCAL" />
-      <updated>1688569001780</updated>
-    </task>
-    <task id="LOCAL-00224" summary="add url to complete orders">
-      <created>1688569022164</created>
-      <option name="number" value="00224" />
-      <option name="presentableId" value="LOCAL-00224" />
-      <option name="project" value="LOCAL" />
-      <updated>1688569022164</updated>
-    </task>
-    <task id="LOCAL-00225" summary="Add a view for the complete orders page">
-      <created>1688569056173</created>
-      <option name="number" value="00225" />
-      <option name="presentableId" value="LOCAL-00225" />
-      <option name="project" value="LOCAL" />
-      <updated>1688569056173</updated>
     </task>
     <task id="LOCAL-00226" summary="README.md with instruction on how to clone and run project on local machine">
       <created>1688570690182</created>
@@ -443,18 +383,69 @@
       <option name="project" value="LOCAL" />
       <updated>1689159311597</updated>
     </task>
-    <option name="localTasksCounter" value="267" />
+    <task id="LOCAL-00267" summary="check_out.html">
+      <created>1689159350077</created>
+      <option name="number" value="00267" />
+      <option name="presentableId" value="LOCAL-00267" />
+      <option name="project" value="LOCAL" />
+      <updated>1689159350077</updated>
+    </task>
+    <task id="LOCAL-00268" summary="Add commented out size field">
+      <created>1689159455387</created>
+      <option name="number" value="00268" />
+      <option name="presentableId" value="LOCAL-00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1689159455387</updated>
+    </task>
+    <task id="LOCAL-00269" summary=".xml">
+      <created>1689159462829</created>
+      <option name="number" value="00269" />
+      <option name="presentableId" value="LOCAL-00269" />
+      <option name="project" value="LOCAL" />
+      <updated>1689159462829</updated>
+    </task>
+    <task id="LOCAL-00270" summary="Import Size model">
+      <created>1689161374484</created>
+      <option name="number" value="00270" />
+      <option name="presentableId" value="LOCAL-00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1689161374484</updated>
+    </task>
+    <task id="LOCAL-00271" summary="project requirements">
+      <created>1689161742605</created>
+      <option name="number" value="00271" />
+      <option name="presentableId" value="LOCAL-00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1689161742605</updated>
+    </task>
+    <task id="LOCAL-00272" summary="README.md">
+      <created>1689161844454</created>
+      <option name="number" value="00272" />
+      <option name="presentableId" value="LOCAL-00272" />
+      <option name="project" value="LOCAL" />
+      <updated>1689161844454</updated>
+    </task>
+    <task id="LOCAL-00273" summary="README.md">
+      <created>1689162676111</created>
+      <option name="number" value="00273" />
+      <option name="presentableId" value="LOCAL-00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1689162676111</updated>
+    </task>
+    <task id="LOCAL-00274" summary="project requirements">
+      <created>1689164019543</created>
+      <option name="number" value="00274" />
+      <option name="presentableId" value="LOCAL-00274" />
+      <option name="project" value="LOCAL" />
+      <updated>1689164019543</updated>
+    </task>
+    <option name="localTasksCounter" value="275" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value=".xml's" />
-    <MESSAGE value="Added space between nav-bar and start of the page" />
-    <MESSAGE value="Replaced team photo with gif" />
-    <MESSAGE value="'Make payment' a button" />
     <MESSAGE value="and a 'paid' field to check for paid orders" />
     <MESSAGE value="Show user if order is Paid" />
-    <MESSAGE value="check_out.html" />
     <MESSAGE value="Add paid field to Table Order" />
     <MESSAGE value="Xml" />
     <MESSAGE value="Add coming soon paypal buttons" />
@@ -463,7 +454,6 @@
     <MESSAGE value="Separate price from product name&amp;quantity" />
     <MESSAGE value="add &quot;X&quot; to show &quot;x&quot; quantity" />
     <MESSAGE value="remove size to orderItem" />
-    <MESSAGE value=".xml" />
     <MESSAGE value="Register Size model" />
     <MESSAGE value="Add Size model" />
     <MESSAGE value="comment out size field" />
@@ -473,6 +463,12 @@
     <MESSAGE value="Added size field in OrderItem model" />
     <MESSAGE value="remove size field in OrderItem model" />
     <MESSAGE value="Add &quot;choose size &quot; option in cart page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add &quot;choose size &quot; option in cart page" />
+    <MESSAGE value="check_out.html" />
+    <MESSAGE value="Add commented out size field" />
+    <MESSAGE value=".xml" />
+    <MESSAGE value="Import Size model" />
+    <MESSAGE value="README.md" />
+    <MESSAGE value="project requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="project requirements" />
   </component>
 </project>
