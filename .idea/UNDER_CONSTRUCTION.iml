@@ -751,6 +751,7 @@
       <excludeFolder url="file://$MODULE_DIR$/top_env/lib/python3.8/site-packages/Pillow.libs" />
       <excludeFolder url="file://$MODULE_DIR$/top_env/lib/python3.8/site-packages/typing_extensions-4.7.1.dist-info" />
       <excludeFolder url="file://$MODULE_DIR$/top_env/include" />
+      <excludeFolder url="file://$MODULE_DIR$/env" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

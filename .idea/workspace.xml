@@ -5,422 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/migrations/0002_userprofile_bio.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/migrations/0002_userprofile_bio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/migrations/0003_remove_userprofile_bio.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/migrations/0003_remove_userprofile_bio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/migrations/0004_alter_userprofile_profile_picture.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/migrations/0004_alter_userprofile_profile_picture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/migrations/0005_alter_userprofile_profile_picture.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/migrations/0005_alter_userprofile_profile_picture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/migrations/0006_alter_userprofile_profile_picture.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/migrations/0006_alter_userprofile_profile_picture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/migrations/0007_alter_userprofile_profile_picture.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/migrations/0007_alter_userprofile_profile_picture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/migrations/0008_alter_userprofile_profile_picture.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/migrations/0008_alter_userprofile_profile_picture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/templates/change_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/templates/change_password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/templates/edit_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/templates/edit_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/templates/log_in.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/templates/log_in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/templates/profile_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/templates/profile_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/templates/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/templates/sign-up.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/app/backToTop.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/app/backToTop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/app/base_topshop.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/app/base_topshop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/app/baseshop_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/app/baseshop_footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/app/bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/app/bootstrap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/app/testimonies.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/app/testimonies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/About1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/About1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/About2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/About2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/Team-main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/Team-main.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/Yeezy slides customs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/Yeezy slides customs.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/about-us2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/about-us2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/about.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/arrow-down.png" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/arrow-down.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/arrow-up.png" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/arrow-up.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/becky.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/becky.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/cart.png" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/cart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/css/add-to-cart-icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/css/add-to-cart-icon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/css/add_to_cart_button.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/css/add_to_cart_button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/css/float_message.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/css/float_message.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/css/page-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/css/page-header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/css/testimonies.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/css/testimonies.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/customer-service.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/customer-service.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/default-profile-pic.png" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/default-profile-pic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/donate.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/donate.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/home-delivery.png" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/home-delivery.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/intro-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/intro-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/js/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/js/csrf_token.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/js/csrf_token.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/js/delete_profile_pic.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/js/delete_profile_pic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/js/filter_by_color.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/js/filter_by_color.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/js/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/real services.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/real services.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/services.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/services.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/team1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/team1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/team2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/team2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/team3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/team3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/topg-logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/topg-logo.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/trade.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/trade.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/vincent.png" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/vincent.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/assets/zebby.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/zebby.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/migrations/0002_color_jordan.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/migrations/0002_color_jordan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/migrations/0003_jordan_shoe_time_added.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/migrations/0003_jordan_shoe_time_added.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/migrations/0004_jordan_shoe_price_was.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/migrations/0004_jordan_shoe_price_was.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/migrations/0005_shoes_delete_jordan.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/migrations/0005_shoes_delete_jordan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/migrations/0006_rename_shoes_shoe.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/migrations/0006_rename_shoes_shoe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/migrations/0007_rename_brands_brand_alter_shoe_shoe_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/migrations/0007_rename_brands_brand_alter_shoe_shoe_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/migrations/0008_brand_brand_image_brand_image_height_and_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/migrations/0008_brand_brand_image_brand_image_height_and_more.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/migrations/0009_alter_brand_brand_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/migrations/0009_alter_brand_brand_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/migrations/0010_remove_brand_brand_image_remove_brand_image_height_and_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/migrations/0010_remove_brand_brand_image_remove_brand_image_height_and_more.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/migrations/0011_brand_brand_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/migrations/0011_brand_brand_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/migrations/0012_alter_shoe_brand.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/migrations/0012_alter_shoe_brand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/migrations/0013_rename_shoe_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/migrations/0013_rename_shoe_product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/migrations/0014_color_color_time_added.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/migrations/0014_color_color_time_added.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/migrations/0015_rename_color_time_added_color_time_added.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/migrations/0015_rename_color_time_added_color_time_added.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/migrations/0016_size_product_shoe_size.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/migrations/0016_size_product_shoe_size.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/catalogue.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/catalogue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/jordans.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/jordans.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/nikes.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/nikes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/pradas.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/pradas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/shoes_accessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/shoes_accessories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/vans.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/vans.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/yeezys.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/yeezys.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/3944bf02badb4db8faa8c893f44714daS5zHtZRlabYHp8A2-0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/3944bf02badb4db8faa8c893f44714daS5zHtZRlabYHp8A2-0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/89-890270_vans-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/89-890270_vans-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/89-890270_vans-logo_qWt4Wsx.png" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/89-890270_vans-logo_qWt4Wsx.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/Jordan-logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Jordan-logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/Jordan-logo_1kMaeBq.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Jordan-logo_1kMaeBq.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/Nike-label.png" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Nike-label.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/Prada-logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Prada-logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/Vans-logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Vans-logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/Vans-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Vans-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/Vans-logo_FQiQ2yF.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Vans-logo_FQiQ2yF.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/Vans_off_the_wall.png" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Vans_off_the_wall.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/Yeezy-logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Yeezy-logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/accessories.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/accessories.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/accessories_D7m8gN2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/accessories_D7m8gN2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/brand-logo/jordan-w.png" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/jordan-w.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Air-Force-1_milky_white.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air-Force-1_milky_white.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Air-Force-1_pure_black.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air-Force-1_pure_black.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Air-Jordan-1_blackwhite.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air-Jordan-1_blackwhite.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Air-Jordan-1_blueblackwhite.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air-Jordan-1_blueblackwhite.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Air_Jordan_3_fire_red.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air_Jordan_3_fire_red.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Air_Jordan_3_infrared_23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air_Jordan_3_infrared_23.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Air_Jordan_v_custom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air_Jordan_v_custom.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Air_Jordan_v_orange_raging_Bull.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air_Jordan_v_orange_raging_Bull.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Airmax_95_batman_grey_luminous.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Airmax_95_batman_grey_luminous.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Airmax_95_grey.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Airmax_95_grey.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Cushioned_Crew_Socks.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Cushioned_Crew_Socks.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Inner_soles.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Inner_soles.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Inner_soles_honeycomb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Inner_soles_honeycomb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Inner_soles_super_shock.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Inner_soles_super_shock.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Jordan_J11_Retro_blackwhite.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Jordan_J11_Retro_blackwhite.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Jordan_J11_Retro_greywhite.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Jordan_J11_Retro_greywhite.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Mens_Air_Jordan_9_Retro_black.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Mens_Air_Jordan_9_Retro_black.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Mens_Air_Jordan_9_Retro_pure_red.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Mens_Air_Jordan_9_Retro_pure_red.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Nike_Air_Huarache_Tan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Nike_Air_Huarache_Tan.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Nike_Air_Huarache_blackwhite.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Nike_Air_Huarache_blackwhite.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Nike_Air_Max_270_all_black.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Nike_Air_Max_270_all_black.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Nike_Air_Max_270_white_with_black_swoosh.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Nike_Air_Max_270_white_with_black_swoosh.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/No-Show-Socks.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/No-Show-Socks.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Prada_Linea_Rossa_blue.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_Linea_Rossa_blue.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Prada_Linea_Rossa_grey.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_Linea_Rossa_grey.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Prada_Punta_Ala_high_allblack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_Punta_Ala_high_allblack.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Prada_Punta_Ala_high_greyred.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_Punta_Ala_high_greyred.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Prada_cloudBust_black.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_cloudBust_black.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Prada_cloudBust_yellowblack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_cloudBust_yellowblack.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Prada_cup_custom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_cup_custom.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Prada_cup_yellowhite.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_cup_yellowhite.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Prada_loafers_black.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_loafers_black.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Prada_loafers_black_rBQ9KEJ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_loafers_black_rBQ9KEJ.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Prada_loafers_brown-Tansole.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_loafers_brown-Tansole.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Training-Crew-Socks.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Training-Crew-Socks.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Training-Crew-Socks_KXGXEK8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Training-Crew-Socks_KXGXEK8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Training-Crew-Socks_s2qDfSL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Training-Crew-Socks_s2qDfSL.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Vans_Sk8-Hi_checkerboard.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Sk8-Hi_checkerboard.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Vans_Sk8-Hi_white-blackstripe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Sk8-Hi_white-blackstripe.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Vans_Sk8-mid_custom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Sk8-mid_custom.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Vans_Sk8-mid_yellow-blackstripe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Sk8-mid_yellow-blackstripe.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Vans_Slip-on_checkerboardclassic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Slip-on_checkerboardclassic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Vans_Slip-on_custom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Slip-on_custom.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Vans_Women_high_cut_black-whitesole.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Women_high_cut_black-whitesole.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Vans_Women_high_cut_blackwithbrown.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Women_high_cut_blackwithbrown.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Vans_old_skool__red-whitestripe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Vans_old_skool__red-whitestripe.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Vans_old_skool_black-whitestripe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Vans_old_skool_black-whitestripe.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Women_Jordan_Air_1_Low_SE_marronwithblack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Jordan_Air_1_Low_SE_marronwithblack.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Women_Jordan_Air_1_Low_SE_pink.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Jordan_Air_1_Low_SE_pink.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Women_Nike_High_Top_grey.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Nike_High_Top_grey.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Women_Nike_High_Top_pink.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Nike_High_Top_pink.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Women_Prada_Pegasus_blackwhite.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Prada_Pegasus_blackwhite.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Women_Prada_Pegasus_pinkwhitetan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Prada_Pegasus_pinkwhitetan.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/YEEZY_450s_black.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/YEEZY_450s_black.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/YEEZY_450s_sulphur.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/YEEZY_450s_sulphur.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Yeezy_350s_Tan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_350s_Tan.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Yeezy_350s_lightblue.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_350s_lightblue.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Yeezy_500_Blush_black.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_500_Blush_black.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Yeezy_500_Blush_men_colorful.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_500_Blush_men_colorful.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Yeezy_700_brightblue.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_700_brightblue.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Yeezy_700_darkglow.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_700_darkglow.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Yeezy_powerphase_Tan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_powerphase_Tan.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Yeezy_slides_customs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_slides_customs.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/Yeezy_slides_plain_colours.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_slides_plain_colours.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/nike_dunk_low_custom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/nike_dunk_low_custom.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/nike_dunk_low_skybluewhite.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/nike_dunk_low_skybluewhite.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/shoe-laces-multi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/shoe-laces-multi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/shoe-laces.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/shoe-laces.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/shoe-lacesb_W.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/shoe-lacesb_W.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/shoe_chain.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/shoe_chain.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/shoe_chain_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/shoe_chain_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/shoe_chain_locked_up.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/shoe_chain_locked_up.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/vans_Authentic_black-whitesole.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/vans_Authentic_black-whitesole.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/vans_Authentic_marron-whitesole_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/vans_Authentic_marron-whitesole_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/shoes/yeezy_powerphase_black.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/shoes/yeezy_powerphase_black.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/user_profiles/IMG-20230204-WA0031.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/user_profiles/IMG-20230204-WA0031.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/user_profiles/IMG-20230204-WA0045.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/user_profiles/IMG-20230204-WA0045.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/user_profiles/IMG-20230204-WA0057.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/user_profiles/IMG-20230204-WA0057.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/media/user_profiles/LUTAN_LSvmtaI.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/media/user_profiles/LUTAN_LSvmtaI.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/runtime.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/shop_services/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/shop_services/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/shop_services/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/shop_services/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/shop_services/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/shop_services/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/shop_services/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/shop_services/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/shop_services/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/shop_services/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/shop_services/templates/customer_service.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/shop_services/templates/customer_service.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/shop_services/templates/customize_shoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/shop_services/templates/customize_shoes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/shop_services/templates/donate_shoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/shop_services/templates/donate_shoes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/shop_services/templates/order-shoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/shop_services/templates/order-shoes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/shop_services/templates/shop-services.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/shop_services/templates/shop-services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/shop_services/templates/trade.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/shop_services/templates/trade.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/shop_services/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/shop_services/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/shop_services/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/shop_services/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/shop_services/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/shop_services/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/About1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/About1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/About2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/About2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/Team-main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/Team-main.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/Yeezy slides customs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/Yeezy slides customs.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/about-us2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/about-us2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/about.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/css/autocomplete.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/css/autocomplete.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/css/changelists.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/css/changelists.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/css/dark_mode.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/css/dark_mode.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/css/dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/css/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/css/forms.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/css/nav_sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/css/nav_sidebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/css/responsive_rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/css/responsive_rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/css/rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/css/rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/css/vendor/select2/select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/css/vendor/select2/select2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/css/vendor/select2/select2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/css/vendor/select2/select2.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/css/widgets.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/css/widgets.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/calendar-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/calendar-icons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/gis/move_vertex_off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/gis/move_vertex_off.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/gis/move_vertex_on.svg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/gis/move_vertex_on.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/icon-addlink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/icon-addlink.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/icon-alert.svg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/icon-alert.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/icon-calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/icon-calendar.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/icon-changelink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/icon-changelink.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/icon-clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/icon-clock.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/icon-deletelink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/icon-deletelink.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/icon-no.svg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/icon-no.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/icon-unknown-alt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/icon-unknown-alt.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/icon-unknown.svg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/icon-unknown.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/icon-viewlink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/icon-viewlink.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/icon-yes.svg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/icon-yes.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/inline-delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/inline-delete.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/search.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/selector-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/selector-icons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/sorting-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/sorting-icons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/tooltag-add.svg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/tooltag-add.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/img/tooltag-arrowright.svg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/img/tooltag-arrowright.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/SelectBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/SelectBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/SelectFilter2.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/SelectFilter2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/autocomplete.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/autocomplete.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/calendar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/cancel.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/cancel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/change_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/change_form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/collapse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/filters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/inlines.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/inlines.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/jquery.init.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/jquery.init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/nav_sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/nav_sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/popup_response.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/popup_response.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/prepopulate.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/prepopulate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/prepopulate_init.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/prepopulate_init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/urlify.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/urlify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/jquery/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/jquery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/af.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/af.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/bn.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/bn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/bs.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/bs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/dsb.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/dsb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/hsb.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/hsb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/hy.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/hy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/is.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/ka.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/ka.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/km.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/ne.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/ne.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/ps.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/ps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/sl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/sq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/th.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/tk.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/tk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/select2.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/select2.full.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/arrow-down.png" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/arrow-down.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/arrow-up.png" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/arrow-up.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/becky.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/becky.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/cart.png" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/cart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/css/add-to-cart-icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/css/add-to-cart-icon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/css/add_to_cart_button.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/css/add_to_cart_button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/css/float_message.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/css/float_message.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/css/page-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/css/page-header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/css/testimonies.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/css/testimonies.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/customer-service.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/customer-service.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/debug_toolbar/css/print.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/debug_toolbar/css/print.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/debug_toolbar/css/toolbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/debug_toolbar/css/toolbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/debug_toolbar/js/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/debug_toolbar/js/history.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/debug_toolbar/js/redirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/debug_toolbar/js/redirect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/debug_toolbar/js/timer.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/debug_toolbar/js/timer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/debug_toolbar/js/toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/debug_toolbar/js/toolbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/debug_toolbar/js/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/debug_toolbar/js/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/default-profile-pic.png" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/default-profile-pic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/donate.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/donate.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/home-delivery.png" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/home-delivery.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/intro-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/intro-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/js/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/js/csrf_token.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/js/csrf_token.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/js/delete_profile_pic.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/js/delete_profile_pic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/js/filter_by_color.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/js/filter_by_color.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/js/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/real services.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/real services.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/services.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/services.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/team1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/team1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/team2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/team2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/team3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/team3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/topg-logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/topg-logo.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/trade.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/trade.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/vincent.png" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/vincent.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/staticfiles/zebby.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/staticfiles/zebby.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/the_shop/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/the_shop/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/the_shop/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/the_shop/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/the_shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/the_shop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/the_shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/the_shop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/the_shop/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/the_shop/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0002_remove_order_customer_and_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/migrations/0002_remove_order_customer_and_more.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0003_shippingaddress_country.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/migrations/0003_shippingaddress_country.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0004_alter_order_complete.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/migrations/0004_alter_order_complete.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0005_alter_order_complete.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/migrations/0005_alter_order_complete.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0006_order_delivered.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/migrations/0006_order_delivered.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0007_alter_order_date_ordered.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/migrations/0007_alter_order_date_ordered.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0008_order_date_delivered.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/migrations/0008_order_date_delivered.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0009_order_paid.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/migrations/0009_order_paid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0010_orderitem_size.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/migrations/0010_orderitem_size.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0011_alter_orderitem_size.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/migrations/0011_alter_orderitem_size.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0012_remove_orderitem_size.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/migrations/0012_remove_orderitem_size.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0013_orderitem_size.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/migrations/0013_orderitem_size.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0014_remove_orderitem_size.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/migrations/0014_remove_orderitem_size.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/templates/add_to_cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/templates/add_to_cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/templates/check_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/templates/check_out.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/templates/complete_orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/templates/complete_orders.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/theorders/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/top_shop/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/top_shop/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/top_shop/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/top_shop/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/top_shop/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/top_shop/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/top_shop/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/top_shop/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/top_shop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/top_shop/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/top_shop/templates/about-shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/top_shop/templates/about-shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/top_shop/templates/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/top_shop/templates/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/top_shop/templates/home-shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/top_shop/templates/home-shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/top_shop/templates/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/top_shop/templates/team.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/top_shop/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/top_shop/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/top_shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/top_shop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/top_shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/top_shop/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -510,20 +95,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00228" summary="-files~">
-      <created>1688571272820</created>
-      <option name="number" value="00228" />
-      <option name="presentableId" value="LOCAL-00228" />
-      <option name="project" value="LOCAL" />
-      <updated>1688571272820</updated>
-    </task>
-    <task id="LOCAL-00229" summary="Add buttons to direct user back to cart, checkout page">
-      <created>1688636736853</created>
-      <option name="number" value="00229" />
-      <option name="presentableId" value="LOCAL-00229" />
-      <option name="project" value="LOCAL" />
-      <updated>1688636736853</updated>
     </task>
     <task id="LOCAL-00230" summary="order completed orders with most recent">
       <created>1688636772404</created>
@@ -854,13 +425,25 @@
       <option name="project" value="LOCAL" />
       <updated>1689164795023</updated>
     </task>
-    <option name="localTasksCounter" value="277" />
+    <task id="LOCAL-00277" summary="rename repository name, and Base Dir name">
+      <created>1689169784554</created>
+      <option name="number" value="00277" />
+      <option name="presentableId" value="LOCAL-00277" />
+      <option name="project" value="LOCAL" />
+      <updated>1689169784554</updated>
+    </task>
+    <task id="LOCAL-00278" summary="procfile">
+      <created>1689169874288</created>
+      <option name="number" value="00278" />
+      <option name="presentableId" value="LOCAL-00278" />
+      <option name="project" value="LOCAL" />
+      <updated>1689169874288</updated>
+    </task>
+    <option name="localTasksCounter" value="279" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Show user if order is Paid" />
-    <MESSAGE value="Add paid field to Table Order" />
     <MESSAGE value="Xml" />
     <MESSAGE value="Add coming soon paypal buttons" />
     <MESSAGE value="css for floating messages" />
@@ -884,6 +467,8 @@
     <MESSAGE value="project requirements" />
     <MESSAGE value=".xml" />
     <MESSAGE value="rm alt=&quot;&quot; in images" />
-    <option name="LAST_COMMIT_MESSAGE" value="rm alt=&quot;&quot; in images" />
+    <MESSAGE value="rename repository name, and Base Dir name" />
+    <MESSAGE value="procfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="procfile" />
   </component>
 </project>
