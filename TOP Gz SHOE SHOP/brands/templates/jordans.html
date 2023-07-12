@@ -48,6 +48,16 @@
         <img src="{{ all_shoes.shoe_image.url }}" class="card-img-top" alt="shoe" style="object-fit: cover; width: 360px; height: 250px;">
         <div class="card-body">
             <h5 class="card-title">{{ all_shoes.shoe_name }}</h5>
+<!--            <div>-->
+<!--                <label for="size-filter"></label>-->
+<!--                <select id="size-filter">-->
+<!--                    <option value="all">Select Size</option>-->
+<!--                    {% for sizes in size %}-->
+<!--                    <option value="{{ sizes.size_number }}">{{ sizes.size_number }}</option>-->
+<!--                    {% endfor %}-->
+<!--                </select>-->
+<!--            </div>-->
+            <br>
             <p class="card-text">{{ all_shoes.shoe_gender }}</p>
             {% for color in all_shoes.shoe_color_available.all %}
             <p class="card-text">{{ color.color_name }}</p>
