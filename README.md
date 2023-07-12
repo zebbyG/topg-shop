@@ -23,11 +23,12 @@ Once the  virtual environment is activated,:
     
     - Install the following:
         
-        - `pip install Django` - Required for any django project
-        - `python3 -m pip install django-debug-toolbar` - Required for the debug toolbar to work.
-        - `python3 -m pip install Pillow` - Required for all image fields in the project
+        - `pip3 install requirements.txt`
+      
+        or
+        - `pip install requirements.txt`
 
-After everything above has installed successfully, navigate to the main directory and start server:
+After everything has installed successfully, navigate to the main directory and start server:
 + [X]  `cd TOP\ Gz\ SHOE\ SHOP/`
 
 
