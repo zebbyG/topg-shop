@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="Add coming soon paypal buttons">
-      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0010_orderitem_size.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0011_alter_orderitem_size.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/migrations/0012_remove_orderitem_size.py" afterDir="false" />
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment=".xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/jordans.html" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/brands/templates/jordans.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/templates/check_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/templates/check_out.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +63,34 @@
       <recent name="C:\Users\Zebbylion\PycharmProjects\UNDER_CONSTRUCTION\TOP Gz SHOE SHOP\orders" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UNDER_CONSTRUCTION" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TOP Gz SHOE SHOP/theorders/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,83 +99,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00207" summary="import csrf token from separate js file">
-      <created>1688024504913</created>
-      <option name="number" value="00207" />
-      <option name="presentableId" value="LOCAL-00207" />
-      <option name="project" value="LOCAL" />
-      <updated>1688024504913</updated>
-    </task>
-    <task id="LOCAL-00208" summary="add a view my orders...no url yet">
-      <created>1688024653486</created>
-      <option name="number" value="00208" />
-      <option name="presentableId" value="LOCAL-00208" />
-      <option name="project" value="LOCAL" />
-      <updated>1688024653486</updated>
-    </task>
-    <task id="LOCAL-00209" summary="disable my orders...no url yet">
-      <created>1688024746135</created>
-      <option name="number" value="00209" />
-      <option name="presentableId" value="LOCAL-00209" />
-      <option name="project" value="LOCAL" />
-      <updated>1688024746135</updated>
-    </task>
-    <task id="LOCAL-00210" summary="change empty cart to an image other than empty columns">
-      <created>1688228833681</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1688228833681</updated>
-    </task>
-    <task id="LOCAL-00211" summary="change link to &quot;start shopping&quot; for empty carts">
-      <created>1688243736822</created>
-      <option name="number" value="00211" />
-      <option name="presentableId" value="LOCAL-00211" />
-      <option name="project" value="LOCAL" />
-      <updated>1688243736822</updated>
-    </task>
-    <task id="LOCAL-00212" summary="username to have atleast 4 characters">
-      <created>1688455633002</created>
-      <option name="number" value="00212" />
-      <option name="presentableId" value="LOCAL-00212" />
-      <option name="project" value="LOCAL" />
-      <updated>1688455633002</updated>
-    </task>
-    <task id="LOCAL-00213" summary="username to have 4 - 150 characters">
-      <created>1688455763812</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1688455763812</updated>
-    </task>
-    <task id="LOCAL-00214" summary="add auto-fill in shipping address">
-      <created>1688469434397</created>
-      <option name="number" value="00214" />
-      <option name="presentableId" value="LOCAL-00214" />
-      <option name="project" value="LOCAL" />
-      <updated>1688469434397</updated>
-    </task>
-    <task id="LOCAL-00215" summary="add paypal and auto-fill for shipping address">
-      <created>1688469468381</created>
-      <option name="number" value="00215" />
-      <option name="presentableId" value="LOCAL-00215" />
-      <option name="project" value="LOCAL" />
-      <updated>1688469468381</updated>
-    </task>
-    <task id="LOCAL-00216" summary="add-to-cart">
-      <created>1688469505281</created>
-      <option name="number" value="00216" />
-      <option name="presentableId" value="LOCAL-00216" />
-      <option name="project" value="LOCAL" />
-      <updated>1688469505281</updated>
-    </task>
-    <task id="LOCAL-00217" summary="README.md">
-      <created>1688469529084</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1688469529084</updated>
     </task>
     <task id="LOCAL-00218" summary="Add &quot;view my orders page&quot;">
       <created>1688560493930</created>
@@ -414,23 +366,89 @@
       <option name="project" value="LOCAL" />
       <updated>1688984705251</updated>
     </task>
-    <option name="localTasksCounter" value="256" />
+    <task id="LOCAL-00256" summary="remove size to orderItem">
+      <created>1688984764049</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1688984764049</updated>
+    </task>
+    <task id="LOCAL-00257" summary=".xml">
+      <created>1688984778046</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1688984778046</updated>
+    </task>
+    <task id="LOCAL-00258" summary="Register Size model">
+      <created>1689158936070</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1689158936070</updated>
+    </task>
+    <task id="LOCAL-00259" summary="Add Size model">
+      <created>1689159001739</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1689159001739</updated>
+    </task>
+    <task id="LOCAL-00260" summary="comment out size field">
+      <created>1689159056383</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1689159056383</updated>
+    </task>
+    <task id="LOCAL-00261" summary="add time field in Color model">
+      <created>1689159103564</created>
+      <option name="number" value="00261" />
+      <option name="presentableId" value="LOCAL-00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1689159103564</updated>
+    </task>
+    <task id="LOCAL-00262" summary="rename time field in Color model">
+      <created>1689159143154</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1689159143154</updated>
+    </task>
+    <task id="LOCAL-00263" summary="Add shoe-size field in Product model">
+      <created>1689159191943</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1689159191943</updated>
+    </task>
+    <task id="LOCAL-00264" summary="Added size field in OrderItem model">
+      <created>1689159237329</created>
+      <option name="number" value="00264" />
+      <option name="presentableId" value="LOCAL-00264" />
+      <option name="project" value="LOCAL" />
+      <updated>1689159237329</updated>
+    </task>
+    <task id="LOCAL-00265" summary="remove size field in OrderItem model">
+      <created>1689159250710</created>
+      <option name="number" value="00265" />
+      <option name="presentableId" value="LOCAL-00265" />
+      <option name="project" value="LOCAL" />
+      <updated>1689159250710</updated>
+    </task>
+    <task id="LOCAL-00266" summary="Add &quot;choose size &quot; option in cart page">
+      <created>1689159311597</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1689159311597</updated>
+    </task>
+    <option name="localTasksCounter" value="267" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add special links for authenticated and an authenticated users" />
-    <MESSAGE value="&quot;remove&quot; Paypal options...to be added later" />
-    <MESSAGE value="create spaces for catalogue cards" />
-    <MESSAGE value="create spaces for jordan cards" />
-    <MESSAGE value="create spaces for Vans cards" />
-    <MESSAGE value="create spaces for Nikes cards" />
-    <MESSAGE value="create spaces for Prada cards" />
-    <MESSAGE value="create spaces for Shoes Accessories cards" />
-    <MESSAGE value="create spaces for Yeezy cards" />
-    <MESSAGE value="Brand Logos" />
     <MESSAGE value=".xml's" />
-    <MESSAGE value=".xml" />
     <MESSAGE value="Added space between nav-bar and start of the page" />
     <MESSAGE value="Replaced team photo with gif" />
     <MESSAGE value="'Make payment' a button" />
@@ -444,6 +462,17 @@
     <MESSAGE value="readonly size field" />
     <MESSAGE value="Separate price from product name&amp;quantity" />
     <MESSAGE value="add &quot;X&quot; to show &quot;x&quot; quantity" />
-    <option name="LAST_COMMIT_MESSAGE" value="add &quot;X&quot; to show &quot;x&quot; quantity" />
+    <MESSAGE value="remove size to orderItem" />
+    <MESSAGE value=".xml" />
+    <MESSAGE value="Register Size model" />
+    <MESSAGE value="Add Size model" />
+    <MESSAGE value="comment out size field" />
+    <MESSAGE value="add time field in Color model" />
+    <MESSAGE value="rename time field in Color model" />
+    <MESSAGE value="Add shoe-size field in Product model" />
+    <MESSAGE value="Added size field in OrderItem model" />
+    <MESSAGE value="remove size field in OrderItem model" />
+    <MESSAGE value="Add &quot;choose size &quot; option in cart page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add &quot;choose size &quot; option in cart page" />
   </component>
 </project>
