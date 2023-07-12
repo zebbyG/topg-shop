@@ -16,9 +16,18 @@ class Brand(models.Model):
 
 class Color(models.Model):
     color_name = models.TextField(max_length=50)
+    time_added = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.color_name
+
+
+class Size(models.Model):
+    size_number = models.CharField(max_length=50)
+    time_added = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.size_number
 
 
 class Product(models.Model):
@@ -27,6 +36,7 @@ class Product(models.Model):
     image_height = models.PositiveIntegerField(blank=True, null=True)
     image_width = models.PositiveIntegerField(blank=True, null=True)
     shoe_name = models.CharField(max_length=256)
+    shoe_size = models.ManyToManyField(Size)
     shoe_gender = models.TextField()
     shoe_color_available = models.ManyToManyField(Color)
     shoe_price = models.DecimalField(decimal_places=2, max_digits=9)
