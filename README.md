@@ -23,10 +23,10 @@ Once the  virtual environment is activated,:
     
     - Install the following:
         
-        - `pip3 install requirements.txt`
+        - `pip3 install -r requirements.txt`
       
         or
-        - `pip install requirements.txt`
+        - `pip install -r requirements.txt`
 
 After everything has installed successfully, navigate to the main directory and start server:
 + [X]  `cd TOP\ Gz\ SHOE\ SHOP/`
