@@ -1,0 +1,82 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BALENCIAGA</title>
+    <link rel="stylesheet" href="{% static 'css/page-header.css' %}">
+    <link rel="stylesheet" href="{% static 'css/add_to_cart_button.css' %}">
+</head>
+<body>
+{% if user.is_authenticated %}
+    <script src="{% static 'js/csrf_token.js' %}"></script>
+{% endif %}
+
+{% include 'bootstrap.html' %}
+{% include 'backToTop.html' %} <!--Back to Top button -->
+<!-- YEEZY SHOES -->
+<br><br>
+<div class="custom-container">
+    <h3 class="display-3">
+        <strong>BALENCIAGA SHOES</strong>
+    </h3>
+</div>
+<br><br>
+<!-- SEARCH BUTTON----JS IN assets/search.js -->
+<div style="display: flex; justify-content: center;">
+    <form class="d-flex" role="search" style="width: 50%;" onsubmit="event.preventDefault(); performSearch();">
+        <input class="form-control me-2" type="search" placeholder="search" aria-label="Search" id="search-input">
+        <button id="search-button" class="btn btn-outline-secondary" type="submit">
+            <i class="fa fa-search"></i>
+        </button>
+        <div style="flex-grow: 1;"></div>
+    </form>
+</div>
+<br>
+<div class="row" style="background-color: grey; cursor: grab;">
+    {% for all_shoes in balenciaga_shoes %}
+    <div class="card" style="width: 25rem; margin-right: 20px; margin-top: 20px; margin-left: 25px; margin-bottom: 20px;">
+        <img src="{{ all_shoes.shoe_image.url }}" class="card-img-top" alt="shoe" style="object-fit: cover; width: 360px; height: 250px;">
+        <div class="card-body">
+            <h5 class="card-title">{{ all_shoes.shoe_name }}</h5>
+            <p class="card-text">{{ all_shoes.shoe_gender }}</p>
+            {% for color in all_shoes.shoe_color_available.all %}
+            <p class="card-text">{{ color.color_name }}</p>
+            {% endfor %}
+            <p class="card-text"><strong>Now: ${{ all_shoes.shoe_price }}</strong><br><em>Was:<s> ${{ all_shoes.shoe_price_was }}</s></em></p>
+            {% if all_shoes.shoe_in_stock %}
+                <p>In stock</p>
+                <div class="row">
+                    <div class="col">
+                        {% if not user.is_authenticated %}
+                            <form action="{% url 'accounts:log_in' %}" method="get" id="login-form">
+                                <input type="hidden" name="next" value="{{ request.path }}">
+                                <button data-product="{{ all_shoes.id }}" data-action="add" class="btn btn-outline-success add-to-cart add-btn update-cart">Add to cart</button>
+                            </form>
+                        {% else %}
+                            <button data-product="{{ all_shoes.id }}" data-action="add" class="btn btn-outline-success add-to-cart add-btn update-cart">Add to cart</button>
+                        {% endif %}                    </div>
+                    <div class="col">
+                        <a href="#" class="btn btn-outline-secondary add-to-cart">View</a>
+                    </div>
+                </div>
+            {% else %}
+                <p>Out of stock</p>
+                <div class="row">
+                    <div class="col">
+                        <a class="btn btn-outline-success add-to-cart disabled">Add to cart</a>
+                    </div>
+                    <div class="col">
+                        <a class="btn btn-outline-secondary add-to-cart disabled">View</a>
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<script src="{% static 'js/cart.js' %}"></script>
+<script src="{% static 'js/search.js' %}"></script>
+<br><br><br>
+{% include 'baseshop_footer.html' %}
+</body>
+</html>
