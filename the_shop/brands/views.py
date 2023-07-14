@@ -70,10 +70,100 @@ def pradas(request):
 
 
 def shoes_accessories(request):
-    shoes_accessories_brand = get_object_or_404(Brand, brand_name='shoes_accessories')
+    shoes_accessories_brand = get_object_or_404(Brand, brand_name='Shoes Accessories')
     shoes_accessories_products = Product.objects.filter(brand=shoes_accessories_brand).order_by('-shoe_in_stock', '-shoe_time_added')
     if request.user.is_authenticated:
         customer = request.user
         order, created = Order.objects.get_or_create(user=customer, complete=False)
         return render(request, 'shoes_accessories.html', {"shoes_accessories_products": shoes_accessories_products, "order": order})
     return render(request, 'shoes_accessories.html', {"shoes_accessories_products": shoes_accessories_products})
+
+
+def pumas(request):
+    puma_brand = get_object_or_404(Brand, brand_name='Pumas')
+    puma_shoes = Product.objects.filter(brand=puma_brand).order_by('-shoe_in_stock', '-shoe_time_added')
+    if request.user.is_authenticated:
+        customer = request.user
+        order, created = Order.objects.get_or_create(user=customer, complete=False)
+        return render(request, 'pumas.html', {
+            "puma_shoes": puma_shoes,
+            "order": order
+        })
+    return render(request, 'pumas.html', {
+        "puma_shoes": puma_shoes
+    })
+
+
+def balenciagas(request):
+    balenciaga_brand = get_object_or_404(Brand, brand_name='Balenciagas')
+    balenciaga_shoes = Product.objects.filter(brand=balenciaga_brand)
+    if request.user.is_authenticated:
+        customer = request.user
+        order, created = Order.objects.get_or_create(user=customer, complete=False)
+        return render(request, 'balenciagas.html', {
+            "balenciaga_shoes": balenciaga_shoes,
+            "order": order
+        })
+    return render(request, 'balenciagas.html', {
+        "balenciaga_shoes": balenciaga_shoes
+    })
+
+
+def gucci(request):
+    gucci_brand = get_object_or_404(Brand, brand_name="Gucci")
+    gucci_shoes = Product.objects.filter(brand=gucci_brand)
+    if request.user.is_authenticated:
+        customer = request.user
+        order, created = Order.objects.get_or_create(user=customer, complete=False)
+        return render(request, 'gucci.html', {
+            "gucci_shoes": gucci_shoes,
+            "order": order
+        })
+    return render(request, 'gucci.html', {
+        "gucci_shoes": gucci_shoes
+    })
+
+
+def louis_vuitton(request):
+    louis_vuitton_brand = get_object_or_404(Brand, brand_name="Louis Vuitton")
+    louis_vuitton_shoes = Product.objects.filter(brand=louis_vuitton_brand)
+    if request.user.is_authenticated:
+        customer = request.user
+        order, created = Order.objects.get_or_create(user=customer, complete=False)
+        return render(request, 'louis_vuitton.html', {
+            "louis_vuitton_shoes": louis_vuitton_shoes,
+            "order": order
+        })
+    return render(request, 'louis_vuitton.html', {
+        "louis_vuitton_shoes": louis_vuitton_shoes
+    })
+
+
+def versace(request):
+    versace_brand = get_object_or_404(Brand, brand_name="Versace")
+    versace_shoes = Product.objects.filter(brand=versace_brand)
+    if request.user.is_authenticated:
+        customer = request.user
+        order, created = Order.objects.get_or_create(user=customer, complete=False)
+        return render(request, 'versace.html', {
+            "versace_shoes": versace_shoes,
+            "order": order
+        })
+    return render(request, 'versace.html', {
+        "versace_shoes": versace_shoes
+    })
+
+
+def addidas(request):
+    addidas_brand = get_object_or_404(Brand, brand_name="Addidas")
+    addidas_shoes = Product.objects.filter(brand=addidas_brand)
+    if request.user.is_authenticated:
+        customer = request.user
+        order, created = Order.objects.get_or_create(user=customer, complete=False)
+        return render(request, 'addidas.html', {
+            "addidas_shoes": addidas_shoes,
+            "order": order
+        })
+    return render(request, 'addidas.html', {
+        "addidas_shoes": addidas_shoes
+    })
