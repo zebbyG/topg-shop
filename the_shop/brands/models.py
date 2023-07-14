@@ -36,7 +36,7 @@ class Product(models.Model):
     image_height = models.PositiveIntegerField(blank=True, null=True)
     image_width = models.PositiveIntegerField(blank=True, null=True)
     shoe_name = models.CharField(max_length=256)
-    shoe_size = models.ManyToManyField(Size)
+    shoe_size = models.ManyToManyField(Size, blank=True)
     shoe_gender = models.TextField()
     shoe_color_available = models.ManyToManyField(Color)
     shoe_price = models.DecimalField(decimal_places=2, max_digits=9)
