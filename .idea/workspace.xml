@@ -4,8 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="set debug to true">
+      <change afterPath="$PROJECT_DIR$/the_shop/brands/migrations/0017_alter_product_shoe_size.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/brands/migrations/0018_alter_product_shoe_size.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/brands/templates/addidas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/brands/templates/balenciagas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/brands/templates/gucci.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/brands/templates/louis_vuitton.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/brands/templates/pumas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/brands/templates/versace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Balenciaga-logo_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Jordan-logo_EWLnCxD.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Jordan-logo_YIqzHrA.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/LV-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Nike-label_9mhDDnj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Prada-logo_94T1ztk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Vans-logo_4ybd1IJ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Yeezy-logo_cqMrLxp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/accessories_H5KCSUc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/adidas_new_logo_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/balenciaga-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/balenciaga-logo_2_1miOn9d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/balenciaga-logo_Bcye6al.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/gucci-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/puma-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/versace-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/versace-logo_ayuXSAi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/customize.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/customize_c1X2wlX.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/brands/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/the_shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/the_shop/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,62 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00230" summary="order completed orders with most recent">
-      <created>1688636772404</created>
-      <option name="number" value="00230" />
-      <option name="presentableId" value="LOCAL-00230" />
-      <option name="project" value="LOCAL" />
-      <updated>1688636772404</updated>
-    </task>
-    <task id="LOCAL-00231" summary="Add special links for authenticated and an authenticated users">
-      <created>1688637453461</created>
-      <option name="number" value="00231" />
-      <option name="presentableId" value="LOCAL-00231" />
-      <option name="project" value="LOCAL" />
-      <updated>1688637453461</updated>
-    </task>
-    <task id="LOCAL-00232" summary="&quot;remove&quot; Paypal options...to be added later">
-      <created>1688668507392</created>
-      <option name="number" value="00232" />
-      <option name="presentableId" value="LOCAL-00232" />
-      <option name="project" value="LOCAL" />
-      <updated>1688668507392</updated>
-    </task>
-    <task id="LOCAL-00233" summary="create spaces for catalogue cards">
-      <created>1688725671782</created>
-      <option name="number" value="00233" />
-      <option name="presentableId" value="LOCAL-00233" />
-      <option name="project" value="LOCAL" />
-      <updated>1688725671782</updated>
-    </task>
-    <task id="LOCAL-00234" summary="create spaces for jordan cards">
-      <created>1688725692109</created>
-      <option name="number" value="00234" />
-      <option name="presentableId" value="LOCAL-00234" />
-      <option name="project" value="LOCAL" />
-      <updated>1688725692109</updated>
-    </task>
-    <task id="LOCAL-00235" summary="create spaces for Vans cards">
-      <created>1688725712066</created>
-      <option name="number" value="00235" />
-      <option name="presentableId" value="LOCAL-00235" />
-      <option name="project" value="LOCAL" />
-      <updated>1688725712066</updated>
-    </task>
-    <task id="LOCAL-00236" summary="create spaces for Nikes cards">
-      <created>1688725724700</created>
-      <option name="number" value="00236" />
-      <option name="presentableId" value="LOCAL-00236" />
-      <option name="project" value="LOCAL" />
-      <updated>1688725724700</updated>
-    </task>
-    <task id="LOCAL-00237" summary="create spaces for Prada cards">
-      <created>1688725736289</created>
-      <option name="number" value="00237" />
-      <option name="presentableId" value="LOCAL-00237" />
-      <option name="project" value="LOCAL" />
-      <updated>1688725736289</updated>
     </task>
     <task id="LOCAL-00238" summary="create spaces for Shoes Accessories cards">
       <created>1688725751550</created>
@@ -439,19 +412,67 @@
       <option name="project" value="LOCAL" />
       <updated>1689169874288</updated>
     </task>
-    <option name="localTasksCounter" value="279" />
+    <task id="LOCAL-00279" summary=".xml, .gitignore">
+      <created>1689172363348</created>
+      <option name="number" value="00279" />
+      <option name="presentableId" value="LOCAL-00279" />
+      <option name="project" value="LOCAL" />
+      <updated>1689172363348</updated>
+    </task>
+    <task id="LOCAL-00280" summary="set debug to true">
+      <created>1689172451946</created>
+      <option name="number" value="00280" />
+      <option name="presentableId" value="LOCAL-00280" />
+      <option name="project" value="LOCAL" />
+      <updated>1689172451946</updated>
+    </task>
+    <task id="LOCAL-00281" summary="set debug to False">
+      <created>1689319281445</created>
+      <option name="number" value="00281" />
+      <option name="presentableId" value="LOCAL-00281" />
+      <option name="project" value="LOCAL" />
+      <updated>1689319281445</updated>
+    </task>
+    <task id="LOCAL-00282" summary="check if email exists on log_in and edit profile to avoid 1 email with several accounts">
+      <created>1689345239298</created>
+      <option name="number" value="00282" />
+      <option name="presentableId" value="LOCAL-00282" />
+      <option name="project" value="LOCAL" />
+      <updated>1689345239298</updated>
+    </task>
+    <task id="LOCAL-00283" summary="Add password reset urls">
+      <created>1689345281494</created>
+      <option name="number" value="00283" />
+      <option name="presentableId" value="LOCAL-00283" />
+      <option name="project" value="LOCAL" />
+      <updated>1689345281494</updated>
+    </task>
+    <task id="LOCAL-00284" summary="change url from shoes_accessories to Shoes Accessories">
+      <created>1689345337034</created>
+      <option name="number" value="00284" />
+      <option name="presentableId" value="LOCAL-00284" />
+      <option name="project" value="LOCAL" />
+      <updated>1689345337034</updated>
+    </task>
+    <task id="LOCAL-00285" summary="Set shoe size blank=True">
+      <created>1689345376442</created>
+      <option name="number" value="00285" />
+      <option name="presentableId" value="LOCAL-00285" />
+      <option name="project" value="LOCAL" />
+      <updated>1689345376442</updated>
+    </task>
+    <task id="LOCAL-00286" summary="Add urls for more products">
+      <created>1689345406422</created>
+      <option name="number" value="00286" />
+      <option name="presentableId" value="LOCAL-00286" />
+      <option name="project" value="LOCAL" />
+      <updated>1689345406422</updated>
+    </task>
+    <option name="localTasksCounter" value="287" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Xml" />
-    <MESSAGE value="Add coming soon paypal buttons" />
-    <MESSAGE value="css for floating messages" />
-    <MESSAGE value="readonly size field" />
-    <MESSAGE value="Separate price from product name&amp;quantity" />
-    <MESSAGE value="add &quot;X&quot; to show &quot;x&quot; quantity" />
-    <MESSAGE value="remove size to orderItem" />
-    <MESSAGE value="Register Size model" />
     <MESSAGE value="Add Size model" />
     <MESSAGE value="comment out size field" />
     <MESSAGE value="add time field in Color model" />
@@ -469,6 +490,14 @@
     <MESSAGE value="rm alt=&quot;&quot; in images" />
     <MESSAGE value="rename repository name, and Base Dir name" />
     <MESSAGE value="procfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="procfile" />
+    <MESSAGE value=".xml, .gitignore" />
+    <MESSAGE value="set debug to true" />
+    <MESSAGE value="set debug to False" />
+    <MESSAGE value="check if email exists on log_in and edit profile to avoid 1 email with several accounts" />
+    <MESSAGE value="Add password reset urls" />
+    <MESSAGE value="change url from shoes_accessories to Shoes Accessories" />
+    <MESSAGE value="Set shoe size blank=True" />
+    <MESSAGE value="Add urls for more products" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add urls for more products" />
   </component>
 </project>
