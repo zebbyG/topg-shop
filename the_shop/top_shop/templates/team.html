@@ -17,6 +17,10 @@
             padding: 10px;
             box-sizing: border-box;
         }
+
+        .card-body {
+        height: 480px;
+      }
     </style>
 </head>
 <body>
@@ -38,52 +42,74 @@
         <strong>LEADERSHIP</strong>
     </h3>
     <br><br>
-    <div class="row">
-    <figure class="figure">
-        <img src="{% static 'topg-logo.gif' %}" class="figure-img img-fluid rounded" style="width: 400px; height: 600px; object-fit: cover;margin-left: 20px;" alt="...">
-        <figcaption class="figure-caption">
-            <a style="text-decoration: none; cursor: grab;" class="h5">Zebbylion Njau</a>
-            <br><br>
-            <strong>Back-end Engineer</strong>
-            <a href="https://www.linkedin.com/in/zebbylion-njau/"><i class="btn-floating btn-sm fab fa-linkedin" style="font-size: 23px;"></i></a>
-            <a href="https://github.com/zebbyG" class="btn-floating btn-sm text-white"><i class="fab fa-github" style="font-size: 23px; color:black"></i></a>
-            <br><br>
-            <p style="cursor: grab;">
-                Zebbylion Njau is an accomplished individual in the field of backend engineering, recognized for his exceptional skills and leadership abilities. As a Backend Engineer and Team Leader, Zebbylion plays a pivotal role in driving the success of projects with his technical expertise and strong managerial capabilities. As the backend engineer for the Top Gz shoe shop, Zebbylion spearheaded the development and implementation of the website's backend infrastructure. His technical prowess allowed him to architect and optimize the server-side components, ensuring smooth functionality and seamless integration with the front-end.  
-            </p>
-        </figcaption>
-      </figure>
-      <figure class="figure">
-        <img src="{% static 'becky.jpg' %}" class="figure-img img-fluid rounded" style="width: 400px; height: 600px; object-fit: cover; margin-left: 35px;" alt="...">
-        <figcaption class="figure-caption">
-            <a style="text-decoration: none; cursor: grab;" class="h5">Rebeccah Wambui</a>
-            <br><br>
-            <strong>Back-end Engineer</strong>
-            <a href="https://www.linkedin.com/in/rebeccah-wambui-8394861a5/"><i class="btn-floating btn-sm fab fa-linkedin" style="font-size: 23px;"></i></a>
-            <a href="https://github.com/Rebeccah5" class="btn-floating btn-sm text-white"><i class="fab fa-github" style="font-size: 23px; color:black"></i></a>
-            <br><br>
-            <p style="cursor: grab;">
-                Rebeccah Wambui is a highly skilled and talented individual who excels in the field of backend engineering. Currently, she holds a position as a Backend Engineer at Twiga, a renowned technology company. With her expertise and dedication, Rebeccah plays a crucial role in developing robust and efficient backend systems that power various applications and services. She actively contributed to the design of the acclaimed Top Gz website, demonstrating her versatility and ability to go beyond traditional programming tasks. 
-            </p>
-        </figcaption>
-      </figure>
-      <figure class="figure">
-        <img src="{% static 'vincent.png' %}" class="figure-img img-fluid rounded" style="width: 400px; height: 600px; object-fit: cover;margin-left: 35px;" alt="...">
-        <figcaption class="figure-caption">
-            <a style="text-decoration: none; cursor: grab;" class="h5">Kipronoh Vincent</a>
-            <br><br>
-            <strong>Full stack Engineer</strong>
-            <a href="https://www.linkedin.com/in/kipronoh-vincent-b09979212/"><i class="btn-floating btn-sm fab fa-linkedin" style="font-size: 23px;"></i></a>
-            <a href="https://github.com/KipronohVincent" class="btn-floating btn-sm text-white"><i class="fab fa-github" style="font-size: 23px; color:black"></i></a>
-            <br><br>
-            <p style="cursor: grab;">
-                Vincent Kipronoh is a highly accomplished and versatile individual in the realm of web development. As a Full Stack Engineer, Vincent possesses a comprehensive skill set that encompasses both front-end and back-end technologies. His expertise allows him to tackle projects from end to end, ensuring seamless integration and optimal user experience. Vincent's contributions extend beyond his technical prowess. He also played a pivotal role in the design of the widely acclaimed Top Gz website.
-            </p>
-        </figcaption>
-      </figure>
-    </div>
-<br><br><br>
+<div class="container">
+      <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+                  <div class="card" style="cursor: grab;">
+                        <img src="{% static 'topg-logo.gif' %}" class="card-img-top" style="object-fit: cover; height: 350px;">
+                        <div class="card-body">
+                              <figure>
+                                    <figcaption class="figure-caption">
+                                          <a style="text-decoration: none; cursor: grab;" class="h5">Zebbylion Njau</a>
+                                          <br><br>
+                                          <strong>Back-end Engineer</strong>
+                                          <a href="https://www.linkedin.com/in/zebbylion-njau/"><i class="btn-floating btn-sm fab fa-linkedin" style="font-size: 23px;"></i></a>
+                                          <a href="https://github.com/zebbyG" class="btn-floating btn-sm text-white"><i class="fab fa-github" style="font-size: 23px; color:black"></i></a>
+                                          <br><br>
+                                          <p style="cursor: grab;">
+                                            Zebbylion Njau is an accomplished individual in the field of backend engineering, recognized for his exceptional skills and leadership abilities. As a Backend Engineer and Team Leader, Zebbylion plays a pivotal role in driving the success of projects with his technical expertise and strong managerial capabilities. As the backend engineer for the Top Gz shoe shop, Zebbylion spearheaded the development and implementation of the website's backend infrastructure. His technical prowess allowed him to architect and optimize the server-side components, ensuring smooth functionality and seamless integration with the front-end.
+                                          </p>
+                                    </figcaption>
+                              </figure>
+                        </div>
+                  </div>
+            </div>
 
+            <div class="col mb-4">
+                  <div class="card" style="cursor: grab;">
+                        <img src="{% static 'becky.jpg' %}" class="card-img-top" style="object-fit: cover; height: 350px;">
+                        <div class="card-body">
+                              <figure>
+                                    <figcaption class="figure-caption">
+                                        <a style="text-decoration: none; cursor: grab;" class="h5">Rebeccah Wambui</a>
+                                        <br><br>
+                                        <strong>Back-end Engineer</strong>
+                                        <a href="https://www.linkedin.com/in/rebeccah-wambui-8394861a5/"><i class="btn-floating btn-sm fab fa-linkedin" style="font-size: 23px;"></i></a>
+                                        <a href="https://github.com/Rebeccah5" class="btn-floating btn-sm text-white"><i class="fab fa-github" style="font-size: 23px; color:black"></i></a>
+                                        <br><br>
+                                        <p style="cursor: grab;">
+                                            Rebeccah Wambui is a highly skilled and talented individual who excels in the field of backend engineering. Currently, she holds a position as a Backend Engineer at Twiga, a renowned technology company. With her expertise and dedication, Rebeccah plays a crucial role in developing robust and efficient backend systems that power various applications and services. She actively contributed to the design of the acclaimed Top Gz website, demonstrating her versatility and ability to go beyond traditional programming tasks.
+                                        </p>
+                                    </figcaption>
+                              </figure>
+                        </div>
+                  </div>
+            </div>
+
+            <div class="col mb-4">
+                  <div class="card" style="cursor: grab;">
+                        <img src="{% static 'hope.jpg' %}" class="card-img-top" style="object-fit: cover; height: 350px;">
+                        <div class="card-body">
+                              <figure>
+                                    <figcaption class="figure-caption">
+                                        <a style="text-decoration: none; cursor: grab;" class="h5">Hope Njeri</a>
+                                        <br><br>
+                                        <strong>UI/UX designer</strong>
+                                        <a href="https://www.linkedin.com/in/hope-njeri-b9095327b/"><i class="btn-floating btn-sm fab fa-linkedin" style="font-size: 23px;"></i></a>
+                                        <a href="https://www.behance.net/Hope_Njeri" class="btn-floating btn-sm text-white"><i class="fab fa-behance" style="font-size: 23px; color:black"></i></a>
+                                        <br><br>
+                                        <p style="cursor: grab;">
+                                            Hope Njeri is a highly accomplished and versatile individual in the realm of web development. As a designer, Hope possesses a comprehensive skill set that encompasses both UI and UX technologies. Her expertise allows her to tackle projects, ensuring seamless user interface and optimal user experience. Hope's contributions extend beyond her technical prowess. She also played a pivotal role in the design of the widely acclaimed Top Gz website.
+                                        </p>
+                                    </figcaption>
+                              </figure>
+                        </div>
+                  </div>
+            </div>
+      </div>
+</div>
+
+<br><br><br>
 {% include 'baseshop_footer.html' %}
 </body>
 </html>
