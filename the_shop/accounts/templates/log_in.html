@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>LOG IN</title>
     <link rel="stylesheet" href="{% static 'css/page-header.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 <body>
 {% include 'bootstrap.html' %}
@@ -19,21 +20,28 @@
 </div>
 <br><br>
 
+
 <form class="site-form" action="{% url 'accounts:log_in' %}" method="post">
     {% csrf_token %}
-    <div style="margin-left: 570px">
-        <em style="font-weight: bold;">Username:</em><br>
-        Required: <small style="font-weight: bold; font-size: 20px;">no spacing</small><br>
-        {{ log_in_form.username }}<br><br>
-        <em style="font-weight: bold;">Password:</em><br>
-        {{ log_in_form.password }}<br><br>
-        <small style="color: red;">{{ log_in_form.errors }}</small>
-    </div>
-    <div style="margin-left: 630px">
-        {% if request.GET.next %}
-            <br><input type="hidden" name="next" value="{{ request.GET.next }}">
-        {% endif %}
-        <br><input type="submit" value="log in">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="{{ log_in_form.username.id_for_label }}" style="font-weight: bold;">Username</label><br>
+                    Required: <small style="font-weight: bold; font-size: 20px;">no spacing</small><br>
+                    {{ log_in_form.username }}
+                </div>
+                <div class="form-group">
+                    <br><label for="{{ log_in_form.password.id_for_label }}">Password</label><br>
+                    {{ log_in_form.password }}
+                </div>
+                <small style="color: red;">{{ log_in_form.errors }}</small>
+                {% if request.GET.next %}
+                    <br><input type="hidden" name="next" value="{{ request.GET.next }}">
+                {% endif %}
+                <br><input type="submit" value="log in">
+            </div>
+        </div>
     </div>
 </form>
 <br><br>
