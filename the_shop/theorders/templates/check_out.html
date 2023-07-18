@@ -92,11 +92,11 @@
 						<button class="btn btn-outline-dark btn-lg" id="make-payment" style="width: 100%;">Pay on delivery</button>
 					</p>
 					<div style="position: fixed; bottom: 50%; right: 0; transform: translate(0, 50%);" class="toast-container p-3">
-						<div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="6000">
+						<div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="3000">
 							<div class="toast-header">
 								<img src="{{ user.userprofile.profile_picture.url }}" class="rounded me-2" style="width: 50px; height: 70px; object-fit: cover;">
 								<a class="me-auto" href="{% url 'orders:my_orders' %}" style="text-decoration: none;"><b>View Complete Orders</b></a>
-								<small>redirecting in 7sec...</small>
+								<small>redirecting in 4sec...</small>
 								<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
 							</div>
 							<div class="toast-body">
@@ -254,8 +254,8 @@
 		.then((data) => {
 			console.log('Success', data);
 			setTimeout(function() {
-				window.location.href = "{% url 'orders:my_orders' %}";
-			}, 8000);
+				window.location.href = "{% url 'orders:order_completed' %}";
+			}, 5000);
 		})
 	}
 </script>
