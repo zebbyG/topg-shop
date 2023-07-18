@@ -91,3 +91,11 @@ def complete_orders(request):
         "order": order,
         "shipping_addresses": shipping_addresses,
     })
+
+
+def order_complete(request):
+    customer = request.user
+    order, completed = Order.objects.get_or_create(user=customer, complete=False)
+    return render(request, 'order_completed.html', {
+        "order": order
+    })
