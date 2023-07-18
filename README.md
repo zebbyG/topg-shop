@@ -1,5 +1,5 @@
-# UNDER_CONSTRUCTION
-A project under construction.
+# TOP Gz SHOE-SHOP
+Walk With Condifence
 ==================================
 Top Gz is an online shoe shop that offers a wide range of high-quality footwear for customers.
 - Technologies used:
