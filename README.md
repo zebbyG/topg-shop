@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 # TOP Gz SHOE-SHOP
 Walk With Condifence
 ==================================
@@ -76,4 +75,3 @@ After everything has installed successfully, navigate to the main directory and 
 
     - The server runs on port 8000 by default. If you want to specify the port number:
         - `python3 manage.py runserver [port number]`
->>>>>>> Stashed changes
