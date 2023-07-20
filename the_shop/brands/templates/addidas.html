@@ -57,11 +57,8 @@
                         {% endif %}
                     </div>
                     <div class="col">
-                        <a class="btn btn-outline-secondary add-to-cart" onclick="toggleImage(this)">View</a>
+                        <a class="btn btn-outline-secondary add-to-cart">View</a>
                     </div>
-                </div>
-                <div class="larger-image" style="display: none;">
-                    <img src="{{ all_shoes.shoe_image.url }}" alt="larger shoe image" style="object-fit: cover; width: 500px; height: 390px;">
                 </div>
             {% else %}
                 <p>Out of stock</p>
@@ -78,12 +75,6 @@
     </div>
     {% endfor %}
 </div>
-<script>
-    function toggleImage(button) {
-        const largerImage = button.parentNode.parentNode.nextElementSibling;
-        largerImage.style.display = largerImage.style.display === 'none' ? 'block' : 'none';
-    }
-</script>
 <script src="{% static 'js/cart.js' %}"></script>
 <script src="{% static 'js/search.js' %}"></script>
 <br><br><br>
