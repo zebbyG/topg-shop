@@ -16,20 +16,24 @@
     </h3>
 </div>
 <br><br>
-<div class="row" style="cursor: grab;">
-    <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'Yeezy slides customs.jpg' %}" alt="Customizing shoes">
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img class="img-thumbnail rounded" style="width: 100%; height: auto; object-fit: cover; margin-bottom: 20px;" src="{% static 'Yeezy slides customs.jpg' %}" alt="Customizing shoes">
+        </div>
         <div class="col-md-6">
             <h1>Customize your shoe game</h1>
             <br>
-          <p class="blockquote" style="font-size: larger;">
-              Unleash your creativity with customizing services. From custom color combinations to intricate designs, our skilled artisans will bring your vision to life. Stand out from the crowd and make a statement with custom shoes tailored exclusively for you.
-          </p>
+            <p class="blockquote" style="font-size: larger;">
+                Unleash your creativity with customizing services. From custom color combinations to intricate designs, our skilled artisans will bring your vision to life. Stand out from the crowd and make a statement with custom shoes tailored exclusively for you.
+            </p>
             <div class="d-flex justify-content-center align-items-center" style="height: 18vh;">
                 <a href="#"> <!--TO ADD UPLOADS AND FORMS TO FILL FOR SHOE CUSTOMIZATION -->
                     <button type="button" class="btn btn-outline-secondary btn-lg"><strong>CUSTOMIZE YOUR SHOE</strong></button>
                 </a>
             </div>
         </div>
+    </div>
 </div>
 <br><br><br>
 {% include 'baseshop_footer.html' %}
