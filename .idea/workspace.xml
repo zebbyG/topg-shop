@@ -4,37 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="set debug to true">
-      <change afterPath="$PROJECT_DIR$/the_shop/brands/migrations/0017_alter_product_shoe_size.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/brands/migrations/0018_alter_product_shoe_size.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/brands/templates/addidas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/brands/templates/balenciagas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/brands/templates/gucci.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/brands/templates/louis_vuitton.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/brands/templates/pumas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/brands/templates/versace.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Balenciaga-logo_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Jordan-logo_EWLnCxD.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Jordan-logo_YIqzHrA.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/LV-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Nike-label_9mhDDnj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Prada-logo_94T1ztk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Vans-logo_4ybd1IJ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/Yeezy-logo_cqMrLxp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/accessories_H5KCSUc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/adidas_new_logo_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/balenciaga-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/balenciaga-logo_2_1miOn9d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/balenciaga-logo_Bcye6al.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/gucci-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/puma-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/versace-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/brand-logo/versace-logo_ayuXSAi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/customize.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/customize_c1X2wlX.jpg" afterDir="false" />
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="add loading icon">
+      <change afterPath="$PROJECT_DIR$/the_shop/vercel.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/brands/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/the_shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/the_shop/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -76,7 +48,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zebbylion/PycharmProjects/My-portfolio2&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zebbylion/PycharmProjects/My-portfolio&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -125,379 +97,382 @@
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
     </task>
-    <task id="LOCAL-00238" summary="create spaces for Shoes Accessories cards">
-      <created>1688725751550</created>
-      <option name="number" value="00238" />
-      <option name="presentableId" value="LOCAL-00238" />
+    <task id="LOCAL-00293" summary="template for Puma products">
+      <created>1689345546006</created>
+      <option name="number" value="00293" />
+      <option name="presentableId" value="LOCAL-00293" />
       <option name="project" value="LOCAL" />
-      <updated>1688725751550</updated>
+      <updated>1689345546006</updated>
     </task>
-    <task id="LOCAL-00239" summary="create spaces for Yeezy cards">
-      <created>1688725766046</created>
-      <option name="number" value="00239" />
-      <option name="presentableId" value="LOCAL-00239" />
+    <task id="LOCAL-00294" summary="template for Versace products">
+      <created>1689345575905</created>
+      <option name="number" value="00294" />
+      <option name="presentableId" value="LOCAL-00294" />
       <option name="project" value="LOCAL" />
-      <updated>1688725766046</updated>
+      <updated>1689345575905</updated>
     </task>
-    <task id="LOCAL-00240" summary="Brand Logos">
-      <created>1688725810152</created>
-      <option name="number" value="00240" />
-      <option name="presentableId" value="LOCAL-00240" />
+    <task id="LOCAL-00295" summary="Brand logos">
+      <created>1689345596868</created>
+      <option name="number" value="00295" />
+      <option name="presentableId" value="LOCAL-00295" />
       <option name="project" value="LOCAL" />
-      <updated>1688725810152</updated>
+      <updated>1689345596868</updated>
     </task>
-    <task id="LOCAL-00241" summary=".xml's">
-      <created>1688725844054</created>
-      <option name="number" value="00241" />
-      <option name="presentableId" value="LOCAL-00241" />
+    <task id="LOCAL-00296" summary="add smtp...">
+      <created>1689345644434</created>
+      <option name="number" value="00296" />
+      <option name="presentableId" value="LOCAL-00296" />
       <option name="project" value="LOCAL" />
-      <updated>1688725844054</updated>
+      <updated>1689345644434</updated>
     </task>
-    <task id="LOCAL-00242" summary=".xml">
-      <created>1688728795424</created>
-      <option name="number" value="00242" />
-      <option name="presentableId" value="LOCAL-00242" />
+    <task id="LOCAL-00297" summary=".xml">
+      <created>1689345656837</created>
+      <option name="number" value="00297" />
+      <option name="presentableId" value="LOCAL-00297" />
       <option name="project" value="LOCAL" />
-      <updated>1688728795424</updated>
+      <updated>1689345656837</updated>
     </task>
-    <task id="LOCAL-00243" summary="Added space between nav-bar and start of the page">
-      <created>1688728838606</created>
-      <option name="number" value="00243" />
-      <option name="presentableId" value="LOCAL-00243" />
+    <task id="LOCAL-00298" summary="add Allowed host to 'vercel.app' to test deployment">
+      <created>1689401532407</created>
+      <option name="number" value="00298" />
+      <option name="presentableId" value="LOCAL-00298" />
       <option name="project" value="LOCAL" />
-      <updated>1688728838606</updated>
+      <updated>1689401532419</updated>
     </task>
-    <task id="LOCAL-00244" summary="Replaced team photo with gif">
-      <created>1688744733229</created>
-      <option name="number" value="00244" />
-      <option name="presentableId" value="LOCAL-00244" />
+    <task id="LOCAL-00299" summary="vercel.json to help with deployment">
+      <created>1689401552728</created>
+      <option name="number" value="00299" />
+      <option name="presentableId" value="LOCAL-00299" />
       <option name="project" value="LOCAL" />
-      <updated>1688744733229</updated>
+      <updated>1689401552728</updated>
     </task>
-    <task id="LOCAL-00245" summary="'Make payment' a button">
-      <created>1688746400364</created>
-      <option name="number" value="00245" />
-      <option name="presentableId" value="LOCAL-00245" />
+    <task id="LOCAL-00300" summary="try deployment">
+      <created>1689401568597</created>
+      <option name="number" value="00300" />
+      <option name="presentableId" value="LOCAL-00300" />
       <option name="project" value="LOCAL" />
-      <updated>1688746400364</updated>
+      <updated>1689401568597</updated>
     </task>
-    <task id="LOCAL-00246" summary="and a 'paid' field to check for paid orders">
-      <created>1688746427933</created>
-      <option name="number" value="00246" />
-      <option name="presentableId" value="LOCAL-00246" />
+    <task id="LOCAL-00301" summary="try deployment. debug=False">
+      <created>1689402217906</created>
+      <option name="number" value="00301" />
+      <option name="presentableId" value="LOCAL-00301" />
       <option name="project" value="LOCAL" />
-      <updated>1688746427933</updated>
+      <updated>1689402217906</updated>
     </task>
-    <task id="LOCAL-00247" summary="Show user if order is Paid">
-      <created>1688746453045</created>
-      <option name="number" value="00247" />
-      <option name="presentableId" value="LOCAL-00247" />
+    <task id="LOCAL-00302" summary="try deployment on all allowed hosts">
+      <created>1689402891810</created>
+      <option name="number" value="00302" />
+      <option name="presentableId" value="LOCAL-00302" />
       <option name="project" value="LOCAL" />
-      <updated>1688746453045</updated>
+      <updated>1689402891825</updated>
     </task>
-    <task id="LOCAL-00248" summary="check_out.html">
-      <created>1688746810449</created>
-      <option name="number" value="00248" />
-      <option name="presentableId" value="LOCAL-00248" />
+    <task id="LOCAL-00303" summary="rm &quot;hover to display button&quot;">
+      <created>1689583389597</created>
+      <option name="number" value="00303" />
+      <option name="presentableId" value="LOCAL-00303" />
       <option name="project" value="LOCAL" />
-      <updated>1688746810449</updated>
+      <updated>1689583389601</updated>
     </task>
-    <task id="LOCAL-00249" summary="Add paid field to Table Order">
-      <created>1688746848702</created>
-      <option name="number" value="00249" />
-      <option name="presentableId" value="LOCAL-00249" />
+    <task id="LOCAL-00304" summary="add toast nd remove alert() on order completion">
+      <created>1689597192522</created>
+      <option name="number" value="00304" />
+      <option name="presentableId" value="LOCAL-00304" />
       <option name="project" value="LOCAL" />
-      <updated>1688746848702</updated>
+      <updated>1689597192522</updated>
     </task>
-    <task id="LOCAL-00250" summary="Xml">
-      <created>1688746858581</created>
-      <option name="number" value="00250" />
-      <option name="presentableId" value="LOCAL-00250" />
+    <task id="LOCAL-00305" summary="debug=False">
+      <created>1689597207805</created>
+      <option name="number" value="00305" />
+      <option name="presentableId" value="LOCAL-00305" />
       <option name="project" value="LOCAL" />
-      <updated>1688746858581</updated>
+      <updated>1689597207805</updated>
     </task>
-    <task id="LOCAL-00251" summary="Add coming soon paypal buttons">
-      <created>1688748067570</created>
-      <option name="number" value="00251" />
-      <option name="presentableId" value="LOCAL-00251" />
+    <task id="LOCAL-00306" summary="on Product deletion, delete OrderItem too">
+      <created>1689597255075</created>
+      <option name="number" value="00306" />
+      <option name="presentableId" value="LOCAL-00306" />
       <option name="project" value="LOCAL" />
-      <updated>1688748067570</updated>
+      <updated>1689597255075</updated>
     </task>
-    <task id="LOCAL-00252" summary="css for floating messages">
-      <created>1688984583141</created>
-      <option name="number" value="00252" />
-      <option name="presentableId" value="LOCAL-00252" />
+    <task id="LOCAL-00307" summary="if Product deleted, delete OrderItem">
+      <created>1689597315933</created>
+      <option name="number" value="00307" />
+      <option name="presentableId" value="LOCAL-00307" />
       <option name="project" value="LOCAL" />
-      <updated>1688984583141</updated>
+      <updated>1689597315934</updated>
     </task>
-    <task id="LOCAL-00253" summary="readonly size field">
-      <created>1688984614932</created>
-      <option name="number" value="00253" />
-      <option name="presentableId" value="LOCAL-00253" />
+    <task id="LOCAL-00308" summary="try deployment with debug=False">
+      <created>1689599836355</created>
+      <option name="number" value="00308" />
+      <option name="presentableId" value="LOCAL-00308" />
       <option name="project" value="LOCAL" />
-      <updated>1688984614932</updated>
+      <updated>1689599836355</updated>
     </task>
-    <task id="LOCAL-00254" summary="Separate price from product name&amp;quantity">
-      <created>1688984657905</created>
-      <option name="number" value="00254" />
-      <option name="presentableId" value="LOCAL-00254" />
+    <task id="LOCAL-00309" summary="debug=False">
+      <created>1689600117288</created>
+      <option name="number" value="00309" />
+      <option name="presentableId" value="LOCAL-00309" />
       <option name="project" value="LOCAL" />
-      <updated>1688984657905</updated>
+      <updated>1689600117288</updated>
     </task>
-    <task id="LOCAL-00255" summary="add &quot;X&quot; to show &quot;x&quot; quantity">
-      <created>1688984705251</created>
-      <option name="number" value="00255" />
-      <option name="presentableId" value="LOCAL-00255" />
+    <task id="LOCAL-00310" summary="responsive log_in page">
+      <created>1689603941490</created>
+      <option name="number" value="00310" />
+      <option name="presentableId" value="LOCAL-00310" />
       <option name="project" value="LOCAL" />
-      <updated>1688984705251</updated>
+      <updated>1689603941490</updated>
     </task>
-    <task id="LOCAL-00256" summary="remove size to orderItem">
-      <created>1688984764049</created>
-      <option name="number" value="00256" />
-      <option name="presentableId" value="LOCAL-00256" />
+    <task id="LOCAL-00311" summary="fix watsapp contact">
+      <created>1689616249357</created>
+      <option name="number" value="00311" />
+      <option name="presentableId" value="LOCAL-00311" />
       <option name="project" value="LOCAL" />
-      <updated>1688984764049</updated>
+      <updated>1689616249357</updated>
     </task>
-    <task id="LOCAL-00257" summary=".xml">
-      <created>1688984778046</created>
-      <option name="number" value="00257" />
-      <option name="presentableId" value="LOCAL-00257" />
+    <task id="LOCAL-00312" summary="Responsive team page">
+      <created>1689617287221</created>
+      <option name="number" value="00312" />
+      <option name="presentableId" value="LOCAL-00312" />
       <option name="project" value="LOCAL" />
-      <updated>1688984778046</updated>
+      <updated>1689617287221</updated>
     </task>
-    <task id="LOCAL-00258" summary="Register Size model">
-      <created>1689158936070</created>
-      <option name="number" value="00258" />
-      <option name="presentableId" value="LOCAL-00258" />
+    <task id="LOCAL-00313" summary="Team image">
+      <created>1689617438740</created>
+      <option name="number" value="00313" />
+      <option name="presentableId" value="LOCAL-00313" />
       <option name="project" value="LOCAL" />
-      <updated>1689158936070</updated>
+      <updated>1689617438740</updated>
     </task>
-    <task id="LOCAL-00259" summary="Add Size model">
-      <created>1689159001739</created>
-      <option name="number" value="00259" />
-      <option name="presentableId" value="LOCAL-00259" />
+    <task id="LOCAL-00314" summary="add service &quot;customize-shoes&quot; image">
+      <created>1689617959064</created>
+      <option name="number" value="00314" />
+      <option name="presentableId" value="LOCAL-00314" />
       <option name="project" value="LOCAL" />
-      <updated>1689159001739</updated>
+      <updated>1689617959064</updated>
     </task>
-    <task id="LOCAL-00260" summary="comment out size field">
-      <created>1689159056383</created>
-      <option name="number" value="00260" />
-      <option name="presentableId" value="LOCAL-00260" />
+    <task id="LOCAL-00315" summary="vans custom">
+      <created>1689618384660</created>
+      <option name="number" value="00315" />
+      <option name="presentableId" value="LOCAL-00315" />
       <option name="project" value="LOCAL" />
-      <updated>1689159056383</updated>
+      <updated>1689618384661</updated>
     </task>
-    <task id="LOCAL-00261" summary="add time field in Color model">
-      <created>1689159103564</created>
-      <option name="number" value="00261" />
-      <option name="presentableId" value="LOCAL-00261" />
+    <task id="LOCAL-00316" summary="image for customize service">
+      <created>1689618429280</created>
+      <option name="number" value="00316" />
+      <option name="presentableId" value="LOCAL-00316" />
       <option name="project" value="LOCAL" />
-      <updated>1689159103564</updated>
+      <updated>1689618429280</updated>
     </task>
-    <task id="LOCAL-00262" summary="rename time field in Color model">
-      <created>1689159143154</created>
-      <option name="number" value="00262" />
-      <option name="presentableId" value="LOCAL-00262" />
+    <task id="LOCAL-00317" summary="shop-services.html">
+      <created>1689619453365</created>
+      <option name="number" value="00317" />
+      <option name="presentableId" value="LOCAL-00317" />
       <option name="project" value="LOCAL" />
-      <updated>1689159143154</updated>
+      <updated>1689619453365</updated>
     </task>
-    <task id="LOCAL-00263" summary="Add shoe-size field in Product model">
-      <created>1689159191943</created>
-      <option name="number" value="00263" />
-      <option name="presentableId" value="LOCAL-00263" />
+    <task id="LOCAL-00318" summary="change customize image">
+      <created>1689619722916</created>
+      <option name="number" value="00318" />
+      <option name="presentableId" value="LOCAL-00318" />
       <option name="project" value="LOCAL" />
-      <updated>1689159191943</updated>
+      <updated>1689619722916</updated>
     </task>
-    <task id="LOCAL-00264" summary="Added size field in OrderItem model">
-      <created>1689159237329</created>
-      <option name="number" value="00264" />
-      <option name="presentableId" value="LOCAL-00264" />
+    <task id="LOCAL-00319" summary="rename image">
+      <created>1689619900981</created>
+      <option name="number" value="00319" />
+      <option name="presentableId" value="LOCAL-00319" />
       <option name="project" value="LOCAL" />
-      <updated>1689159237329</updated>
+      <updated>1689619900981</updated>
     </task>
-    <task id="LOCAL-00265" summary="remove size field in OrderItem model">
-      <created>1689159250710</created>
-      <option name="number" value="00265" />
-      <option name="presentableId" value="LOCAL-00265" />
+    <task id="LOCAL-00320" summary="Change location">
+      <created>1689621109160</created>
+      <option name="number" value="00320" />
+      <option name="presentableId" value="LOCAL-00320" />
       <option name="project" value="LOCAL" />
-      <updated>1689159250710</updated>
+      <updated>1689621109160</updated>
     </task>
-    <task id="LOCAL-00266" summary="Add &quot;choose size &quot; option in cart page">
-      <created>1689159311597</created>
-      <option name="number" value="00266" />
-      <option name="presentableId" value="LOCAL-00266" />
+    <task id="LOCAL-00321" summary="footer">
+      <created>1689622029361</created>
+      <option name="number" value="00321" />
+      <option name="presentableId" value="LOCAL-00321" />
       <option name="project" value="LOCAL" />
-      <updated>1689159311597</updated>
+      <updated>1689622029361</updated>
     </task>
-    <task id="LOCAL-00267" summary="check_out.html">
-      <created>1689159350077</created>
-      <option name="number" value="00267" />
-      <option name="presentableId" value="LOCAL-00267" />
+    <task id="LOCAL-00322" summary="add &quot;complete orders&quot; page...to redirect after order completion">
+      <created>1689686365912</created>
+      <option name="number" value="00322" />
+      <option name="presentableId" value="LOCAL-00322" />
       <option name="project" value="LOCAL" />
-      <updated>1689159350077</updated>
+      <updated>1689686365930</updated>
     </task>
-    <task id="LOCAL-00268" summary="Add commented out size field">
-      <created>1689159455387</created>
-      <option name="number" value="00268" />
-      <option name="presentableId" value="LOCAL-00268" />
+    <task id="LOCAL-00323" summary="order completed template">
+      <created>1689686402397</created>
+      <option name="number" value="00323" />
+      <option name="presentableId" value="LOCAL-00323" />
       <option name="project" value="LOCAL" />
-      <updated>1689159455387</updated>
+      <updated>1689686402397</updated>
     </task>
-    <task id="LOCAL-00269" summary=".xml">
-      <created>1689159462829</created>
-      <option name="number" value="00269" />
-      <option name="presentableId" value="LOCAL-00269" />
+    <task id="LOCAL-00324" summary="change redirection to order completed page">
+      <created>1689686436782</created>
+      <option name="number" value="00324" />
+      <option name="presentableId" value="LOCAL-00324" />
       <option name="project" value="LOCAL" />
-      <updated>1689159462829</updated>
+      <updated>1689686436782</updated>
     </task>
-    <task id="LOCAL-00270" summary="Import Size model">
-      <created>1689161374484</created>
-      <option name="number" value="00270" />
-      <option name="presentableId" value="LOCAL-00270" />
+    <task id="LOCAL-00325" summary="add url for order completed">
+      <created>1689686456668</created>
+      <option name="number" value="00325" />
+      <option name="presentableId" value="LOCAL-00325" />
       <option name="project" value="LOCAL" />
-      <updated>1689161374484</updated>
+      <updated>1689686456668</updated>
     </task>
-    <task id="LOCAL-00271" summary="project requirements">
-      <created>1689161742605</created>
-      <option name="number" value="00271" />
-      <option name="presentableId" value="LOCAL-00271" />
+    <task id="LOCAL-00326" summary="rm whitespaces">
+      <created>1689686625482</created>
+      <option name="number" value="00326" />
+      <option name="presentableId" value="LOCAL-00326" />
       <option name="project" value="LOCAL" />
-      <updated>1689161742605</updated>
+      <updated>1689686625482</updated>
     </task>
-    <task id="LOCAL-00272" summary="README.md">
-      <created>1689161844454</created>
-      <option name="number" value="00272" />
-      <option name="presentableId" value="LOCAL-00272" />
+    <task id="LOCAL-00327" summary="add an image to show the order was placed successfully">
+      <created>1689686708631</created>
+      <option name="number" value="00327" />
+      <option name="presentableId" value="LOCAL-00327" />
       <option name="project" value="LOCAL" />
-      <updated>1689161844454</updated>
+      <updated>1689686708631</updated>
     </task>
-    <task id="LOCAL-00273" summary="README.md">
-      <created>1689162676111</created>
-      <option name="number" value="00273" />
-      <option name="presentableId" value="LOCAL-00273" />
+    <task id="LOCAL-00328" summary="template to show order was completed successfully">
+      <created>1689687217540</created>
+      <option name="number" value="00328" />
+      <option name="presentableId" value="LOCAL-00328" />
       <option name="project" value="LOCAL" />
-      <updated>1689162676111</updated>
+      <updated>1689687217540</updated>
     </task>
-    <task id="LOCAL-00274" summary="project requirements">
-      <created>1689164019543</created>
-      <option name="number" value="00274" />
-      <option name="presentableId" value="LOCAL-00274" />
+    <task id="LOCAL-00329" summary="README.md">
+      <created>1689687267334</created>
+      <option name="number" value="00329" />
+      <option name="presentableId" value="LOCAL-00329" />
       <option name="project" value="LOCAL" />
-      <updated>1689164019543</updated>
+      <updated>1689687267334</updated>
     </task>
-    <task id="LOCAL-00275" summary=".xml">
-      <created>1689164032575</created>
-      <option name="number" value="00275" />
-      <option name="presentableId" value="LOCAL-00275" />
+    <task id="LOCAL-00330" summary="add loading icon">
+      <created>1689751581121</created>
+      <option name="number" value="00330" />
+      <option name="presentableId" value="LOCAL-00330" />
       <option name="project" value="LOCAL" />
-      <updated>1689164032575</updated>
+      <updated>1689751581121</updated>
     </task>
-    <task id="LOCAL-00276" summary="rm alt=&quot;&quot; in images">
-      <created>1689164795023</created>
-      <option name="number" value="00276" />
-      <option name="presentableId" value="LOCAL-00276" />
+    <task id="LOCAL-00331" summary="update README.md">
+      <created>1689751606931</created>
+      <option name="number" value="00331" />
+      <option name="presentableId" value="LOCAL-00331" />
       <option name="project" value="LOCAL" />
-      <updated>1689164795023</updated>
+      <updated>1689751606931</updated>
     </task>
-    <task id="LOCAL-00277" summary="rename repository name, and Base Dir name">
-      <created>1689169784554</created>
-      <option name="number" value="00277" />
-      <option name="presentableId" value="LOCAL-00277" />
+    <task id="LOCAL-00332" summary="rm sqlite">
+      <created>1689753665904</created>
+      <option name="number" value="00332" />
+      <option name="presentableId" value="LOCAL-00332" />
       <option name="project" value="LOCAL" />
-      <updated>1689169784554</updated>
+      <updated>1689753665904</updated>
     </task>
-    <task id="LOCAL-00278" summary="procfile">
-      <created>1689169874288</created>
-      <option name="number" value="00278" />
-      <option name="presentableId" value="LOCAL-00278" />
+    <task id="LOCAL-00333" summary="db.sqlite3">
+      <created>1689753692501</created>
+      <option name="number" value="00333" />
+      <option name="presentableId" value="LOCAL-00333" />
       <option name="project" value="LOCAL" />
-      <updated>1689169874288</updated>
+      <updated>1689753692501</updated>
     </task>
-    <task id="LOCAL-00279" summary=".xml, .gitignore">
-      <created>1689172363348</created>
-      <option name="number" value="00279" />
-      <option name="presentableId" value="LOCAL-00279" />
+    <task id="LOCAL-00334" summary="update">
+      <created>1689755366637</created>
+      <option name="number" value="00334" />
+      <option name="presentableId" value="LOCAL-00334" />
       <option name="project" value="LOCAL" />
-      <updated>1689172363348</updated>
+      <updated>1689755366637</updated>
     </task>
-    <task id="LOCAL-00280" summary="set debug to true">
-      <created>1689172451946</created>
-      <option name="number" value="00280" />
-      <option name="presentableId" value="LOCAL-00280" />
+    <task id="LOCAL-00335" summary="add more packages">
+      <created>1689758484911</created>
+      <option name="number" value="00335" />
+      <option name="presentableId" value="LOCAL-00335" />
       <option name="project" value="LOCAL" />
-      <updated>1689172451946</updated>
+      <updated>1689758484942</updated>
     </task>
-    <task id="LOCAL-00281" summary="set debug to False">
-      <created>1689319281445</created>
-      <option name="number" value="00281" />
-      <option name="presentableId" value="LOCAL-00281" />
+    <task id="LOCAL-00336" summary="accounts app migrations">
+      <created>1689849027684</created>
+      <option name="number" value="00336" />
+      <option name="presentableId" value="LOCAL-00336" />
       <option name="project" value="LOCAL" />
-      <updated>1689319281445</updated>
+      <updated>1689849027684</updated>
     </task>
-    <task id="LOCAL-00282" summary="check if email exists on log_in and edit profile to avoid 1 email with several accounts">
-      <created>1689345239298</created>
-      <option name="number" value="00282" />
-      <option name="presentableId" value="LOCAL-00282" />
+    <task id="LOCAL-00337" summary="brands app migrations">
+      <created>1689849048693</created>
+      <option name="number" value="00337" />
+      <option name="presentableId" value="LOCAL-00337" />
       <option name="project" value="LOCAL" />
-      <updated>1689345239298</updated>
+      <updated>1689849048693</updated>
     </task>
-    <task id="LOCAL-00283" summary="Add password reset urls">
-      <created>1689345281494</created>
-      <option name="number" value="00283" />
-      <option name="presentableId" value="LOCAL-00283" />
+    <task id="LOCAL-00338" summary="theorders app migrations">
+      <created>1689849069163</created>
+      <option name="number" value="00338" />
+      <option name="presentableId" value="LOCAL-00338" />
       <option name="project" value="LOCAL" />
-      <updated>1689345281494</updated>
+      <updated>1689849069163</updated>
     </task>
-    <task id="LOCAL-00284" summary="change url from shoes_accessories to Shoes Accessories">
-      <created>1689345337034</created>
-      <option name="number" value="00284" />
-      <option name="presentableId" value="LOCAL-00284" />
+    <task id="LOCAL-00339" summary="test product">
+      <created>1689849107039</created>
+      <option name="number" value="00339" />
+      <option name="presentableId" value="LOCAL-00339" />
       <option name="project" value="LOCAL" />
-      <updated>1689345337034</updated>
+      <updated>1689849107039</updated>
     </task>
-    <task id="LOCAL-00285" summary="Set shoe size blank=True">
-      <created>1689345376442</created>
-      <option name="number" value="00285" />
-      <option name="presentableId" value="LOCAL-00285" />
+    <task id="LOCAL-00340" summary="sqlite3">
+      <created>1689849128925</created>
+      <option name="number" value="00340" />
+      <option name="presentableId" value="LOCAL-00340" />
       <option name="project" value="LOCAL" />
-      <updated>1689345376442</updated>
+      <updated>1689849128925</updated>
     </task>
-    <task id="LOCAL-00286" summary="Add urls for more products">
-      <created>1689345406422</created>
-      <option name="number" value="00286" />
-      <option name="presentableId" value="LOCAL-00286" />
+    <task id="LOCAL-00341" summary="required packages">
+      <created>1689851343324</created>
+      <option name="number" value="00341" />
+      <option name="presentableId" value="LOCAL-00341" />
       <option name="project" value="LOCAL" />
-      <updated>1689345406422</updated>
+      <updated>1689851343324</updated>
     </task>
-    <option name="localTasksCounter" value="287" />
+    <option name="localTasksCounter" value="342" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add Size model" />
-    <MESSAGE value="comment out size field" />
-    <MESSAGE value="add time field in Color model" />
-    <MESSAGE value="rename time field in Color model" />
-    <MESSAGE value="Add shoe-size field in Product model" />
-    <MESSAGE value="Added size field in OrderItem model" />
-    <MESSAGE value="remove size field in OrderItem model" />
-    <MESSAGE value="Add &quot;choose size &quot; option in cart page" />
-    <MESSAGE value="check_out.html" />
-    <MESSAGE value="Add commented out size field" />
-    <MESSAGE value="Import Size model" />
+    <MESSAGE value="change customize image" />
+    <MESSAGE value="rename image" />
+    <MESSAGE value="Change location" />
+    <MESSAGE value="footer" />
+    <MESSAGE value="add &quot;complete orders&quot; page...to redirect after order completion" />
+    <MESSAGE value="order completed template" />
+    <MESSAGE value="change redirection to order completed page" />
+    <MESSAGE value="add url for order completed" />
+    <MESSAGE value="rm whitespaces" />
+    <MESSAGE value="add an image to show the order was placed successfully" />
+    <MESSAGE value="template to show order was completed successfully" />
     <MESSAGE value="README.md" />
-    <MESSAGE value="project requirements" />
-    <MESSAGE value=".xml" />
-    <MESSAGE value="rm alt=&quot;&quot; in images" />
-    <MESSAGE value="rename repository name, and Base Dir name" />
-    <MESSAGE value="procfile" />
-    <MESSAGE value=".xml, .gitignore" />
-    <MESSAGE value="set debug to true" />
-    <MESSAGE value="set debug to False" />
-    <MESSAGE value="check if email exists on log_in and edit profile to avoid 1 email with several accounts" />
-    <MESSAGE value="Add password reset urls" />
-    <MESSAGE value="change url from shoes_accessories to Shoes Accessories" />
-    <MESSAGE value="Set shoe size blank=True" />
-    <MESSAGE value="Add urls for more products" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add urls for more products" />
+    <MESSAGE value="add loading icon" />
+    <MESSAGE value="update README.md" />
+    <MESSAGE value=".gitignore" />
+    <MESSAGE value="rm sqlite" />
+    <MESSAGE value="db.sqlite3" />
+    <MESSAGE value="update" />
+    <MESSAGE value="add more packages" />
+    <MESSAGE value="accounts app migrations" />
+    <MESSAGE value="brands app migrations" />
+    <MESSAGE value="theorders app migrations" />
+    <MESSAGE value="test product" />
+    <MESSAGE value="sqlite3" />
+    <MESSAGE value="required packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="required packages" />
   </component>
 </project>
