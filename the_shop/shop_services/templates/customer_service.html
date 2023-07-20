@@ -12,26 +12,30 @@
 <br><br>
 <div class="custom-container">
     <h3 class="display-3">
-        <strong>CUSTOMER SERVICE</strong><!-- page-header.css for custom container styling -->
+        <strong>CUSTOMER SERVICE1</strong><!-- page-header.css for custom container styling -->
     </h3>
 </div>
 <br><br>
 <!-- LINK TO CUSTOMER SERVICE-->
-<div class="row" style="cursor: grab;">
-    <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'customer-service.jpg' %}" alt="Vans Slip-on custom.jpg">
+<div class="container">
+    <div class="row" style="cursor: grab;">
+        <div class="col-md-6">
+            <img class="img-thumbnail rounded" style="width: 100%; height: auto; object-fit: cover; margin-bottom: 20px;" src="{% static 'customer-service.jpg' %}">
+        </div>
         <div class="col-md-6">
             <h1>Customer Service</h1>
             <br>
-          <p class="blockquote" style="font-size: larger;">
-              Experience unparalleled customer service at Top Gz Shoe Shop. Our dedicated team is here to assist you every step of the way, ensuring your utmost satisfaction.
-            We strive to exceed your expectations and provide a seamless and enjoyable shoe shopping experience.
-          </p>
+            <p class="blockquote" style="font-size: larger;">
+                Experience unparalleled customer service at Top Gz Shoe Shop. Our dedicated team is here to assist you every step of the way, ensuring your utmost satisfaction.
+                We strive to exceed your expectations and provide a seamless and enjoyable shoe shopping experience.
+            </p>
             <div class="d-flex justify-content-center align-items-center" style="height: 25vh;">
                 <a href="#"> <!-- To add CUSTOMER SERVICE FUNCTIONALITY -->
                     <button type="button" class="btn btn-outline-secondary btn-lg"><strong>GET STARTED</strong></button>
                 </a>
             </div>
         </div>
+    </div>
 </div>
 <br><br><br>
 {% include 'baseshop_footer.html' %}
