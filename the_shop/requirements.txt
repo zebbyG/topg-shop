@@ -1,9 +1,17 @@
 asgiref==3.7.2
 backports.zoneinfo==0.2.1
+certifi==2023.5.7
+charset-normalizer==3.2.0
+dj-database-url==2.0.0
 Django==4.2.3
 django-debug-toolbar==4.1.0
 gunicorn==20.1.0
+idna==3.4
 Pillow==10.0.0
 psycopg==3.1.9
+psycopg2-binary==2.9.6
+requests==2.31.0
 sqlparse==0.4.4
 typing-extensions==4.7.1
+urllib3==2.0.4
+vercel==0.2.1
