@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="{% static 'css/theme-button.css' %}">
 </head>
 <body>
-  <button id="theme-toggle-button" onclick="toggleTheme()">Theme</button>
+  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+        <button id="theme-toggle-button" onclick="toggleTheme()">Theme</button>
+    </li>
+  </ul>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="position: fixed; width: 100%;">
   <div class="container-fluid">
     <a class="navbar-brand" href="{% url 'introPage:home-page' %}"><img src="{% static 'topg-logo.gif' %}" style="width: 60px;" alt="GIF"></a>
@@ -75,7 +79,7 @@
         <a href="{% url 'orders:add_to_cart' %}" style="text-decoration: none; cursor: grab;">
           <p id="cart-total">{{ order.get_cart_items }}</p>
         </a>
-      <div class="dropdown" style="margin-right: 120px;">
+      <div class="dropdown" style="margin-right: 150px;">
         {% if user.userprofile.profile_picture %}
             <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;">
                 <img class="rounded-circle" src="{{ user.userprofile.profile_picture.url }}" style="object-fit: cover; width: 70px; height: 70px;" alt="Profile Picture">
