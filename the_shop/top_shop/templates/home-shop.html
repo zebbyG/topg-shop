@@ -18,126 +18,138 @@
     </a>
 </div> -->
 
-<div class="row" style="background-color: aquamarine;">
-    <div class="col-md-6">
-          <p class="display-3">
-<br><br>
-            <strong style="color: brown;"> Improve Your Footwear With Us. </strong>
-      </p>
-<br><br>
-          <p style="font-family: sans-serif; font-size: xx-large">
+<div class="container-fluid py-5" style="background-color: aquamarine;">
+    <div class="row">
+        <div class="col-md-6">
+            <p class="display-3 mt-5">
+                <br><br>
+                <strong style="color: brown;"> Improve Your Footwear With Us. </strong>
+            </p>
+            <br><br>
+            <p style="font-family: sans-serif; font-size: xx-large">
                 Welcome to Top Gz Shoe Shop, where we are dedicated to providing you with the best shoe shopping experience possible.
-          </p>
-          <div class="d-flex justify-content-center align-items-center" style="height: 20vh;">
+            </p>
+            <div class="d-flex justify-content-center align-items-center" style="height: 20vh;">
                 <a href="{% url 'brands:catalogue' %}">
                     <button type="button" class="btn btn-outline-secondary btn-lg"><strong>Our Catalogue</strong></button>
                 </a>
-          </div>
-<br>
-        <p style="font-family: sans-serif; font-size: xx-large">
-            Whether you need help with sizing, recommendations for a specific occasion, or just want to chat about the latest shoe trends, we are here to assist you.
-        </p>
-        <div class="d-flex justify-content-center align-items-center" style="height: 20vh;">
+            </div>
+            <br>
+            <p style="font-family: sans-serif; font-size: xx-large">
+                Whether you need help with sizing, recommendations for a specific occasion, or just want to chat about the latest shoe trends, we are here to assist you.
+            </p>
+            <div class="d-flex justify-content-center align-items-center" style="height: 20vh;">
                 <a href="{% url 'servicesPage:customer_service' %}">
                     <button type="button" class="btn btn-outline-secondary btn-lg"><strong>Customer Service</strong></button>
                 </a>
-          </div>
-
-    </div>
-    <div class="col-md-6 ml-auto" style="padding-right: 50px; padding-top: 30px;">
-      <img src="{% static 'about.jpg' %}" class="bd-placeholder-img bd-placeholder-img-lg img-fluid" style="width: 350em; height: 49em;" alt="Top Gz">
-        <br><br><br><br><br>
+            </div>
+        </div>
+        <div class="col-md-6 mt-3 mt-md-0">
+            <img src="{% static 'about.jpg' %}" class="img-fluid" alt="Top Gz">
+        </div>
     </div>
 </div>
 
 <!--Popular Products -->
 
 <br><br><br>
-<h3 class="display-5" style="text-align: center;"><strong>Popular Products</strong></h3>
-<br><br><br><br>
+<div class="container">
+    <div class="row">
+            <div class="col">
+                <h3 class="display-5 text-center mt-5"><strong>Popular Products</strong></h3>
+            </div>
+    </div>
 
-<!--Jquery Owl-carousel to display popular products -->
+    <div class="owl-carousel owl-theme mt-3">
+<!--        <div class="item">-->
+<!--            <a href="{% url 'brands:Jordans' %}" style="text-decoration: none; cursor: grab;">-->
+<!--                <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Air_Jordan_3_infrared_23.jpg" alt="Air Jordan 3 infrared 23.jpg">-->
+<!--            </a>-->
+<!--                <div class="caption">-->
+<!--                    <h4 style="color: black">Air Jordan 3</h4>-->
+<!--                </div>-->
+<!--        </div>-->
 
-<div class="owl-carousel owl-theme">
-    <div class="item">
-        <a href="{% url 'brands:Jordans' %}" style="text-decoration: none; cursor: grab;">
-            <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Air_Jordan_3_infrared_23.jpg" alt="Air Jordan 3 infrared 23.jpg">
-        </a>
-            <div class="caption">
-                <h4 style="color: black">Air Jordan 3</h4>
-            </div>
-    </div>
-    <div class="item">
-        <a href="{% url 'brands:Yeezys' %}" style="text-decoration: none; cursor: grab;">
-            <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Yeezy_350s_Tan.jpg" alt="Yeezy 350s Tan.jpg">
-        </a>
-            <div class="caption">
-                <h4 style="color: black">Yeezy 350s</h4>
-            </div>
-    </div>
-    <div class="item">
-        <a href="{% url 'brands:Pradas' %}" style="text-decoration: none; cursor: grab;">
-            <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Prada_cup_yellowhite.jpg" alt="Prada cup yellowhite.jpg">
-        </a>
-            <div class="caption">
-                <h4 style="color: black">Prada cup</h4>
-            </div>
-    </div>
-    <div class="item">
-        <a href="{% url 'brands:Jordans' %}" style="text-decoration: none; cursor: grab;">
-            <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Women_Jordan_Air_1_Low_SE_pink.jpg" alt="Women Jordan Air 1 Low SE pink.jpg">
-        </a>
-            <div class="caption">
-                <h4 style="color: black">Jordan Air 1 Low</h4>
-            </div>
-    </div>
-    <div class="item">
-        <a href="{% url 'brands:Vans' %}" style="text-decoration: none; cursor: grab;">
-            <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Vans_old_skool_black-whitestripe.jpg" alt="black-whitestripe.jpg">
-        </a>
-            <div class="caption">
-                <h4 style="color: black">Vans old skool</h4>
-            </div>
-    </div>
-    <div class="item">
-        <a href="{% url 'brands:Pradas' %}" style="text-decoration: none; cursor: grab;">
-            <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Prada_cloudBust_yellowblack.jpg" alt="Prada cloudBust yellowblack.jpg">
-        </a>
-            <div class="caption">
-                <h4 style="color: black">Prada cloudBust</h4>
-            </div>
-    </div>
-    <div class="item">
-        <a href="{% url 'brands:Nikes' %}" style="text-decoration: none; cursor: grab;">
-            <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Women_Nike_High_Top_pink.jpg" alt="Women Nike High Top pink.jpg">
-        </a>
-            <div class="caption">
-                <h4 style="color: black">Women Nike High</h4>
-            </div>
-    </div>
-    <div class="item">
-        <a href="{% url 'brands:Vans' %}" style="text-decoration: none; cursor: grab;">
-            <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Vans_Slip-on_custom.jpg" alt="Vans Slip-on custom.jpg">
-        </a>
-            <div class="caption">
-                <h4 style="color: black">Vans Slip-on</h4>
-            </div>
-    </div>
-    <div class="item">
-        <a href="{% url 'brands:Yeezys' %}" style="text-decoration: none; cursor: grab;">
-            <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Yeezy_slides_customs.jpg" alt="Yeezy slides customs.jpg">
-        </a>
-            <div class="caption">
-                <h4 style="color: black">Yeezy slides</h4>
-            </div>
-    </div>
-    <div class="item">
-        <a href="{% url 'brands:Nikes' %}" style="text-decoration: none; cursor: grab;">
-            <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Nike_Air_Max_270_all_black.jpg" alt="Nike Air Max 270 all black.jpg">
-        </a>
-            <div class="caption">
-                <h4 style="color: black">Nike Air Max</h4>
-            </div>
+<!--        <div class="item">-->
+<!--            <a href="{% url 'brands:Yeezys' %}" style="text-decoration: none; cursor: grab;">-->
+<!--                <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Yeezy_350s_Tan.jpg" alt="Yeezy 350s Tan.jpg">-->
+<!--            </a>-->
+<!--                <div class="caption">-->
+<!--                    <h4 style="color: black">Yeezy 350s</h4>-->
+<!--                </div>-->
+<!--        </div>-->
+
+        <div class="item">
+            <a href="{% url 'brands:Pradas' %}" style="text-decoration: none; cursor: grab;">
+                <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Prada_cup_yellowhite.jpg" alt="Prada cup yellowhite.jpg">
+            </a>
+                <div class="caption">
+                    <h4 style="color: black">Prada cup</h4>
+                </div>
+        </div>
+
+        <div class="item">
+            <a href="{% url 'brands:Jordans' %}" style="text-decoration: none; cursor: grab;">
+                <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Women_Jordan_Air_1_Low_SE_pink.jpg" alt="Women Jordan Air 1 Low SE pink.jpg">
+            </a>
+                <div class="caption">
+                    <h4 style="color: black">Jordan Air 1 Low</h4>
+                </div>
+        </div>
+
+<!--        <div class="item">-->
+<!--            <a href="{% url 'brands:Vans' %}" style="text-decoration: none; cursor: grab;">-->
+<!--                <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Vans_old_skool_black-whitestripe.jpg" alt="black-whitestripe.jpg">-->
+<!--            </a>-->
+<!--                <div class="caption">-->
+<!--                    <h4 style="color: black">Vans old skool</h4>-->
+<!--                </div>-->
+<!--        </div>-->
+
+<!--        <div class="item">-->
+<!--            <a href="{% url 'brands:Pradas' %}" style="text-decoration: none; cursor: grab;">-->
+<!--                <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Prada_cloudBust_yellowblack.jpg" alt="Prada cloudBust yellowblack.jpg">-->
+<!--            </a>-->
+<!--                <div class="caption">-->
+<!--                    <h4 style="color: black">Prada cloudBust</h4>-->
+<!--                </div>-->
+<!--        </div>-->
+
+        <div class="item">
+            <a href="{% url 'brands:Nikes' %}" style="text-decoration: none; cursor: grab;">
+                <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Women_Nike_High_Top_pink.jpg" alt="Women Nike High Top pink.jpg">
+            </a>
+                <div class="caption">
+                    <h4 style="color: black">Women Nike High</h4>
+                </div>
+        </div>
+
+        <div class="item">
+            <a href="{% url 'brands:Vans' %}" style="text-decoration: none; cursor: grab;">
+                <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Vans_Slip-on_custom.jpg" alt="Vans Slip-on custom.jpg">
+            </a>
+                <div class="caption">
+                    <h4 style="color: black">Vans Slip-on</h4>
+                </div>
+        </div>
+
+        <div class="item">
+            <a href="{% url 'brands:Nikes' %}" style="text-decoration: none; cursor: grab;">
+                <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Nike_Air_Max_270_all_black.jpg" alt="Nike Air Max 270 all black.jpg">
+            </a>
+                <div class="caption">
+                    <h4 style="color: black">Nike Air Max</h4>
+                </div>
+        </div>
+
+        <div class="item">
+            <a href="{% url 'brands:Yeezys' %}" style="text-decoration: none; cursor: grab;">
+                <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Yeezy_slides_customs.jpg" alt="Yeezy slides customs.jpg">
+            </a>
+                <div class="caption">
+                    <h4 style="color: black">Yeezy slides</h4>
+                </div>
+        </div>
     </div>
 </div>
 
@@ -148,9 +160,9 @@
 <!--The responsiveness of the carousels -->
 <script type="text/javascript">
     $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:false,
+    loop: true,
+    margin: 10,
+    nav: false,
     autoplay: true,
     autoplayTimeout: 3000,
     stagePadding: 70,
@@ -173,68 +185,79 @@
 
 <!-- SHOP TESTIMONIALS STYLIN[testimonial.css] static [testimonial.html]-->
 
-<h3 class="display-5" style="text-align: center;"><strong>What People are saying</strong></h3>
+<div class="container">
+    <h3 class="display-5 text-center mt-5"><strong>What People are saying</strong></h3>
+    <div class="row">
+        <div class="col">
+            {% include 'testimonies.html' %}
+        </div>
+    </div>
+</div>
 <br><br><br>
-{% include 'testimonies.html' %}
-<br><br><br><br>
 
 <!--THE SHOP -->
 
-<h3 class="display-5" style="text-align: center;"><strong>Improve your footware</strong></h3>
-<br><br><br>
-<!--SHOP'S SERVICES LINK-->
-<div class="row">
-    <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'services.jpg' %}" alt="Vans Slip-on custom.jpg">
+<h3 class="display-5 text-center mt-5"><strong>Improve your footwear</strong></h3>
+<br>
+<div class="container mt-4">
+    <div class="row">
         <div class="col-md-6">
-            <h1>Unleash Your Style Potential with Top Gz Shoe Shop</h1>
-            <br>
-          <p class="blockquote" style="font-size: larger;">
-              Experience exceptional service, top-notch quality, and a wide selection of footwear for men, women, and children.
-              Step into fashion-forward comfort and elevate your shoe game with us.
-          </p>
-            <div class="d-flex justify-content-center align-items-center" style="height: 20vh;">
-                <a href="{% url 'servicesPage:services-page' %}">
-                    <button type="button" class="btn btn-outline-secondary btn-lg"><strong>Our Services</strong></button>
-                </a>
+            <img class="img-fluid" src="{% static 'services.jpg' %}">
+        </div>
+        <div class="col-md-6 mt-3 mt-md-0">
+            <h1 class="mb-4">Unleash Your Style Potential with Top Gz Shoe Shop</h1>
+            <p style="font-size: larger;">
+                Experience exceptional service, top-notch quality, and a wide selection of footwear for men, women, and children.
+                Step into fashion-forward comfort and elevate your shoe game with us.
+            </p>
+            <div class="d-flex justify-content-center align-items-center mt-3">
+                <a href="{% url 'servicesPage:services-page' %}" class="btn btn-outline-secondary btn-lg"><strong>Our Services</strong></a>
             </div>
         </div>
+    </div>
 </div>
 <br><br>
 <!-- ABOUT THE SHOP LINK -->
-<div class="row">
-    <img class="img-thumbnail rounded" style="width: 500px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'intro-bg.jpg' %}" alt="Vans Slip-on custom.jpg">
+<div class="container mt-5">
+    <div class="row">
         <div class="col-md-6">
-            <h1>Your go-to destination for stylish and comfortable footwear</h1>
-            <br>
-          <p class="blockquote" style="font-size: larger;">
-              At Top Gz Shoe Shop, we are committed to providing you with the best shoe shopping experience possible.
-          </p>
-            <div class="d-flex justify-content-center align-items-center" style="height: 20vh;">
-                <a href="{% url 'introPage:about-page' %}">
-                    <button type="button" class="btn btn-outline-secondary btn-lg"><strong>LEARN MORE ABOUT US</strong></button>
-                </a>
+            <img class="img-thumbnail rounded img-fluid" style="object-fit: cover;" src="{% static 'intro-bg.jpg' %}" alt="Vans Slip-on custom.jpg">
+        </div>
+        <div class="col-md-6 mt-3 mt-md-0">
+            <h1 class="mb-4">Your go-to destination for stylish and comfortable footwear</h1>
+            <p style="font-size: larger;">
+                At Top Gz Shoe Shop, we are committed to providing you with the best shoe shopping experience possible.
+            </p>
+            <div class="d-flex justify-content-center align-items-center mt-3">
+                <a href="{% url 'introPage:about-page' %}" class="btn btn-outline-secondary btn-lg"><strong>LEARN MORE ABOUT US</strong></a>
             </div>
         </div>
+    </div>
 </div>
 <br><br><br><br>
 <!--THE TEAM LINK -->
-<h3 class="display-5" style="text-align: center;"><strong>Our Team</strong></h3>
-<br>
-<blockquote class="blockquote" style="text-align: center;">
-  <p>
-    We are passionate about footwear and are ready to assist you in every step of your shoe-shopping journey.
-    Meet the Top Gz Shoe Shop Team – a group of dedicated shoe enthusiasts committed to providing you with exceptional service.</p>
-</blockquote>
-<br><br>
-<div class="row">
-    <img class="img-circle team-img" style="width: 400px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'team2.jpg' %}" alt="shoe">
-    <img class="img-circle team-img" style="width: 400px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'team1.jpg' %}" alt="shoe">
-    <img class="img-circle team-img" style="width: 400px; height: 300px; object-fit: cover; margin-left: 35px;" src="{% static 'team3.jpg' %}" alt="shoe">
-</div>
-<div class="d-flex justify-content-center align-items-center" style="height: 20vh;">
-    <a href="{% url 'introPage:team-page' %}">
-        <button type="button" class="btn btn-outline-secondary btn-lg"><strong>MEET THE TEAM</strong></button>
-    </a>
+<div class="container mt-5">
+    <h3 class="display-5 text-center mb-4"><strong>Our Team</strong></h3>
+    <blockquote class="blockquote text-center">
+        <p>
+            We are passionate about footwear and are ready to assist you in every step of your shoe-shopping journey.
+            Meet the Top Gz Shoe Shop Team – a group of dedicated shoe enthusiasts committed to providing you with exceptional service.
+        </p>
+    </blockquote>
+    <div class="row justify-content-center align-items-center">
+        <div class="col-12 col-md-4 mb-4">
+            <img class="img-circle team-img img-fluid" style="object-fit: cover;" src="{% static 'Prada cup-yellowhite.jpg' %}" alt="shoe">
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+            <img class="img-circle team-img img-fluid" style="object-fit: cover;" src="{% static 'team1.jpg' %}" alt="shoe">
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+            <img class="img-circle team-img img-fluid" style="object-fit: cover;" src="{% static 'team3.jpg' %}" alt="shoe">
+        </div>
+    </div>
+    <div class="d-flex justify-content-center align-items-center mt-4">
+        <a href="{% url 'introPage:team-page' %}" class="btn btn-outline-secondary btn-lg"><strong>MEET THE TEAM</strong></a>
+    </div>
 </div>
 <br><br><br>
 <!--FOOTER -->
