@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="rm larger image">
-      <change afterPath="$PROJECT_DIR$/the_shop/assets/Prada cup-yellowhite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/assets/jado.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/assets/kashy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/assets/rumi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/assets/trap.jpg" afterDir="false" />
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/top_shop/templates/home-shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/top_shop/templates/home-shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/top_shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/top_shop/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/app/baseshop_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/app/baseshop_footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/assets/team2.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,62 +97,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00311" summary="fix watsapp contact">
-      <created>1689616249357</created>
-      <option name="number" value="00311" />
-      <option name="presentableId" value="LOCAL-00311" />
-      <option name="project" value="LOCAL" />
-      <updated>1689616249357</updated>
-    </task>
-    <task id="LOCAL-00312" summary="Responsive team page">
-      <created>1689617287221</created>
-      <option name="number" value="00312" />
-      <option name="presentableId" value="LOCAL-00312" />
-      <option name="project" value="LOCAL" />
-      <updated>1689617287221</updated>
-    </task>
-    <task id="LOCAL-00313" summary="Team image">
-      <created>1689617438740</created>
-      <option name="number" value="00313" />
-      <option name="presentableId" value="LOCAL-00313" />
-      <option name="project" value="LOCAL" />
-      <updated>1689617438740</updated>
-    </task>
-    <task id="LOCAL-00314" summary="add service &quot;customize-shoes&quot; image">
-      <created>1689617959064</created>
-      <option name="number" value="00314" />
-      <option name="presentableId" value="LOCAL-00314" />
-      <option name="project" value="LOCAL" />
-      <updated>1689617959064</updated>
-    </task>
-    <task id="LOCAL-00315" summary="vans custom">
-      <created>1689618384660</created>
-      <option name="number" value="00315" />
-      <option name="presentableId" value="LOCAL-00315" />
-      <option name="project" value="LOCAL" />
-      <updated>1689618384661</updated>
-    </task>
-    <task id="LOCAL-00316" summary="image for customize service">
-      <created>1689618429280</created>
-      <option name="number" value="00316" />
-      <option name="presentableId" value="LOCAL-00316" />
-      <option name="project" value="LOCAL" />
-      <updated>1689618429280</updated>
-    </task>
-    <task id="LOCAL-00317" summary="shop-services.html">
-      <created>1689619453365</created>
-      <option name="number" value="00317" />
-      <option name="presentableId" value="LOCAL-00317" />
-      <option name="project" value="LOCAL" />
-      <updated>1689619453365</updated>
-    </task>
-    <task id="LOCAL-00318" summary="change customize image">
-      <created>1689619722916</created>
-      <option name="number" value="00318" />
-      <option name="presentableId" value="LOCAL-00318" />
-      <option name="project" value="LOCAL" />
-      <updated>1689619722916</updated>
     </task>
     <task id="LOCAL-00319" summary="rename image">
       <created>1689619900981</created>
@@ -447,7 +385,63 @@
       <option name="project" value="LOCAL" />
       <updated>1690191145715</updated>
     </task>
-    <option name="localTasksCounter" value="360" />
+    <task id="LOCAL-00360" summary="testimonial images">
+      <created>1690191196815</created>
+      <option name="number" value="00360" />
+      <option name="presentableId" value="LOCAL-00360" />
+      <option name="project" value="LOCAL" />
+      <updated>1690191196815</updated>
+    </task>
+    <task id="LOCAL-00361" summary="prada popular product">
+      <created>1690191226353</created>
+      <option name="number" value="00361" />
+      <option name="presentableId" value="LOCAL-00361" />
+      <option name="project" value="LOCAL" />
+      <updated>1690191226353</updated>
+    </task>
+    <task id="LOCAL-00362" summary="add bootstrap to make it responsive">
+      <created>1690191256210</created>
+      <option name="number" value="00362" />
+      <option name="presentableId" value="LOCAL-00362" />
+      <option name="project" value="LOCAL" />
+      <updated>1690191256210</updated>
+    </task>
+    <task id="LOCAL-00363" summary="views.py">
+      <created>1690191378429</created>
+      <option name="number" value="00363" />
+      <option name="presentableId" value="LOCAL-00363" />
+      <option name="project" value="LOCAL" />
+      <updated>1690191378429</updated>
+    </task>
+    <task id="LOCAL-00364" summary=".xml">
+      <created>1690191415832</created>
+      <option name="number" value="00364" />
+      <option name="presentableId" value="LOCAL-00364" />
+      <option name="project" value="LOCAL" />
+      <updated>1690191415832</updated>
+    </task>
+    <task id="LOCAL-00365" summary="sqlite3">
+      <created>1690191432886</created>
+      <option name="number" value="00365" />
+      <option name="presentableId" value="LOCAL-00365" />
+      <option name="project" value="LOCAL" />
+      <updated>1690191432886</updated>
+    </task>
+    <task id="LOCAL-00366" summary="rename shoe">
+      <created>1690192508820</created>
+      <option name="number" value="00366" />
+      <option name="presentableId" value="LOCAL-00366" />
+      <option name="project" value="LOCAL" />
+      <updated>1690192508820</updated>
+    </task>
+    <task id="LOCAL-00367" summary="change image source">
+      <created>1690192535138</created>
+      <option name="number" value="00367" />
+      <option name="presentableId" value="LOCAL-00367" />
+      <option name="project" value="LOCAL" />
+      <updated>1690192535138</updated>
+    </task>
+    <option name="localTasksCounter" value="368" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -455,15 +449,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add more packages" />
-    <MESSAGE value="accounts app migrations" />
-    <MESSAGE value="brands app migrations" />
-    <MESSAGE value="theorders app migrations" />
-    <MESSAGE value="test product" />
-    <MESSAGE value="sqlite3" />
-    <MESSAGE value="required packages" />
     <MESSAGE value="package to use for deployment" />
-    <MESSAGE value=".xml" />
     <MESSAGE value="change team member" />
     <MESSAGE value="change team member image" />
     <MESSAGE value="rm larger image" />
@@ -480,6 +466,14 @@
     <MESSAGE value="fix mis-spelt image source" />
     <MESSAGE value="Add testimonies/their responsiveness" />
     <MESSAGE value="set loop to true for the testimonies" />
-    <option name="LAST_COMMIT_MESSAGE" value="set loop to true for the testimonies" />
+    <MESSAGE value="testimonial images" />
+    <MESSAGE value="prada popular product" />
+    <MESSAGE value="add bootstrap to make it responsive" />
+    <MESSAGE value="views.py" />
+    <MESSAGE value=".xml" />
+    <MESSAGE value="sqlite3" />
+    <MESSAGE value="rename shoe" />
+    <MESSAGE value="change image source" />
+    <option name="LAST_COMMIT_MESSAGE" value="change image source" />
   </component>
 </project>
