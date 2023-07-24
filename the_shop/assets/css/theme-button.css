@@ -1,0 +1,18 @@
+#theme-toggle-button {
+    position: fixed;
+    top: 20px;
+    right: 40px;
+    padding: 10px;
+    background-color: lightgray;
+    border: none;
+    cursor: pointer;
+    z-index: 9999;
+}
+.dark-mode {
+    background-color: #1a1a1a;
+    color: lightgrey;
+}
+
+.light-mode {
+  background-color: whitesmoke;
+}
