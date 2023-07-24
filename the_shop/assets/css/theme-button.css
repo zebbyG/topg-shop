@@ -1,13 +1,3 @@
-#theme-toggle-button {
-    position: fixed;
-    top: 27px;
-    right: 45px;
-    padding: 10px;
-    background-color: lightgray;
-    border: none;
-    cursor: pointer;
-    z-index: 9999;
-}
 .dark-mode {
     background-color: #1a1a1a;
     color: lightgrey;
