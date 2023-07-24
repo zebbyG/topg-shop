@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="add theme button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/app/baseshop_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/app/baseshop_footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/assets/team2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/top_shop/templates/home-shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/top_shop/templates/home-shop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,48 +96,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00319" summary="rename image">
-      <created>1689619900981</created>
-      <option name="number" value="00319" />
-      <option name="presentableId" value="LOCAL-00319" />
-      <option name="project" value="LOCAL" />
-      <updated>1689619900981</updated>
-    </task>
-    <task id="LOCAL-00320" summary="Change location">
-      <created>1689621109160</created>
-      <option name="number" value="00320" />
-      <option name="presentableId" value="LOCAL-00320" />
-      <option name="project" value="LOCAL" />
-      <updated>1689621109160</updated>
-    </task>
-    <task id="LOCAL-00321" summary="footer">
-      <created>1689622029361</created>
-      <option name="number" value="00321" />
-      <option name="presentableId" value="LOCAL-00321" />
-      <option name="project" value="LOCAL" />
-      <updated>1689622029361</updated>
-    </task>
-    <task id="LOCAL-00322" summary="add &quot;complete orders&quot; page...to redirect after order completion">
-      <created>1689686365912</created>
-      <option name="number" value="00322" />
-      <option name="presentableId" value="LOCAL-00322" />
-      <option name="project" value="LOCAL" />
-      <updated>1689686365930</updated>
-    </task>
-    <task id="LOCAL-00323" summary="order completed template">
-      <created>1689686402397</created>
-      <option name="number" value="00323" />
-      <option name="presentableId" value="LOCAL-00323" />
-      <option name="project" value="LOCAL" />
-      <updated>1689686402397</updated>
-    </task>
-    <task id="LOCAL-00324" summary="change redirection to order completed page">
-      <created>1689686436782</created>
-      <option name="number" value="00324" />
-      <option name="presentableId" value="LOCAL-00324" />
-      <option name="project" value="LOCAL" />
-      <updated>1689686436782</updated>
     </task>
     <task id="LOCAL-00325" summary="add url for order completed">
       <created>1689686456668</created>
@@ -441,7 +398,49 @@
       <option name="project" value="LOCAL" />
       <updated>1690192535138</updated>
     </task>
-    <option name="localTasksCounter" value="368" />
+    <task id="LOCAL-00368" summary="disable &quot;#&quot; socials">
+      <created>1690196082649</created>
+      <option name="number" value="00368" />
+      <option name="presentableId" value="LOCAL-00368" />
+      <option name="project" value="LOCAL" />
+      <updated>1690196082649</updated>
+    </task>
+    <task id="LOCAL-00369" summary=".xml">
+      <created>1690196104226</created>
+      <option name="number" value="00369" />
+      <option name="presentableId" value="LOCAL-00369" />
+      <option name="project" value="LOCAL" />
+      <updated>1690196104226</updated>
+    </task>
+    <task id="LOCAL-00370" summary="rm image team2">
+      <created>1690196123711</created>
+      <option name="number" value="00370" />
+      <option name="presentableId" value="LOCAL-00370" />
+      <option name="project" value="LOCAL" />
+      <updated>1690196123711</updated>
+    </task>
+    <task id="LOCAL-00371" summary="add theme button">
+      <created>1690223990217</created>
+      <option name="number" value="00371" />
+      <option name="presentableId" value="LOCAL-00371" />
+      <option name="project" value="LOCAL" />
+      <updated>1690223990217</updated>
+    </task>
+    <task id="LOCAL-00372" summary="button to change theme styling">
+      <created>1690224032179</created>
+      <option name="number" value="00372" />
+      <option name="presentableId" value="LOCAL-00372" />
+      <option name="project" value="LOCAL" />
+      <updated>1690224032179</updated>
+    </task>
+    <task id="LOCAL-00373" summary="js to handle theme change">
+      <created>1690224053540</created>
+      <option name="number" value="00373" />
+      <option name="presentableId" value="LOCAL-00373" />
+      <option name="project" value="LOCAL" />
+      <updated>1690224053540</updated>
+    </task>
+    <option name="localTasksCounter" value="374" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -449,11 +448,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="package to use for deployment" />
-    <MESSAGE value="change team member" />
-    <MESSAGE value="change team member image" />
-    <MESSAGE value="rm larger image" />
-    <MESSAGE value="add responsiveness" />
     <MESSAGE value="add responsiveness to customize shoes page" />
     <MESSAGE value="add responsiveness to donate shoes page" />
     <MESSAGE value="trade page responsiveness added" />
@@ -470,10 +464,15 @@
     <MESSAGE value="prada popular product" />
     <MESSAGE value="add bootstrap to make it responsive" />
     <MESSAGE value="views.py" />
-    <MESSAGE value=".xml" />
     <MESSAGE value="sqlite3" />
     <MESSAGE value="rename shoe" />
     <MESSAGE value="change image source" />
-    <option name="LAST_COMMIT_MESSAGE" value="change image source" />
+    <MESSAGE value="disable &quot;#&quot; socials" />
+    <MESSAGE value=".xml" />
+    <MESSAGE value="rm image team2" />
+    <MESSAGE value="add theme button" />
+    <MESSAGE value="button to change theme styling" />
+    <MESSAGE value="js to handle theme change" />
+    <option name="LAST_COMMIT_MESSAGE" value="js to handle theme change" />
   </component>
 </project>
