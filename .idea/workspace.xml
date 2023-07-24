@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/accounts/templates/log_in.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/templates/log_in.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/the_shop/app/base_topshop.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/app/base_topshop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/the_shop/assets/css/theme-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/css/theme-button.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/the_shop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/db.sqlite3" afterDir="false" />
@@ -99,48 +98,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00327" summary="add an image to show the order was placed successfully">
-      <created>1689686708631</created>
-      <option name="number" value="00327" />
-      <option name="presentableId" value="LOCAL-00327" />
-      <option name="project" value="LOCAL" />
-      <updated>1689686708631</updated>
-    </task>
-    <task id="LOCAL-00328" summary="template to show order was completed successfully">
-      <created>1689687217540</created>
-      <option name="number" value="00328" />
-      <option name="presentableId" value="LOCAL-00328" />
-      <option name="project" value="LOCAL" />
-      <updated>1689687217540</updated>
-    </task>
-    <task id="LOCAL-00329" summary="README.md">
-      <created>1689687267334</created>
-      <option name="number" value="00329" />
-      <option name="presentableId" value="LOCAL-00329" />
-      <option name="project" value="LOCAL" />
-      <updated>1689687267334</updated>
-    </task>
-    <task id="LOCAL-00330" summary="add loading icon">
-      <created>1689751581121</created>
-      <option name="number" value="00330" />
-      <option name="presentableId" value="LOCAL-00330" />
-      <option name="project" value="LOCAL" />
-      <updated>1689751581121</updated>
-    </task>
-    <task id="LOCAL-00331" summary="update README.md">
-      <created>1689751606931</created>
-      <option name="number" value="00331" />
-      <option name="presentableId" value="LOCAL-00331" />
-      <option name="project" value="LOCAL" />
-      <updated>1689751606931</updated>
-    </task>
-    <task id="LOCAL-00332" summary="rm sqlite">
-      <created>1689753665904</created>
-      <option name="number" value="00332" />
-      <option name="presentableId" value="LOCAL-00332" />
-      <option name="project" value="LOCAL" />
-      <updated>1689753665904</updated>
     </task>
     <task id="LOCAL-00333" summary="db.sqlite3">
       <created>1689753692501</created>
@@ -443,7 +400,49 @@
       <option name="project" value="LOCAL" />
       <updated>1690224142708</updated>
     </task>
-    <option name="localTasksCounter" value="376" />
+    <task id="LOCAL-00376" summary="alter color for dark theme">
+      <created>1690224949351</created>
+      <option name="number" value="00376" />
+      <option name="presentableId" value="LOCAL-00376" />
+      <option name="project" value="LOCAL" />
+      <updated>1690224949351</updated>
+    </task>
+    <task id="LOCAL-00377" summary="alter color for dark theme">
+      <created>1690224958174</created>
+      <option name="number" value="00377" />
+      <option name="presentableId" value="LOCAL-00377" />
+      <option name="project" value="LOCAL" />
+      <updated>1690224958174</updated>
+    </task>
+    <task id="LOCAL-00378" summary="position theme button">
+      <created>1690225016635</created>
+      <option name="number" value="00378" />
+      <option name="presentableId" value="LOCAL-00378" />
+      <option name="project" value="LOCAL" />
+      <updated>1690225016635</updated>
+    </task>
+    <task id="LOCAL-00379" summary="position theme button">
+      <created>1690225029055</created>
+      <option name="number" value="00379" />
+      <option name="presentableId" value="LOCAL-00379" />
+      <option name="project" value="LOCAL" />
+      <updated>1690225029055</updated>
+    </task>
+    <task id="LOCAL-00380" summary=".xml">
+      <created>1690225049247</created>
+      <option name="number" value="00380" />
+      <option name="presentableId" value="LOCAL-00380" />
+      <option name="project" value="LOCAL" />
+      <updated>1690225049247</updated>
+    </task>
+    <task id="LOCAL-00381" summary="sqlite3">
+      <created>1690225069965</created>
+      <option name="number" value="00381" />
+      <option name="presentableId" value="LOCAL-00381" />
+      <option name="project" value="LOCAL" />
+      <updated>1690225069965</updated>
+    </task>
+    <option name="localTasksCounter" value="382" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -451,8 +450,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add responsiveness to donate shoes page" />
-    <MESSAGE value="trade page responsiveness added" />
     <MESSAGE value="order pages added responsiveness" />
     <MESSAGE value="order-shoes img" />
     <MESSAGE value="add responsiveness to about page" />
@@ -466,7 +463,6 @@
     <MESSAGE value="prada popular product" />
     <MESSAGE value="add bootstrap to make it responsive" />
     <MESSAGE value="views.py" />
-    <MESSAGE value="sqlite3" />
     <MESSAGE value="rename shoe" />
     <MESSAGE value="change image source" />
     <MESSAGE value="disable &quot;#&quot; socials" />
@@ -475,7 +471,10 @@
     <MESSAGE value="button to change theme styling" />
     <MESSAGE value="js to handle theme change" />
     <MESSAGE value="adjust colors to match dark theme" />
+    <MESSAGE value="alter color for dark theme" />
+    <MESSAGE value="position theme button" />
     <MESSAGE value=".xml" />
-    <option name="LAST_COMMIT_MESSAGE" value=".xml" />
+    <MESSAGE value="sqlite3" />
+    <option name="LAST_COMMIT_MESSAGE" value="sqlite3" />
   </component>
 </project>
