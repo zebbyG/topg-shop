@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="add theme button">
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/top_shop/templates/home-shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/top_shop/templates/home-shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/accounts/templates/log_in.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/templates/log_in.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/app/base_topshop.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/app/base_topshop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/assets/css/theme-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/assets/css/theme-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,20 +99,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00325" summary="add url for order completed">
-      <created>1689686456668</created>
-      <option name="number" value="00325" />
-      <option name="presentableId" value="LOCAL-00325" />
-      <option name="project" value="LOCAL" />
-      <updated>1689686456668</updated>
-    </task>
-    <task id="LOCAL-00326" summary="rm whitespaces">
-      <created>1689686625482</created>
-      <option name="number" value="00326" />
-      <option name="presentableId" value="LOCAL-00326" />
-      <option name="project" value="LOCAL" />
-      <updated>1689686625482</updated>
     </task>
     <task id="LOCAL-00327" summary="add an image to show the order was placed successfully">
       <created>1689686708631</created>
@@ -440,7 +429,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690224053540</updated>
     </task>
-    <option name="localTasksCounter" value="374" />
+    <task id="LOCAL-00374" summary="adjust colors to match dark theme">
+      <created>1690224130465</created>
+      <option name="number" value="00374" />
+      <option name="presentableId" value="LOCAL-00374" />
+      <option name="project" value="LOCAL" />
+      <updated>1690224130465</updated>
+    </task>
+    <task id="LOCAL-00375" summary=".xml">
+      <created>1690224142708</created>
+      <option name="number" value="00375" />
+      <option name="presentableId" value="LOCAL-00375" />
+      <option name="project" value="LOCAL" />
+      <updated>1690224142708</updated>
+    </task>
+    <option name="localTasksCounter" value="376" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -448,7 +451,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add responsiveness to customize shoes page" />
     <MESSAGE value="add responsiveness to donate shoes page" />
     <MESSAGE value="trade page responsiveness added" />
     <MESSAGE value="order pages added responsiveness" />
@@ -468,11 +470,12 @@
     <MESSAGE value="rename shoe" />
     <MESSAGE value="change image source" />
     <MESSAGE value="disable &quot;#&quot; socials" />
-    <MESSAGE value=".xml" />
     <MESSAGE value="rm image team2" />
     <MESSAGE value="add theme button" />
     <MESSAGE value="button to change theme styling" />
     <MESSAGE value="js to handle theme change" />
-    <option name="LAST_COMMIT_MESSAGE" value="js to handle theme change" />
+    <MESSAGE value="adjust colors to match dark theme" />
+    <MESSAGE value=".xml" />
+    <option name="LAST_COMMIT_MESSAGE" value=".xml" />
   </component>
 </project>
