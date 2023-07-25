@@ -1,9 +1,10 @@
 {% load static %}
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>PROFILE DETAILS</title>
-  <link rel="stylesheet" href="{% static 'css/page-header.css' %}">
+    <meta charset="UTF-8">
+    <title>PROFILE DETAILS</title>
+    <link rel="stylesheet" href="{% static 'css/page-header.css' %}">
+    <link rel="shortcut icon" href="{% static 'logo.ico' %}" type="image/x-icon">
 </head>
 <body>
 {% include 'bootstrap.html' %}
@@ -27,9 +28,9 @@
 {% endif %}
 <br><br>
 <table class="table table-hover square-table" style="width: 400px; margin-left: auto; margin-right: auto;">
-  <tbody>
+  <tbody style="background-color: whitesmoke;">
     <tr>
-      <td style="font-weight: bold;">First Name</td>
+      <td style="font-weight: bold;"><b>First Name</b></td>
       <td>{{ request.user.first_name }}</td>
     </tr>
     <tr>
