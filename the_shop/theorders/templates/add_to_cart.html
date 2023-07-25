@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>ADD-TO-CART</title>
+	<link rel="shortcut icon" href="{% static 'logo.ico' %}" type="image/x-icon">
     <link rel="stylesheet" href="{% static 'css/page-header.css' %}">
 </head>
 <body>
@@ -22,7 +23,7 @@
 <div class="row">
 		<div class="col-lg-12">
 		{% if order.get_cart_items %}
-			<a  class="btn btn-outline-dark" href="{% url 'brands:catalogue' %}">&#x2190; Continue Shopping</a>
+			<a style="color: grey;" class="btn btn-outline-dark" href="{% url 'brands:catalogue' %}">&#x2190; <b>Continue Shopping</b></a>
 			<br>
 			<br>
 				<table class="table">
@@ -37,7 +38,7 @@
 		{% else %}
 			<div class="row">
 			<div class="col-lg-12">
-				<a  class="btn btn-outline-dark" href="{% url 'brands:catalogue' %}">&#x2190; Start Shopping</a>
+				<a style="color: grey;" class="btn btn-outline-dark" href="{% url 'brands:catalogue' %}">&#x2190; <b>Start Shopping</b></a>
 			</div>
 			</div>
 
