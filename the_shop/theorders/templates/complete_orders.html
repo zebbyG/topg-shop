@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>COMPLETE ORDERS</title>
+    <link rel="shortcut icon" href="{% static 'logo.ico' %}" type="image/x-icon">
     <link rel="stylesheet" href="{% static 'css/page-header.css' %}">
 </head>
 <body>
@@ -20,17 +21,18 @@
         {% if order.get_cart_items %}
             <div class="row">
                 <div class="col-lg-12">
-                    <a  class="btn btn-outline-dark" href="{% url 'orders:checkout' %}" style="margin-bottom: 20px;">&#x2190; Finish ordering</a>
+                    <a style="color: grey;" class="btn btn-outline-dark" href="{% url 'orders:checkout' %}">&#x2190; <b>Finish ordering</b></a>
                 </div>
             </div>
         {% else %}
             <div class="row">
                 <div class="col-lg-12">
-                    <a  class="btn btn-outline-dark" href="{% url 'brands:catalogue' %}" style="margin-bottom: 20px;">&#x2190; Place an order</a>
+                    <a  style="color: grey;" class="btn btn-outline-dark" href="{% url 'brands:catalogue' %}">&#x2190; <b>Place an order</b></a>
                 </div>
             </div>
         {% endif %}
         {% for order in orders_completed %}
+            <br><br>
             <div class="col-md-4 mb-3">
                 <div class="card" style="width: 18rem; cursor: grab; margin-left: 20px;" data-bs-toggle="collapse" data-bs-target="#collapse-{{ order.id }}" aria-expanded="false" aria-controls="collapse-{{ order.id }}">
                     <img src="{% static 'cart.png' %}" class="card-img-top" alt="...">
@@ -99,7 +101,7 @@
         {% if order.get_cart_items %}
             <div class="row">
                 <div class="col-lg-12">
-                    <a  class="btn btn-outline-dark" href="{% url 'orders:checkout' %}">&#x2190; Finish ordering</a>
+                    <a  style="color: grey;" class="btn btn-outline-dark" href="{% url 'orders:checkout' %}">&#x2190; <b>Finish ordering</b></a>
                 </div>
             </div>
             <p><strong class="h1" style="margin-left: 400px;">You don't have any completed orders</strong></p>
@@ -108,7 +110,7 @@
         {% else %}
             <div class="row">
                 <div class="col-lg-12">
-                    <a  class="btn btn-outline-dark" href="{% url 'brands:catalogue' %}">&#x2190; Place an Order</a>
+                    <a  style="color: grey;" class="btn btn-outline-dark" href="{% url 'brands:catalogue' %}">&#x2190; <b>Place an Order</b></a>
                 </div>
             </div>
             <p><strong class="h1" style="margin-left: 400px;">You don't have any completed orders</strong></p>
