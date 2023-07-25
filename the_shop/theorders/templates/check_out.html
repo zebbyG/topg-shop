@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>CHECKOUT</title>
+	<link rel="shortcut icon" href="{% static 'logo.ico' %}" type="image/x-icon">
     <link rel="stylesheet" href="{% static 'css/page-header.css' %}">
 </head>
 <body>
@@ -36,7 +37,7 @@
 					{% if shipping_address %}
 						<div id="shipping-info">
 							<hr>
-							<p>Shipping Information:</p>
+							<p style="color: grey;">Shipping Information:</p>
 							<hr>
 							<div class="form-field">
 								<input class="form-control" type="text" name="country" placeholder="country.." value="{{ shipping_address.country }}">
@@ -59,7 +60,7 @@
 					{% else %}
 						<div id="shipping-infoo">
 							<hr>
-							<p>Shipping Information:</p>
+							<p style="color: grey;">Shipping Information:</p>
 							<hr>
 							<div class="form-field">
 								<input class="form-control" type="text" name="country" placeholder="Country..">
@@ -86,12 +87,12 @@
 
 			<br>
 			<div class="box-element hidden" id="payment-info">
-				<small>Payment options:</small><br><br>
+				<small style="color: grey;">Payment options:</small><br><br>
 				<div class="d-grid gap-3">
 					<p id="liveToastBtn">
 						<button class="btn btn-outline-dark btn-lg" id="make-payment" style="width: 100%;">Pay on delivery</button>
 					</p>
-					<div style="position: fixed; bottom: 50%; right: 0; transform: translate(0, 50%);" class="toast-container p-3">
+					<div style="position: fixed; bottom: 50%; right: 0; transform: translate(0, 50%); color: grey;" class="toast-container p-3">
 						<div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="3000">
 							<div class="toast-header">
 								<img src="{{ user.userprofile.profile_picture.url }}" class="rounded me-2" style="width: 50px; height: 70px; object-fit: cover;">
@@ -110,7 +111,7 @@
 						</div>
 					</div>
 				</div>
-				<small>Coming Soon:</small><br><br>
+				<small style="color: grey;">Coming Soon:</small><br><br>
 					<div id="paypal-button-container" style="pointer-events: none;"></div>
 			</div>
 
@@ -123,7 +124,7 @@
 				<h3>Order Summary</h3>
 				<hr>
 				{% for item in items %}
-				<div class="cart-row">
+				<div class="cart-row" style="color: black;">
 					<div style="flex:2"><img class="row-image" src="{{ item.product.shoe_image.url }}"></div>
 					<div style="flex:2"><p>{{ item.product.shoe_name }}</p></div>
 					<div style="flex:1"><p>${{ item.product.shoe_price }}</p></div>
