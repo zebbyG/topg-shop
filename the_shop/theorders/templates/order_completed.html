@@ -14,15 +14,20 @@
         <strong>Order Placed successfully</strong><!-- page-header.css for custom container styling -->
     </h3>
 </div>
+<div class="row">
+    <div class="col-lg-12">
+        <a style="color: grey; margin-top: 20px;" class="btn btn-outline-dark" href="{% url 'orders:my_orders' %}">&#x2190; <b>View Orders</b></a>
+    </div>
+</div>
 <br><br>
 
 <img style="width: 500px; height: 400px; object-fit: cover; margin-left: 400px;" src="{% static 'order_complete.jpg' %}">
 
 <p id="liveToastBtn" style="margin-left: 550px;">
-    <button class="btn btn-outline-dark btn-lg">View Order[s]</button>
+    <button style="color: grey; margin-bottom: 100px;" class="btn btn-outline-dark btn-lg"><b>View Order[s]</b></button>
 </p>
 
-<div style="position: fixed; bottom: 50%; right: 0; transform: translate(0, 50%);" class="toast-container p-3">
+<div style="position: fixed; bottom: 50%; right: 0; transform: translate(0, 50%); color: grey;" class="toast-container p-3">
     <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="200000">
         <div class="toast-header">
             <img src="{{ user.userprofile.profile_picture.url }}" class="rounded me-2" style="width: 50px; height: 70px; object-fit: cover;">
@@ -32,7 +37,7 @@
         </div>
         <div class="toast-body">
             <p class="lead">
-                For Complete Order... check <a class="me-auto" href="{% url 'orders:my_orders' %}" style="text-decoration: none;"><b>My Orders</b></a> to see order details
+                check <a class="me-auto" href="{% url 'orders:my_orders' %}" style="text-decoration: none;"><b>My Orders</b></a> to see order details
             </p>
         </div>
     </div>
