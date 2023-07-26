@@ -28,12 +28,12 @@
         <div class="row justify-content-center">
             <div class="col-md-3">
                 <div class="form-group">
-                    <label for="{{ log_in_form.username.id_for_label }}" style="font-weight: bold;">Username</label><br>
+                    <label style="font-weight: bold;">Username</label><br>
                     Required: <small style="font-weight: bold; font-size: 20px;">no spacing</small><br>
                     {{ log_in_form.username }}
                 </div>
                 <div class="form-group">
-                    <br><label for="{{ log_in_form.password.id_for_label }}">Password</label><br>
+                    <br><label>Password</label><br>
                     {{ log_in_form.password }}
                 </div>
                 <small style="color: red;">{{ log_in_form.errors }}</small>
