@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="sqlite3">
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="team image">
+      <change afterPath="$PROJECT_DIR$/the_shop/accounts/templates/password_reset_complete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/accounts/templates/password_reset_confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/accounts/templates/password_reset_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/check.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/the_shop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/the_shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/the_shop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/the_shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/the_shop/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -60,7 +67,49 @@
       <recent name="C:\Users\Zebbylion\PycharmProjects\UNDER_CONSTRUCTION\TOP Gz SHOE SHOP\theorders" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.check">
+    <configuration name="check" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UNDER_CONSTRUCTION" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/the_shop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/the_shop/check.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="check_passwords" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UNDER_CONSTRUCTION" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/the_shop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/the_shop/check_passwords.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UNDER_CONSTRUCTION" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,6 +133,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.check" />
+        <item itemvalue="Python.check_passwords" />
         <item itemvalue="Python.views" />
       </list>
     </recent_temporary>
@@ -96,55 +147,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00353" summary="add responsiveness to about page">
-      <created>1689862087282</created>
-      <option name="number" value="00353" />
-      <option name="presentableId" value="LOCAL-00353" />
-      <option name="project" value="LOCAL" />
-      <updated>1689862087282</updated>
-    </task>
-    <task id="LOCAL-00354" summary="add responsiveness to shop services page">
-      <created>1689862720556</created>
-      <option name="number" value="00354" />
-      <option name="presentableId" value="LOCAL-00354" />
-      <option name="project" value="LOCAL" />
-      <updated>1689862720556</updated>
-    </task>
-    <task id="LOCAL-00355" summary="change image">
-      <created>1689862782955</created>
-      <option name="number" value="00355" />
-      <option name="presentableId" value="LOCAL-00355" />
-      <option name="project" value="LOCAL" />
-      <updated>1689862782955</updated>
-    </task>
-    <task id="LOCAL-00356" summary="bootstrap main file">
-      <created>1689862894625</created>
-      <option name="number" value="00356" />
-      <option name="presentableId" value="LOCAL-00356" />
-      <option name="project" value="LOCAL" />
-      <updated>1689862894625</updated>
-    </task>
-    <task id="LOCAL-00357" summary="fix mis-spelt image source">
-      <created>1689863268024</created>
-      <option name="number" value="00357" />
-      <option name="presentableId" value="LOCAL-00357" />
-      <option name="project" value="LOCAL" />
-      <updated>1689863268024</updated>
-    </task>
-    <task id="LOCAL-00358" summary="Add testimonies/their responsiveness">
-      <created>1690190507657</created>
-      <option name="number" value="00358" />
-      <option name="presentableId" value="LOCAL-00358" />
-      <option name="project" value="LOCAL" />
-      <updated>1690190507657</updated>
-    </task>
-    <task id="LOCAL-00359" summary="set loop to true for the testimonies">
-      <created>1690191145699</created>
-      <option name="number" value="00359" />
-      <option name="presentableId" value="LOCAL-00359" />
-      <option name="project" value="LOCAL" />
-      <updated>1690191145715</updated>
     </task>
     <task id="LOCAL-00360" summary="testimonial images">
       <created>1690191196815</created>
@@ -440,7 +442,56 @@
       <option name="project" value="LOCAL" />
       <updated>1690291781253</updated>
     </task>
-    <option name="localTasksCounter" value="402" />
+    <task id="LOCAL-00402" summary=".xml">
+      <created>1690291806553</created>
+      <option name="number" value="00402" />
+      <option name="presentableId" value="LOCAL-00402" />
+      <option name="project" value="LOCAL" />
+      <updated>1690291806553</updated>
+    </task>
+    <task id="LOCAL-00403" summary="sqlite3">
+      <created>1690291814115</created>
+      <option name="number" value="00403" />
+      <option name="presentableId" value="LOCAL-00403" />
+      <option name="project" value="LOCAL" />
+      <updated>1690291814115</updated>
+    </task>
+    <task id="LOCAL-00404" summary="change team image">
+      <created>1690314464119</created>
+      <option name="number" value="00404" />
+      <option name="presentableId" value="LOCAL-00404" />
+      <option name="project" value="LOCAL" />
+      <updated>1690314464119</updated>
+    </task>
+    <task id="LOCAL-00405" summary="team image">
+      <created>1690314476391</created>
+      <option name="number" value="00405" />
+      <option name="presentableId" value="LOCAL-00405" />
+      <option name="project" value="LOCAL" />
+      <updated>1690314476391</updated>
+    </task>
+    <task id="LOCAL-00406" summary="rm invalid ids">
+      <created>1690360489640</created>
+      <option name="number" value="00406" />
+      <option name="presentableId" value="LOCAL-00406" />
+      <option name="project" value="LOCAL" />
+      <updated>1690360489640</updated>
+    </task>
+    <task id="LOCAL-00407" summary="add &quot;forgot your password&quot; link">
+      <created>1690444718073</created>
+      <option name="number" value="00407" />
+      <option name="presentableId" value="LOCAL-00407" />
+      <option name="project" value="LOCAL" />
+      <updated>1690444718074</updated>
+    </task>
+    <task id="LOCAL-00408" summary="password_reset template">
+      <created>1690459979410</created>
+      <option name="number" value="00408" />
+      <option name="presentableId" value="LOCAL-00408" />
+      <option name="project" value="LOCAL" />
+      <updated>1690459979410</updated>
+    </task>
+    <option name="localTasksCounter" value="409" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -448,11 +499,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="rename shoe" />
-    <MESSAGE value="change image source" />
-    <MESSAGE value="disable &quot;#&quot; socials" />
-    <MESSAGE value="rm image team2" />
-    <MESSAGE value="add theme button" />
     <MESSAGE value="button to change theme styling" />
     <MESSAGE value="js to handle theme change" />
     <MESSAGE value="adjust colors to match dark theme" />
@@ -460,8 +506,6 @@
     <MESSAGE value="position theme button" />
     <MESSAGE value="adjust theme button position" />
     <MESSAGE value="rm button position id" />
-    <MESSAGE value=".xml" />
-    <MESSAGE value="sqlite3" />
     <MESSAGE value="rename file" />
     <MESSAGE value="rm background-color for theme" />
     <MESSAGE value="rm unused hrefs" />
@@ -473,6 +517,13 @@
     <MESSAGE value="favicon logo" />
     <MESSAGE value="add favicon...adjust colors" />
     <MESSAGE value="add favicon" />
-    <option name="LAST_COMMIT_MESSAGE" value="add favicon" />
+    <MESSAGE value=".xml" />
+    <MESSAGE value="sqlite3" />
+    <MESSAGE value="change team image" />
+    <MESSAGE value="team image" />
+    <MESSAGE value="rm invalid ids" />
+    <MESSAGE value="add &quot;forgot your password&quot; link" />
+    <MESSAGE value="password_reset template" />
+    <option name="LAST_COMMIT_MESSAGE" value="password_reset template" />
   </component>
 </project>
