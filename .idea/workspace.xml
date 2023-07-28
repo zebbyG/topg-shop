@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="shoes">
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="project config">
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_slides_plain_colours_SRtsB84.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/app/base_topshop.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/app/base_topshop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/the_shop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,62 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00380" summary=".xml">
-      <created>1690225049247</created>
-      <option name="number" value="00380" />
-      <option name="presentableId" value="LOCAL-00380" />
-      <option name="project" value="LOCAL" />
-      <updated>1690225049247</updated>
-    </task>
-    <task id="LOCAL-00381" summary="sqlite3">
-      <created>1690225069965</created>
-      <option name="number" value="00381" />
-      <option name="presentableId" value="LOCAL-00381" />
-      <option name="project" value="LOCAL" />
-      <updated>1690225069965</updated>
-    </task>
-    <task id="LOCAL-00382" summary="adjust theme button position">
-      <created>1690226686774</created>
-      <option name="number" value="00382" />
-      <option name="presentableId" value="LOCAL-00382" />
-      <option name="project" value="LOCAL" />
-      <updated>1690226686774</updated>
-    </task>
-    <task id="LOCAL-00383" summary="rm button position id">
-      <created>1690226708983</created>
-      <option name="number" value="00383" />
-      <option name="presentableId" value="LOCAL-00383" />
-      <option name="project" value="LOCAL" />
-      <updated>1690226708983</updated>
-    </task>
-    <task id="LOCAL-00384" summary=".xml">
-      <created>1690226732195</created>
-      <option name="number" value="00384" />
-      <option name="presentableId" value="LOCAL-00384" />
-      <option name="project" value="LOCAL" />
-      <updated>1690226732195</updated>
-    </task>
-    <task id="LOCAL-00385" summary="sqlite3">
-      <created>1690226744373</created>
-      <option name="number" value="00385" />
-      <option name="presentableId" value="LOCAL-00385" />
-      <option name="project" value="LOCAL" />
-      <updated>1690226744373</updated>
-    </task>
-    <task id="LOCAL-00386" summary="rename file">
-      <created>1690282547440</created>
-      <option name="number" value="00386" />
-      <option name="presentableId" value="LOCAL-00386" />
-      <option name="project" value="LOCAL" />
-      <updated>1690282547440</updated>
-    </task>
-    <task id="LOCAL-00387" summary="rm background-color for theme">
-      <created>1690283657473</created>
-      <option name="number" value="00387" />
-      <option name="presentableId" value="LOCAL-00387" />
-      <option name="project" value="LOCAL" />
-      <updated>1690283657473</updated>
     </task>
     <task id="LOCAL-00388" summary="rm unused hrefs">
       <created>1690286295303</created>
@@ -484,7 +430,63 @@
       <option name="project" value="LOCAL" />
       <updated>1690553017711</updated>
     </task>
-    <option name="localTasksCounter" value="429" />
+    <task id="LOCAL-00429" summary=".xml">
+      <created>1690553252832</created>
+      <option name="number" value="00429" />
+      <option name="presentableId" value="LOCAL-00429" />
+      <option name="project" value="LOCAL" />
+      <updated>1690553252832</updated>
+    </task>
+    <task id="LOCAL-00430" summary="sqlite3">
+      <created>1690553292366</created>
+      <option name="number" value="00430" />
+      <option name="presentableId" value="LOCAL-00430" />
+      <option name="project" value="LOCAL" />
+      <updated>1690553292366</updated>
+    </task>
+    <task id="LOCAL-00431" summary="rm files">
+      <created>1690553361710</created>
+      <option name="number" value="00431" />
+      <option name="presentableId" value="LOCAL-00431" />
+      <option name="project" value="LOCAL" />
+      <updated>1690553361710</updated>
+    </task>
+    <task id="LOCAL-00432" summary="try post requests">
+      <created>1690560718003</created>
+      <option name="number" value="00432" />
+      <option name="presentableId" value="LOCAL-00432" />
+      <option name="project" value="LOCAL" />
+      <updated>1690560718003</updated>
+    </task>
+    <task id="LOCAL-00433" summary="post requests">
+      <created>1690561467947</created>
+      <option name="number" value="00433" />
+      <option name="presentableId" value="LOCAL-00433" />
+      <option name="project" value="LOCAL" />
+      <updated>1690561467947</updated>
+    </task>
+    <task id="LOCAL-00434" summary="trusted origin">
+      <created>1690561678202</created>
+      <option name="number" value="00434" />
+      <option name="presentableId" value="LOCAL-00434" />
+      <option name="project" value="LOCAL" />
+      <updated>1690561678202</updated>
+    </task>
+    <task id="LOCAL-00435" summary="change color">
+      <created>1690563906506</created>
+      <option name="number" value="00435" />
+      <option name="presentableId" value="LOCAL-00435" />
+      <option name="project" value="LOCAL" />
+      <updated>1690563906506</updated>
+    </task>
+    <task id="LOCAL-00436" summary="project config">
+      <created>1690563927736</created>
+      <option name="number" value="00436" />
+      <option name="presentableId" value="LOCAL-00436" />
+      <option name="project" value="LOCAL" />
+      <updated>1690563927736</updated>
+    </task>
+    <option name="localTasksCounter" value="437" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -492,12 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add favicon...adjust colors" />
-    <MESSAGE value="add favicon" />
-    <MESSAGE value="change team image" />
-    <MESSAGE value="team image" />
-    <MESSAGE value="rm invalid ids" />
-    <MESSAGE value="add &quot;forgot your password&quot; link" />
     <MESSAGE value="password_reset template" />
     <MESSAGE value="password reset successful template" />
     <MESSAGE value="form to reset your password" />
@@ -505,18 +501,24 @@
     <MESSAGE value="urls for password resetting" />
     <MESSAGE value="Added Smtp configurations" />
     <MESSAGE value="Added django view urls" />
-    <MESSAGE value="sqlite3" />
     <MESSAGE value="debug = False" />
     <MESSAGE value="debug=True" />
     <MESSAGE value="add responsiveness" />
     <MESSAGE value="add responsiveness to product templates" />
     <MESSAGE value="Add media dir to ignore" />
-    <MESSAGE value=".xml" />
     <MESSAGE value="rm removed dirs" />
     <MESSAGE value="ignore medis/shoes" />
     <MESSAGE value="shoes" />
     <MESSAGE value="ignore" />
     <MESSAGE value=".xmls" />
-    <option name="LAST_COMMIT_MESSAGE" value=".xmls" />
+    <MESSAGE value=".xml" />
+    <MESSAGE value="sqlite3" />
+    <MESSAGE value="rm files" />
+    <MESSAGE value="try post requests" />
+    <MESSAGE value="post requests" />
+    <MESSAGE value="trusted origin" />
+    <MESSAGE value="change color" />
+    <MESSAGE value="project config" />
+    <option name="LAST_COMMIT_MESSAGE" value="project config" />
   </component>
 </project>
