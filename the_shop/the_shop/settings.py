@@ -45,9 +45,9 @@ INSTALLED_APPS = [
     'theorders',
 ]
 
-# CSRF_TRUSTED_ORIGINS = [
-#
-# ]
+CSRF_TRUSTED_ORIGINS = [
+    'https://topgz-ebby.up.railway.app/',
+]
 
 INTERNAL_IPS = [
     # ...
@@ -60,7 +60,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    # 'django.middleware.csrf.CsrfViewMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
