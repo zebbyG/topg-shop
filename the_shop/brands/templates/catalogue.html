@@ -6,10 +6,14 @@
     <link rel="shortcut icon" href="{% static 'logo.ico' %}" type="image/x-icon">
     <link rel="stylesheet" href="{% static 'css/page-header.css' %}">
     <link rel="stylesheet" href="{% static 'css/add_to_cart_button.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha512-N8aHrY+H03j0B2OnsFz+6t1KJQpG4jP9x6dHb4Uj7Wyz2UoNbbF4d3HBJR1pdHwJGuJho358tj9yYjfjR68eg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Add custom styles here if needed */
+    </style>
 </head>
 <body>
 {% include 'bootstrap.html' %}
-{% include 'backToTop.html' %} <!--Back to Top button -->
+{% include 'backToTop.html' %} <!-- Back to Top button -->
 <!-- OUR CATALOGUE -->
 <br><br>
 <div class="custom-container">
@@ -29,30 +33,33 @@
     </form>
 </div>
 <br>
-<div class="row">
-    {% for all_brands in shop_brands %}
-    <div class="card" style="width: 25rem; margin-left: 25px; margin-top: 20px; cursor: grab; margin-right: 20px; margin-bottom: 20px;">
-        <a href="{{ all_brands.brand_name }}" style="cursor: grab;">
-            <img src="{{ all_brands.brand_image.url }}" class="card-img-top img-fluid" alt="shoe" style="object-fit: cover; width: 370px; height: 250px;">
-        </a>
-        <div class="card-body">
-            <h5 class="card-title">{{ all_brands.brand_name }}</h5>
-            <p class="card-text" style="cursor: grab;">{{ all_brands.brand_description }}</p>
-<!--            <p class="card-text"><strong>Total products: {{ all_brands.no_of_shoes_available }}</strong></p>-->
-            {% if all_brands.brand_in_stock %}
-                <b>In stock</b><br><br>
-                <a href="{{ all_brands.brand_name }}">
-                    <button type="button" class="btn btn-outline-secondary"><strong>Continue to {{ all_brands.brand_name }}</strong></button>
+<div class="container">
+    <div class="row">
+        {% for all_brands in shop_brands %}
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
+            <div class="card" style="margin-bottom: 20px;">
+                <a href="{{ all_brands.brand_name }}" style="cursor: grab;">
+                    <img src="{{ all_brands.brand_image.url }}" class="card-img-top img-fluid" alt="shoe" style="object-fit: cover; width: 100%; height: 250px;">
                 </a>
-            {% else %}
-                <p>Out of stock</p>
-                <a style="cursor: grab;">
-                    <button type="button" class="btn btn-outline-secondary add-to-cart" disabled><strong>Continue to {{ all_brands.brand_name }}</strong></button>
-                </a>
-            {% endif %}
+                <div class="card-body">
+                    <h5 class="card-title">{{ all_brands.brand_name }}</h5>
+                    <p class="card-text" style="cursor: grab;">{{ all_brands.brand_description }}</p>
+                    {% if all_brands.brand_in_stock %}
+                        <b>In stock</b><br><br>
+                        <a href="{{ all_brands.brand_name }}">
+                            <button type="button" class="btn btn-outline-secondary"><strong>Continue to {{ all_brands.brand_name }}</strong></button>
+                        </a>
+                    {% else %}
+                        <p>Out of stock</p>
+                        <a style="cursor: grab;">
+                            <button type="button" class="btn btn-outline-secondary add-to-cart" disabled><strong>Continue to {{ all_brands.brand_name }}</strong></button>
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
         </div>
+        {% endfor %}
     </div>
-    {% endfor %}
 </div>
 <script src="{% static 'js/search.js' %}"></script>
 
