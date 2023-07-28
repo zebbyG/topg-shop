@@ -21,9 +21,9 @@
 </div>
 <br><br>
 
-<div class="row">
+<div class="row d-flex">
 		<div class="col-lg-6">
-			<div class="box-element" id="form-wrapper">
+			<div class="box-element" id="form-wrapper" style="background-color: darkgray;">
 				<form id="form">
 					<!-- <div id="user-info">
 						<div class="form-field hidden">
@@ -37,7 +37,7 @@
 					{% if shipping_address %}
 						<div id="shipping-info">
 							<hr>
-							<p style="color: grey;">Shipping Information:</p>
+							<p>Shipping Information:</p>
 							<hr>
 							<div class="form-field">
 								<input class="form-control" type="text" name="country" placeholder="country.." value="{{ shipping_address.country }}">
@@ -86,7 +86,7 @@
 			</div>
 
 			<br>
-			<div class="box-element hidden" id="payment-info">
+			<div class="box-element hidden" id="payment-info" style="background-color: darkgray;">
 				<small style="color: grey;">Payment options:</small><br><br>
 				<div class="d-grid gap-3">
 					<p id="liveToastBtn">
@@ -118,7 +118,7 @@
 		</div>
 
 		<div class="col-lg-6">
-			<div class="box-element">
+			<div class="box-element" style="background-color: darkgray;">
 				<a  class="btn btn-outline-dark" href="{% url 'orders:add_to_cart' %}">&#x2190; Back to Cart</a>
 				<hr>
 				<h3>Order Summary</h3>
