@@ -4,88 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air-Force-1_milky_white.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air-Force-1_pure_black.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air-Jordan-1_blackwhite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air-Jordan-1_blueblackwhite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air_Jordan_3_fire_red.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air_Jordan_3_infrared_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air_Jordan_3_infrared_23_0MBYHLM.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air_Jordan_v_custom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air_Jordan_v_orange_raging_Bull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Airmax_95_batman_grey_luminous.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Airmax_95_grey.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Cushioned_Crew_Socks.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Inner_soles.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Inner_soles_XC9Jmba.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Inner_soles_honeycomb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Inner_soles_super_shock.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Jordan_J11_Retro_blackwhite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Jordan_J11_Retro_greywhite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Mens_Air_Jordan_9_Retro_black.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Mens_Air_Jordan_9_Retro_pure_red.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Nike_Air_Huarache_Tan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Nike_Air_Huarache_blackwhite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Nike_Air_Max_270_all_black.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Nike_Air_Max_270_white_with_black_swoosh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/No-Show-Socks.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_Linea_Rossa_blue.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_Linea_Rossa_grey.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_Punta_Ala_high_allblack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_Punta_Ala_high_greyred.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_cloudBust_black.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_cloudBust_yellowblack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_cloudBust_yellowblack_JtDOvCZ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_cup_custom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_cup_yellowhite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_cup_yellowhite_1luOXY8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_loafers_black.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_loafers_black_rBQ9KEJ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_loafers_brown-Tansole.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Training-Crew-Socks.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Training-Crew-Socks_KXGXEK8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Training-Crew-Socks_s2qDfSL.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Sk8-Hi_checkerboard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Sk8-Hi_white-blackstripe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Sk8-mid_custom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Sk8-mid_yellow-blackstripe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Slip-on_checkerboardclassic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Slip-on_custom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Women_high_cut_black-whitesole.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Women_high_cut_blackwithbrown.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Vans_old_skool__red-whitestripe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Vans_old_skool_black-whitestripe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Jordan_Air_1_Low_SE_marronwithblack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Jordan_Air_1_Low_SE_pink.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Nike_High_Top_grey.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Nike_High_Top_pink.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Prada_Pegasus_blackwhite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Prada_Pegasus_pinkwhitetan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/YEEZY_450s_black.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/YEEZY_450s_sulphur.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_350s_Tan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_350s_lightblue.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_500_Blush_black.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_500_Blush_men_colorful.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_700_brightblue.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_700_darkglow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_powerphase_Tan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_slides_customs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_slides_plain_colours.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/nike_dunk_low_custom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/nike_dunk_low_skybluewhite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/shoe-laces-multi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/shoe-laces.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/shoe-lacesb_W.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/shoe_chain.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/shoe_chain_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/shoe_chain_2_PkLse86.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/shoe_chain_locked_up.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/vans_Authentic_black-whitesole.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/vans_Authentic_marron-whitesole_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/yeezy_powerphase_black.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="shoes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/the_shop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,15 +42,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zebbylion/PycharmProjects/My-portfolio&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Zebbylion/PycharmProjects/topg-shop"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Zebbylion\PycharmProjects\topg-shop\the_shop\assets" />
@@ -220,27 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00377" summary="alter color for dark theme">
-      <created>1690224958174</created>
-      <option name="number" value="00377" />
-      <option name="presentableId" value="LOCAL-00377" />
-      <option name="project" value="LOCAL" />
-      <updated>1690224958174</updated>
-    </task>
-    <task id="LOCAL-00378" summary="position theme button">
-      <created>1690225016635</created>
-      <option name="number" value="00378" />
-      <option name="presentableId" value="LOCAL-00378" />
-      <option name="project" value="LOCAL" />
-      <updated>1690225016635</updated>
-    </task>
-    <task id="LOCAL-00379" summary="position theme button">
-      <created>1690225029055</created>
-      <option name="number" value="00379" />
-      <option name="presentableId" value="LOCAL-00379" />
-      <option name="project" value="LOCAL" />
-      <updated>1690225029055</updated>
     </task>
     <task id="LOCAL-00380" summary=".xml">
       <created>1690225049247</created>
@@ -564,7 +463,28 @@
       <option name="project" value="LOCAL" />
       <updated>1690552631161</updated>
     </task>
-    <option name="localTasksCounter" value="426" />
+    <task id="LOCAL-00426" summary="shoes">
+      <created>1690552811588</created>
+      <option name="number" value="00426" />
+      <option name="presentableId" value="LOCAL-00426" />
+      <option name="project" value="LOCAL" />
+      <updated>1690552811588</updated>
+    </task>
+    <task id="LOCAL-00427" summary="ignore">
+      <created>1690552978478</created>
+      <option name="number" value="00427" />
+      <option name="presentableId" value="LOCAL-00427" />
+      <option name="project" value="LOCAL" />
+      <updated>1690552978478</updated>
+    </task>
+    <task id="LOCAL-00428" summary=".xmls">
+      <created>1690553017711</created>
+      <option name="number" value="00428" />
+      <option name="presentableId" value="LOCAL-00428" />
+      <option name="project" value="LOCAL" />
+      <updated>1690553017711</updated>
+    </task>
+    <option name="localTasksCounter" value="429" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -572,9 +492,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="adjust color &amp; add favicon" />
-    <MESSAGE value="add favicon &amp; add adjust colors" />
-    <MESSAGE value="favicon logo" />
     <MESSAGE value="add favicon...adjust colors" />
     <MESSAGE value="add favicon" />
     <MESSAGE value="change team image" />
@@ -597,6 +514,9 @@
     <MESSAGE value=".xml" />
     <MESSAGE value="rm removed dirs" />
     <MESSAGE value="ignore medis/shoes" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignore medis/shoes" />
+    <MESSAGE value="shoes" />
+    <MESSAGE value="ignore" />
+    <MESSAGE value=".xmls" />
+    <option name="LAST_COMMIT_MESSAGE" value=".xmls" />
   </component>
 </project>
