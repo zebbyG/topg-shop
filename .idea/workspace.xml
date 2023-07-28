@@ -4,16 +4,85 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="team image">
-      <change afterPath="$PROJECT_DIR$/the_shop/accounts/templates/password_reset_complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/accounts/templates/password_reset_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/accounts/templates/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/check.py" afterDir="false" />
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="add responsiveness to product templates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/accounts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/the_shop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/the_shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/the_shop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/the_shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/the_shop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Air-Force-1_milky_white.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Air-Force-1_pure_black.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Air-Jordan-1_blackwhite.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Air-Jordan-1_blueblackwhite.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Air_Jordan_3_fire_red.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Air_Jordan_3_infrared_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Air_Jordan_3_infrared_23_0MBYHLM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Air_Jordan_v_custom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Air_Jordan_v_orange_raging_Bull.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Airmax_95_batman_grey_luminous.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Airmax_95_grey.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Cushioned_Crew_Socks.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Inner_soles.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Inner_soles_honeycomb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Inner_soles_super_shock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Jordan_J11_Retro_blackwhite.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Jordan_J11_Retro_greywhite.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Mens_Air_Jordan_9_Retro_black.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Mens_Air_Jordan_9_Retro_pure_red.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Nike_Air_Huarache_Tan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Nike_Air_Huarache_blackwhite.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Nike_Air_Max_270_all_black.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Nike_Air_Max_270_white_with_black_swoosh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/No-Show-Socks.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Prada_Linea_Rossa_blue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Prada_Linea_Rossa_grey.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Prada_Punta_Ala_high_allblack.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Prada_Punta_Ala_high_greyred.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Prada_cloudBust_black.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Prada_cloudBust_yellowblack.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Prada_cup_custom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Prada_cup_yellowhite.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Prada_loafers_black.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Prada_loafers_black_rBQ9KEJ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Prada_loafers_brown-Tansole.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Training-Crew-Socks.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Training-Crew-Socks_KXGXEK8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Training-Crew-Socks_s2qDfSL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Sk8-Hi_checkerboard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Sk8-Hi_white-blackstripe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Sk8-mid_custom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Sk8-mid_yellow-blackstripe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Slip-on_checkerboardclassic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Slip-on_custom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Women_high_cut_black-whitesole.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Vans_Women_high_cut_blackwithbrown.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Vans_old_skool__red-whitestripe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Vans_old_skool_black-whitestripe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Women_Jordan_Air_1_Low_SE_marronwithblack.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Women_Jordan_Air_1_Low_SE_pink.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Women_Nike_High_Top_grey.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Women_Nike_High_Top_pink.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Women_Prada_Pegasus_blackwhite.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Women_Prada_Pegasus_pinkwhitetan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/YEEZY_450s_black.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/YEEZY_450s_sulphur.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_350s_Tan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_350s_lightblue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_500_Blush_black.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_500_Blush_men_colorful.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_700_brightblue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_700_darkglow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_powerphase_Tan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_slides_customs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_slides_plain_colours.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/nike_dunk_low_custom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/nike_dunk_low_skybluewhite.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/shoe-laces-multi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/shoe-laces.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/shoe-lacesb_W.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/shoe_chain.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/shoe_chain_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/shoe_chain_locked_up.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/vans_Authentic_black-whitesole.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/vans_Authentic_marron-whitesole_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/media/shoes/yeezy_powerphase_black.jpeg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,104 +216,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00360" summary="testimonial images">
-      <created>1690191196815</created>
-      <option name="number" value="00360" />
-      <option name="presentableId" value="LOCAL-00360" />
-      <option name="project" value="LOCAL" />
-      <updated>1690191196815</updated>
-    </task>
-    <task id="LOCAL-00361" summary="prada popular product">
-      <created>1690191226353</created>
-      <option name="number" value="00361" />
-      <option name="presentableId" value="LOCAL-00361" />
-      <option name="project" value="LOCAL" />
-      <updated>1690191226353</updated>
-    </task>
-    <task id="LOCAL-00362" summary="add bootstrap to make it responsive">
-      <created>1690191256210</created>
-      <option name="number" value="00362" />
-      <option name="presentableId" value="LOCAL-00362" />
-      <option name="project" value="LOCAL" />
-      <updated>1690191256210</updated>
-    </task>
-    <task id="LOCAL-00363" summary="views.py">
-      <created>1690191378429</created>
-      <option name="number" value="00363" />
-      <option name="presentableId" value="LOCAL-00363" />
-      <option name="project" value="LOCAL" />
-      <updated>1690191378429</updated>
-    </task>
-    <task id="LOCAL-00364" summary=".xml">
-      <created>1690191415832</created>
-      <option name="number" value="00364" />
-      <option name="presentableId" value="LOCAL-00364" />
-      <option name="project" value="LOCAL" />
-      <updated>1690191415832</updated>
-    </task>
-    <task id="LOCAL-00365" summary="sqlite3">
-      <created>1690191432886</created>
-      <option name="number" value="00365" />
-      <option name="presentableId" value="LOCAL-00365" />
-      <option name="project" value="LOCAL" />
-      <updated>1690191432886</updated>
-    </task>
-    <task id="LOCAL-00366" summary="rename shoe">
-      <created>1690192508820</created>
-      <option name="number" value="00366" />
-      <option name="presentableId" value="LOCAL-00366" />
-      <option name="project" value="LOCAL" />
-      <updated>1690192508820</updated>
-    </task>
-    <task id="LOCAL-00367" summary="change image source">
-      <created>1690192535138</created>
-      <option name="number" value="00367" />
-      <option name="presentableId" value="LOCAL-00367" />
-      <option name="project" value="LOCAL" />
-      <updated>1690192535138</updated>
-    </task>
-    <task id="LOCAL-00368" summary="disable &quot;#&quot; socials">
-      <created>1690196082649</created>
-      <option name="number" value="00368" />
-      <option name="presentableId" value="LOCAL-00368" />
-      <option name="project" value="LOCAL" />
-      <updated>1690196082649</updated>
-    </task>
-    <task id="LOCAL-00369" summary=".xml">
-      <created>1690196104226</created>
-      <option name="number" value="00369" />
-      <option name="presentableId" value="LOCAL-00369" />
-      <option name="project" value="LOCAL" />
-      <updated>1690196104226</updated>
-    </task>
-    <task id="LOCAL-00370" summary="rm image team2">
-      <created>1690196123711</created>
-      <option name="number" value="00370" />
-      <option name="presentableId" value="LOCAL-00370" />
-      <option name="project" value="LOCAL" />
-      <updated>1690196123711</updated>
-    </task>
-    <task id="LOCAL-00371" summary="add theme button">
-      <created>1690223990217</created>
-      <option name="number" value="00371" />
-      <option name="presentableId" value="LOCAL-00371" />
-      <option name="project" value="LOCAL" />
-      <updated>1690223990217</updated>
-    </task>
-    <task id="LOCAL-00372" summary="button to change theme styling">
-      <created>1690224032179</created>
-      <option name="number" value="00372" />
-      <option name="presentableId" value="LOCAL-00372" />
-      <option name="project" value="LOCAL" />
-      <updated>1690224032179</updated>
-    </task>
-    <task id="LOCAL-00373" summary="js to handle theme change">
-      <created>1690224053540</created>
-      <option name="number" value="00373" />
-      <option name="presentableId" value="LOCAL-00373" />
-      <option name="project" value="LOCAL" />
-      <updated>1690224053540</updated>
     </task>
     <task id="LOCAL-00374" summary="adjust colors to match dark theme">
       <created>1690224130465</created>
@@ -491,7 +462,105 @@
       <option name="project" value="LOCAL" />
       <updated>1690459979410</updated>
     </task>
-    <option name="localTasksCounter" value="409" />
+    <task id="LOCAL-00409" summary="password reset successful template">
+      <created>1690460009998</created>
+      <option name="number" value="00409" />
+      <option name="presentableId" value="LOCAL-00409" />
+      <option name="project" value="LOCAL" />
+      <updated>1690460009998</updated>
+    </task>
+    <task id="LOCAL-00410" summary="form to reset your password">
+      <created>1690460042998</created>
+      <option name="number" value="00410" />
+      <option name="presentableId" value="LOCAL-00410" />
+      <option name="project" value="LOCAL" />
+      <updated>1690460042998</updated>
+    </task>
+    <task id="LOCAL-00411" summary="form to enter email for password reset">
+      <created>1690460071253</created>
+      <option name="number" value="00411" />
+      <option name="presentableId" value="LOCAL-00411" />
+      <option name="project" value="LOCAL" />
+      <updated>1690460071253</updated>
+    </task>
+    <task id="LOCAL-00412" summary="urls for password resetting">
+      <created>1690460111031</created>
+      <option name="number" value="00412" />
+      <option name="presentableId" value="LOCAL-00412" />
+      <option name="project" value="LOCAL" />
+      <updated>1690460111031</updated>
+    </task>
+    <task id="LOCAL-00413" summary="Added Smtp configurations">
+      <created>1690460153331</created>
+      <option name="number" value="00413" />
+      <option name="presentableId" value="LOCAL-00413" />
+      <option name="project" value="LOCAL" />
+      <updated>1690460153331</updated>
+    </task>
+    <task id="LOCAL-00414" summary="Added django view urls">
+      <created>1690460178006</created>
+      <option name="number" value="00414" />
+      <option name="presentableId" value="LOCAL-00414" />
+      <option name="project" value="LOCAL" />
+      <updated>1690460178006</updated>
+    </task>
+    <task id="LOCAL-00415" summary=".xml">
+      <created>1690460195132</created>
+      <option name="number" value="00415" />
+      <option name="presentableId" value="LOCAL-00415" />
+      <option name="project" value="LOCAL" />
+      <updated>1690460195132</updated>
+    </task>
+    <task id="LOCAL-00416" summary="sqlite3">
+      <created>1690460213439</created>
+      <option name="number" value="00416" />
+      <option name="presentableId" value="LOCAL-00416" />
+      <option name="project" value="LOCAL" />
+      <updated>1690460213439</updated>
+    </task>
+    <task id="LOCAL-00417" summary="sqlite3">
+      <created>1690537279182</created>
+      <option name="number" value="00417" />
+      <option name="presentableId" value="LOCAL-00417" />
+      <option name="project" value="LOCAL" />
+      <updated>1690537279183</updated>
+    </task>
+    <task id="LOCAL-00418" summary="debug = False">
+      <created>1690540691239</created>
+      <option name="number" value="00418" />
+      <option name="presentableId" value="LOCAL-00418" />
+      <option name="project" value="LOCAL" />
+      <updated>1690540691239</updated>
+    </task>
+    <task id="LOCAL-00419" summary="debug=True">
+      <created>1690540873167</created>
+      <option name="number" value="00419" />
+      <option name="presentableId" value="LOCAL-00419" />
+      <option name="project" value="LOCAL" />
+      <updated>1690540873167</updated>
+    </task>
+    <task id="LOCAL-00420" summary="add responsiveness">
+      <created>1690543782993</created>
+      <option name="number" value="00420" />
+      <option name="presentableId" value="LOCAL-00420" />
+      <option name="project" value="LOCAL" />
+      <updated>1690543782993</updated>
+    </task>
+    <task id="LOCAL-00421" summary="add responsiveness to product templates">
+      <created>1690552192077</created>
+      <option name="number" value="00421" />
+      <option name="presentableId" value="LOCAL-00421" />
+      <option name="project" value="LOCAL" />
+      <updated>1690552192077</updated>
+    </task>
+    <task id="LOCAL-00422" summary="Add media dir to ignore">
+      <created>1690552380561</created>
+      <option name="number" value="00422" />
+      <option name="presentableId" value="LOCAL-00422" />
+      <option name="project" value="LOCAL" />
+      <updated>1690552380561</updated>
+    </task>
+    <option name="localTasksCounter" value="423" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -499,17 +568,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="button to change theme styling" />
-    <MESSAGE value="js to handle theme change" />
-    <MESSAGE value="adjust colors to match dark theme" />
-    <MESSAGE value="alter color for dark theme" />
-    <MESSAGE value="position theme button" />
-    <MESSAGE value="adjust theme button position" />
-    <MESSAGE value="rm button position id" />
-    <MESSAGE value="rename file" />
-    <MESSAGE value="rm background-color for theme" />
-    <MESSAGE value="rm unused hrefs" />
-    <MESSAGE value="rm comments" />
     <MESSAGE value="fix colors" />
     <MESSAGE value="adjust color to match dark theme/add favicon" />
     <MESSAGE value="adjust color &amp; add favicon" />
@@ -517,13 +575,24 @@
     <MESSAGE value="favicon logo" />
     <MESSAGE value="add favicon...adjust colors" />
     <MESSAGE value="add favicon" />
-    <MESSAGE value=".xml" />
-    <MESSAGE value="sqlite3" />
     <MESSAGE value="change team image" />
     <MESSAGE value="team image" />
     <MESSAGE value="rm invalid ids" />
     <MESSAGE value="add &quot;forgot your password&quot; link" />
     <MESSAGE value="password_reset template" />
-    <option name="LAST_COMMIT_MESSAGE" value="password_reset template" />
+    <MESSAGE value="password reset successful template" />
+    <MESSAGE value="form to reset your password" />
+    <MESSAGE value="form to enter email for password reset" />
+    <MESSAGE value="urls for password resetting" />
+    <MESSAGE value="Added Smtp configurations" />
+    <MESSAGE value="Added django view urls" />
+    <MESSAGE value=".xml" />
+    <MESSAGE value="sqlite3" />
+    <MESSAGE value="debug = False" />
+    <MESSAGE value="debug=True" />
+    <MESSAGE value="add responsiveness" />
+    <MESSAGE value="add responsiveness to product templates" />
+    <MESSAGE value="Add media dir to ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add media dir to ignore" />
   </component>
 </project>
