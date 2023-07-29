@@ -47,6 +47,7 @@ INSTALLED_APPS = [
 
 CSRF_TRUSTED_ORIGINS = [
     'https://topgz-ebby.up.railway.app',
+    'https://topg-shop.vercel.app'
 ]
 
 INTERNAL_IPS = [
