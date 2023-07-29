@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment=".">
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/app/testimonies.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/app/testimonies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/top_shop/templates/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/top_shop/templates/team.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,41 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00411" summary="form to enter email for password reset">
-      <created>1690460071253</created>
-      <option name="number" value="00411" />
-      <option name="presentableId" value="LOCAL-00411" />
-      <option name="project" value="LOCAL" />
-      <updated>1690460071253</updated>
-    </task>
-    <task id="LOCAL-00412" summary="urls for password resetting">
-      <created>1690460111031</created>
-      <option name="number" value="00412" />
-      <option name="presentableId" value="LOCAL-00412" />
-      <option name="project" value="LOCAL" />
-      <updated>1690460111031</updated>
-    </task>
-    <task id="LOCAL-00413" summary="Added Smtp configurations">
-      <created>1690460153331</created>
-      <option name="number" value="00413" />
-      <option name="presentableId" value="LOCAL-00413" />
-      <option name="project" value="LOCAL" />
-      <updated>1690460153331</updated>
-    </task>
-    <task id="LOCAL-00414" summary="Added django view urls">
-      <created>1690460178006</created>
-      <option name="number" value="00414" />
-      <option name="presentableId" value="LOCAL-00414" />
-      <option name="project" value="LOCAL" />
-      <updated>1690460178006</updated>
-    </task>
-    <task id="LOCAL-00415" summary=".xml">
-      <created>1690460195132</created>
-      <option name="number" value="00415" />
-      <option name="presentableId" value="LOCAL-00415" />
-      <option name="project" value="LOCAL" />
-      <updated>1690460195132</updated>
     </task>
     <task id="LOCAL-00416" summary="sqlite3">
       <created>1690460213439</created>
@@ -486,7 +448,42 @@
       <option name="project" value="LOCAL" />
       <updated>1690639039877</updated>
     </task>
-    <option name="localTasksCounter" value="460" />
+    <task id="LOCAL-00460" summary="&quot;team member&quot;">
+      <created>1690666205942</created>
+      <option name="number" value="00460" />
+      <option name="presentableId" value="LOCAL-00460" />
+      <option name="project" value="LOCAL" />
+      <updated>1690666205942</updated>
+    </task>
+    <task id="LOCAL-00461" summary="alter titles">
+      <created>1690666253626</created>
+      <option name="number" value="00461" />
+      <option name="presentableId" value="LOCAL-00461" />
+      <option name="project" value="LOCAL" />
+      <updated>1690666253626</updated>
+    </task>
+    <task id="LOCAL-00462" summary=".xml">
+      <created>1690666268863</created>
+      <option name="number" value="00462" />
+      <option name="presentableId" value="LOCAL-00462" />
+      <option name="project" value="LOCAL" />
+      <updated>1690666268863</updated>
+    </task>
+    <task id="LOCAL-00463" summary="sqlite3">
+      <created>1690666282473</created>
+      <option name="number" value="00463" />
+      <option name="presentableId" value="LOCAL-00463" />
+      <option name="project" value="LOCAL" />
+      <updated>1690666282473</updated>
+    </task>
+    <task id="LOCAL-00464" summary="fix img path">
+      <created>1690667690051</created>
+      <option name="number" value="00464" />
+      <option name="presentableId" value="LOCAL-00464" />
+      <option name="project" value="LOCAL" />
+      <updated>1690667690051</updated>
+    </task>
+    <option name="localTasksCounter" value="465" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -494,9 +491,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ignore" />
-    <MESSAGE value=".xmls" />
-    <MESSAGE value="rm files" />
     <MESSAGE value="try post requests" />
     <MESSAGE value="post requests" />
     <MESSAGE value="trusted origin" />
@@ -517,8 +511,11 @@
     <MESSAGE value="change button UI" />
     <MESSAGE value="change button UI &amp; add responsiveness" />
     <MESSAGE value="rm removed products images" />
+    <MESSAGE value="&quot;team member&quot;" />
+    <MESSAGE value="alter titles" />
     <MESSAGE value=".xml" />
     <MESSAGE value="sqlite3" />
-    <option name="LAST_COMMIT_MESSAGE" value="sqlite3" />
+    <MESSAGE value="fix img path" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix img path" />
   </component>
 </project>
