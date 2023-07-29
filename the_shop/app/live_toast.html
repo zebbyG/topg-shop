@@ -1,0 +1,25 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Toast</title>
+</head>
+<body>
+<div class="toast-header">
+    <img src="{{ user.userprofile.profile_picture.url }}" class="rounded me-2" style="width: 50px; height: 70px; object-fit: cover;">
+    <a class="me-auto" href="{% url 'orders:add_to_cart' %}" style="text-decoration: none;"><b>View Cart Items</b></a>
+    <small>closing pop-up...</small>
+    <div class="spinner-grow spinner-grow-sm" role="status">
+      <span class="visually-hidden">redirecting</span>
+    </div>
+    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+</div>
+
+<div class="toast-body">
+    <p class="lead">
+        Items added to cart will appear <a class="me-auto" href="{% url 'orders:add_to_cart' %}" style="text-decoration: none;"><b>here</b></a>
+    </p>
+</div>
+
+</body>
+</html>
