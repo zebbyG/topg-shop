@@ -56,7 +56,12 @@
                                         <button data-product="{{ all_shoes.id }}" data-action="add" class="btn btn-outline-success add-to-cart add-btn update-cart">Add to cart</button>
                                     </form>
                                 {% else %}
-                                    <button data-product="{{ all_shoes.id }}" data-action="add" class="btn btn-outline-success add-to-cart add-btn update-cart">Add to cart</button>
+                                    <button id="liveToastBtn" data-product="{{ all_shoes.id }}" data-action="add" class="btn btn-outline-success add-to-cart add-btn update-cart">Add to cart</button>
+                                        <div style="position: fixed; bottom: 50%; right: 0; transform: translate(0, 50%); color: grey;" class="toast-container p-3">
+                                            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="4000">
+                                                {% include 'live_toast.html' %}
+                                            </div>
+                                        </div>
                                 {% endif %}
                             </div>
                             <div class="col">
@@ -82,6 +87,7 @@
 </div>
 <script src="{% static 'js/cart.js' %}"></script>
 <script src="{% static 'js/search.js' %}"></script>
+<script src="{% static 'js/live_toast.js' %}"></script>
 <br><br><br>
 {% include 'baseshop_footer.html' %}
 </body>
