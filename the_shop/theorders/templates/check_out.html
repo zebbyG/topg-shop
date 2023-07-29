@@ -139,18 +139,6 @@
 <script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD"></script>
 
 <script>
-	const toastTrigger = document.getElementById('liveToastBtn')
-	const toastLiveExample = document.getElementById('liveToast')
-
-	if (toastTrigger) {
-	  const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
-	  toastTrigger.addEventListener('click', () => {
-		toastBootstrap.show()
-	  })
-	}
-</script>
-
-<script>
 	// Render the PayPal button into #paypal-button-container
 	paypal.Buttons({
 
@@ -263,6 +251,7 @@
 		})
 	}
 </script>
+<script src="{% static 'js/live_toast.js' %}"></script>
 <br><br><br><hr>
 {% include 'baseshop_footer.html' %}
 </body>
