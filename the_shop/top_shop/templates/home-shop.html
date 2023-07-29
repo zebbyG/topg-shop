@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <title>TOP Gz</title>
     <link rel="shortcut icon" href="{% static 'logo.ico' %}" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
     <style>
         .team-img {
           height: 100%;
           width: 100%;
-          max-height: 300px; /* Adjust this value to your preferred height */
+          max-height: 300px;
           object-fit: cover;
         }
         </style>
@@ -67,114 +67,42 @@
             <h3 class="display-5 text-center mt-5"><strong>Popular Products</strong></h3>
         </div>
     </div>
-<br>
+    <br>
     <div class="owl-carousel owl-theme mt-3">
-<!--        <div class="item">-->
-<!--            <a href="{% url 'brands:Jordans' %}" style="text-decoration: none; cursor: grab;">-->
-<!--                <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Air_Jordan_3_infrared_23.jpg" alt="Air Jordan 3 infrared 23.jpg">-->
-<!--            </a>-->
-<!--                <div class="caption">-->
-<!--                    <h4 style="color: black">Air Jordan 3</h4>-->
-<!--                </div>-->
-<!--        </div>-->
-
-<!--        <div class="item">-->
-<!--            <a href="{% url 'brands:Yeezys' %}" style="text-decoration: none; cursor: grab;">-->
-<!--                <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Yeezy_350s_Tan.jpg" alt="Yeezy 350s Tan.jpg">-->
-<!--            </a>-->
-<!--                <div class="caption">-->
-<!--                    <h4 style="color: black">Yeezy 350s</h4>-->
-<!--                </div>-->
-<!--        </div>-->
-
         <div class="item">
-            <a href="{% url 'brands:Pradas' %}" style="text-decoration: none; cursor: grab;">
-                <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Prada_cup_yellowhite.jpg" alt="Prada cup yellowhite.jpg">
+            <a href="{% url 'brands:Shoes Accessories' %}" style="text-decoration: none; cursor: grab;">
+                <img class="img-fluid" src="media/shoes/Inner_soles_XC9Jmba.jpg" alt="Inner Soles">
             </a>
-                <div class="caption">
-                    <h4 style="color: grey">Prada cup</h4>
-                </div>
+            <div class="caption">
+                <h4 style="color: grey">Inner Soles</h4>
+            </div>
         </div>
 
         <div class="item">
             <a href="{% url 'brands:Jordans' %}" style="text-decoration: none; cursor: grab;">
-                <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Women_Jordan_Air_1_Low_SE_pink.jpg" alt="Women Jordan Air 1 Low SE pink.jpg">
+                <img class="img-fluid" src="media/shoes/Air_Jordan_3_infrared_23_0MBYHLM.jpg" alt="Air Jordan 3">
             </a>
-                <div class="caption">
-                    <h4 style="color: grey">Jordan Air 1 Low</h4>
-                </div>
-        </div>
-
-<!--        <div class="item">-->
-<!--            <a href="{% url 'brands:Vans' %}" style="text-decoration: none; cursor: grab;">-->
-<!--                <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Vans_old_skool_black-whitestripe.jpg" alt="black-whitestripe.jpg">-->
-<!--            </a>-->
-<!--                <div class="caption">-->
-<!--                    <h4 style="color: black">Vans old skool</h4>-->
-<!--                </div>-->
-<!--        </div>-->
-
-<!--        <div class="item">-->
-<!--            <a href="{% url 'brands:Pradas' %}" style="text-decoration: none; cursor: grab;">-->
-<!--                <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Prada_cloudBust_yellowblack.jpg" alt="Prada cloudBust yellowblack.jpg">-->
-<!--            </a>-->
-<!--                <div class="caption">-->
-<!--                    <h4 style="color: black">Prada cloudBust</h4>-->
-<!--                </div>-->
-<!--        </div>-->
-
-        <div class="item">
-            <a href="{% url 'brands:Nikes' %}" style="text-decoration: none; cursor: grab;">
-                <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Women_Nike_High_Top_pink.jpg" alt="Women Nike High Top pink.jpg">
-            </a>
-                <div class="caption">
-                    <h4 style="color: grey">Women Nike High</h4>
-                </div>
-        </div>
-
-        <div class="item">
-            <a href="{% url 'brands:Vans' %}" style="text-decoration: none; cursor: grab;">
-                <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Vans_Slip-on_custom.jpg" alt="Vans Slip-on custom.jpg">
-            </a>
-                <div class="caption">
-                    <h4 style="color: grey">Vans Slip-on</h4>
-                </div>
-        </div>
-
-        <div class="item">
-            <a href="{% url 'brands:Nikes' %}" style="text-decoration: none; cursor: grab;">
-                <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Nike_Air_Max_270_all_black.jpg" alt="Nike Air Max 270 all black.jpg">
-            </a>
-                <div class="caption">
-                    <h4 style="color: grey">Nike Air Max</h4>
-                </div>
-        </div>
-
-        <div class="item">
-            <a href="{% url 'brands:Yeezys' %}" style="text-decoration: none; cursor: grab;">
-                <img style="width: 300px; height: 300px; object-fit: cover;" src="media/shoes/Yeezy_slides_customs.jpg" alt="Yeezy slides customs.jpg">
-            </a>
-                <div class="caption">
-                    <h4 style="color: grey">Yeezy slides</h4>
-                </div>
+            <div class="caption">
+                <h4 style="color: grey">Air Jordan 3</h4>
+            </div>
         </div>
     </div>
 </div>
 
 <!-- Scripts to support the Jquery Owl-carousels -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <!--The responsiveness of the carousels -->
 <script type="text/javascript">
     $('.owl-carousel').owlCarousel({
     loop: true,
-    margin: 10,
+    margin: 30,
     nav: false,
     autoplay: true,
     autoplayTimeout: 3000,
-    stagePadding: 70,
     margin: 30,
+    autoplayHoverPause: true,
     dots: false,
     responsive:{
         0:{
