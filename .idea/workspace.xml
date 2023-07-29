@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/the_shop/app/live_toast.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/assets/js/live_toast.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/addidas.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/addidas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/balenciagas.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/balenciagas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/gucci.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/gucci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/jordans.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/jordans.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/louis_vuitton.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/louis_vuitton.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/nikes.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/nikes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/pradas.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/pradas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/pumas.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/pumas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/shoes_accessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/shoes_accessories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/vans.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/vans.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/versace.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/versace.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/yeezys.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/yeezys.html" afterDir="false" />
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="sqlite">
       <change beforePath="$PROJECT_DIR$/the_shop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,34 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00393" summary="adjust color &amp; add favicon">
-      <created>1690289875548</created>
-      <option name="number" value="00393" />
-      <option name="presentableId" value="LOCAL-00393" />
-      <option name="project" value="LOCAL" />
-      <updated>1690289875548</updated>
-    </task>
-    <task id="LOCAL-00394" summary="add favicon &amp; add adjust colors">
-      <created>1690289928945</created>
-      <option name="number" value="00394" />
-      <option name="presentableId" value="LOCAL-00394" />
-      <option name="project" value="LOCAL" />
-      <updated>1690289928945</updated>
-    </task>
-    <task id="LOCAL-00395" summary="add favicon &amp; add adjust colors">
-      <created>1690289938231</created>
-      <option name="number" value="00395" />
-      <option name="presentableId" value="LOCAL-00395" />
-      <option name="project" value="LOCAL" />
-      <updated>1690289938231</updated>
-    </task>
-    <task id="LOCAL-00396" summary="add favicon">
-      <created>1690290159842</created>
-      <option name="number" value="00396" />
-      <option name="presentableId" value="LOCAL-00396" />
-      <option name="project" value="LOCAL" />
-      <updated>1690290159842</updated>
     </task>
     <task id="LOCAL-00397" summary="add favicon">
       <created>1690290490253</created>
@@ -498,7 +455,35 @@
       <option name="project" value="LOCAL" />
       <updated>1690619844201</updated>
     </task>
-    <option name="localTasksCounter" value="442" />
+    <task id="LOCAL-00442" summary="Add a live toast on &quot;add-to-cart&quot; button">
+      <created>1690621535824</created>
+      <option name="number" value="00442" />
+      <option name="presentableId" value="LOCAL-00442" />
+      <option name="project" value="LOCAL" />
+      <updated>1690621535824</updated>
+    </task>
+    <task id="LOCAL-00443" summary="live toast script">
+      <created>1690621642301</created>
+      <option name="number" value="00443" />
+      <option name="presentableId" value="LOCAL-00443" />
+      <option name="project" value="LOCAL" />
+      <updated>1690621642301</updated>
+    </task>
+    <task id="LOCAL-00444" summary="live toast template">
+      <created>1690621666676</created>
+      <option name="number" value="00444" />
+      <option name="presentableId" value="LOCAL-00444" />
+      <option name="project" value="LOCAL" />
+      <updated>1690621666676</updated>
+    </task>
+    <task id="LOCAL-00445" summary=".xml">
+      <created>1690621697382</created>
+      <option name="number" value="00445" />
+      <option name="presentableId" value="LOCAL-00445" />
+      <option name="project" value="LOCAL" />
+      <updated>1690621697382</updated>
+    </task>
+    <option name="localTasksCounter" value="446" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -506,9 +491,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="form to enter email for password reset" />
-    <MESSAGE value="urls for password resetting" />
-    <MESSAGE value="Added Smtp configurations" />
     <MESSAGE value="Added django view urls" />
     <MESSAGE value="debug = False" />
     <MESSAGE value="debug=True" />
@@ -527,10 +509,13 @@
     <MESSAGE value="change color" />
     <MESSAGE value="project config" />
     <MESSAGE value="fix team url" />
-    <MESSAGE value=".xml" />
     <MESSAGE value="sqlite3" />
     <MESSAGE value="Added live_toast separate-script" />
     <MESSAGE value="added vercel-shop url to trusted origins" />
-    <option name="LAST_COMMIT_MESSAGE" value="added vercel-shop url to trusted origins" />
+    <MESSAGE value="Add a live toast on &quot;add-to-cart&quot; button" />
+    <MESSAGE value="live toast script" />
+    <MESSAGE value="live toast template" />
+    <MESSAGE value=".xml" />
+    <option name="LAST_COMMIT_MESSAGE" value=".xml" />
   </component>
 </project>
