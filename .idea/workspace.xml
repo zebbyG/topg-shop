@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="project config">
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Yeezy_slides_plain_colours_SRtsB84.jpg" afterDir="false" />
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/the_shop/app/live_toast.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/assets/js/live_toast.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/app/base_topshop.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/app/base_topshop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/addidas.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/addidas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/balenciagas.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/balenciagas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/gucci.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/gucci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/jordans.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/jordans.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/louis_vuitton.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/louis_vuitton.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/nikes.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/nikes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/pradas.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/pradas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/pumas.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/pumas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/shoes_accessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/shoes_accessories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/vans.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/vans.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/versace.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/versace.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/brands/templates/yeezys.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/brands/templates/yeezys.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/the_shop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,41 +154,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00388" summary="rm unused hrefs">
-      <created>1690286295303</created>
-      <option name="number" value="00388" />
-      <option name="presentableId" value="LOCAL-00388" />
-      <option name="project" value="LOCAL" />
-      <updated>1690286295303</updated>
-    </task>
-    <task id="LOCAL-00389" summary="rm comments">
-      <created>1690286543007</created>
-      <option name="number" value="00389" />
-      <option name="presentableId" value="LOCAL-00389" />
-      <option name="project" value="LOCAL" />
-      <updated>1690286543007</updated>
-    </task>
-    <task id="LOCAL-00390" summary="add favicon">
-      <created>1690286678994</created>
-      <option name="number" value="00390" />
-      <option name="presentableId" value="LOCAL-00390" />
-      <option name="project" value="LOCAL" />
-      <updated>1690286678994</updated>
-    </task>
-    <task id="LOCAL-00391" summary="fix colors">
-      <created>1690289185558</created>
-      <option name="number" value="00391" />
-      <option name="presentableId" value="LOCAL-00391" />
-      <option name="project" value="LOCAL" />
-      <updated>1690289185558</updated>
-    </task>
-    <task id="LOCAL-00392" summary="adjust color to match dark theme/add favicon">
-      <created>1690289834439</created>
-      <option name="number" value="00392" />
-      <option name="presentableId" value="LOCAL-00392" />
-      <option name="project" value="LOCAL" />
-      <updated>1690289834439</updated>
     </task>
     <task id="LOCAL-00393" summary="adjust color &amp; add favicon">
       <created>1690289875548</created>
@@ -486,7 +463,42 @@
       <option name="project" value="LOCAL" />
       <updated>1690563927736</updated>
     </task>
-    <option name="localTasksCounter" value="437" />
+    <task id="LOCAL-00437" summary="fix team url">
+      <created>1690569143497</created>
+      <option name="number" value="00437" />
+      <option name="presentableId" value="LOCAL-00437" />
+      <option name="project" value="LOCAL" />
+      <updated>1690569143497</updated>
+    </task>
+    <task id="LOCAL-00438" summary=".xml">
+      <created>1690569240315</created>
+      <option name="number" value="00438" />
+      <option name="presentableId" value="LOCAL-00438" />
+      <option name="project" value="LOCAL" />
+      <updated>1690569240315</updated>
+    </task>
+    <task id="LOCAL-00439" summary="sqlite3">
+      <created>1690569251579</created>
+      <option name="number" value="00439" />
+      <option name="presentableId" value="LOCAL-00439" />
+      <option name="project" value="LOCAL" />
+      <updated>1690569251579</updated>
+    </task>
+    <task id="LOCAL-00440" summary="Added live_toast separate-script">
+      <created>1690619787453</created>
+      <option name="number" value="00440" />
+      <option name="presentableId" value="LOCAL-00440" />
+      <option name="project" value="LOCAL" />
+      <updated>1690619787453</updated>
+    </task>
+    <task id="LOCAL-00441" summary="added vercel-shop url to trusted origins">
+      <created>1690619844201</created>
+      <option name="number" value="00441" />
+      <option name="presentableId" value="LOCAL-00441" />
+      <option name="project" value="LOCAL" />
+      <updated>1690619844201</updated>
+    </task>
+    <option name="localTasksCounter" value="442" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -494,9 +506,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="password_reset template" />
-    <MESSAGE value="password reset successful template" />
-    <MESSAGE value="form to reset your password" />
     <MESSAGE value="form to enter email for password reset" />
     <MESSAGE value="urls for password resetting" />
     <MESSAGE value="Added Smtp configurations" />
@@ -511,14 +520,17 @@
     <MESSAGE value="shoes" />
     <MESSAGE value="ignore" />
     <MESSAGE value=".xmls" />
-    <MESSAGE value=".xml" />
-    <MESSAGE value="sqlite3" />
     <MESSAGE value="rm files" />
     <MESSAGE value="try post requests" />
     <MESSAGE value="post requests" />
     <MESSAGE value="trusted origin" />
     <MESSAGE value="change color" />
     <MESSAGE value="project config" />
-    <option name="LAST_COMMIT_MESSAGE" value="project config" />
+    <MESSAGE value="fix team url" />
+    <MESSAGE value=".xml" />
+    <MESSAGE value="sqlite3" />
+    <MESSAGE value="Added live_toast separate-script" />
+    <MESSAGE value="added vercel-shop url to trusted origins" />
+    <option name="LAST_COMMIT_MESSAGE" value="added vercel-shop url to trusted origins" />
   </component>
 </project>
