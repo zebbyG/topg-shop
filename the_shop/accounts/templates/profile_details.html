@@ -5,6 +5,7 @@
     <title>PROFILE DETAILS</title>
     <link rel="stylesheet" href="{% static 'css/page-header.css' %}">
     <link rel="shortcut icon" href="{% static 'logo.ico' %}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
 </head>
 <body>
 {% include 'bootstrap.html' %}
@@ -17,45 +18,52 @@
 </div>
 <br><br>
 
-{% if user.userprofile.profile_picture %}
-    <a style="text-decoration: none;">
-        <img class="rounded-circle" src="{{ user.userprofile.profile_picture.url }}" style="object-fit: cover; width: 200px; height: 200px; margin-left: 530px;">
-    </a>
-{% else %}
-    <a style="text-decoration: none;">
-        <img class="rounded-circle" src="{% static 'default-profile-pic.png' %}" style="object-fit: cover; width: 200px; height: 200px; margin-left: 530px;">
-    </a>
-{% endif %}
+<div class="container">
+    {% if user.userprofile.profile_picture %}
+        <div class="d-flex justify-content-center">
+            <img class="rounded-circle" src="{{ user.userprofile.profile_picture.url }}" style="object-fit: cover; width: 200px; height: 200px;">
+        </div>
+    {% else %}
+        <div class="d-flex justify-content-center">
+            <img class="rounded-circle" src="{% static 'default-profile-pic.png' %}" style="object-fit: cover; width: 200px; height: 200px;">
+        </div>
+    {% endif %}
+</div>
 <br><br>
-<table class="table table-hover square-table" style="width: 400px; margin-left: auto; margin-right: auto;">
-  <tbody style="background-color: whitesmoke;">
-    <tr>
-      <td style="font-weight: bold;"><b>First Name</b></td>
-      <td>{{ request.user.first_name }}</td>
-    </tr>
-    <tr>
-      <td style="font-weight: bold;">Last Name</td>
-      <td>{{ request.user.last_name }}</td>
-    </tr>
-    <tr>
-      <td style="font-weight: bold;">Email</td>
-      <td>{{ request.user.email }}</td>
-    </tr>
-    <tr>
-      <td style="font-weight: bold;">Username</td>
-      <td>{{ request.user.username }}</td>
-    </tr>
-    <tr>
-      <td style="font-weight: bold;">Date Joined</td>
-      <td>{{ request.user.date_joined }}</td>
-    </tr>
-    <tr>
-      <td style="font-weight: bold;">Last Log in</td>
-      <td>{{ request.user.last_login }}</td>
-    </tr>
-  </tbody>
-</table>
-<em><a href="{% url 'accounts:edit_profile' %}" style="text-decoration: none; margin-left: 580px;">edit your profile</a></em>
+<div class="container">
+    <table class="table table-hover square-table" style="width: 100%;">
+        <tbody style="background-color: whitesmoke;">
+            <tr>
+                <td style="font-weight: bold;"><b>First Name</b></td>
+                <td>{{ request.user.first_name }}</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">Last Name</td>
+                <td>{{ request.user.last_name }}</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">Email</td>
+                <td>{{ request.user.email }}</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">Username</td>
+                <td>{{ request.user.username }}</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">Date Joined</td>
+                <td>{{ request.user.date_joined }}</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">Last Log in</td>
+                <td>{{ request.user.last_login }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br>
+<div class="container">
+    <em class="d-flex justify-content-center"><a href="{% url 'accounts:edit_profile' %}" style="text-decoration: none;">edit your profile</a></em>
+</div>
 <br><br>
 {% include 'baseshop_footer.html' %}
 </body>

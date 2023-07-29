@@ -17,41 +17,59 @@
     </h3>
 </div>
 <br><br>
-<form class="site-form" action="{% url 'accounts:edit_profile' %}" method="post" enctype="multipart/form-data">
-    {% csrf_token %}
-    <br>
-    <a href="{% url 'accounts:delete_profile_picture' %}" id="delete-profile-picture" style="text-decoration: none; color: black;">
-        {% if user.userprofile.profile_picture %}
-            <img id="profile-image" class="rounded-circle" src="{{ user.userprofile.profile_picture.url }}" style="object-fit: cover; width: 200px; height: 200px; margin-left: 530px;">
-            <span class="delete-icon" style="font-size: 24px;">&#128686;</span>
-        {% else %}
-            <img id="profile-image" class="rounded-circle" src="{% static 'default-profile-pic.png' %}" style="object-fit: cover; width: 200px; height: 200px; margin-left: 530px;">
-        {% endif %}
-    </a>
-    <input type="file" id="profile-picture-input" style="display: none;" accept="image/*">
-    <br>
-    <em style="font-weight: bold;">Username:</em><br>
-    <em>Required:<small style="font-weight: bold"> 150 characters or fewer. Letters, digits and @/./+/-/_ only<small>...</small><em style="font-weight: bold; font-size: 20px;">no spacing</em></small> </em>
-    {{ edit_profile_form.username }}
-    <em style="font-weight: bold;">First Name:</em><br>
-    {{ edit_profile_form.first_name }}
-    <em style="font-weight: bold;">Last Name:</em><br>
-    {{ edit_profile_form.last_name }}
-    <em style="font-weight: bold;">Email:</em><br>
-    {{ edit_profile_form.email }}
-    <em style="font-weight: bold;">Profile picture:</em><br>
-    {{ edit_profile_form.profile_pic_change }}
-    <small style="color: red;">{{ edit_profile_form.errors }}</small>
-    <em><small style="font-weight: bold;">update profile</small> to display new profile photo <small style="font-weight: bold;">if changed</small> or <small style="font-weight: bold;">removed</small></em><br><br>
-<!--    <em>If any changes have been made <small style="font-weight: bold;">update profile</small> before <a href="{% url 'accounts:password_change' %}" style="text-decoration: none;">changing your password</a></em><br><br>-->
-    <input type="submit" value="update profile">
-</form>
+<div class="container">
+    <form class="site-form" action="{% url 'accounts:edit_profile' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <br>
+        <div class="d-flex justify-content-center align-items-center">
+            <a href="{% url 'accounts:delete_profile_picture' %}" id="delete-profile-picture" style="text-decoration: none; color: black;">
+                {% if user.userprofile.profile_picture %}
+                    <img id="profile-image" class="rounded-circle" src="{{ user.userprofile.profile_picture.url }}" style="object-fit: cover; width: 200px; height: 200px;">
+                    <span class="delete-icon" style="font-size: 24px;">&#128686;</span>
+                {% else %}
+                    <img id="profile-image" class="rounded-circle" src="{% static 'default-profile-pic.png' %}" style="object-fit: cover; width: 200px; height: 200px;">
+                {% endif %}
+            </a>
+        </div>
+        <input type="file" id="profile-picture-input" style="display: none;" accept="image/*">
+        <br>
+        <div class="form-group">
+            <em style="font-weight: bold;">Username:</em>
+            <br>
+            <em>Required:<small style="font-weight: bold"> 150 characters or fewer. Letters, digits and @/./+/-/_ only<small>...</small><em style="font-weight: bold; font-size: 20px;">no spacing</em></small> </em>
+            {{ edit_profile_form.username }}
+        </div>
+        <div class="form-group">
+            <em style="font-weight: bold;">First Name:</em>
+            <br>
+            {{ edit_profile_form.first_name }}
+        </div>
+        <div class="form-group">
+            <em style="font-weight: bold;">Last Name:</em>
+            <br>
+            {{ edit_profile_form.last_name }}
+        </div>
+        <div class="form-group">
+            <em style="font-weight: bold;">Email:</em>
+            <br>
+            {{ edit_profile_form.email }}
+        </div>
+        <div class="form-group">
+            <em style="font-weight: bold;">Profile picture:</em>
+            <br>
+            {{ edit_profile_form.profile_pic_change }}
+        </div>
+        <small style="color: red;">{{ edit_profile_form.errors }}</small>
+        <em><small style="font-weight: bold;">update profile</small> to display new profile photo <small style="font-weight: bold;">if changed</small> or <small style="font-weight: bold;">removed</small></em><br><br>
+        <input type="submit" class="btn btn-outline-secondary" value="update profile">
+    </form>
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
   $(document).ready(function() {
     // Add a click event listener to the delete icon
     $('#delete-profile-picture').click(function(e) {
-      e.preventDefault(); // Prevent the default link behavior
+      e.preventDefault();
 
       // Perform an AJAX request to delete the profile picture
       $.ajax({
@@ -59,7 +77,7 @@
         method: 'POST',
         data: {
           'user_id': '{{ user.id }}',
-          'csrfmiddlewaretoken': '{{ csrf_token }}' // Include the CSRF token
+          'csrfmiddlewaretoken': '{{ csrf_token }}'
         },
         success: function(response) {
           // Replace the profile picture with the default image
