@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/app/testimonies.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/app/testimonies.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/the_shop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/top_shop/templates/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/top_shop/templates/team.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,13 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00410" summary="form to reset your password">
-      <created>1690460042998</created>
-      <option name="number" value="00410" />
-      <option name="presentableId" value="LOCAL-00410" />
-      <option name="project" value="LOCAL" />
-      <updated>1690460042998</updated>
     </task>
     <task id="LOCAL-00411" summary="form to enter email for password reset">
       <created>1690460071253</created>
@@ -484,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690632130905</updated>
     </task>
-    <option name="localTasksCounter" value="459" />
+    <task id="LOCAL-00459" summary="sqlite3">
+      <created>1690639039877</created>
+      <option name="number" value="00459" />
+      <option name="presentableId" value="LOCAL-00459" />
+      <option name="project" value="LOCAL" />
+      <updated>1690639039877</updated>
+    </task>
+    <option name="localTasksCounter" value="460" />
     <servers />
   </component>
   <component name="UnknownFeatures">
