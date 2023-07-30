@@ -5,7 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air-Force-1_milky_white.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air-Force-1_pure_black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air-Jordan-1_blackwhite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air-Jordan-1_blueblackwhite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air_Jordan_v_orange_raging_Bull.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Airmax_95_grey.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Cushioned_Crew_Socks.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Jordan_J11_Retro_blackwhite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Jordan_J11_Retro_greywhite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Mens_Air_Jordan_9_Retro_pure_red.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Nike_Air_Huarache_blackwhite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Nike_Air_Max_270_all_black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Nike_Air_Max_270_white_with_black_swoosh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_Punta_Ala_high_allblack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_Punta_Ala_high_greyred.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_cup_custom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_cup_yellowhite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Jordan_Air_1_Low_SE_marronwithblack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Jordan_Air_1_Low_SE_pink.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Nike_High_Top_grey.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Nike_High_Top_pink.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Prada_Pegasus_blackwhite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Prada_Pegasus_pinkwhitetan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/nike_dunk_low_custom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/nike_dunk_low_skybluewhite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/shoe-lacesb_W.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/shoe_chain_2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,13 +167,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00432" summary="try post requests">
-      <created>1690560718003</created>
-      <option name="number" value="00432" />
-      <option name="presentableId" value="LOCAL-00432" />
-      <option name="project" value="LOCAL" />
-      <updated>1690560718003</updated>
     </task>
     <task id="LOCAL-00433" summary="post requests">
       <created>1690561467947</created>
@@ -483,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690681923189</updated>
     </task>
-    <option name="localTasksCounter" value="481" />
+    <task id="LOCAL-00481" summary="sqlite3">
+      <created>1690683129877</created>
+      <option name="number" value="00481" />
+      <option name="presentableId" value="LOCAL-00481" />
+      <option name="project" value="LOCAL" />
+      <updated>1690683129877</updated>
+    </task>
+    <option name="localTasksCounter" value="482" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -504,7 +532,6 @@
     <MESSAGE value="rm removed products images" />
     <MESSAGE value="&quot;team member&quot;" />
     <MESSAGE value="alter titles" />
-    <MESSAGE value="sqlite3" />
     <MESSAGE value="fix img path" />
     <MESSAGE value="change image name" />
     <MESSAGE value="rename image" />
@@ -516,6 +543,7 @@
     <MESSAGE value="rm image" />
     <MESSAGE value="testimonies.html/image" />
     <MESSAGE value="testimonies.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="testimonies.html" />
+    <MESSAGE value="sqlite3" />
+    <option name="LAST_COMMIT_MESSAGE" value="sqlite3" />
   </component>
 </project>
