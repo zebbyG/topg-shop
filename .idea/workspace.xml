@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/the_shop/app/testimonies.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/app/testimonies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/assets/jado.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,20 +141,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00422" summary="Add media dir to ignore">
-      <created>1690552380561</created>
-      <option name="number" value="00422" />
-      <option name="presentableId" value="LOCAL-00422" />
-      <option name="project" value="LOCAL" />
-      <updated>1690552380561</updated>
-    </task>
-    <task id="LOCAL-00423" summary=".xml">
-      <created>1690552552489</created>
-      <option name="number" value="00423" />
-      <option name="presentableId" value="LOCAL-00423" />
-      <option name="project" value="LOCAL" />
-      <updated>1690552552489</updated>
     </task>
     <task id="LOCAL-00424" summary="rm removed dirs">
       <created>1690552593874</created>
@@ -483,7 +471,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690679457904</updated>
     </task>
-    <option name="localTasksCounter" value="471" />
+    <task id="LOCAL-00471" summary="added new image">
+      <created>1690679673321</created>
+      <option name="number" value="00471" />
+      <option name="presentableId" value="LOCAL-00471" />
+      <option name="project" value="LOCAL" />
+      <updated>1690679673321</updated>
+    </task>
+    <task id="LOCAL-00472" summary=".xml">
+      <created>1690679688548</created>
+      <option name="number" value="00472" />
+      <option name="presentableId" value="LOCAL-00472" />
+      <option name="project" value="LOCAL" />
+      <updated>1690679688548</updated>
+    </task>
+    <option name="localTasksCounter" value="473" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -491,7 +493,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="change color" />
     <MESSAGE value="project config" />
     <MESSAGE value="fix team url" />
     <MESSAGE value="Added live_toast separate-script" />
@@ -515,6 +516,7 @@
     <MESSAGE value="change image name" />
     <MESSAGE value="rename image" />
     <MESSAGE value="change image" />
+    <MESSAGE value="added new image" />
     <MESSAGE value=".xml" />
     <option name="LAST_COMMIT_MESSAGE" value=".xml" />
   </component>
