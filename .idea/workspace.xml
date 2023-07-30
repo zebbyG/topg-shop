@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/the_shop/assets/jado.jpg" beforeDir="false" />
-    </list>
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,20 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00429" summary=".xml">
-      <created>1690553252832</created>
-      <option name="number" value="00429" />
-      <option name="presentableId" value="LOCAL-00429" />
-      <option name="project" value="LOCAL" />
-      <updated>1690553252832</updated>
-    </task>
-    <task id="LOCAL-00430" summary="sqlite3">
-      <created>1690553292366</created>
-      <option name="number" value="00430" />
-      <option name="presentableId" value="LOCAL-00430" />
-      <option name="project" value="LOCAL" />
-      <updated>1690553292366</updated>
     </task>
     <task id="LOCAL-00431" summary="rm files">
       <created>1690553361710</created>
@@ -483,7 +467,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690681472267</updated>
     </task>
-    <option name="localTasksCounter" value="478" />
+    <task id="LOCAL-00478" summary="rm image">
+      <created>1690681500197</created>
+      <option name="number" value="00478" />
+      <option name="presentableId" value="LOCAL-00478" />
+      <option name="project" value="LOCAL" />
+      <updated>1690681500197</updated>
+    </task>
+    <task id="LOCAL-00479" summary="testimonies.html/image">
+      <created>1690681711143</created>
+      <option name="number" value="00479" />
+      <option name="presentableId" value="LOCAL-00479" />
+      <option name="project" value="LOCAL" />
+      <updated>1690681711143</updated>
+    </task>
+    <option name="localTasksCounter" value="480" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -491,8 +489,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added live_toast separate-script" />
-    <MESSAGE value="added vercel-shop url to trusted origins" />
     <MESSAGE value="Add a live toast on &quot;add-to-cart&quot; button" />
     <MESSAGE value="live toast script" />
     <MESSAGE value="live toast template" />
@@ -516,6 +512,8 @@
     <MESSAGE value="jado.jpg(team image)" />
     <MESSAGE value="add a testimony" />
     <MESSAGE value=".xml" />
-    <option name="LAST_COMMIT_MESSAGE" value=".xml" />
+    <MESSAGE value="rm image" />
+    <MESSAGE value="testimonies.html/image" />
+    <option name="LAST_COMMIT_MESSAGE" value="testimonies.html/image" />
   </component>
 </project>
