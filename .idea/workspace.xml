@@ -140,34 +140,6 @@
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
     </task>
-    <task id="LOCAL-00416" summary="sqlite3">
-      <created>1690460213439</created>
-      <option name="number" value="00416" />
-      <option name="presentableId" value="LOCAL-00416" />
-      <option name="project" value="LOCAL" />
-      <updated>1690460213439</updated>
-    </task>
-    <task id="LOCAL-00417" summary="sqlite3">
-      <created>1690537279182</created>
-      <option name="number" value="00417" />
-      <option name="presentableId" value="LOCAL-00417" />
-      <option name="project" value="LOCAL" />
-      <updated>1690537279183</updated>
-    </task>
-    <task id="LOCAL-00418" summary="debug = False">
-      <created>1690540691239</created>
-      <option name="number" value="00418" />
-      <option name="presentableId" value="LOCAL-00418" />
-      <option name="project" value="LOCAL" />
-      <updated>1690540691239</updated>
-    </task>
-    <task id="LOCAL-00419" summary="debug=True">
-      <created>1690540873167</created>
-      <option name="number" value="00419" />
-      <option name="presentableId" value="LOCAL-00419" />
-      <option name="project" value="LOCAL" />
-      <updated>1690540873167</updated>
-    </task>
     <task id="LOCAL-00420" summary="add responsiveness">
       <created>1690543782993</created>
       <option name="number" value="00420" />
@@ -483,7 +455,35 @@
       <option name="project" value="LOCAL" />
       <updated>1690667690051</updated>
     </task>
-    <option name="localTasksCounter" value="465" />
+    <task id="LOCAL-00465" summary=".xml">
+      <created>1690668551584</created>
+      <option name="number" value="00465" />
+      <option name="presentableId" value="LOCAL-00465" />
+      <option name="project" value="LOCAL" />
+      <updated>1690668551584</updated>
+    </task>
+    <task id="LOCAL-00466" summary="change image name">
+      <created>1690669674403</created>
+      <option name="number" value="00466" />
+      <option name="presentableId" value="LOCAL-00466" />
+      <option name="project" value="LOCAL" />
+      <updated>1690669674403</updated>
+    </task>
+    <task id="LOCAL-00467" summary="change image name">
+      <created>1690669690977</created>
+      <option name="number" value="00467" />
+      <option name="presentableId" value="LOCAL-00467" />
+      <option name="project" value="LOCAL" />
+      <updated>1690669690977</updated>
+    </task>
+    <task id="LOCAL-00468" summary="rename image">
+      <created>1690669719341</created>
+      <option name="number" value="00468" />
+      <option name="presentableId" value="LOCAL-00468" />
+      <option name="project" value="LOCAL" />
+      <updated>1690669719341</updated>
+    </task>
+    <option name="localTasksCounter" value="469" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -491,8 +491,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="try post requests" />
-    <MESSAGE value="post requests" />
     <MESSAGE value="trusted origin" />
     <MESSAGE value="change color" />
     <MESSAGE value="project config" />
@@ -513,9 +511,11 @@
     <MESSAGE value="rm removed products images" />
     <MESSAGE value="&quot;team member&quot;" />
     <MESSAGE value="alter titles" />
-    <MESSAGE value=".xml" />
     <MESSAGE value="sqlite3" />
     <MESSAGE value="fix img path" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix img path" />
+    <MESSAGE value=".xml" />
+    <MESSAGE value="change image name" />
+    <MESSAGE value="rename image" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename image" />
   </component>
 </project>
