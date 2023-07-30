@@ -4,37 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air-Force-1_milky_white.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air-Force-1_pure_black.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air-Jordan-1_blackwhite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air-Jordan-1_blueblackwhite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Air_Jordan_v_orange_raging_Bull.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Airmax_95_grey.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Cushioned_Crew_Socks.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Jordan_J11_Retro_blackwhite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Jordan_J11_Retro_greywhite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Mens_Air_Jordan_9_Retro_pure_red.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Nike_Air_Huarache_blackwhite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Nike_Air_Max_270_all_black.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Nike_Air_Max_270_white_with_black_swoosh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_Punta_Ala_high_allblack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_Punta_Ala_high_greyred.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_cup_custom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Prada_cup_yellowhite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Jordan_Air_1_Low_SE_marronwithblack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Jordan_Air_1_Low_SE_pink.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Nike_High_Top_grey.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Nike_High_Top_pink.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Prada_Pegasus_blackwhite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/Women_Prada_Pegasus_pinkwhitetan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/nike_dunk_low_custom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/nike_dunk_low_skybluewhite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/shoe-lacesb_W.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_shop/media/shoes/shoe_chain_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/db.sqlite3" afterDir="false" />
-    </list>
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,20 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00433" summary="post requests">
-      <created>1690561467947</created>
-      <option name="number" value="00433" />
-      <option name="presentableId" value="LOCAL-00433" />
-      <option name="project" value="LOCAL" />
-      <updated>1690561467947</updated>
-    </task>
-    <task id="LOCAL-00434" summary="trusted origin">
-      <created>1690561678202</created>
-      <option name="number" value="00434" />
-      <option name="presentableId" value="LOCAL-00434" />
-      <option name="project" value="LOCAL" />
-      <updated>1690561678202</updated>
     </task>
     <task id="LOCAL-00435" summary="change color">
       <created>1690563906506</created>
@@ -511,7 +467,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690683129877</updated>
     </task>
-    <option name="localTasksCounter" value="482" />
+    <task id="LOCAL-00482" summary="Images of New products added">
+      <created>1690694157563</created>
+      <option name="number" value="00482" />
+      <option name="presentableId" value="LOCAL-00482" />
+      <option name="project" value="LOCAL" />
+      <updated>1690694157563</updated>
+    </task>
+    <task id="LOCAL-00483" summary="sqlite3">
+      <created>1690694173110</created>
+      <option name="number" value="00483" />
+      <option name="presentableId" value="LOCAL-00483" />
+      <option name="project" value="LOCAL" />
+      <updated>1690694173110</updated>
+    </task>
+    <option name="localTasksCounter" value="484" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -519,7 +489,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="live toast script" />
     <MESSAGE value="live toast template" />
     <MESSAGE value="sqlite" />
     <MESSAGE value="only railway trusted origins" />
@@ -543,6 +512,7 @@
     <MESSAGE value="rm image" />
     <MESSAGE value="testimonies.html/image" />
     <MESSAGE value="testimonies.html" />
+    <MESSAGE value="Images of New products added" />
     <MESSAGE value="sqlite3" />
     <option name="LAST_COMMIT_MESSAGE" value="sqlite3" />
   </component>
