@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="" />
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,13 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00431" summary="rm files">
-      <created>1690553361710</created>
-      <option name="number" value="00431" />
-      <option name="presentableId" value="LOCAL-00431" />
-      <option name="project" value="LOCAL" />
-      <updated>1690553361710</updated>
     </task>
     <task id="LOCAL-00432" summary="try post requests">
       <created>1690560718003</created>
@@ -481,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690681711143</updated>
     </task>
-    <option name="localTasksCounter" value="480" />
+    <task id="LOCAL-00480" summary="testimonies.html">
+      <created>1690681923189</created>
+      <option name="number" value="00480" />
+      <option name="presentableId" value="LOCAL-00480" />
+      <option name="project" value="LOCAL" />
+      <updated>1690681923189</updated>
+    </task>
+    <option name="localTasksCounter" value="481" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -489,7 +491,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add a live toast on &quot;add-to-cart&quot; button" />
     <MESSAGE value="live toast script" />
     <MESSAGE value="live toast template" />
     <MESSAGE value="sqlite" />
@@ -514,6 +515,7 @@
     <MESSAGE value=".xml" />
     <MESSAGE value="rm image" />
     <MESSAGE value="testimonies.html/image" />
-    <option name="LAST_COMMIT_MESSAGE" value="testimonies.html/image" />
+    <MESSAGE value="testimonies.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="testimonies.html" />
   </component>
 </project>
