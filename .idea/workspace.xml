@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_shop/app/testimonies.html" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/app/testimonies.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,20 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00420" summary="add responsiveness">
-      <created>1690543782993</created>
-      <option name="number" value="00420" />
-      <option name="presentableId" value="LOCAL-00420" />
-      <option name="project" value="LOCAL" />
-      <updated>1690543782993</updated>
-    </task>
-    <task id="LOCAL-00421" summary="add responsiveness to product templates">
-      <created>1690552192077</created>
-      <option name="number" value="00421" />
-      <option name="presentableId" value="LOCAL-00421" />
-      <option name="project" value="LOCAL" />
-      <updated>1690552192077</updated>
     </task>
     <task id="LOCAL-00422" summary="Add media dir to ignore">
       <created>1690552380561</created>
@@ -483,7 +469,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690669719341</updated>
     </task>
-    <option name="localTasksCounter" value="469" />
+    <task id="LOCAL-00469" summary="change image">
+      <created>1690679439513</created>
+      <option name="number" value="00469" />
+      <option name="presentableId" value="LOCAL-00469" />
+      <option name="project" value="LOCAL" />
+      <updated>1690679439513</updated>
+    </task>
+    <task id="LOCAL-00470" summary=".xml">
+      <created>1690679457904</created>
+      <option name="number" value="00470" />
+      <option name="presentableId" value="LOCAL-00470" />
+      <option name="project" value="LOCAL" />
+      <updated>1690679457904</updated>
+    </task>
+    <option name="localTasksCounter" value="471" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -491,7 +491,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="trusted origin" />
     <MESSAGE value="change color" />
     <MESSAGE value="project config" />
     <MESSAGE value="fix team url" />
@@ -513,9 +512,10 @@
     <MESSAGE value="alter titles" />
     <MESSAGE value="sqlite3" />
     <MESSAGE value="fix img path" />
-    <MESSAGE value=".xml" />
     <MESSAGE value="change image name" />
     <MESSAGE value="rename image" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename image" />
+    <MESSAGE value="change image" />
+    <MESSAGE value=".xml" />
+    <option name="LAST_COMMIT_MESSAGE" value=".xml" />
   </component>
 </project>
