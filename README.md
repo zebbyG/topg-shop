@@ -1,5 +1,6 @@
 # TOP Gz SHOE-SHOP
 Walk With Confidence
+https://topgz-ebby.up.railway.app/
 ==================================
 Top Gz is an online shoe shop that offers a wide range of high-quality footwear for customers.
 - Technologies used:
@@ -8,7 +9,7 @@ Top Gz is an online shoe shop that offers a wide range of high-quality footwear 
     - Bootstrap css
     - Javascript
 ## To run the project on your machine:
-+ [X] `git clone https://github.com/zebbyG/UNDER_CONSTRUCTION`
++ [X] `https://github.com/zebbyG/topg-shop`
 
 Then Create a virtual environment
 + [X] `python3 -m venv [name of your virtual environment]`
