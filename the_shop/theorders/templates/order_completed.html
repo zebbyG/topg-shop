@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>ORDER COMPLETE</title>
+  <title>ORDER COMPLETED</title>
   <link rel="stylesheet" href="{% static 'css/page-header.css' %}">
+  <link rel="shortcut icon" href="{% static 'logo.ico' %}" type="image/x-icon">
 </head>
 <body>
 {% include 'bootstrap.html' %}
@@ -14,18 +15,32 @@
         <strong>Order Placed successfully</strong><!-- page-header.css for custom container styling -->
     </h3>
 </div>
-<div class="row">
-    <div class="col-lg-12">
-        <a style="color: grey; margin-top: 20px;" class="btn btn-outline-dark" href="{% url 'orders:my_orders' %}">&#x2190; <b>View Orders</b></a>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <a style="color: grey; margin-top: 20px;" class="btn btn-outline-dark" href="{% url 'orders:my_orders' %}">&#x2190; <b>View Orders</b></a>
+        </div>
     </div>
 </div>
 <br><br>
 
-<img style="width: 500px; height: 400px; object-fit: cover; margin-left: 400px;" src="{% static 'order_complete.jpg' %}">
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <img style="width: 100%; max-width: 500px; height: auto; object-fit: cover;" src="{% static 'order_complete.jpg' %}">
+        </div>
+    </div>
+</div>
 
-<p id="liveToastBtn" style="margin-left: 550px;">
-    <button style="color: grey; margin-bottom: 100px;" class="btn btn-outline-dark btn-lg"><b>View Order[s]</b></button>
-</p>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-4">
+            <p id="liveToastBtn">
+                <button style="color: grey; margin-bottom: 100px;" class="btn btn-outline-dark btn-lg"><b>View Order[s]</b></button>
+            </p>
+        </div>
+    </div>
+</div>
 
 <div style="position: fixed; bottom: 50%; right: 0; transform: translate(0, 50%); color: grey;" class="toast-container p-3">
     <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="200000">
@@ -44,15 +59,15 @@
 </div>
 
 <script>
-	const toastTrigger = document.getElementById('liveToastBtn')
-	const toastLiveExample = document.getElementById('liveToast')
+    const toastTrigger = document.getElementById('liveToastBtn')
+    const toastLiveExample = document.getElementById('liveToast')
 
-	if (toastTrigger) {
-	  const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
-	  toastTrigger.addEventListener('click', () => {
-		toastBootstrap.show()
-	  })
-	}
+    if (toastTrigger) {
+        const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+        toastTrigger.addEventListener('click', () => {
+            toastBootstrap.show()
+        })
+    }
 </script>
 <br><br>
 {% include 'baseshop_footer.html' %}
