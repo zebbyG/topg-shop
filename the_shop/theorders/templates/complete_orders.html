@@ -10,114 +10,121 @@
 {% include 'bootstrap.html' %}
 {% include 'backToTop.html' %} <!--Back to Top button -->
 <br><br>
-<div class="custom-container">
-    <h3 class="display-3">
-        <strong>My orders</strong>
-    </h3>
+<div class="container">
+    <div class="custom-container">
+        <h3 class="display-3">
+            <strong>My orders</strong>
+        </h3>
+    </div>
 </div>
 <br><br>
-<div class="row">
-    {% if orders_completed %}
+<div class="container">
+    <div class="row">
+        {% if orders_completed %}
+            {% if order.get_cart_items %}
+                <div class="col-lg-12 mb-3">
+                    <a style="color: grey;" class="btn btn-outline-dark" href="{% url 'orders:checkout' %}">&#x2190; <b>Finish ordering</b></a>
+                </div>
+            {% else %}
+                <div class="col-lg-12 mb-3">
+                    <a style="color: grey;" class="btn btn-outline-dark" href="{% url 'brands:catalogue' %}">&#x2190; <b>Place an order</b></a>
+                </div>
+            {% endif %}
+            {% for order in orders_completed %}
+                <br><br>
+                <div class="col-md-4 mb-3">
+                    <div class="card" style="cursor: grab;">
+                        <img src="{% static 'cart.png' %}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><small>No of Items: </small><br>{{ order.get_cart_items }}</h5>
+                            <p class="card-text lead">Order was placed on {{ order.date_ordered }}</p>
+                            {% if order.delivered %}
+                                <p class="card-text"><small class="lead">Status: </small><b>Delivered</b></p>
+                            {% else %}
+                                <p class="card-text"><small class="lead">Status: </small><b>preparing order...</b> order will be delivered soon</p>
+                            {% endif %}
+                            <p>
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ order.id }}" aria-expanded="false" aria-controls="collapse-{{ order.id }}">
+                                    View Order details
+                                </button>
+                                <br><br>
+                            </p>
+                            <div style="min-height: 120px;">
+                                <div class="collapse" id="collapse-{{ order.id }}">
+                                    <div class="card card-body" style="max-width: 300px;">
+                                        {% for order_item in order.orderitem_set.all %}
+                                            <div class="cart-row">
+                                                <div class="col-4"><img class="row-image img-fluid" src="{{ order_item.product.shoe_image.url }}" style="object-fit: cover;"></div>
+                                                <div class="col-6"><p>{{ order_item.product.shoe_name }}</p></div>
+                                                <div class="col-2"><p><br><br><b><small>quantity </small></b>x{{ order_item.quantity }}</p></div>
+                                            </div>
+                                            <div class="cart-row">
+                                                <div class="col-8 lead"><p><br>Price: <b>${{ order_item.product.shoe_price }}</b></p></div><br>
+                                            </div>
+                                        {% endfor %}
+                                        <h5><small>Order Id:</small>    <b>{{ order.id }}</b></h5>
+                                        <h5><small>Total:</small>    <b>${{ order.get_cart_total }}</b></h5>
+                                        <br><br><br>
+                                        {% for shipping_address in shipping_addresses %}
+                                            {% if shipping_address.order == order %}
+                                                <h5>Shipping Address:</h5>
+                                                <p>Country: {{ shipping_address.country }}</p>
+                                                <p>Address: {{ shipping_address.address }}</p>
+                                                <p>City: {{ shipping_address.city }}</p>
+                                                <p>State: {{ shipping_address.state }}</p>
+                                                <p>Zip Code: {{ shipping_address.zip_code }}</p>
+                                            {% endif %}
+                                        {% endfor %}
+
+                                        {% if order.delivered %}
+                                            {% if order.paid %}
+                                                <b><button type="button" class="btn btn-success" style="cursor: grab;">PAID</button></b>
+                                                <h5><small>Transaction Id:</small>    <b>{{ order.transaction_id }}</b></h5>
+                                                <p class="lead">Order was delivered on <strong>{{ order.date_delivered }}</strong></p>
+                                            {% endif %}
+                                        {% else %}
+                                            {% if not order.paid %}
+                                                <b><button type="button" class="btn btn-warning" style="cursor: grab;">NOT PAID: <small>to be paid on delivery</small></button></b>
+                                            {% endif %}
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+    </div>
+    {% else %}
         {% if order.get_cart_items %}
             <div class="row">
                 <div class="col-lg-12">
                     <a style="color: grey;" class="btn btn-outline-dark" href="{% url 'orders:checkout' %}">&#x2190; <b>Finish ordering</b></a>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p class="h1">You don't have any completed orders</p>
+                    <img style="width: 400px; height: 400px; object-fit: cover;" src="{% static 'cart.png' %}">
+                    <p class="lead">Completed orders will appear here</p>
+                </div>
+            </div>
         {% else %}
             <div class="row">
                 <div class="col-lg-12">
-                    <a  style="color: grey;" class="btn btn-outline-dark" href="{% url 'brands:catalogue' %}">&#x2190; <b>Place an order</b></a>
+                    <a style="color: grey;" class="btn btn-outline-dark" href="{% url 'brands:catalogue' %}">&#x2190; <b>Place an Order</b></a>
                 </div>
             </div>
-        {% endif %}
-        {% for order in orders_completed %}
-            <br><br>
-            <div class="col-md-4 mb-3">
-                <div class="card" style="width: 18rem; cursor: grab; margin-left: 20px;" data-bs-toggle="collapse" data-bs-target="#collapse-{{ order.id }}" aria-expanded="false" aria-controls="collapse-{{ order.id }}">
-                    <img src="{% static 'cart.png' %}" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><small>No of Items: </small><br>{{ order.get_cart_items }}</h5>
-                        <p class="card-text lead">Order was placed on {{ order.date_ordered }}</p>
-                        {% if order.delivered %}
-                            <p class="card-text"><small class="lead">Status: </small><b>Delivered</b></p>
-                        {% else %}
-                            <p class="card-text"><small class="lead">Status: </small><b>preparing order...</b> order will be delivered soon</p>
-                        {% endif %}
-                        <p>
-                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ order.id }}" aria-expanded="false" aria-controls="collapse-{{ order.id }}">
-                                View Order details
-                            </button>
-                            <br><br>
-                        </p>
-                        <div style="min-height: 120px;">
-                            <div class="collapse collapse-horizontal" id="collapse-{{ order.id }}">
-                                <div class="card card-body" style="width: 300px;">
-                                    {% for order_item in order.orderitem_set.all %}
-                                        <div class="cart-row">
-                                            <div style="flex:2"><img class="row-image" src="{{ order_item.product.shoe_image.url }}"></div>
-                                            <div style="flex:2"><p>{{ order_item.product.shoe_name }}</p></div>
-                                            <div style="flex:1"><p><br><br><b><small>quantity </small></b>x{{ order_item.quantity }}</p></div>
-                                        </div>
-                                        <div class="cart-row">
-                                            <div style="flex:1" class="lead"><p><br>Price: <b>${{ order_item.product.shoe_price }}</b></p></div><br>
-                                        </div>
-                                    {% endfor %}
-                                    <h5><small>Order Id:</small>    <b>{{ order.id }}</b></h5>
-                                    <h5><small>Total:</small>    <b>${{ order.get_cart_total }}</b></h5>
-                                    <br><br><br>
-                                    {% for shipping_address in shipping_addresses %}
-                                        {% if shipping_address.order == order %}
-                                            <h5>Shipping Address:</h5>
-                                            <p>Country: {{ shipping_address.country }}</p>
-                                            <p>Address: {{ shipping_address.address }}</p>
-                                            <p>City: {{ shipping_address.city }}</p>
-                                            <p>State: {{ shipping_address.state }}</p>
-                                            <p>Zip Code: {{ shipping_address.zip_code }}</p>
-                                        {% endif %}
-                                    {% endfor %}
-
-                                    {% if order.delivered %}
-                                        {% if order.paid %}
-                                            <b><button type="button" class="btn btn-success" style="cursor: grab;">PAID</button></b>
-                                            <h5><small>Transaction Id:</small>    <b>{{ order.transaction_id }}</b></h5>
-                                            <p class="lead">Order was delivered on <strong>{{ order.date_delivered }}</strong></p>
-                                        {% endif %}
-                                    {% else %}
-                                        {% if not order.paid %}
-                                            <b><button type="button" class="btn btn-warning" style="cursor: grab;">NOT PAID: <small>to be paid on delivery</small></button></b>
-                                        {% endif %}
-                                    {% endif %}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        {% endfor %}
-</div>
-
-    {% else %}
-        {% if order.get_cart_items %}
             <div class="row">
-                <div class="col-lg-12">
-                    <a  style="color: grey;" class="btn btn-outline-dark" href="{% url 'orders:checkout' %}">&#x2190; <b>Finish ordering</b></a>
+                <div class="col-lg-12 text-center">
+                    <p class="h1">You don't have any completed orders</p>
+                    <img style="width: 400px; height: 400px; object-fit: cover;" id="cart-icon" src="{% static 'cart.png' %}">
+                    <p class="lead">Completed orders will appear here</p>
                 </div>
             </div>
-            <p><strong class="h1" style="margin-left: 400px;">You don't have any completed orders</strong></p>
-            <img style="width: 400px; height: 400px; object-fit: cover; margin-left: 470px;" src="{% static 'cart.png' %}">
-            <small class="lead" style="margin-left: 530px;">Completed orders will appear here</small>
-        {% else %}
-            <div class="row">
-                <div class="col-lg-12">
-                    <a  style="color: grey;" class="btn btn-outline-dark" href="{% url 'brands:catalogue' %}">&#x2190; <b>Place an Order</b></a>
-                </div>
-            </div>
-            <p><strong class="h1" style="margin-left: 400px;">You don't have any completed orders</strong></p>
-            <img style="width: 400px; height: 400px; object-fit: cover; margin-left: 470px;" id="cart-icon" src="{% static 'cart.png' %}">
-            <small class="lead" style="margin-left: 530px;">Completed orders will appear here</small>
         {% endif %}
     {% endif %}
+</div>
 <br><br><hr>
 {% include 'baseshop_footer.html' %}
 </body>
