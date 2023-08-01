@@ -99,3 +99,12 @@ def order_complete(request):
     return render(request, 'order_completed.html', {
         "order": order
     })
+
+
+# def delete_order(request):
+#     if request.method == 'POST':
+#         order_id = request.POST.get('order_id')
+#         order = Order.objects.get(id=order_id)
+#         order.delete()
+#         return JsonResponse({'message': 'Order deleted successfully.'})
+#     return
