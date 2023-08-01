@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="{% static 'css/page-header.css' %}">
 </head>
 <body>
+{% if user.is_authenticated %}
+    <script src="{% static 'js/csrf_token.js' %}"></script>
+{% endif %}
+
 {% include 'bootstrap.html' %}
 {% include 'backToTop.html' %} <!--Back to Top button -->
 <br><br>
@@ -47,6 +51,9 @@
                                 <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ order.id }}" aria-expanded="false" aria-controls="collapse-{{ order.id }}">
                                     View Order details
                                 </button>
+<!--                                <button class="btn btn-danger btn-delete-order" data-order-id="{{ order.id }}">-->
+<!--                                    Delete Order-->
+<!--                                </button>-->
                                 <br><br>
                             </p>
                             <div style="min-height: 120px;">
