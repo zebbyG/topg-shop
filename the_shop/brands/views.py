@@ -167,3 +167,9 @@ def addidas(request):
     return render(request, 'addidas.html', {
         "addidas_shoes": addidas_shoes
     })
+
+
+def size_guide(request):
+    customer = request.user
+    order, created = Order.objects.get_or_create(user=customer, complete=False)
+    return render(request, 'size_guide.html', {"order": order})
