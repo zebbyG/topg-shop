@@ -17,4 +17,5 @@ urlpatterns = [
     path('Versace/', views.versace, name="Versace"),
     path('Addidas/', views.addidas, name="Addidas"),
     path('', views.catalogue, name="catalogue"),
+    path('size-guide/', views.size_guide, name="size_guide")
 ]
