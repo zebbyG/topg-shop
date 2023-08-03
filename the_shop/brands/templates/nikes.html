@@ -42,6 +42,19 @@
                 <div class="card-body">
                     <h5 class="card-title">{{ all_shoes.shoe_name }}</h5>
                     <p class="card-text">{{ all_shoes.shoe_gender }}</p>
+                    <div style="flex:3"><strong><a href="{% url 'brands:size_guide' %}" style="text-decoration:none;" class="add-to-cart">Find the perfect size</a></strong></div>
+                    <div style="flex:3">
+                        <div>
+                            <label for="size-filter"></label>
+                            <select id="size-filter">
+                                <option value="all">Select Size</option>
+                                {% for sizes in size %}
+                                <option value="{{ sizes.size_number }}">{{ sizes.size_number }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+                    <br>
                     {% for color in all_shoes.shoe_color_available.all %}
                     <p class="card-text">{{ color.color_name }}</p>
                     {% endfor %}
