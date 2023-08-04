@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="">
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="delete order button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/the_shop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/db.sqlite3" afterDir="false" />
     </list>
@@ -48,7 +48,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Zebbylion/PycharmProjects/topg-shop"
+    "last_opened_file_path": "C:/Users/Zebbylion/PycharmProjects/ONLINE-SHOE-SHOP"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -140,111 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00437" summary="fix team url">
-      <created>1690569143497</created>
-      <option name="number" value="00437" />
-      <option name="presentableId" value="LOCAL-00437" />
-      <option name="project" value="LOCAL" />
-      <updated>1690569143497</updated>
-    </task>
-    <task id="LOCAL-00438" summary=".xml">
-      <created>1690569240315</created>
-      <option name="number" value="00438" />
-      <option name="presentableId" value="LOCAL-00438" />
-      <option name="project" value="LOCAL" />
-      <updated>1690569240315</updated>
-    </task>
-    <task id="LOCAL-00439" summary="sqlite3">
-      <created>1690569251579</created>
-      <option name="number" value="00439" />
-      <option name="presentableId" value="LOCAL-00439" />
-      <option name="project" value="LOCAL" />
-      <updated>1690569251579</updated>
-    </task>
-    <task id="LOCAL-00440" summary="Added live_toast separate-script">
-      <created>1690619787453</created>
-      <option name="number" value="00440" />
-      <option name="presentableId" value="LOCAL-00440" />
-      <option name="project" value="LOCAL" />
-      <updated>1690619787453</updated>
-    </task>
-    <task id="LOCAL-00441" summary="added vercel-shop url to trusted origins">
-      <created>1690619844201</created>
-      <option name="number" value="00441" />
-      <option name="presentableId" value="LOCAL-00441" />
-      <option name="project" value="LOCAL" />
-      <updated>1690619844201</updated>
-    </task>
-    <task id="LOCAL-00442" summary="Add a live toast on &quot;add-to-cart&quot; button">
-      <created>1690621535824</created>
-      <option name="number" value="00442" />
-      <option name="presentableId" value="LOCAL-00442" />
-      <option name="project" value="LOCAL" />
-      <updated>1690621535824</updated>
-    </task>
-    <task id="LOCAL-00443" summary="live toast script">
-      <created>1690621642301</created>
-      <option name="number" value="00443" />
-      <option name="presentableId" value="LOCAL-00443" />
-      <option name="project" value="LOCAL" />
-      <updated>1690621642301</updated>
-    </task>
-    <task id="LOCAL-00444" summary="live toast template">
-      <created>1690621666676</created>
-      <option name="number" value="00444" />
-      <option name="presentableId" value="LOCAL-00444" />
-      <option name="project" value="LOCAL" />
-      <updated>1690621666676</updated>
-    </task>
-    <task id="LOCAL-00445" summary=".xml">
-      <created>1690621697382</created>
-      <option name="number" value="00445" />
-      <option name="presentableId" value="LOCAL-00445" />
-      <option name="project" value="LOCAL" />
-      <updated>1690621697382</updated>
-    </task>
-    <task id="LOCAL-00446" summary="sqlite">
-      <created>1690621839144</created>
-      <option name="number" value="00446" />
-      <option name="presentableId" value="LOCAL-00446" />
-      <option name="project" value="LOCAL" />
-      <updated>1690621839144</updated>
-    </task>
-    <task id="LOCAL-00447" summary=".xml">
-      <created>1690621851690</created>
-      <option name="number" value="00447" />
-      <option name="presentableId" value="LOCAL-00447" />
-      <option name="project" value="LOCAL" />
-      <updated>1690621851690</updated>
-    </task>
-    <task id="LOCAL-00448" summary="only railway trusted origins">
-      <created>1690622254064</created>
-      <option name="number" value="00448" />
-      <option name="presentableId" value="LOCAL-00448" />
-      <option name="project" value="LOCAL" />
-      <updated>1690622254064</updated>
-    </task>
-    <task id="LOCAL-00449" summary="responsive &lt;p&gt;">
-      <created>1690626867551</created>
-      <option name="number" value="00449" />
-      <option name="presentableId" value="LOCAL-00449" />
-      <option name="project" value="LOCAL" />
-      <updated>1690626867551</updated>
-    </task>
-    <task id="LOCAL-00450" summary="rm &quot;NOT FOUND&quot; popular products">
-      <created>1690626990562</created>
-      <option name="number" value="00450" />
-      <option name="presentableId" value="LOCAL-00450" />
-      <option name="project" value="LOCAL" />
-      <updated>1690626990562</updated>
-    </task>
-    <task id="LOCAL-00451" summary="change button outline">
-      <created>1690630359426</created>
-      <option name="number" value="00451" />
-      <option name="presentableId" value="LOCAL-00451" />
-      <option name="project" value="LOCAL" />
-      <updated>1690630359426</updated>
     </task>
     <task id="LOCAL-00452" summary="To only check email duplicates if &quot;email&quot; is changed">
       <created>1690631583146</created>
@@ -484,7 +379,112 @@
       <option name="project" value="LOCAL" />
       <updated>1690696553451</updated>
     </task>
-    <option name="localTasksCounter" value="486" />
+    <task id="LOCAL-00486" summary="check sqlite3">
+      <created>1690696575507</created>
+      <option name="number" value="00486" />
+      <option name="presentableId" value="LOCAL-00486" />
+      <option name="project" value="LOCAL" />
+      <updated>1690696575507</updated>
+    </task>
+    <task id="LOCAL-00487" summary="page to show when user completes an order">
+      <created>1690883088078</created>
+      <option name="number" value="00487" />
+      <option name="presentableId" value="LOCAL-00487" />
+      <option name="project" value="LOCAL" />
+      <updated>1690883088078</updated>
+    </task>
+    <task id="LOCAL-00488" summary="page to show completed orders">
+      <created>1690883318520</created>
+      <option name="number" value="00488" />
+      <option name="presentableId" value="LOCAL-00488" />
+      <option name="project" value="LOCAL" />
+      <updated>1690883318520</updated>
+    </task>
+    <task id="LOCAL-00489" summary="delete order...not yet">
+      <created>1690885338125</created>
+      <option name="number" value="00489" />
+      <option name="presentableId" value="LOCAL-00489" />
+      <option name="project" value="LOCAL" />
+      <updated>1690885338125</updated>
+    </task>
+    <task id="LOCAL-00490" summary="delete order url">
+      <created>1690885355816</created>
+      <option name="number" value="00490" />
+      <option name="presentableId" value="LOCAL-00490" />
+      <option name="project" value="LOCAL" />
+      <updated>1690885355816</updated>
+    </task>
+    <task id="LOCAL-00491" summary="delete order button">
+      <created>1690885373759</created>
+      <option name="number" value="00491" />
+      <option name="presentableId" value="LOCAL-00491" />
+      <option name="project" value="LOCAL" />
+      <updated>1690885373759</updated>
+    </task>
+    <task id="LOCAL-00492" summary="Activate view button to display a larger image">
+      <created>1690974600028</created>
+      <option name="number" value="00492" />
+      <option name="presentableId" value="LOCAL-00492" />
+      <option name="project" value="LOCAL" />
+      <updated>1690974600028</updated>
+    </task>
+    <task id="LOCAL-00493" summary="separate the form field into 3">
+      <created>1691042986472</created>
+      <option name="number" value="00493" />
+      <option name="presentableId" value="LOCAL-00493" />
+      <option name="project" value="LOCAL" />
+      <updated>1691042986472</updated>
+    </task>
+    <task id="LOCAL-00494" summary="Add a size option on products">
+      <created>1691050726003</created>
+      <option name="number" value="00494" />
+      <option name="presentableId" value="LOCAL-00494" />
+      <option name="project" value="LOCAL" />
+      <updated>1691050726003</updated>
+    </task>
+    <task id="LOCAL-00495" summary="remove size choosing option">
+      <created>1691050914868</created>
+      <option name="number" value="00495" />
+      <option name="presentableId" value="LOCAL-00495" />
+      <option name="project" value="LOCAL" />
+      <updated>1691050914868</updated>
+    </task>
+    <task id="LOCAL-00496" summary="size guide url">
+      <created>1691050936589</created>
+      <option name="number" value="00496" />
+      <option name="presentableId" value="LOCAL-00496" />
+      <option name="project" value="LOCAL" />
+      <updated>1691050936589</updated>
+    </task>
+    <task id="LOCAL-00497" summary="size-guide view">
+      <created>1691051717057</created>
+      <option name="number" value="00497" />
+      <option name="presentableId" value="LOCAL-00497" />
+      <option name="project" value="LOCAL" />
+      <updated>1691051717057</updated>
+    </task>
+    <task id="LOCAL-00498" summary="size-guide template">
+      <created>1691051735511</created>
+      <option name="number" value="00498" />
+      <option name="presentableId" value="LOCAL-00498" />
+      <option name="project" value="LOCAL" />
+      <updated>1691051735511</updated>
+    </task>
+    <task id="LOCAL-00499" summary="size guide">
+      <created>1691051750869</created>
+      <option name="number" value="00499" />
+      <option name="presentableId" value="LOCAL-00499" />
+      <option name="project" value="LOCAL" />
+      <updated>1691051750869</updated>
+    </task>
+    <task id="LOCAL-00500" summary="size-guide for guest user">
+      <created>1691166261869</created>
+      <option name="number" value="00500" />
+      <option name="presentableId" value="LOCAL-00500" />
+      <option name="project" value="LOCAL" />
+      <updated>1691166261869</updated>
+    </task>
+    <option name="localTasksCounter" value="501" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -492,21 +492,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="only railway trusted origins" />
-    <MESSAGE value="responsive &lt;p&gt;" />
-    <MESSAGE value="rm &quot;NOT FOUND&quot; popular products" />
-    <MESSAGE value="change button outline" />
-    <MESSAGE value="To only check email duplicates if &quot;email&quot; is changed" />
-    <MESSAGE value="change button UI" />
-    <MESSAGE value="change button UI &amp; add responsiveness" />
-    <MESSAGE value="rm removed products images" />
-    <MESSAGE value="&quot;team member&quot;" />
-    <MESSAGE value="alter titles" />
-    <MESSAGE value="fix img path" />
-    <MESSAGE value="change image name" />
-    <MESSAGE value="rename image" />
-    <MESSAGE value="added new image" />
-    <MESSAGE value="change image" />
     <MESSAGE value="jado.jpg(team image)" />
     <MESSAGE value="add a testimony" />
     <MESSAGE value=".xml" />
@@ -517,6 +502,21 @@
     <MESSAGE value="sqlite3" />
     <MESSAGE value="db.sqlite3" />
     <MESSAGE value="CHANGE STATEMENT for &quot;out of stock&quot; products" />
-    <option name="LAST_COMMIT_MESSAGE" value="CHANGE STATEMENT for &quot;out of stock&quot; products" />
+    <MESSAGE value="check sqlite3" />
+    <MESSAGE value="page to show when user completes an order" />
+    <MESSAGE value="page to show completed orders" />
+    <MESSAGE value="delete order...not yet" />
+    <MESSAGE value="delete order url" />
+    <MESSAGE value="delete order button" />
+    <MESSAGE value="Activate view button to display a larger image" />
+    <MESSAGE value="separate the form field into 3" />
+    <MESSAGE value="Add a size option on products" />
+    <MESSAGE value="remove size choosing option" />
+    <MESSAGE value="size guide url" />
+    <MESSAGE value="size-guide view" />
+    <MESSAGE value="size-guide template" />
+    <MESSAGE value="size guide" />
+    <MESSAGE value="size-guide for guest user" />
+    <option name="LAST_COMMIT_MESSAGE" value="size-guide for guest user" />
   </component>
 </project>
