@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="delete order button">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_shop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/the_shop/db.sqlite3" afterDir="false" />
-    </list>
+    <list default="true" id="0d07a6a0-00db-4f54-9640-a9ebd8cedd85" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,13 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682585863038</updated>
-    </task>
-    <task id="LOCAL-00452" summary="To only check email duplicates if &quot;email&quot; is changed">
-      <created>1690631583146</created>
-      <option name="number" value="00452" />
-      <option name="presentableId" value="LOCAL-00452" />
-      <option name="project" value="LOCAL" />
-      <updated>1690631583146</updated>
     </task>
     <task id="LOCAL-00453" summary="change button UI">
       <created>1690631873481</created>
@@ -484,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691166261869</updated>
     </task>
-    <option name="localTasksCounter" value="501" />
+    <task id="LOCAL-00501" summary="sqlite3">
+      <created>1691166605026</created>
+      <option name="number" value="00501" />
+      <option name="presentableId" value="LOCAL-00501" />
+      <option name="project" value="LOCAL" />
+      <updated>1691166605026</updated>
+    </task>
+    <option name="localTasksCounter" value="502" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -499,7 +496,6 @@
     <MESSAGE value="testimonies.html/image" />
     <MESSAGE value="testimonies.html" />
     <MESSAGE value="Images of New products added" />
-    <MESSAGE value="sqlite3" />
     <MESSAGE value="db.sqlite3" />
     <MESSAGE value="CHANGE STATEMENT for &quot;out of stock&quot; products" />
     <MESSAGE value="check sqlite3" />
@@ -517,6 +513,7 @@
     <MESSAGE value="size-guide template" />
     <MESSAGE value="size guide" />
     <MESSAGE value="size-guide for guest user" />
-    <option name="LAST_COMMIT_MESSAGE" value="size-guide for guest user" />
+    <MESSAGE value="sqlite3" />
+    <option name="LAST_COMMIT_MESSAGE" value="sqlite3" />
   </component>
 </project>
