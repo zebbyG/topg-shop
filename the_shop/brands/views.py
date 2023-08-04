@@ -171,5 +171,7 @@ def addidas(request):
 
 def size_guide(request):
     customer = request.user
-    order, created = Order.objects.get_or_create(user=customer, complete=False)
-    return render(request, 'size_guide.html', {"order": order})
+    if request.user.is_authenticated:
+        order, created = Order.objects.get_or_create(user=customer, complete=False)
+        return render(request, 'size_guide.html', {"order": order})
+    return render(request, 'size_guide.html')
