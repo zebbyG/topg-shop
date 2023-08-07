@@ -1,11 +1,32 @@
 Dear {{ name }},
-Thank you for shopping on Top Gz! Your order {{ order_id }} has been successfully confirmed.
+Thank you for shopping at Top Gz! Your order {{ order_id }} has been successfully confirmed.
+You ordered for:
+{% for item in items %}
+        {{ item.quantity }} product[s] of {{ item.product.shoe_name }} at ${{ item.product.shoe_price }} each
+{% endfor %}
+Number of ordered products: {{ total_products }}
+Total: ${{ total }}
+Mode of Pay: To be paid on delivery
 
-It will be packaged and shipped as soon as possible. Once the item(s) is out for delivery or available for pick-up you will receive a notification from us.
-
+Your order will be packaged and shipped as soon as possible. Once the item(s) is out for delivery or available for pick-up you will receive a notification from us.
 Check the orders progress and order details here https://topgz-ebby.up.railway.app/orders/my_orders/
-Thank you for shopping on Top Gz.
+
+Thank you for shopping at Top Gz!
 
 Please note:
-        If you ordered for multiple items, you may receive them on different days.
-        This is because they are sold by different sellers on our platform and we want to make each item available to you as soon as possible after receiving it.
+        - If you ordered for multiple items, you may receive them on different days. We want to make each item available to you as soon as possible after receiving it.
+
+Happy Shopping!!
+Warm Regards,
+Top Gz team.
+
+Got any questions??
+topgz.ebby@gmail.com
+https://www.linkedin.com/in/zebbylion-njau/
+https://wa.me/+254773253606
+
+Follow Top Gz socials to get notified on the latest trends available:
+https://www.linkedin.com/in/zebbylion-njau/
+https://twitter.com/zebby_G
+https://github.com/zebbyG/
+https://medium.com/@ZebbyG
