@@ -87,13 +87,14 @@
 
 			<br>
 			<div class="box-element hidden" id="payment-info" style="background-color: darkgray;">
+				<b style="color: grey;">Free Shipping and deliveries for your first 3 orders</b><br><br>
 				<small style="color: grey;">Payment options:</small><br><br>
 				<div class="d-grid gap-3">
 					<p id="liveToastBtn">
 						<button class="btn btn-outline-dark btn-lg" id="make-payment" style="width: 100%;">Pay on delivery</button>
 					</p>
 					<div style="position: fixed; bottom: 50%; right: 0; transform: translate(0, 50%); color: grey;" class="toast-container p-3">
-						<div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="1500">
+						<div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="2500">
 							<div class="toast-header">
 								{% if user.userprofile.profile_picture %}
 									<img src="{{ user.userprofile.profile_picture.url }}" class="rounded me-2" style="width: 50px; height: 70px; object-fit: cover;">
@@ -102,7 +103,7 @@
 								{% endif %}
 								<a class="me-auto" href="{% url 'orders:my_orders' %}" style="text-decoration: none;"><b>View Complete Orders</b></a>
 								<div class="spinner-grow spinner-grow-sm" role="status">
-								  <span class="visually-hidden">redirecting</span>
+								  <span class="visually-hidden"></span>
 								</div>
 								<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
 							</div>
