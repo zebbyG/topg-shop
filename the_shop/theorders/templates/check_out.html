@@ -93,11 +93,14 @@
 						<button class="btn btn-outline-dark btn-lg" id="make-payment" style="width: 100%;">Pay on delivery</button>
 					</p>
 					<div style="position: fixed; bottom: 50%; right: 0; transform: translate(0, 50%); color: grey;" class="toast-container p-3">
-						<div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="3000">
+						<div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="1500">
 							<div class="toast-header">
-								<img src="{{ user.userprofile.profile_picture.url }}" class="rounded me-2" style="width: 50px; height: 70px; object-fit: cover;">
+								{% if user.userprofile.profile_picture %}
+									<img src="{{ user.userprofile.profile_picture.url }}" class="rounded me-2" style="width: 50px; height: 70px; object-fit: cover;">
+								{% else %}
+									<h5> {{ request.user.username }}</h5>
+								{% endif %}
 								<a class="me-auto" href="{% url 'orders:my_orders' %}" style="text-decoration: none;"><b>View Complete Orders</b></a>
-								<small>redirecting in 4sec</small>
 								<div class="spinner-grow spinner-grow-sm" role="status">
 								  <span class="visually-hidden">redirecting</span>
 								</div>
@@ -247,7 +250,7 @@
 			console.log('Success', data);
 			setTimeout(function() {
 				window.location.href = "{% url 'orders:order_completed' %}";
-			}, 5000);
+			}, 2000);
 		})
 	}
 </script>
