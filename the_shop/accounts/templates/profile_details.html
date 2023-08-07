@@ -21,7 +21,10 @@
 <div class="container">
     {% if user.userprofile.profile_picture %}
         <div class="d-flex justify-content-center">
-            <img class="rounded-circle" src="{{ user.userprofile.profile_picture.url }}" style="object-fit: cover; width: 200px; height: 200px;">
+            <a href="{{ user.userprofile.profile_picture.url }}" style="text-decoration: none;">
+                <img class="rounded-circle" src="{{ user.userprofile.profile_picture.url }}" style="object-fit: cover; width: 200px; height: 200px;">
+                <small class="btn btn-dark">view</small>
+            </a>
         </div>
     {% else %}
         <div class="d-flex justify-content-center">
