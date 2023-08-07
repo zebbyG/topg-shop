@@ -84,7 +84,10 @@ def process_order(request):
     )
     template = render_to_string('order_email.html', {
         'name': request.user.username,
-        'order_id': order.transaction_id
+        'order_id': order.transaction_id,
+        'items': order.orderitem_set.all,
+        'total': order.get_cart_total,
+        'total_products': order.get_cart_items
     })
 
     email = EmailMessage(
