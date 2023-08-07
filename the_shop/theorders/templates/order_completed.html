@@ -15,60 +15,18 @@
         <strong>Order Placed successfully</strong><!-- page-header.css for custom container styling -->
     </h3>
 </div>
-<div class="container">
-    <div class="row">
-        <div class="col-lg-12">
-            <a style="color: grey; margin-top: 20px;" class="btn btn-outline-dark" href="{% url 'orders:my_orders' %}">&#x2190; <b>View Orders</b></a>
-        </div>
-    </div>
-</div>
-<br><br>
-
+<br>
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-lg-6">
-            <img style="width: 100%; max-width: 500px; height: auto; object-fit: cover;" src="{% static 'order_complete.jpg' %}">
+        <div class="col-md-3">
+            <div class="alert alert-info">
+                <em>
+                    An order confirmation email has been sent...<br>Check email
+                </em>
+            </div>
         </div>
     </div>
 </div>
-
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-lg-4">
-            <p id="liveToastBtn">
-                <button style="color: grey; margin-bottom: 100px;" class="btn btn-outline-dark btn-lg"><b>View Order[s]</b></button>
-            </p>
-        </div>
-    </div>
-</div>
-
-<div style="position: fixed; bottom: 50%; right: 0; transform: translate(0, 50%); color: grey;" class="toast-container p-3">
-    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="200000">
-        <div class="toast-header">
-            <img src="{{ user.userprofile.profile_picture.url }}" class="rounded me-2" style="width: 50px; height: 70px; object-fit: cover;">
-            <a class="me-auto" href="{% url 'orders:my_orders' %}" style="text-decoration: none;"><b>View Complete Orders</b></a>
-            <small>...</small>
-            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-        </div>
-        <div class="toast-body">
-            <p class="lead">
-                check <a class="me-auto" href="{% url 'orders:my_orders' %}" style="text-decoration: none;"><b>My Orders</b></a> to see order details
-            </p>
-        </div>
-    </div>
-</div>
-
-<script>
-    const toastTrigger = document.getElementById('liveToastBtn')
-    const toastLiveExample = document.getElementById('liveToast')
-
-    if (toastTrigger) {
-        const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
-        toastTrigger.addEventListener('click', () => {
-            toastBootstrap.show()
-        })
-    }
-</script>
 <br><br>
 {% include 'baseshop_footer.html' %}
 </body>
