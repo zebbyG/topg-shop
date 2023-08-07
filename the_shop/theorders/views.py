@@ -4,6 +4,9 @@ import json
 from django.http import JsonResponse
 from .models import *
 from brands.models import Product, Size
+from django.core.mail import EmailMessage
+from django.conf import settings
+from django.template.loader import render_to_string
 
 
 @login_required(login_url='accounts:log_in')
@@ -32,6 +35,7 @@ def check_out(request):
     })
 
 
+@login_required(login_url='accounts:log_in')
 def update_item(request):
     data = json.loads(request.body)
     productId = data['productId']
@@ -58,6 +62,7 @@ def update_item(request):
     return JsonResponse('item added successfully', safe=False)
 
 
+@login_required(login_url='accounts:log_in')
 def process_order(request):
     data = json.loads(request.body)
     customer = request.user
@@ -77,9 +82,23 @@ def process_order(request):
         zip_code=data['shipping']['zipcode'],
         country=data['shipping']['country']
     )
+    template = render_to_string('order_email.html', {
+        'name': request.user.username,
+        'order_id': order.transaction_id
+    })
+
+    email = EmailMessage(
+        f'Your TOP Gz Order has been confirmed',
+        template,
+        settings.EMAIL_HOST_USER,
+        [request.user.email]
+    )
+    email.fail_silently = False
+    email.send()
     return JsonResponse('Payment completed successfully', safe=False)
 
 
+@login_required(login_url='accounts:log_in')
 def complete_orders(request):
     customer = request.user
     order, created = Order.objects.get_or_create(user=customer, complete=False)
@@ -93,6 +112,7 @@ def complete_orders(request):
     })
 
 
+@login_required(login_url='accounts:log_in')
 def order_complete(request):
     customer = request.user
     order, completed = Order.objects.get_or_create(user=customer, complete=False)
