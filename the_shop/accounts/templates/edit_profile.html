@@ -22,14 +22,16 @@
         {% csrf_token %}
         <br>
         <div class="d-flex justify-content-center align-items-center">
-            <a href="{% url 'accounts:delete_profile_picture' %}" id="delete-profile-picture" style="text-decoration: none; color: black;">
                 {% if user.userprofile.profile_picture %}
+            <a href="{{ user.userprofile.profile_picture.url }}">
                     <img id="profile-image" class="rounded-circle" src="{{ user.userprofile.profile_picture.url }}" style="object-fit: cover; width: 200px; height: 200px;">
+            </a>
+            <a href="{% url 'accounts:delete_profile_picture' %}" id="delete-profile-picture" style="text-decoration: none; color: black;">
                     <span class="delete-icon" style="font-size: 24px;">&#128686;</span>
+            </a>
                 {% else %}
                     <img id="profile-image" class="rounded-circle" src="{% static 'default-profile-pic.png' %}" style="object-fit: cover; width: 200px; height: 200px;">
                 {% endif %}
-            </a>
         </div>
         <input type="file" id="profile-picture-input" style="display: none;" accept="image/*">
         <br>
