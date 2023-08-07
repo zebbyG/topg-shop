@@ -3,7 +3,6 @@ from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import login, logout
 from .forms import SignUpForm, EditProfileForm, ChangePasswordForm
 from .models import UserProfile
-
 from django.core.files.storage import default_storage
 from django.http import JsonResponse
 from theorders.models import Order
@@ -16,7 +15,6 @@ def sign_up(request):
             user = sign_up_form.save()
             profile_picture = sign_up_form.cleaned_data['profile_pic']
             UserProfile.objects.create(user=user, profile_picture=profile_picture)
-            login(request, user)
             return redirect('accounts:log_in')
     else:
         sign_up_form = SignUpForm()
