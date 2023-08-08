@@ -15,7 +15,7 @@ class Order(models.Model):
     transaction_id = models.CharField(max_length=250, null=True)
 
     def __str__(self):
-        return f'Order for {self.user} status: {self.complete}'
+        return f'Order for {self.user} complete: {self.complete}'
 
     def save(self, *args, **kwargs):
         if not self.transaction_id:
