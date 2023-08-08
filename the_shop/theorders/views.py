@@ -1,4 +1,6 @@
-from django.shortcuts import render
+import time
+
+from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 import json
 from django.http import JsonResponse
@@ -7,6 +9,7 @@ from brands.models import Product, Size
 from django.core.mail import EmailMessage
 from django.conf import settings
 from django.template.loader import render_to_string
+from .forms import CommentForm
 
 
 @login_required(login_url='accounts:log_in')
@@ -87,7 +90,7 @@ def process_order(request):
         'order_id': order.transaction_id,
         'items': order.orderitem_set.all,
         'total': order.get_cart_total,
-        'total_products': order.get_cart_items
+        'total_products': order.get_cart_items,
     })
 
     email = EmailMessage(
@@ -124,6 +127,35 @@ def order_complete(request):
     })
 
 
+@login_required(login_url='accounts:log_in')
+def leave_comment(request):
+    customer = request.user
+    order, completed = Order.objects.get_or_create(user=customer, complete=False)
+
+    if request.method == 'POST':
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            comment = form.save(commit=False)
+            comment.user = request.user
+            comment.save()
+            template = render_to_string('comment_approval.html', {
+                "comment": comment.comment,
+                "name": request.user.username
+            })
+            email = EmailMessage(
+                'Your comment has been received and is awaiting for approval',
+                template,
+                settings.EMAIL_HOST_USER,
+                [request.user.email]
+            )
+            email.fail_silently = False
+            email.send()
+            time.sleep(2.5)
+            return redirect('introPage:home-page')
+    else:
+        form = CommentForm()
+
+    return render(request, 'comment.html', {"form": form, "order": order})
 # def delete_order(request):
 #     if request.method == 'POST':
 #         order_id = request.POST.get('order_id')
