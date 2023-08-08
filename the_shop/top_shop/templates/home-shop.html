@@ -14,6 +14,14 @@
           object-fit: cover;
         }
         </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+    <link rel="stylesheet" href="{% static 'css/testimonies.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"/>
 </head>
 <body>
 {% include 'bootstrap.html' %}
@@ -125,10 +133,63 @@
     <h3 class="display-5 text-center mt-5"><strong>What People are saying</strong></h3>
     <div class="row">
         <div class="col">
-            {% include 'testimonies.html' %}
+            <section class="testimonial_wrap col-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="slider">
+                            <!-- testimonies--->
+                                {% for testimony in shop_testimonies %}
+                                    {% if testimony.approved %}
+                                        <div class="item">
+                                            <div class="inner">
+                                                <div class="thumb">
+                                                    {% if testimony.user.userprofile.profile_picture %}
+                                                        <img src="{{ testimony.user.userprofile.profile_picture.url }}" class="img-fluid">
+                                                    {% else %}
+                                                        <img src="{% static 'default-profile-pic.png' %}" class="img-fluid">
+                                                    {% endif %}
+                                                </div>
+                                                <div class="excert col-12">
+                                                    <p>
+                                                        {{ testimony.comment }}
+                                                    </p>
+                                                    <div class="info">
+                                                        <p>
+                                                            <i class="fa fa-quote-right"></i>
+                                                            <a href="javascript:void(0);" style="text-decoration: none;">{{ testimony.user.username }}</a>
+                                                            <span>Top Gz customer</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js" integrity="sha512-rMVwujtLz2JWFJvF9R8rlMcBQ4inAWaST5B3u4eUv7zA1B2FFc0X4f5i9YNbV0rFNTZjpXbzWDEerUdA1h/jw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript">
+    $('.slider').slick({
+        slidesToshow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        loop: true,
+        speed: 1500,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        infinite: true,
+    });
+</script>
 <br><br><br>
 
 <!--THE SHOP -->
