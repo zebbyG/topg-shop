@@ -15,7 +15,7 @@ class Order(models.Model):
     transaction_id = models.CharField(max_length=250, null=True)
 
     def __str__(self):
-        return str(self.transaction_id)
+        return f'Order for {self.user} status: {self.complete}'
 
     def save(self, *args, **kwargs):
         if not self.transaction_id:
@@ -52,7 +52,7 @@ class OrderItem(models.Model):
     date_added = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.product.shoe_name
+        return f'{self.quantity}{self.product}  => {self.order}'
 
     @property
     def get_total(self):
@@ -71,5 +71,13 @@ class ShippingAddress(models.Model):
     date_added = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.city
+        return f'{self.order}  => to be delivered to {self.city} {self.country}'
 
+
+class Comment(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
+    comment = models.CharField(max_length=500)
+    approved = models.BooleanField(default=False)
+
+    def __str__(self):
+        return f'Comment from {self.user.username}'
