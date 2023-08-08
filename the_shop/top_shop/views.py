@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from theorders.models import Order
+from theorders.models import Order, Comment
+from django.shortcuts import get_object_or_404
 
 
 def home(request):
@@ -17,12 +18,13 @@ def home(request):
     #
     # # Fetch the final queryset with the latest shoes for each brand
     # popular_products = Product.objects.select_related('brand').filter(id__in=distinct_brands_with_latest_shoes.values('latest_shoe_id'))
+    shop_testimonies = Comment.objects.all()
     if request.user.is_authenticated:
         customer = request.user
         order, created = Order.objects.get_or_create(user=customer, complete=False)
-        return render(request, 'home-shop.html', {"order": order})
+        return render(request, 'home-shop.html', {"order": order, "shop_testimonies": shop_testimonies})
     else:
-        return render(request, 'home-shop.html')
+        return render(request, 'home-shop.html', {"shop_testimonies": shop_testimonies})
 
 
 def about(request):
@@ -50,3 +52,8 @@ def team(request):
         return render(request, 'team.html', {"order": order})
     else:
         return render(request, 'team.html')
+
+
+# def testimonies(request):
+#     shop_testimonies = Comment.objects.all()
+#     return render(request, 'testimonies.html', {"shop_testimonies": shop_testimonies})
