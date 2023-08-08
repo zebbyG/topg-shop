@@ -80,4 +80,4 @@ class Comment(models.Model):
     approved = models.BooleanField(default=False)
 
     def __str__(self):
-        return f'Comment from {self.user.username}'
+        return f'Comment from {self.user.username}  approved: {self.approved}'
