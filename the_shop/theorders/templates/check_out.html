@@ -250,7 +250,7 @@
 		.then((data) => {
 			console.log('Success', data);
 			setTimeout(function() {
-				window.location.href = "{% url 'orders:order_completed' %}";
+				window.location.href = "{% url 'orders:leave_a_comment' %}";
 			}, 500);
 		})
 	}
