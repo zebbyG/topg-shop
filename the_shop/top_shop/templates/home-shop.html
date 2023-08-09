@@ -157,7 +157,11 @@
                                                     <div class="info">
                                                         <p>
                                                             <i class="fa fa-quote-right"></i>
-                                                            <a href="javascript:void(0);" style="text-decoration: none;">{{ testimony.user.username }}</a>
+                                                            {% if testimony.user == request.user %}
+                                                                <a href="javascript:void(0);" style="text-decoration: none;">You</a>
+                                                            {% else %}
+                                                                <a href="javascript:void(0);" style="text-decoration: none;">{{ testimony.user.username }}</a>
+                                                            {% endif %}
                                                             <span>Top Gz customer</span>
                                                         </p>
                                                     </div>
