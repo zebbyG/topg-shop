@@ -1,6 +1,9 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from theorders.models import Order, Comment
-from django.shortcuts import get_object_or_404
+from .forms import MessageForm
+from django.core.mail import EmailMessage
+from django.conf import settings
+from django.template.loader import render_to_string
 
 
 def home(request):
@@ -37,12 +40,40 @@ def about(request):
 
 
 def contacts(request):
+    if request.method == 'POST':
+        form = MessageForm(request.POST)
+        if form.is_valid():
+            first_name = form.cleaned_data['first_name']
+            last_name = form.cleaned_data['last_name']
+            email = form.cleaned_data['email']
+            message = form.cleaned_data['message']
+            name = "Zebbylion Njau"
+            form.save()
+
+            template = render_to_string('message_added_email.html', {
+                "first_name": first_name,
+                "last_name": last_name,
+                "email": email,
+                "name": name,
+                "message": message
+            })
+            sent_email = EmailMessage(
+                'New message from Top Gz users',
+                template,
+                settings.EMAIL_HOST_USER,
+                ['zebbynjau@gmail.com']
+            )
+            sent_email.fail_silently = False
+            sent_email.send()
+            return redirect('introPage:home-page')
+    else:
+        form = MessageForm()
     if request.user.is_authenticated:
         customer = request.user
         order, created = Order.objects.get_or_create(user=customer, complete=False)
-        return render(request, 'contacts.html', {"order": order})
+        return render(request, 'contacts.html', {"order": order, "form": form})
     else:
-        return render(request, 'contacts.html')
+        return render(request, 'contacts.html', {"form": form})
 
 
 def team(request):
