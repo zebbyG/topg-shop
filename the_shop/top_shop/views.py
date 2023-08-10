@@ -47,7 +47,7 @@ def contacts(request):
             last_name = form.cleaned_data['last_name']
             email = form.cleaned_data['email']
             message = form.cleaned_data['message']
-            name = "Zebbylion Njau"
+            name = "Zebbylion"
             form.save()
 
             template = render_to_string('message_added_email.html', {
@@ -65,6 +65,20 @@ def contacts(request):
             )
             sent_email.fail_silently = False
             sent_email.send()
+            # Email to be sent to message sender
+            template2 = render_to_string('message_sent_email.html', {
+                "first_name": first_name,
+                "message": message,
+                "email": email
+            })
+            sent_email2 = EmailMessage(
+                'Your message has been received',
+                template2,
+                settings.EMAIL_HOST_USER,
+                [email]
+            )
+            sent_email2.fail_silently = False
+            sent_email2.send()
             return redirect('introPage:home-page')
     else:
         form = MessageForm()
