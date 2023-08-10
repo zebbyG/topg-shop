@@ -92,10 +92,27 @@ def password_change(request):
         edit_password_form = ChangePasswordForm(request.user, request.POST)
         if edit_password_form.is_valid():
             edit_password_form.save()
-            return redirect('accounts:log_in')
+
+            template = render_to_string('password_changed_email.html', {
+                "user": request.user.username,
+                "name": request.user.first_name,
+            })
+            email = EmailMessage(
+                'Your password has been changed successfully',
+                template,
+                settings.EMAIL_HOST_USER,
+                [request.user.email]
+            )
+            email.fail_silently = False
+            email.send()
+            return redirect('accounts:password_changed')
     else:
         edit_password_form = ChangePasswordForm(request.user)
     return render(request, 'change_password.html', {"edit_password_form": edit_password_form, "order": order})
+
+
+def password_change_redirect(request):
+    return render(request, 'password_change_redirect.html')
 
 
 def profile_details(request):
