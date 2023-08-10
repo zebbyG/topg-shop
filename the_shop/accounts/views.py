@@ -6,19 +6,46 @@ from .models import UserProfile
 from django.core.files.storage import default_storage
 from django.http import JsonResponse
 from theorders.models import Order
+from django.core.mail import EmailMessage
+from django.template.loader import render_to_string
+from django.conf import settings
 
 
 def sign_up(request):
     if request.method == 'POST':
         sign_up_form = SignUpForm(request.POST, request.FILES)
         if sign_up_form.is_valid():
+            email = sign_up_form.cleaned_data['email']
+            first_name = sign_up_form.cleaned_data['first_name']
+            last_name = sign_up_form.cleaned_data['last_name']
+            username = sign_up_form.cleaned_data['username']
             user = sign_up_form.save()
             profile_picture = sign_up_form.cleaned_data['profile_pic']
             UserProfile.objects.create(user=user, profile_picture=profile_picture)
-            return redirect('accounts:log_in')
+
+            template = render_to_string('signup_complete.html', {
+                "first_name": first_name,
+                "last_name": last_name,
+                "username": username,
+                "email": email
+            })
+            sent_email = EmailMessage(
+                'Welcome to Top Gz',
+                template,
+                settings.EMAIL_HOST_USER,
+                [email]
+            )
+            sent_email.fail_silently = False
+            sent_email.send()
+
+            return redirect('accounts:redirect')
     else:
         sign_up_form = SignUpForm()
     return render(request, 'sign-up.html', {"sign_up_form": sign_up_form})
+
+
+def signup_redirect(request):
+    return render(request, 'redirected.html')
 
 
 def log_in(request):
