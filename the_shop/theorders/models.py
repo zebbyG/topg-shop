@@ -52,7 +52,7 @@ class OrderItem(models.Model):
     date_added = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f'{self.quantity}{self.product}  => {self.order}'
+        return f'{self.quantity}-{self.product}  => {self.order}'
 
     @property
     def get_total(self):
