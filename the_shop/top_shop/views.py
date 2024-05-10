@@ -4,6 +4,14 @@ from .forms import MessageForm
 from django.core.mail import EmailMessage
 from django.conf import settings
 from django.template.loader import render_to_string
+from django.contrib.auth.models import User
+
+# ToDo: 
+ #    Create a separate file for such funcs
+#       implement func across...already tested
+def getTotalCurtItems(user: str):
+    order, created = Order.objects.get_or_create(user=user, complete=False)
+    return order.get_cart_items
 
 
 def home(request):
