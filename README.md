@@ -1,6 +1,6 @@
 # TOP Gz SHOE-SHOP
 Walk With Confidence
-[https://topgz-ebby.up.railway.app/](https://zebbylion.up.railway.app/)
+[LIVE LINK](https://zebbylion.up.railway.app/)
 ==================================
 Top Gz is an online shoe shop that offers a wide range of high-quality footwear for customers.
 - Technologies used:
